@@ -216,7 +216,7 @@
         }
         if (hasRawToggle) {
             html += '<div class="control-group">' +
-                '<span class="control-label">Féculents</span>' +
+                '<span class="control-label">Féculents <span class="control-label-hint">(glucides uniquement)</span></span>' +
                 '<div class="option-toggle" id="raw-cooked-toggle">' +
                     '<button class="option-btn active" data-mode="cuit">' +
                         '<span class="emoji">🍲</span>' +
