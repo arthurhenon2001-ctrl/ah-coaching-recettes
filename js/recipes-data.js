@@ -12,7 +12,7 @@ const RECIPES_DATA = [
         time: 5,
         sliderMin: 50,
         sliderMax: 200,
-        tags: ["Sans cuisson", "Meal prep", "Perte de poids"],
+        tags: ["Végétarien", "Sans cuisson", "Meal prep", "Perte de poids"],
         ingredients: [
             { id: "skyr", name: "Skyr 0%", detail: "Nature, sans sucre ajouté", emoji: "🥛", baseQty: 250, unit: "g", scalable: true, role: "protein" },
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Petits flocons de préférence", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "carb" }
@@ -53,7 +53,7 @@ const RECIPES_DATA = [
         time: 15,
         sliderMin: 50,
         sliderMax: 200,
-        tags: ["Sans farine", "Rapide", "Gourmand"],
+        tags: ["Végétarien", "Sans farine", "Rapide", "Gourmand"],
         ingredients: [
             { id: "banane", name: "Banane", detail: "Bien mûre, écrasée", emoji: "🍌", baseQty: 120, unit: "g", scalable: true, role: "carb" },
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Mixés en poudre", emoji: "🌾", baseQty: 60, unit: "g", scalable: true, role: "carb" },
@@ -95,7 +95,7 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 50,
         sliderMax: 200,
-        tags: ["Sans cuisson", "Vitaminé", "Rafraîchissant"],
+        tags: ["Végétarien", "Vegan", "Sans cuisson", "Vitaminé", "Rafraîchissant"],
         ingredients: [
             { id: "banane", name: "Banane congelée", detail: "Coupée en morceaux avant congélation", emoji: "🍌", baseQty: 150, unit: "g", scalable: true, role: "carb" },
             { id: "fruits_rouges", name: "Fruits rouges", detail: "Frais ou surgelés", emoji: "🫐", baseQty: 100, unit: "g", scalable: true, role: "carb" },
@@ -124,7 +124,7 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 50,
         sliderMax: 200,
-        tags: ["Chaud", "Réconfortant", "Perte de poids"],
+        tags: ["Végétarien", "Chaud", "Réconfortant", "Perte de poids"],
         ingredients: [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Petits flocons", emoji: "🌾", baseQty: 60, unit: "g", scalable: true, role: "carb" },
             { id: "lait", name: "Lait demi-écrémé", detail: "Ou lait végétal", emoji: "🥛", baseQty: 200, unit: "ml", scalable: true, role: "base" },
@@ -166,7 +166,7 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 50,
         sliderMax: 200,
-        tags: ["Rapide", "Gourmand", "Classique"],
+        tags: ["Végétarien", "Rapide", "Gourmand", "Classique"],
         ingredients: [
             { id: "pain_complet", name: "Pain complet", detail: "2 tranches épaisses", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "carb" },
             { id: "oeufs", name: "Œufs", detail: "Battus en omelette", emoji: "🥚", baseQty: 2, unit: "unité(s)", scalable: true, role: "protein" },
@@ -208,7 +208,7 @@ const RECIPES_DATA = [
         time: 30,
         sliderMin: 50,
         sliderMax: 200,
-        tags: ["Meal prep", "Batch cooking", "Gourmand"],
+        tags: ["Végétarien", "Meal prep", "Batch cooking", "Gourmand"],
         ingredients: [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Mixés en farine", emoji: "🌾", baseQty: 80, unit: "g", scalable: true, role: "carb" },
             { id: "oeufs", name: "Œufs", detail: "Entiers", emoji: "🥚", baseQty: 2, unit: "unité(s)", scalable: true, role: "protein" },
@@ -239,7 +239,7 @@ const RECIPES_DATA = [
         time: 25,
         sliderMin: 50,
         sliderMax: 200,
-        tags: ["Meal prep", "Batch cooking", "Crunchy"],
+        tags: ["Végétarien", "Meal prep", "Batch cooking", "Crunchy"],
         ingredients: [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Gros flocons de préférence", emoji: "🌾", baseQty: 80, unit: "g", scalable: true, role: "carb" },
             { id: "amandes", name: "Amandes", detail: "Concassées grossièrement", emoji: "🌰", baseQty: 20, unit: "g", scalable: true, role: "fat" },
@@ -268,7 +268,7 @@ const RECIPES_DATA = [
         time: 15,
         sliderMin: 50,
         sliderMax: 200,
-        tags: ["Rapide", "Gourmand", "Haute protéine"],
+        tags: ["Végétarien", "Rapide", "Gourmand", "Haute protéine"],
         ingredients: [
             { id: "farine_complete", name: "Farine complète", detail: "T150 de préférence", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "carb" },
             { id: "oeufs", name: "Œufs", detail: "Entiers", emoji: "🥚", baseQty: 2, unit: "unité(s)", scalable: true, role: "protein" },
@@ -311,7 +311,7 @@ const RECIPES_DATA = [
         time: 3,
         sliderMin: 50,
         sliderMax: 200,
-        tags: ["Sans cuisson", "Express", "Haute protéine"],
+        tags: ["Végétarien", "Sans cuisson", "Express", "Haute protéine"],
         ingredients: [
             { id: "skyr", name: "Skyr 0%", detail: "Nature, sans sucre ajouté", emoji: "🥛", baseQty: 300, unit: "g", scalable: true, role: "protein" },
             { id: "fruits_rouges", name: "Fruits rouges", detail: "Frais ou surgelés décongelés", emoji: "🍓", baseQty: 200, unit: "g", scalable: true, role: "carb" },
@@ -338,7 +338,7 @@ const RECIPES_DATA = [
         time: 30,
         sliderMin: 50,
         sliderMax: 200,
-        tags: ["Gourmand", "Chocolat", "Meal prep"],
+        tags: ["Végétarien", "Gourmand", "Chocolat", "Meal prep"],
         ingredients: [
             { id: "banane", name: "Banane", detail: "Bien mûre, écrasée", emoji: "🍌", baseQty: 100, unit: "g", scalable: true, role: "carb" },
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Mixés en farine", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "carb" },
@@ -371,7 +371,7 @@ const RECIPES_DATA = [
         time: 5,
         sliderMin: 50,
         sliderMax: 200,
-        tags: ["Express", "Haute protéine", "Low carb"],
+        tags: ["Sans gluten", "Express", "Haute protéine", "Low carb"],
         ingredients: [
             { id: "oeufs", name: "Œufs", detail: "Entiers", emoji: "🥚", baseQty: 3, unit: "unité(s)", scalable: true, role: "protein" }
         ],
@@ -424,7 +424,7 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 50,
         sliderMax: 200,
-        tags: ["Tendance", "Équilibré", "Brunch"],
+        tags: ["Végétarien", "Tendance", "Équilibré", "Brunch"],
         ingredients: [
             { id: "pain_complet", name: "Pain complet", detail: "2 tranches, toastées", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "carb" },
             { id: "avocat", name: "Avocat", detail: "Écrasé à la fourchette", emoji: "🥑", baseQty: 60, unit: "g", scalable: true, role: "fat" },
@@ -453,7 +453,7 @@ const RECIPES_DATA = [
         time: 8,
         sliderMin: 50,
         sliderMax: 200,
-        tags: ["Brunch", "Oméga-3", "Low carb"],
+        tags: ["Sans gluten", "Brunch", "Oméga-3", "Low carb"],
         ingredients: [
             { id: "oeufs", name: "Œufs", detail: "Entiers", emoji: "🥚", baseQty: 3, unit: "unité(s)", scalable: true, role: "protein" },
             { id: "saumon", name: "Saumon fumé", detail: "En lanières", emoji: "🐟", baseQty: 40, unit: "g", scalable: true, role: "protein" }
@@ -509,7 +509,7 @@ const RECIPES_DATA = [
         time: 15,
         sliderMin: 50,
         sliderMax: 200,
-        tags: ["Méditerranéen", "Épicé", "Réconfortant"],
+        tags: ["Végétarien", "Sans gluten", "Méditerranéen", "Épicé", "Réconfortant"],
         ingredients: [
             { id: "oeufs", name: "Œufs", detail: "Pochés dans la sauce", emoji: "🥚", baseQty: 2, unit: "unité(s)", scalable: true, role: "protein" },
             { id: "sauce_tomate", name: "Sauce tomate", detail: "Nature, sans sucre ajouté", emoji: "🍅", baseQty: 200, unit: "g", scalable: true, role: "base" },
@@ -596,7 +596,7 @@ const RECIPES_DATA = [
         time: 5,
         sliderMin: 50,
         sliderMax: 200,
-        tags: ["Sans cuisson", "Frais", "Low carb"],
+        tags: ["Végétarien", "Sans gluten", "Sans cuisson", "Frais", "Low carb"],
         ingredients: [
             { id: "cottage_cheese", name: "Cottage cheese", detail: "Nature", emoji: "🧀", baseQty: 200, unit: "g", scalable: true, role: "protein" },
             { id: "tomate", name: "Tomate", detail: "En dés", emoji: "🍅", baseQty: 100, unit: "g", scalable: true, role: "base" },
@@ -658,7 +658,7 @@ const RECIPES_DATA = [
         time: 20,
         sliderMin: 50,
         sliderMax: 250,
-        tags: ["Frais", "Oméga-3", "Tendance"],
+        tags: ["Sans gluten", "Frais", "Oméga-3", "Tendance"],
         ingredients: [
             { id: "saumon", name: "Saumon", detail: "Cru qualité sushi ou cuit", emoji: "🐟", baseQty: 100, unit: "g", scalable: true, role: "protein" },
             { id: "riz", name: "Riz basmati cuit", detail: "Refroidi", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 0.4 },
@@ -687,7 +687,7 @@ const RECIPES_DATA = [
         time: 20,
         sliderMin: 50,
         sliderMax: 250,
-        tags: ["Végétarien", "Complet", "Fibres"],
+        tags: ["Végétarien", "Vegan", "Sans gluten", "Complet", "Fibres"],
         ingredients: [
             { id: "quinoa", name: "Quinoa cuit", detail: "Refroidi ou tiède", emoji: "🌾", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 0.4 },
             { id: "pois_chiches", name: "Pois chiches cuits", detail: "Égouttés", emoji: "🫘", baseQty: 80, unit: "g", scalable: true, role: "protein", rawRatio: 0.45 },
@@ -717,7 +717,7 @@ const RECIPES_DATA = [
         time: 25,
         sliderMin: 50,
         sliderMax: 250,
-        tags: ["Réconfortant", "Épicé", "Meal prep"],
+        tags: ["Sans gluten", "Réconfortant", "Épicé", "Meal prep"],
         ingredients: [
             { id: "poulet", name: "Poulet grillé", detail: "En morceaux", emoji: "🍗", baseQty: 130, unit: "g", scalable: true, role: "protein" },
             { id: "riz", name: "Riz basmati cuit", detail: "Cuit à l'eau", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 0.4 },
@@ -807,7 +807,7 @@ const RECIPES_DATA = [
         time: 20,
         sliderMin: 50,
         sliderMax: 250,
-        tags: ["Méditerranéen", "Complet", "Équilibré"],
+        tags: ["Sans gluten", "Méditerranéen", "Complet", "Équilibré"],
         ingredients: [
             { id: "quinoa", name: "Quinoa cuit", detail: "Ou riz", emoji: "🌾", baseQty: 130, unit: "g", scalable: true, role: "carb", rawRatio: 0.4 },
             { id: "poulet", name: "Poulet grillé", detail: "Émincé, assaisonné herbes de Provence", emoji: "🍗", baseQty: 100, unit: "g", scalable: true, role: "protein" },
@@ -866,7 +866,7 @@ const RECIPES_DATA = [
         time: 30,
         sliderMin: 50,
         sliderMax: 250,
-        tags: ["Épicé", "Fibres", "Meal prep"],
+        tags: ["Sans gluten", "Épicé", "Fibres", "Meal prep"],
         ingredients: [
             { id: "boeuf", name: "Bœuf haché 5%", detail: "Maigre", emoji: "🥩", baseQty: 100, unit: "g", scalable: true, role: "protein" },
             { id: "haricots_noirs", name: "Haricots noirs", detail: "Cuits, égouttés", emoji: "🫘", baseQty: 80, unit: "g", scalable: true, role: "carb", rawRatio: 0.43 },
@@ -897,7 +897,7 @@ const RECIPES_DATA = [
         time: 25,
         sliderMin: 50,
         sliderMax: 250,
-        tags: ["Simple", "Complet", "Prise de masse"],
+        tags: ["Sans gluten", "Simple", "Complet", "Prise de masse"],
         ingredients: [
             { id: "boeuf", name: "Bœuf haché 5%", detail: "Steak formé", emoji: "🥩", baseQty: 120, unit: "g", scalable: true, role: "protein" },
             { id: "patate_douce", name: "Patate douce", detail: "Coupée en frites ou rondelles", emoji: "🍠", baseQty: 200, unit: "g", scalable: true, role: "carb", rawRatio: 0.85 },
@@ -929,7 +929,7 @@ const RECIPES_DATA = [
         time: 20,
         sliderMin: 50,
         sliderMax: 250,
-        tags: ["Oméga-3", "Équilibré", "Sain"],
+        tags: ["Sans gluten", "Oméga-3", "Équilibré", "Sain"],
         ingredients: [
             { id: "saumon", name: "Saumon", detail: "Pavé, avec peau", emoji: "🐟", baseQty: 120, unit: "g", scalable: true, role: "protein" },
             { id: "brocoli", name: "Brocoli", detail: "En bouquets", emoji: "🥦", baseQty: 150, unit: "g", scalable: true, role: "base" },
@@ -958,7 +958,7 @@ const RECIPES_DATA = [
         time: 30,
         sliderMin: 50,
         sliderMax: 250,
-        tags: ["Classique", "Familial", "Complet"],
+        tags: ["Sans gluten", "Classique", "Familial", "Complet"],
         ingredients: [
             { id: "poulet", name: "Poulet grillé", detail: "Filet ou cuisse désossée", emoji: "🍗", baseQty: 140, unit: "g", scalable: true, role: "protein" },
             { id: "patate_douce", name: "Patate douce", detail: "En cubes", emoji: "🍠", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 0.85 },
@@ -988,7 +988,7 @@ const RECIPES_DATA = [
         time: 25,
         sliderMin: 50,
         sliderMax: 250,
-        tags: ["Réconfortant", "Crémeux", "Végétarien"],
+        tags: ["Sans gluten", "Réconfortant", "Crémeux", "Végétarien"],
         ingredients: [
             { id: "riz", name: "Riz cuit", detail: "Arborio ou basmati", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 0.4 },
             { id: "champignon", name: "Champignons", detail: "Émincés", emoji: "🍄", baseQty: 150, unit: "g", scalable: true, role: "base" },
@@ -1018,7 +1018,7 @@ const RECIPES_DATA = [
         time: 25,
         sliderMin: 50,
         sliderMax: 250,
-        tags: ["Léger", "Diététique", "Perte de poids"],
+        tags: ["Sans gluten", "Léger", "Diététique", "Perte de poids"],
         ingredients: [
             { id: "cabillaud", name: "Cabillaud", detail: "Filet frais", emoji: "🐟", baseQty: 150, unit: "g", scalable: true, role: "protein" },
             { id: "courgette", name: "Courgette", detail: "En rondelles fines", emoji: "🥒", baseQty: 100, unit: "g", scalable: true, role: "base" },
@@ -1047,7 +1047,7 @@ const RECIPES_DATA = [
         time: 35,
         sliderMin: 50,
         sliderMax: 250,
-        tags: ["Fondant", "Végétarien", "Réconfortant"],
+        tags: ["Sans gluten", "Fondant", "Végétarien", "Réconfortant"],
         ingredients: [
             { id: "courgette", name: "Courgette", detail: "En rondelles", emoji: "🥒", baseQty: 250, unit: "g", scalable: true, role: "base" },
             { id: "chevre", name: "Chèvre frais", detail: "En rondelles ou émietté", emoji: "🧀", baseQty: 30, unit: "g", scalable: false, role: "fat" },
@@ -1167,7 +1167,7 @@ const RECIPES_DATA = [
         time: 20,
         sliderMin: 50,
         sliderMax: 250,
-        tags: ["Asiatique", "Protéiné", "Savoureux"],
+        tags: ["Sans gluten", "Asiatique", "Protéiné", "Savoureux"],
         ingredients: [
             { id: "boeuf", name: "Bœuf haché 5%", detail: "Ou émincé de bœuf", emoji: "🥩", baseQty: 120, unit: "g", scalable: true, role: "protein" },
             { id: "brocoli", name: "Brocoli", detail: "En petits bouquets", emoji: "🥦", baseQty: 150, unit: "g", scalable: true, role: "base" },
@@ -1230,7 +1230,7 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 30,
         sliderMax: 250,
-        tags: ["Sans cuisson", "Meal prep", "Énergie"],
+        tags: ["Végétarien", "Sans cuisson", "Meal prep", "Énergie"],
         ingredients: [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Mixés grossièrement", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "carb" },
             { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "100% cacahuètes", emoji: "🥜", baseQty: 20, unit: "g", scalable: true, role: "fat" },
@@ -1259,7 +1259,7 @@ const RECIPES_DATA = [
         time: 15,
         sliderMin: 30,
         sliderMax: 250,
-        tags: ["Meal prep", "Haute protéine", "DIY"],
+        tags: ["Végétarien", "Meal prep", "Haute protéine", "DIY"],
         ingredients: [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Mixés", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "carb" },
             { id: "whey", name: "Whey protéine", detail: "Chocolat ou vanille", emoji: "💪", baseQty: 30, unit: "g", scalable: true, role: "protein" },
@@ -1288,7 +1288,7 @@ const RECIPES_DATA = [
         time: 5,
         sliderMin: 30,
         sliderMax: 250,
-        tags: ["Post-entraînement", "Express", "Shaker"],
+        tags: ["Végétarien", "Sans gluten", "Post-entraînement", "Express", "Shaker"],
         ingredients: [
             { id: "banane", name: "Banane", detail: "Mûre", emoji: "🍌", baseQty: 100, unit: "g", scalable: true, role: "carb" },
             { id: "lait", name: "Lait demi-écrémé", detail: "Froid", emoji: "🥛", baseQty: 200, unit: "ml", scalable: true, role: "base" },
@@ -1330,7 +1330,7 @@ const RECIPES_DATA = [
         time: 20,
         sliderMin: 30,
         sliderMax: 250,
-        tags: ["Gourmand", "Chocolat", "Haute protéine"],
+        tags: ["Végétarien", "Gourmand", "Chocolat", "Haute protéine"],
         ingredients: [
             { id: "farine_complete", name: "Farine complète", detail: "T150", emoji: "🌾", baseQty: 25, unit: "g", scalable: true, role: "carb" },
             { id: "oeufs", name: "Œuf", detail: "Entier", emoji: "🥚", baseQty: 1, unit: "unité(s)", scalable: true, role: "protein" },
@@ -1390,7 +1390,7 @@ const RECIPES_DATA = [
         time: 3,
         sliderMin: 30,
         sliderMax: 250,
-        tags: ["Express", "Sans cuisson", "Énergie"],
+        tags: ["Végétarien", "Vegan", "Sans gluten", "Express", "Sans cuisson", "Énergie"],
         ingredients: [
             { id: "galette_riz", name: "Galettes de riz", detail: "Soufflées", emoji: "🍘", baseQty: 3, unit: "unité(s)", scalable: true, role: "carb" },
             { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "100% cacahuètes", emoji: "🥜", baseQty: 15, unit: "g", scalable: true, role: "fat" },
@@ -1420,7 +1420,7 @@ const RECIPES_DATA = [
         time: 5,
         sliderMin: 30,
         sliderMax: 250,
-        tags: ["Sans cuisson", "Préparé la veille", "Fibres"],
+        tags: ["Végétarien", "Sans gluten", "Sans cuisson", "Préparé la veille", "Fibres"],
         ingredients: [
             { id: "graines_chia", name: "Graines de chia", detail: "Entières", emoji: "🌱", baseQty: 25, unit: "g", scalable: true, role: "fat" },
             { id: "lait_coco", name: "Lait de coco", detail: "En brique", emoji: "🥥", baseQty: 100, unit: "ml", scalable: true, role: "fat" },
@@ -1449,7 +1449,7 @@ const RECIPES_DATA = [
         time: 5,
         sliderMin: 30,
         sliderMax: 250,
-        tags: ["Glacé", "Sans sucre ajouté", "Vegan"],
+        tags: ["Végétarien", "Sans gluten", "Glacé", "Sans sucre ajouté", "Vegan"],
         ingredients: [
             { id: "banane", name: "Banane congelée", detail: "Coupée en rondelles avant congélation", emoji: "🍌", baseQty: 200, unit: "g", scalable: true, role: "carb" },
             { id: "cacao", name: "Cacao en poudre", detail: "Non sucré", emoji: "🍫", baseQty: 5, unit: "g", scalable: false, role: "base" },
@@ -1491,7 +1491,7 @@ const RECIPES_DATA = [
         time: 3,
         sliderMin: 30,
         sliderMax: 250,
-        tags: ["Express", "Classique", "Sans cuisson"],
+        tags: ["Végétarien", "Express", "Classique", "Sans cuisson"],
         ingredients: [
             { id: "fromage_blanc", name: "Fromage blanc 0%", detail: "Nature", emoji: "🥛", baseQty: 250, unit: "g", scalable: true, role: "protein" },
             { id: "fruits_rouges", name: "Fruits rouges", detail: "Frais ou décongelés", emoji: "🍓", baseQty: 100, unit: "g", scalable: true, role: "carb" },
@@ -1519,7 +1519,7 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 30,
         sliderMax: 250,
-        tags: ["Gourmand", "Haute protéine", "Rapide"],
+        tags: ["Végétarien", "Gourmand", "Haute protéine", "Rapide"],
         ingredients: [
             { id: "banane", name: "Banane", detail: "Bien mûre, écrasée", emoji: "🍌", baseQty: 80, unit: "g", scalable: true, role: "carb" },
             { id: "oeufs", name: "Œuf", detail: "Entier", emoji: "🥚", baseQty: 1, unit: "unité(s)", scalable: true, role: "protein" },
@@ -1547,7 +1547,7 @@ const RECIPES_DATA = [
         time: 5,
         sliderMin: 30,
         sliderMax: 250,
-        tags: ["Tendance", "Salé", "Haute protéine"],
+        tags: ["Végétarien", "Sans gluten", "Tendance", "Salé", "Haute protéine"],
         ingredients: [
             { id: "cottage_cheese", name: "Cottage cheese", detail: "Nature", emoji: "🧀", baseQty: 200, unit: "g", scalable: true, role: "protein" },
             { id: "tomate", name: "Tomate", detail: "En dés", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "base" },
@@ -1575,7 +1575,7 @@ const RECIPES_DATA = [
         time: 5,
         sliderMin: 30,
         sliderMax: 250,
-        tags: ["Sucré-salé", "Gourmand", "Rapide"],
+        tags: ["Végétarien", "Sucré-salé", "Gourmand", "Rapide"],
         ingredients: [
             { id: "pain_complet", name: "Pain complet", detail: "2 tranches, toastées", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "carb" },
             { id: "ricotta", name: "Ricotta", detail: "Crémeuse", emoji: "🧀", baseQty: 60, unit: "g", scalable: true, role: "protein" },
