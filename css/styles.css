@@ -976,6 +976,57 @@ input[type="range"]::-moz-range-thumb {
     color: var(--brown-light);
 }
 
+/* --- Servings Selector --- */
+.servings-selector {
+    display: flex;
+    gap: 10px;
+}
+
+.servings-btn {
+    width: 46px;
+    height: 46px;
+    border: 2px solid var(--beige-dark);
+    background: var(--white);
+    border-radius: 50%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--brown);
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.servings-btn:hover {
+    border-color: var(--brown-light);
+    background: var(--beige);
+}
+
+.servings-btn.active {
+    background: var(--green);
+    border-color: var(--green);
+    color: var(--white);
+}
+
+/* --- Macros Per Person Note --- */
+.macros-per-person {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--brown);
+    background: var(--beige);
+    padding: 8px 16px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+/* --- Servings Note in Title --- */
+.servings-note {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--brown-light);
+    font-family: 'DM Sans', sans-serif;
+}
+
 /* ============================================
    ANIMATIONS
    ============================================ */
@@ -1051,6 +1102,16 @@ input[type="range"]::-moz-range-thumb {
     .protein-toggle,
     .option-toggle {
         flex-direction: column;
+    }
+
+    .servings-selector {
+        gap: 8px;
+    }
+
+    .servings-btn {
+        width: 42px;
+        height: 42px;
+        font-size: 15px;
     }
 
     .protein-btn,
