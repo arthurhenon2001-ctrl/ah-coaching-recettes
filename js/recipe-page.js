@@ -22,6 +22,8 @@
     var portionMultiplier = 1.0;
     var proteinLevel = 'equilibre';
     var optionSelections = {};
+    var servings = 1;
+    var showRaw = false;
 
     // --- Get recipe from URL ---
     function getRecipeId() {
@@ -51,7 +53,7 @@
         return ingredients;
     }
 
-    // --- Calculate scaled quantity for an ingredient ---
+    // --- Calculate scaled quantity for an ingredient (per person, cooked) ---
     function getScaledQty(ing) {
         if (!ing.scalable) return ing.baseQty;
         var qty = ing.baseQty * portionMultiplier;
@@ -63,10 +65,30 @@
             else if (ing.role === 'carb') qty *= 0.75;
             else if (ing.role === 'fat') qty *= 0.85;
         }
+        // Cap at maxQty if defined
+        if (ing.maxQty && qty > ing.maxQty) {
+            qty = ing.maxQty;
+        }
         if (ing.unit === 'g' || ing.unit === 'ml') {
             return Math.round(qty / 5) * 5;
         }
         return Math.round(qty);
+    }
+
+    // --- Display quantity (with raw conversion + servings) ---
+    function getDisplayQty(ing) {
+        var qty = getScaledQty(ing);
+        // Apply raw conversion for display only
+        if (showRaw && ing.rawRatio) {
+            qty = qty * ing.rawRatio;
+            if (ing.unit === 'g' || ing.unit === 'ml') {
+                qty = Math.round(qty / 5) * 5;
+            } else {
+                qty = Math.round(qty);
+            }
+        }
+        // Multiply by servings
+        return qty * servings;
     }
 
     // --- Calculate macros from scaled ingredients ---
@@ -126,13 +148,15 @@
         var html = '<h2 class="section-title"><span class="section-icon">' + ICONS.settings + '</span> Personnalise ta recette</h2>';
         html += '<div class="controls-grid">';
 
-        // Portion slider
+        // Portion slider (dynamic range per recipe)
+        var sliderMin = recipe.sliderMin || 60;
+        var sliderMax = recipe.sliderMax || 160;
         html += '<div class="control-group">' +
             '<span class="control-label">Taille de la portion</span>' +
             '<div class="slider-wrapper">' +
                 '<span class="slider-label-left">&minus; kcals</span>' +
                 '<div class="slider-container">' +
-                    '<input type="range" id="portion-slider" min="60" max="160" step="5" value="100">' +
+                    '<input type="range" id="portion-slider" min="' + sliderMin + '" max="' + sliderMax + '" step="5" value="100">' +
                 '</div>' +
                 '<span class="slider-label-right">+ kcals</span>' +
             '</div>' +
@@ -174,6 +198,42 @@
             });
         }
 
+        // Servings selector
+        html += '<div class="control-group">' +
+            '<span class="control-label">Nombre de couverts</span>' +
+            '<div class="servings-selector" id="servings-selector">';
+        for (var s = 1; s <= 6; s++) {
+            html += '<button class="servings-btn' + (s === 1 ? ' active' : '') + '" data-servings="' + s + '">' + s + '</button>';
+        }
+        html += '</div></div>';
+
+        // Raw/cooked toggle (only if recipe has applicable starches)
+        var hasRawToggle = false;
+        var allIng = getActiveIngredients();
+        allIng.forEach(function(ing) { if (ing.rawRatio) hasRawToggle = true; });
+        if (recipe.options) {
+            recipe.options.forEach(function(opt) {
+                Object.values(opt.modifiers).forEach(function(mod) {
+                    if (mod.add) mod.add.forEach(function(ing) { if (ing.rawRatio) hasRawToggle = true; });
+                });
+            });
+        }
+        if (hasRawToggle) {
+            html += '<div class="control-group">' +
+                '<span class="control-label">Féculents</span>' +
+                '<div class="option-toggle" id="raw-cooked-toggle">' +
+                    '<button class="option-btn active" data-mode="cuit">' +
+                        '<span class="emoji">🍲</span>' +
+                        '<span class="text-wrap"><span class="label">Cuit</span><span class="desc">Poids après cuisson</span></span>' +
+                    '</button>' +
+                    '<button class="option-btn" data-mode="cru">' +
+                        '<span class="emoji">🌾</span>' +
+                        '<span class="text-wrap"><span class="label">Cru</span><span class="desc">Poids avant cuisson</span></span>' +
+                    '</button>' +
+                '</div>' +
+            '</div>';
+        }
+
         html += '</div>';
 
         // Macros container (updated separately)
@@ -199,8 +259,8 @@
             });
         });
 
-        // Option buttons
-        document.querySelectorAll('.option-toggle .option-btn').forEach(function(btn) {
+        // Option buttons (recipe-specific)
+        document.querySelectorAll('.option-toggle:not(#raw-cooked-toggle) .option-btn').forEach(function(btn) {
             btn.addEventListener('click', function() {
                 var optId = this.dataset.option;
                 var val = this.dataset.value;
@@ -210,6 +270,28 @@
                 updateDynamic();
             });
         });
+
+        // Servings buttons
+        document.querySelectorAll('#servings-selector .servings-btn').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                servings = parseInt(this.dataset.servings);
+                document.querySelectorAll('#servings-selector .servings-btn').forEach(function(b) { b.classList.remove('active'); });
+                this.classList.add('active');
+                updateDynamic();
+            });
+        });
+
+        // Raw/cooked toggle
+        if (document.getElementById('raw-cooked-toggle')) {
+            document.querySelectorAll('#raw-cooked-toggle .option-btn').forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    showRaw = (this.dataset.mode === 'cru');
+                    document.querySelectorAll('#raw-cooked-toggle .option-btn').forEach(function(b) { b.classList.remove('active'); });
+                    this.classList.add('active');
+                    updateDynamic();
+                });
+            });
+        }
     }
 
     // --- Update Macros Display (without touching controls) ---
@@ -225,7 +307,8 @@
         var protDeg = (protPct / 100) * 360;
         var carbDeg = (carbPct / 100) * 360;
 
-        var html = '<div class="macros-grid">' +
+        var perPersonNote = servings > 1 ? '<div class="macros-per-person">👤 Par personne · ' + servings + ' couverts au total</div>' : '';
+        var html = perPersonNote + '<div class="macros-grid">' +
             '<div class="macro-card highlight-green"><div class="macro-value">' + m.cal + '</div><div class="macro-label">Calories</div></div>' +
             '<div class="macro-card highlight-green"><div class="macro-value">' + m.protein + '<span class="macro-unit">g</span></div><div class="macro-label">Protéines</div></div>' +
             '<div class="macro-card"><div class="macro-value">' + m.carbs + '<span class="macro-unit">g</span></div><div class="macro-label">Glucides</div></div>' +
@@ -249,17 +332,25 @@
     // --- Render Ingredients Section ---
     function renderIngredients() {
         var ingredients = getActiveIngredients();
-        var html = '<h2 class="section-title"><span class="section-icon">' + ICONS.clipboard + '</span> Ingrédients</h2>';
+        var totalLabel = servings > 1 ? ' <span class="servings-note">(pour ' + servings + ' personnes)</span>' : '';
+        var html = '<h2 class="section-title"><span class="section-icon">' + ICONS.clipboard + '</span> Ingrédients' + totalLabel + '</h2>';
         html += '<div class="ingredients-list">';
         ingredients.forEach(function(ing) {
-            var qty = getScaledQty(ing);
+            var qty = getDisplayQty(ing);
             var unitLabel = ing.unit;
+            var displayName = ing.name;
+            var displayDetail = ing.detail;
+            // Show raw name/detail when toggle is active
+            if (showRaw && ing.rawRatio) {
+                displayName = displayName.replace(/\bcuit\b/i, 'cru').replace(/\bcuites?\b/i, 'cru').replace(/\bcuits?\b/i, 'cru');
+                displayDetail = 'Poids cru (avant cuisson)';
+            }
             html += '<div class="ingredient-row' + (ing.role === 'base' ? ' optional-style' : '') + '">' +
                 '<div class="ingredient-info">' +
                     '<span class="ingredient-emoji">' + ing.emoji + '</span>' +
                     '<div>' +
-                        '<div class="ingredient-name">' + ing.name + '</div>' +
-                        (ing.detail ? '<div class="ingredient-detail">' + ing.detail + '</div>' : '') +
+                        '<div class="ingredient-name">' + displayName + '</div>' +
+                        (displayDetail ? '<div class="ingredient-detail">' + displayDetail + '</div>' : '') +
                     '</div>' +
                 '</div>' +
                 '<div class="ingredient-quantity">' +
