@@ -512,6 +512,11 @@ h1, h2, h3 {
     font-weight: 500;
     color: var(--brown-dark);
 }
+.control-label-hint {
+    font-weight: 400;
+    color: var(--brown-light);
+    font-size: 13px;
+}
 
 /* --- Slider --- */
 .slider-wrapper {
