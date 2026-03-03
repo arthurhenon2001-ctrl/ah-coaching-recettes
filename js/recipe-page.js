@@ -65,10 +65,6 @@
             else if (ing.role === 'carb') qty *= 0.75;
             else if (ing.role === 'fat') qty *= 0.85;
         }
-        // Cap at maxQty if defined
-        if (ing.maxQty && qty > ing.maxQty) {
-            qty = ing.maxQty;
-        }
         if (ing.unit === 'g' || ing.unit === 'ml') {
             return Math.round(qty / 5) * 5;
         }
