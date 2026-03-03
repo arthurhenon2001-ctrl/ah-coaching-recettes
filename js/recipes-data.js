@@ -427,7 +427,7 @@ const RECIPES_DATA = [
         tags: ["Tendance", "Équilibré", "Brunch"],
         ingredients: [
             { id: "pain_complet", name: "Pain complet", detail: "2 tranches, toastées", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "carb" },
-            { id: "avocat", name: "Avocat", detail: "Écrasé à la fourchette", emoji: "🥑", baseQty: 60, unit: "g", scalable: true, role: "fat", maxQty: 80 },
+            { id: "avocat", name: "Avocat", detail: "Écrasé à la fourchette", emoji: "🥑", baseQty: 60, unit: "g", scalable: true, role: "fat" },
             { id: "oeufs", name: "Œufs", detail: "Pochés ou au plat", emoji: "🥚", baseQty: 2, unit: "unité(s)", scalable: true, role: "protein" },
             { id: "tomate", name: "Tomate", detail: "En rondelles fines", emoji: "🍅", baseQty: 30, unit: "g", scalable: false, role: "base" }
         ],
@@ -482,9 +482,9 @@ const RECIPES_DATA = [
         sliderMax: 200,
         tags: ["À emporter", "Haute protéine", "Rapide"],
         ingredients: [
-            { id: "tortilla", name: "Tortilla blé complet", detail: "1 wrap", emoji: "🌯", baseQty: 1, unit: "unité(s)", scalable: false, role: "carb" },
+            { id: "tortilla", name: "Tortilla blé complet", detail: "1 wrap", emoji: "🌯", baseQty: 1, unit: "unité(s)", scalable: true, role: "carb" },
             { id: "oeufs", name: "Œufs", detail: "En omelette", emoji: "🥚", baseQty: 2, unit: "unité(s)", scalable: true, role: "protein" },
-            { id: "dinde", name: "Dinde", detail: "Tranchée finement", emoji: "🍗", baseQty: 60, unit: "g", scalable: true, role: "protein", maxQty: 100 },
+            { id: "dinde", name: "Dinde", detail: "Tranchée finement", emoji: "🍗", baseQty: 60, unit: "g", scalable: true, role: "protein" },
             { id: "epinards", name: "Épinards", detail: "Frais, en feuilles", emoji: "🥬", baseQty: 30, unit: "g", scalable: false, role: "base" }
         ],
         options: [],
@@ -541,10 +541,10 @@ const RECIPES_DATA = [
         sliderMax: 200,
         tags: ["Traditionnel", "Sans gluten", "Complet"],
         ingredients: [
-            { id: "galette_sarrasin", name: "Galette de sarrasin", detail: "Prête à l'emploi", emoji: "🥞", baseQty: 1, unit: "unité(s)", scalable: false, role: "carb" },
+            { id: "galette_sarrasin", name: "Galette de sarrasin", detail: "Prête à l'emploi", emoji: "🥞", baseQty: 1, unit: "unité(s)", scalable: true, role: "carb" },
             { id: "oeufs", name: "Œuf", detail: "Au plat au centre", emoji: "🥚", baseQty: 1, unit: "unité(s)", scalable: true, role: "protein" },
-            { id: "jambon", name: "Jambon blanc", detail: "1 tranche", emoji: "🥓", baseQty: 40, unit: "g", scalable: true, role: "protein", maxQty: 60 },
-            { id: "emmental", name: "Fromage râpé", detail: "Emmental", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "fat", maxQty: 30 }
+            { id: "jambon", name: "Jambon blanc", detail: "1 tranche", emoji: "🥓", baseQty: 40, unit: "g", scalable: true, role: "protein" },
+            { id: "emmental", name: "Fromage râpé", detail: "Emmental", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -570,9 +570,9 @@ const RECIPES_DATA = [
         sliderMax: 200,
         tags: ["Rapide", "Croustillant", "Classique"],
         ingredients: [
-            { id: "pain_mie", name: "Pain de mie complet", detail: "2 tranches", emoji: "🍞", baseQty: 2, unit: "unité(s)", scalable: false, role: "carb" },
-            { id: "jambon", name: "Jambon blanc", detail: "1 tranche épaisse", emoji: "🥓", baseQty: 40, unit: "g", scalable: true, role: "protein", maxQty: 80 },
-            { id: "emmental", name: "Fromage râpé", detail: "Emmental", emoji: "🧀", baseQty: 25, unit: "g", scalable: false, role: "fat", maxQty: 30 }
+            { id: "pain_mie", name: "Pain de mie complet", detail: "2 tranches", emoji: "🍞", baseQty: 2, unit: "unité(s)", scalable: true, role: "carb" },
+            { id: "jambon", name: "Jambon blanc", detail: "1 tranche épaisse", emoji: "🥓", baseQty: 40, unit: "g", scalable: true, role: "protein" },
+            { id: "emmental", name: "Fromage râpé", detail: "Emmental", emoji: "🧀", baseQty: 25, unit: "g", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -629,11 +629,11 @@ const RECIPES_DATA = [
         sliderMax: 250,
         tags: ["Complet", "Tex-Mex", "À emporter"],
         ingredients: [
-            { id: "tortilla", name: "Tortilla blé complet", detail: "1 wrap", emoji: "🌯", baseQty: 1, unit: "unité(s)", scalable: false, role: "carb" },
-            { id: "poulet", name: "Poulet grillé", detail: "Émincé", emoji: "🍗", baseQty: 100, unit: "g", scalable: true, role: "protein", maxQty: 180 },
-            { id: "avocat", name: "Avocat", detail: "En tranches", emoji: "🥑", baseQty: 45, unit: "g", scalable: true, role: "fat", maxQty: 80 },
-            { id: "haricots_noirs", name: "Haricots noirs", detail: "Cuits, égouttés", emoji: "🫘", baseQty: 60, unit: "g", scalable: true, role: "carb", maxQty: 100, rawRatio: 0.43 },
-            { id: "mais", name: "Maïs", detail: "En grains, égoutté", emoji: "🌽", baseQty: 50, unit: "g", scalable: true, role: "carb", maxQty: 80 },
+            { id: "tortilla", name: "Tortilla blé complet", detail: "1 wrap", emoji: "🌯", baseQty: 1, unit: "unité(s)", scalable: true, role: "carb" },
+            { id: "poulet", name: "Poulet grillé", detail: "Émincé", emoji: "🍗", baseQty: 100, unit: "g", scalable: true, role: "protein" },
+            { id: "avocat", name: "Avocat", detail: "En tranches", emoji: "🥑", baseQty: 45, unit: "g", scalable: true, role: "fat" },
+            { id: "haricots_noirs", name: "Haricots noirs", detail: "Cuits, égouttés", emoji: "🫘", baseQty: 60, unit: "g", scalable: true, role: "carb", rawRatio: 0.43 },
+            { id: "mais", name: "Maïs", detail: "En grains, égoutté", emoji: "🌽", baseQty: 50, unit: "g", scalable: true, role: "carb" },
             { id: "salade", name: "Salade verte", detail: "Quelques feuilles", emoji: "🥬", baseQty: 20, unit: "g", scalable: false, role: "base" }
         ],
         options: [],
@@ -1079,12 +1079,12 @@ const RECIPES_DATA = [
         sliderMax: 250,
         tags: ["Fun", "Convivial", "Rapide"],
         ingredients: [
-            { id: "tortilla", name: "Tortillas blé complet", detail: "2 wraps", emoji: "🌮", baseQty: 2, unit: "unité(s)", scalable: false, role: "carb" },
-            { id: "boeuf", name: "Bœuf haché 5%", detail: "Assaisonné épices mexicaines", emoji: "🥩", baseQty: 100, unit: "g", scalable: true, role: "protein", maxQty: 180 },
+            { id: "tortilla", name: "Tortillas blé complet", detail: "2 wraps", emoji: "🌮", baseQty: 2, unit: "unité(s)", scalable: true, role: "carb" },
+            { id: "boeuf", name: "Bœuf haché 5%", detail: "Assaisonné épices mexicaines", emoji: "🥩", baseQty: 100, unit: "g", scalable: true, role: "protein" },
             { id: "salade", name: "Salade verte", detail: "Émincée", emoji: "🥬", baseQty: 40, unit: "g", scalable: false, role: "base" },
             { id: "tomate", name: "Tomate", detail: "En dés", emoji: "🍅", baseQty: 60, unit: "g", scalable: false, role: "base" },
             { id: "oignon", name: "Oignon", detail: "Émincé", emoji: "🧅", baseQty: 20, unit: "g", scalable: false, role: "base" },
-            { id: "emmental", name: "Fromage râpé", detail: "Emmental", emoji: "🧀", baseQty: 15, unit: "g", scalable: false, role: "fat", maxQty: 40 }
+            { id: "emmental", name: "Fromage râpé", detail: "Emmental", emoji: "🧀", baseQty: 15, unit: "g", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -1198,8 +1198,8 @@ const RECIPES_DATA = [
         sliderMax: 250,
         tags: ["Gourmand", "Maîtrisé", "Convivial"],
         ingredients: [
-            { id: "boeuf", name: "Bœuf haché 5%", detail: "Steak formé, assaisonné", emoji: "🥩", baseQty: 120, unit: "g", scalable: true, role: "protein", maxQty: 200 },
-            { id: "pain_complet", name: "Pain complet", detail: "Bun burger, coupé en 2", emoji: "🍞", baseQty: 60, unit: "g", scalable: false, role: "carb" },
+            { id: "boeuf", name: "Bœuf haché 5%", detail: "Steak formé, assaisonné", emoji: "🥩", baseQty: 120, unit: "g", scalable: true, role: "protein" },
+            { id: "pain_complet", name: "Pain complet", detail: "Bun burger", emoji: "🍞", baseQty: 1, unit: "unité(s)", scalable: true, role: "carb" },
             { id: "salade", name: "Salade verte", detail: "Feuille de laitue", emoji: "🥬", baseQty: 30, unit: "g", scalable: false, role: "base" },
             { id: "tomate", name: "Tomate", detail: "En rondelles", emoji: "🍅", baseQty: 40, unit: "g", scalable: false, role: "base" },
             { id: "oignon", name: "Oignon", detail: "En rondelles fines", emoji: "🧅", baseQty: 20, unit: "g", scalable: false, role: "base" },
@@ -1362,8 +1362,8 @@ const RECIPES_DATA = [
         sliderMax: 250,
         tags: ["Salé", "Express", "Haute protéine"],
         ingredients: [
-            { id: "tortilla", name: "Tortilla blé complet", detail: "1 wrap", emoji: "🌯", baseQty: 1, unit: "unité(s)", scalable: false, role: "carb" },
-            { id: "thon", name: "Thon en conserve", detail: "Au naturel, égoutté", emoji: "🐟", baseQty: 80, unit: "g", scalable: true, role: "protein", maxQty: 120 },
+            { id: "tortilla", name: "Tortilla blé complet", detail: "1 wrap", emoji: "🌯", baseQty: 1, unit: "unité(s)", scalable: true, role: "carb" },
+            { id: "thon", name: "Thon en conserve", detail: "Au naturel, égoutté", emoji: "🐟", baseQty: 80, unit: "g", scalable: true, role: "protein" },
             { id: "salade", name: "Salade verte", detail: "Quelques feuilles", emoji: "🥬", baseQty: 30, unit: "g", scalable: false, role: "base" },
             { id: "tomate", name: "Tomate", detail: "En rondelles", emoji: "🍅", baseQty: 50, unit: "g", scalable: false, role: "base" },
             { id: "concombre", name: "Concombre", detail: "En bâtonnets", emoji: "🥒", baseQty: 40, unit: "g", scalable: false, role: "base" }
@@ -1392,7 +1392,7 @@ const RECIPES_DATA = [
         sliderMax: 250,
         tags: ["Express", "Sans cuisson", "Énergie"],
         ingredients: [
-            { id: "galette_riz", name: "Galettes de riz", detail: "Soufflées", emoji: "🍘", baseQty: 3, unit: "unité(s)", scalable: false, role: "carb" },
+            { id: "galette_riz", name: "Galettes de riz", detail: "Soufflées", emoji: "🍘", baseQty: 3, unit: "unité(s)", scalable: true, role: "carb" },
             { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "100% cacahuètes", emoji: "🥜", baseQty: 15, unit: "g", scalable: true, role: "fat" },
             { id: "banane", name: "Banane", detail: "En rondelles fines", emoji: "🍌", baseQty: 60, unit: "g", scalable: true, role: "carb" }
         ],
