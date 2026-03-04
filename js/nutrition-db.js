@@ -123,6 +123,96 @@ const NUTRITION_DB = {
         fiber: 1.2
     },
 
+    porc_filet: {
+        name: "Filet de porc",
+        cal: 143,
+        protein: 26,
+        carbs: 0,
+        fat: 3.5,
+        fiber: 0
+    },
+
+    agneau_gigot: {
+        name: "Gigot d'agneau",
+        cal: 175,
+        protein: 25,
+        carbs: 0,
+        fat: 8,
+        fiber: 0
+    },
+
+    canard_filet: {
+        name: "Filet de canard (sans peau)",
+        cal: 135,
+        protein: 24,
+        carbs: 0,
+        fat: 4,
+        fiber: 0
+    },
+
+    moules: {
+        name: "Moules cuites",
+        cal: 86,
+        protein: 12,
+        carbs: 3.7,
+        fat: 2.2,
+        fiber: 0
+    },
+
+    calamar: {
+        name: "Calamar",
+        cal: 92,
+        protein: 15.6,
+        carbs: 3.1,
+        fat: 1.4,
+        fiber: 0
+    },
+
+    gambas: {
+        name: "Gambas",
+        cal: 85,
+        protein: 18,
+        carbs: 0,
+        fat: 1.2,
+        fiber: 0
+    },
+
+    truite: {
+        name: "Truite",
+        cal: 141,
+        protein: 20,
+        carbs: 0,
+        fat: 6.6,
+        fiber: 0
+    },
+
+    sardines_conserve: {
+        name: "Sardines en conserve",
+        cal: 208,
+        protein: 24.6,
+        carbs: 0,
+        fat: 11.5,
+        fiber: 0
+    },
+
+    tempeh: {
+        name: "Tempeh",
+        cal: 192,
+        protein: 20,
+        carbs: 7.6,
+        fat: 10.8,
+        fiber: 0
+    },
+
+    seitan: {
+        name: "Seitan",
+        cal: 150,
+        protein: 28,
+        carbs: 6,
+        fat: 1,
+        fiber: 0
+    },
+
     // ========================================================================
     // PRODUITS LAITIERS
     // ========================================================================
@@ -241,6 +331,15 @@ const NUTRITION_DB = {
         protein: 14.2,
         carbs: 4.1,
         fat: 21.3,
+        fiber: 0
+    },
+
+    lait_avoine: {
+        name: "Lait d'avoine",
+        cal: 46,
+        protein: 1,
+        carbs: 8,
+        fat: 1.5,
         fiber: 0
     },
 
@@ -411,6 +510,58 @@ const NUTRITION_DB = {
         fiber: 6
     },
 
+    boulgour_cuit: {
+        name: "Boulgour cuit",
+        cal: 83,
+        protein: 3.1,
+        carbs: 18.6,
+        fat: 0.2,
+        fiber: 4.5
+    },
+
+    couscous_cuit: {
+        name: "Couscous cuit",
+        cal: 112,
+        protein: 3.8,
+        carbs: 23.2,
+        fat: 0.2,
+        fiber: 1.4
+    },
+
+    pomme_de_terre: {
+        name: "Pomme de terre cuite",
+        cal: 87,
+        protein: 1.9,
+        carbs: 20.1,
+        fat: 0.1,
+        fiber: 1.8
+    },
+
+    pain_pita: {
+        name: "Pain pita complet",
+        cal: 266,
+        protein: 9.8,
+        carbs: 55,
+        fat: 1.2,
+        fiber: 7.4,
+        unit: {
+            unitWeight: 60,
+            cal: 160,
+            protein: 5.9,
+            carbs: 33,
+            fat: 0.7
+        }
+    },
+
+    vermicelles_riz: {
+        name: "Vermicelles de riz cuits",
+        cal: 109,
+        protein: 0.9,
+        carbs: 25.9,
+        fat: 0.2,
+        fiber: 1
+    },
+
     // ========================================================================
     // FRUITS
     // ========================================================================
@@ -476,6 +627,42 @@ const NUTRITION_DB = {
         carbs: 4,
         fat: 5,
         fiber: 3
+    },
+
+    ananas: {
+        name: "Ananas",
+        cal: 50,
+        protein: 0.5,
+        carbs: 13.1,
+        fat: 0.1,
+        fiber: 1.4
+    },
+
+    kiwi: {
+        name: "Kiwi",
+        cal: 61,
+        protein: 1.1,
+        carbs: 14.7,
+        fat: 0.5,
+        fiber: 3
+    },
+
+    orange: {
+        name: "Orange",
+        cal: 47,
+        protein: 0.9,
+        carbs: 11.8,
+        fat: 0.1,
+        fiber: 2.4
+    },
+
+    citron_jus: {
+        name: "Jus de citron",
+        cal: 22,
+        protein: 0.4,
+        carbs: 6.9,
+        fat: 0.2,
+        fiber: 0.3
     },
 
     // ========================================================================
@@ -635,6 +822,87 @@ const NUTRITION_DB = {
         fiber: 6.7
     },
 
+    chou_rouge: {
+        name: "Chou rouge",
+        cal: 31,
+        protein: 1.4,
+        carbs: 7.4,
+        fat: 0.2,
+        fiber: 2.1
+    },
+
+    fenouil: {
+        name: "Fenouil",
+        cal: 31,
+        protein: 1.2,
+        carbs: 7.3,
+        fat: 0.2,
+        fiber: 3.1
+    },
+
+    celeri_branche: {
+        name: "Céleri branche",
+        cal: 14,
+        protein: 0.7,
+        carbs: 3,
+        fat: 0.2,
+        fiber: 1.6
+    },
+
+    radis: {
+        name: "Radis",
+        cal: 16,
+        protein: 0.7,
+        carbs: 3.4,
+        fat: 0.1,
+        fiber: 1.6
+    },
+
+    petits_pois: {
+        name: "Petits pois",
+        cal: 81,
+        protein: 5.4,
+        carbs: 14.5,
+        fat: 0.4,
+        fiber: 5.7
+    },
+
+    edamame: {
+        name: "Edamame",
+        cal: 121,
+        protein: 11.9,
+        carbs: 8.9,
+        fat: 5.2,
+        fiber: 5.2
+    },
+
+    asperges: {
+        name: "Asperges",
+        cal: 20,
+        protein: 2.2,
+        carbs: 3.9,
+        fat: 0.1,
+        fiber: 2.1
+    },
+
+    poireaux: {
+        name: "Poireaux",
+        cal: 31,
+        protein: 1.5,
+        carbs: 7.3,
+        fat: 0.3,
+        fiber: 1.8
+    },
+
+    chou_kale: {
+        name: "Chou kale",
+        cal: 49,
+        protein: 4.3,
+        carbs: 8.8,
+        fat: 0.9,
+        fiber: 3.6
+    },
+
     // ========================================================================
     // LEGUMINEUSES
     // ========================================================================
@@ -664,6 +932,15 @@ const NUTRITION_DB = {
         carbs: 27.4,
         fat: 2.6,
         fiber: 7.6
+    },
+
+    haricots_rouges: {
+        name: "Haricots rouges cuits",
+        cal: 127,
+        protein: 8.7,
+        carbs: 22.8,
+        fat: 0.5,
+        fiber: 6.4
     },
 
     // ========================================================================
@@ -800,6 +1077,60 @@ const NUTRITION_DB = {
         fiber: 1.9
     },
 
+    sauce_sriracha: {
+        name: "Sauce sriracha",
+        cal: 93,
+        protein: 2,
+        carbs: 18.5,
+        fat: 1,
+        fiber: 2
+    },
+
+    sauce_tahini: {
+        name: "Tahini (pâte de sésame)",
+        cal: 595,
+        protein: 17,
+        carbs: 21,
+        fat: 54,
+        fiber: 9
+    },
+
+    vinaigre_balsamique: {
+        name: "Vinaigre balsamique",
+        cal: 88,
+        protein: 0.5,
+        carbs: 17,
+        fat: 0,
+        fiber: 0
+    },
+
+    moutarde: {
+        name: "Moutarde de Dijon",
+        cal: 66,
+        protein: 4,
+        carbs: 5.8,
+        fat: 3.3,
+        fiber: 3.3
+    },
+
+    harissa: {
+        name: "Harissa",
+        cal: 79,
+        protein: 3,
+        carbs: 9,
+        fat: 3,
+        fiber: 5
+    },
+
+    sauce_nuoc_mam: {
+        name: "Sauce nuoc-mâm (fish sauce)",
+        cal: 35,
+        protein: 5.1,
+        carbs: 3.6,
+        fat: 0,
+        fiber: 0
+    },
+
     // ========================================================================
     // AUTRES / SUCRANTS / SUPPLEMENTS
     // ========================================================================
@@ -901,5 +1232,6 @@ const NUTRITION_DB = {
     get pain_mie() { return this.pain_mie_complet; },
     get fromage_blanc() { return this.fromage_blanc_0; },
     get chevre() { return this.chevre_frais; },
-    get noix_de_coco_rapee() { return this.noix_coco_rapee; }
+    get noix_de_coco_rapee() { return this.noix_coco_rapee; },
+    get lentilles() { return this.lentilles_cuites; }
 };
