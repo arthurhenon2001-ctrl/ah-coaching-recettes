@@ -34,7 +34,8 @@
         'dejeuner': 'Déjeuner',
         'diner': 'Dîner',
         'collation-emporter': 'Collation',
-        'collation-maison': 'Collation'
+        'collation-maison': 'Collation',
+        'apero-partage': 'Apéro & Partage'
     };
 
     var ICONS = {
