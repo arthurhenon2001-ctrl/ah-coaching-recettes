@@ -1233,5 +1233,20 @@ const NUTRITION_DB = {
     get fromage_blanc() { return this.fromage_blanc_0; },
     get chevre() { return this.chevre_frais; },
     get noix_de_coco_rapee() { return this.noix_coco_rapee; },
-    get lentilles() { return this.lentilles_cuites; }
+    get lentilles() { return this.lentilles_cuites; },
+
+    // Ajouts pour nouvelles recettes
+    chorizo: { label: "Chorizo", cal: 455, p: 24, g: 38, gl: 2 },
+    lardons: { label: "Lardons fumés", cal: 330, p: 15, g: 30, gl: 1 },
+    reblochon: { label: "Reblochon", cal: 335, p: 21, g: 28, gl: 0.5 },
+    ail: { label: "Ail", cal: 149, p: 6, g: 0.5, gl: 33 },
+    gingembre: { label: "Gingembre frais", cal: 80, p: 2, g: 0.7, gl: 18 },
+    huile_sesame: { label: "Huile de sésame", cal: 884, p: 0, g: 100, gl: 0 },
+    cacahuetes: { label: "Cacahuètes", cal: 567, p: 26, g: 49, gl: 16 },
+    citron_vert: { label: "Citron vert (jus)", cal: 25, p: 0.4, g: 0.1, gl: 8 },
+    creme_fraiche: { label: "Crème fraîche épaisse 15%", cal: 160, p: 2.5, g: 15, gl: 3.5 },
+    feuilles_lasagne: { label: "Feuilles de lasagne", cal: 355, p: 12, g: 1.5, gl: 72 },
+    farine: { label: "Farine de blé T55", cal: 350, p: 10, g: 1, gl: 73 },
+    levure: { label: "Levure boulangère", cal: 105, p: 8, g: 0.5, gl: 19 },
+    coriandre: { label: "Coriandre fraîche", cal: 23, p: 2, g: 0.5, gl: 4 }
 };
