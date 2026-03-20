@@ -13476,6 +13476,332 @@ const RECIPES_DATA = [
             { type: "green", title: "🍵 Matcha en fin de cuisson", text: "Ajoutez le matcha HORS du feu pour préserver sa couleur verte vibrante et ses arômes délicats que la chaleur altère." },
             { type: "red", title: "⚠️ Feu très doux", text: "Le riz au lait brûle facilement au fond. Remuez régulièrement et maintenez un feu le plus doux possible." }
         ]
-    }
+    },
+
+{
+    id: "pates-bolognaise-classique",
+    name: "Pâtes Bolognaise Classique",
+    subtitle: "Sauce tomate maison • Carottes & oignons fondus",
+    emoji: "🍝",
+    category: "dejeuner",
+    difficulty: "Facile",
+    time: 35,
+    sliderMin: 50,
+    sliderMax: 200,
+    tags: ["Classique", "Batch cooking", "Familial"],
+    ingredients: [
+        { id: "boeuf_hache_5", name: "Bœuf haché 5%", detail: "Émietté à la poêle", emoji: "🥩", baseQty: 130, unit: "g", scalable: true, role: "protein" },
+        { id: "pates", name: "Pâtes", detail: "Penne ou spaghetti, poids cuit", emoji: "🍝", baseQty: 180, unit: "g", scalable: true, role: "carb", rawRatio: 2.5 },
+        { id: "carotte", name: "Carottes", detail: "Coupées en petits dés", emoji: "🥕", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
+        { id: "oignon", name: "Oignon", detail: "Émincé finement", emoji: "🧅", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
+        { id: "concentre_tomate", name: "Concentré de tomate", detail: "Double concentré", emoji: "🥫", baseQty: 20, unit: "g", scalable: false, role: "sauce" },
+        { id: "sauce_tomate", name: "Sauce tomate", detail: "Passata ou tomates pelées", emoji: "🍅", baseQty: 150, unit: "g", scalable: true, role: "sauce" },
+        { id: "huile_olive", name: "Huile d'olive", detail: "Pour revenir les légumes", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" },
+        { id: "parmesan", name: "Parmesan", detail: "Râpé, pour servir", emoji: "🧀", baseQty: 10, unit: "g", scalable: false, role: "protein" }
+    ],
+    options: [],
+    steps: [
+        { title: "Préparer les légumes", text: "Couper les carottes en petits dés (brunoise) et émincer finement l'oignon. Plus les morceaux sont petits, plus ils fondront dans la sauce." },
+        { title: "Faire revenir", text: "Chauffer l'huile d'olive dans une grande poêle. Y faire revenir l'oignon 2-3 minutes jusqu'à transparence, puis ajouter les carottes. Cuire 5 minutes à feu moyen." },
+        { title: "Cuire la viande", text: "Ajouter le bœuf haché, l'émietter à la spatule. Cuire 5-7 minutes jusqu'à coloration complète, en remuant régulièrement." },
+        { title: "Mijoter la sauce", text: "Ajouter le concentré de tomate, mélanger 1 minute. Verser la sauce tomate, saler, poivrer. Laisser mijoter 15-20 minutes à feu doux à couvert." },
+        { title: "Cuire les pâtes et servir", text: "Pendant ce temps, cuire les pâtes al dente dans l'eau bouillante salée. Égoutter et mélanger avec la sauce. Servir avec le parmesan râpé." }
+    ],
+    tips: [
+        { type: "green", title: "Sauce onctueuse", text: "Laisser mijoter longtemps à feu doux : les carottes fondent et sucrent naturellement la sauce sans ajouter de sucre." },
+        { type: "red", title: "Erreur classique", text: "Ne pas mettre trop d'huile d'olive. 5ml suffisent dans une bonne poêle antiadhésive pour revenir les légumes." }
+    ]
+},
+{
+    id: "poulet-curry-champignons-creme",
+    name: "Poulet Curry Champignons Crème",
+    subtitle: "Sauce crémeuse au curry • Champignons & riz basmati",
+    emoji: "🍛",
+    category: "dejeuner",
+    difficulty: "Facile",
+    time: 25,
+    sliderMin: 50,
+    sliderMax: 200,
+    tags: ["Classique", "Rapide", "Comfort food"],
+    ingredients: [
+        { id: "poulet", name: "Blanc de poulet", detail: "Coupé en lanières", emoji: "🍗", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+        { id: "champignon", name: "Champignons", detail: "Émincés", emoji: "🍄", baseQty: 120, unit: "g", scalable: true, role: "vegetable" },
+        { id: "creme_fraiche", name: "Crème fraîche 15%", detail: "Épaisse", emoji: "🥛", baseQty: 30, unit: "g", scalable: true, role: "fat" },
+        { id: "oignon", name: "Oignon", detail: "Émincé", emoji: "🧅", baseQty: 50, unit: "g", scalable: false, role: "vegetable" },
+        { id: "riz", name: "Riz basmati", detail: "Poids cuit", emoji: "🍚", baseQty: 180, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+        { id: "pate_curry", name: "Pâte de curry", detail: "Jaune ou doux", emoji: "🟡", baseQty: 10, unit: "g", scalable: false, role: "seasoning" },
+        { id: "huile_olive", name: "Huile d'olive", detail: "Pour la cuisson", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" }
+    ],
+    options: [],
+    steps: [
+        { title: "Saisir le poulet", text: "Couper le poulet en lanières. Les saisir à feu vif dans une poêle avec l'huile d'olive, 3-4 minutes de chaque côté. Réserver." },
+        { title: "Cuire les champignons", text: "Dans la même poêle, faire revenir l'oignon 2 minutes puis ajouter les champignons. Les cuire à feu vif 5 minutes jusqu'à ce qu'ils soient bien dorés et que l'eau soit évaporée." },
+        { title: "Préparer la sauce curry", text: "Baisser le feu, ajouter la pâte de curry, mélanger 30 secondes. Verser la crème fraîche et 2 cuillères à soupe d'eau. Mélanger." },
+        { title: "Assembler et servir", text: "Remettre le poulet dans la sauce, mélanger 2-3 minutes à feu doux. Servir sur le riz basmati chaud." }
+    ],
+    tips: [
+        { type: "green", title: "Champignons dorés", text: "Ne pas toucher les champignons pendant les premières 3 minutes de cuisson — ils doivent bien dorer, pas être remués sans cesse." },
+        { type: "red", title: "Crème qui tranche", text: "Ne jamais faire bouillir la sauce après avoir ajouté la crème fraîche — feu doux uniquement pour éviter qu'elle ne tranche." }
+    ]
+},
+{
+    id: "lasagnes-boeuf-classique",
+    name: "Lasagnes Bœuf Classiques",
+    subtitle: "Sauce bolognaise maison • Béchamel légère",
+    emoji: "🇮🇹",
+    category: "dejeuner",
+    difficulty: "Moyen",
+    time: 60,
+    sliderMin: 50,
+    sliderMax: 200,
+    tags: ["Classique", "Familial", "Batch cooking"],
+    ingredients: [
+        { id: "boeuf_hache_5", name: "Bœuf haché 5%", detail: "Émietté", emoji: "🥩", baseQty: 130, unit: "g", scalable: true, role: "protein" },
+        { id: "feuilles_lasagne", name: "Feuilles de lasagne", detail: "Précuites ou non", emoji: "🍝", baseQty: 60, unit: "g", scalable: true, role: "carb" },
+        { id: "sauce_tomate", name: "Sauce tomate", detail: "Passata", emoji: "🍅", baseQty: 150, unit: "g", scalable: true, role: "sauce" },
+        { id: "concentre_tomate", name: "Concentré de tomate", emoji: "🥫", baseQty: 15, unit: "g", scalable: false, role: "sauce" },
+        { id: "oignon", name: "Oignon", detail: "Émincé", emoji: "🧅", baseQty: 50, unit: "g", scalable: false, role: "vegetable" },
+        { id: "carotte", name: "Carotte", detail: "Râpée", emoji: "🥕", baseQty: 50, unit: "g", scalable: true, role: "vegetable" },
+        { id: "lait_demi", name: "Lait demi-écrémé", detail: "Pour la béchamel", emoji: "🥛", baseQty: 100, unit: "ml", scalable: true, role: "base" },
+        { id: "farine_complete", name: "Farine complète", detail: "Pour la béchamel", emoji: "🌾", baseQty: 10, unit: "g", scalable: false, role: "base" },
+        { id: "fromage_rape", name: "Fromage râpé", detail: "Pour gratiner", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "protein" }
+    ],
+    options: [],
+    steps: [
+        { title: "Sauce bolognaise", text: "Faire revenir l'oignon et la carotte râpée dans une poêle huilée. Ajouter le bœuf haché, émietter. Ajouter la sauce tomate et le concentré, mijoter 15 min." },
+        { title: "Béchamel légère", text: "Dans une casserole, mélanger la farine avec le lait froid au fouet. Porter à feu moyen en fouettant sans arrêt jusqu'à épaississement. Saler, poivrer, muscade." },
+        { title: "Monter les lasagnes", text: "Dans un plat, alterner couches de sauce bolognaise, feuilles de lasagne et béchamel. Terminer par la béchamel et le fromage râpé." },
+        { title: "Cuire au four", text: "Enfourner 30-35 minutes à 180°C jusqu'à ce que le dessus soit bien gratiné et doré. Laisser reposer 10 minutes avant de servir." }
+    ],
+    tips: [
+        { type: "green", title: "Béchamel sans grumeaux", text: "L'astuce : partir du lait FROID avec la farine, puis chauffer. Aucun grumeau garanti, contrairement à la méthode classique au roux." },
+        { type: "red", title: "Repos obligatoire", text: "Laisser reposer 10 min après le four. Les lasagnes se tiennent beaucoup mieux et se coupent proprement." }
+    ]
+},
+{
+    id: "lasagnes-saumon-epinards",
+    name: "Lasagnes Saumon-Épinards",
+    subtitle: "Saumon frais • Épinards crémeux • Gratiné",
+    emoji: "🐟",
+    category: "diner",
+    difficulty: "Moyen",
+    time: 50,
+    sliderMin: 50,
+    sliderMax: 200,
+    tags: ["Poisson", "Oméga-3", "Familial"],
+    ingredients: [
+        { id: "saumon", name: "Saumon frais", detail: "Coupé en dés", emoji: "🐟", baseQty: 130, unit: "g", scalable: true, role: "protein" },
+        { id: "epinards", name: "Épinards", detail: "Frais ou surgelés, essorés", emoji: "🥬", baseQty: 120, unit: "g", scalable: true, role: "vegetable" },
+        { id: "feuilles_lasagne", name: "Feuilles de lasagne", detail: "Précuites", emoji: "🍝", baseQty: 60, unit: "g", scalable: true, role: "carb" },
+        { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "Pour la sauce", emoji: "🥛", baseQty: 40, unit: "g", scalable: true, role: "fat" },
+        { id: "lait_demi", name: "Lait demi-écrémé", detail: "Pour la sauce", emoji: "🥛", baseQty: 80, unit: "ml", scalable: true, role: "base" },
+        { id: "farine_complete", name: "Farine", detail: "Pour épaissir", emoji: "🌾", baseQty: 10, unit: "g", scalable: false, role: "base" },
+        { id: "fromage_rape", name: "Fromage râpé", detail: "Pour gratiner", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "protein" },
+        { id: "citron_jus", name: "Jus de citron", detail: "Un filet", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "seasoning" }
+    ],
+    options: [],
+    steps: [
+        { title: "Préparer les épinards", text: "Si frais, les faire tomber 2 min à la poêle. Si surgelés, les décongeler et bien les essorer pour retirer toute l'eau. Assaisonner de sel et muscade." },
+        { title: "Préparer la sauce", text: "Délayer la farine dans le lait froid. Chauffer en fouettant jusqu'à épaississement. Hors feu, ajouter la crème fraîche et le jus de citron." },
+        { title: "Monter les lasagnes", text: "Alterner dans un plat : sauce, feuilles de lasagne, épinards, dés de saumon cru. Répéter 2-3 couches. Finir par la sauce et le fromage râpé." },
+        { title: "Cuire au four", text: "Enfourner 25-30 minutes à 190°C. Le saumon cuit directement dans les lasagnes et reste moelleux. Laisser reposer 5 min." }
+    ],
+    tips: [
+        { type: "green", title: "Saumon cru dans le montage", text: "Mettre le saumon CRU dans les lasagnes — il cuit parfaitement au four et reste fondant. Pas besoin de le pré-cuire." },
+        { type: "red", title: "Épinards essorés", text: "Des épinards mal essorés rendent les lasagnes aqueuses. Pressez-les bien dans un torchon propre." }
+    ]
+},
+{
+    id: "tartiflette-healthy",
+    name: "Tartiflette Healthy",
+    subtitle: "Pommes de terre fondantes • Reblochon • Lardons allégés",
+    emoji: "🧀",
+    category: "diner",
+    difficulty: "Facile",
+    time: 45,
+    sliderMin: 50,
+    sliderMax: 200,
+    tags: ["Classique", "Comfort food", "Hiver"],
+    ingredients: [
+        { id: "pomme_de_terre", name: "Pommes de terre", detail: "Coupées en rondelles fines", emoji: "🥔", baseQty: 200, unit: "g", scalable: true, role: "carb" },
+        { id: "reblochon", name: "Reblochon", detail: "Coupé en tranches", emoji: "🧀", baseQty: 30, unit: "g", scalable: true, role: "fat" },
+        { id: "lardons", name: "Lardons fumés", detail: "Allumettes", emoji: "🥓", baseQty: 30, unit: "g", scalable: true, role: "protein" },
+        { id: "oignon", name: "Oignon", detail: "Émincé", emoji: "🧅", baseQty: 60, unit: "g", scalable: false, role: "vegetable" },
+        { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 30, unit: "g", scalable: true, role: "fat" },
+        { id: "poulet", name: "Blanc de poulet", detail: "En dés (pour compléter la protéine)", emoji: "🍗", baseQty: 80, unit: "g", scalable: true, role: "protein" }
+    ],
+    options: [],
+    steps: [
+        { title: "Précuire les pommes de terre", text: "Couper les pommes de terre en rondelles de 3mm. Les faire cuire 10 minutes dans l'eau bouillante salée — elles doivent être juste tendres mais pas en purée." },
+        { title: "Saisir les lardons et le poulet", text: "Dans une poêle sans matière grasse, faire griller les lardons 3-4 minutes. Ajouter les dés de poulet et l'oignon émincé, cuire 5 minutes." },
+        { title: "Monter la tartiflette", text: "Dans un plat à gratin, alterner couches de pommes de terre, mélange lardons-poulet-oignon, et crème fraîche. Poser les tranches de reblochon sur le dessus." },
+        { title: "Gratiner", text: "Enfourner 20 minutes à 200°C jusqu'à ce que le reblochon soit bien fondu et doré. Servir immédiatement." }
+    ],
+    tips: [
+        { type: "green", title: "Version healthy", text: "Le poulet ajouté remplace une partie des lardons pour garder le goût authentique tout en boostant les protéines et réduisant les lipides." },
+        { type: "red", title: "Reblochon", text: "Poser le reblochon côté croûte vers le HAUT — il fond mieux et la croûte protège le fromage de la chaleur directe." }
+    ]
+},
+{
+    id: "bun-poulet-curry-mozza",
+    name: "Bun Poulet Curry Mozzarella",
+    subtitle: "Pâte à pizza maison • Poulet épicé • Mozza filante",
+    emoji: "🫓",
+    category: "dejeuner",
+    difficulty: "Moyen",
+    time: 40,
+    sliderMin: 50,
+    sliderMax: 200,
+    tags: ["Gourmand", "Street food", "Fait maison"],
+    ingredients: [
+        { id: "farine_complete", name: "Farine complète", detail: "Pour la pâte", emoji: "🌾", baseQty: 60, unit: "g", scalable: true, role: "carb" },
+        { id: "levure", name: "Levure boulangère", detail: "Fraîche ou sèche", emoji: "🍞", baseQty: 3, unit: "g", scalable: false, role: "base" },
+        { id: "poulet", name: "Blanc de poulet", detail: "Coupé en morceaux", emoji: "🍗", baseQty: 140, unit: "g", scalable: true, role: "protein" },
+        { id: "mozzarella", name: "Mozzarella", detail: "Coupée en tranches", emoji: "🧀", baseQty: 30, unit: "g", scalable: true, role: "protein" },
+        { id: "pate_curry", name: "Pâte de curry", detail: "Doux ou moyen", emoji: "🟡", baseQty: 10, unit: "g", scalable: false, role: "seasoning" },
+        { id: "oignon", name: "Oignon", detail: "Émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "vegetable" },
+        { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "Pour la garniture", emoji: "🥛", baseQty: 15, unit: "g", scalable: false, role: "fat" },
+        { id: "huile_olive", name: "Huile d'olive", detail: "Pour badigeonner", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" }
+    ],
+    options: [],
+    steps: [
+        { title: "Pétrir la pâte", text: "Mélanger la farine, la levure, une pincée de sel et 35ml d'eau tiède. Pétrir 5 minutes jusqu'à obtenir une boule lisse. Laisser reposer 20 min sous un torchon." },
+        { title: "Préparer la garniture", text: "Faire revenir l'oignon, ajouter le poulet en morceaux et la pâte de curry. Cuire 8-10 minutes. Hors feu, ajouter la crème fraîche, mélanger." },
+        { title: "Assembler les buns", text: "Étaler la pâte en cercle. Déposer la garniture au centre, ajouter les tranches de mozzarella. Refermer la pâte en boule, souder les bords, retourner." },
+        { title: "Cuire au four", text: "Badigeonner d'huile d'olive, enfourner 15-18 minutes à 200°C jusqu'à dorure. La mozzarella doit être filante à l'intérieur." }
+    ],
+    tips: [
+        { type: "green", title: "Pâte express", text: "Si pressé, utilisez de la pâte à pizza du commerce. Mais la pâte maison avec 3 ingrédients est rapide et bien meilleure." },
+        { type: "red", title: "Bien souder", text: "Soudez bien les bords de la pâte en les pinçant — sinon le bun s'ouvre à la cuisson et la garniture sort." }
+    ]
+},
+{
+    id: "pancakes-blancs-oeufs",
+    name: "Pancakes aux Blancs d'Œufs",
+    subtitle: "Ultra protéinés • Aériens • Peu caloriques",
+    emoji: "🥞",
+    category: "petit-dej-sucre",
+    difficulty: "Facile",
+    time: 15,
+    sliderMin: 50,
+    sliderMax: 200,
+    tags: ["Hyper-protéiné", "Perte de poids", "Rapide"],
+    ingredients: [
+        { id: "blanc_oeuf", name: "Blancs d'œufs", detail: "4 blancs, battus en neige légère", emoji: "🥚", baseQty: 130, unit: "g", scalable: true, role: "protein" },
+        { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Mixés en poudre", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "carb" },
+        { id: "banane", name: "Banane", detail: "Bien mûre, écrasée", emoji: "🍌", baseQty: 60, unit: "g", scalable: true, role: "carb" },
+        { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "Pour moelleux", emoji: "🥛", baseQty: 30, unit: "g", scalable: true, role: "protein" },
+        { id: "fruits_rouges", name: "Fruits rouges", detail: "Frais ou surgelés, pour servir", emoji: "🫐", baseQty: 80, unit: "g", scalable: true, role: "carb" }
+    ],
+    options: [{"id":"boost-proteine","label":"Boost protéine","choices":[{"value":"sans","label":"Sans","emoji":"➖","desc":"Version classique"},{"value":"whey","label":"Whey vanille","emoji":"💪","desc":"+12g protéines"}],"default":"sans","modifiers":{"sans":{},"whey":{"add":[{"id":"whey","name":"Whey protéine","detail":"Vanille","emoji":"💪","baseQty":15,"unit":"g","scalable":false,"role":"protein"}]}}}],
+    steps: [
+        { title: "Préparer la pâte", text: "Écraser la banane à la fourchette. Mélanger avec les flocons d'avoine mixés et le fromage blanc. La pâte doit être épaisse." },
+        { title: "Monter les blancs", text: "Battre les blancs d'œufs en neige ferme avec une pincée de sel. Les incorporer délicatement à la pâte en soulevant du bas vers le haut pour garder l'air." },
+        { title: "Cuire les pancakes", text: "Poêle antiadhésive à feu moyen-doux. Verser des louches de pâte. Cuire 2-3 min par face — attention, ces pancakes sont fragiles, retourner délicatement." },
+        { title: "Servir", text: "Empiler les pancakes et garnir de fruits rouges. Ces pancakes sont naturellement sucrés grâce à la banane." }
+    ],
+    tips: [
+        { type: "green", title: "Blancs en neige", text: "Les blancs montés en neige rendent les pancakes ultra aériens et volumineux — beaucoup plus rassasiants pour très peu de calories." },
+        { type: "red", title: "Feu doux obligatoire", text: "Feu moyen-doux uniquement. Les pancakes aux blancs brûlent très vite à feu vif et ne cuisent pas à cœur." }
+    ]
+},
+{
+    id: "pates-poulet-chorizo-creme",
+    name: "Pâtes Poulet Chorizo Crème",
+    subtitle: "Sauce crémeuse • Poulet grillé • Chorizo croustillant",
+    emoji: "🍝",
+    category: "dejeuner",
+    difficulty: "Facile",
+    time: 20,
+    sliderMin: 50,
+    sliderMax: 200,
+    tags: ["Rapide", "Gourmand", "Classique"],
+    ingredients: [
+        { id: "poulet", name: "Blanc de poulet", detail: "En lanières", emoji: "🍗", baseQty: 130, unit: "g", scalable: true, role: "protein" },
+        { id: "chorizo", name: "Chorizo", detail: "En rondelles fines", emoji: "🌶️", baseQty: 20, unit: "g", scalable: false, role: "fat" },
+        { id: "pates", name: "Pâtes", detail: "Penne, poids cuit", emoji: "🍝", baseQty: 180, unit: "g", scalable: true, role: "carb", rawRatio: 2.5 },
+        { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 30, unit: "g", scalable: true, role: "fat" },
+        { id: "oignon", name: "Oignon", detail: "Émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "vegetable" },
+        { id: "poivron", name: "Poivron rouge", detail: "En lanières", emoji: "🫑", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
+        { id: "parmesan", name: "Parmesan", detail: "Râpé", emoji: "🧀", baseQty: 10, unit: "g", scalable: false, role: "protein" }
+    ],
+    options: [],
+    steps: [
+        { title: "Griller le chorizo", text: "Faire griller les rondelles de chorizo dans une poêle SANS huile (il rend son propre gras). Les retirer quand elles sont croustillantes, réserver sur du papier absorbant." },
+        { title: "Cuire le poulet", text: "Dans le gras rendu par le chorizo, saisir les lanières de poulet 4-5 minutes avec l'oignon et le poivron. Le poulet doit être bien doré." },
+        { title: "Sauce crémeuse", text: "Baisser le feu, ajouter la crème fraîche et 2 cuillères à soupe d'eau de cuisson des pâtes. Mélanger pour créer une sauce onctueuse." },
+        { title: "Assembler", text: "Ajouter les pâtes cuites al dente dans la sauce. Mélanger, garnir avec le chorizo croustillant et le parmesan. Servir immédiatement." }
+    ],
+    tips: [
+        { type: "green", title: "Chorizo = matière grasse", text: "Le chorizo rend assez de gras pour cuire le poulet — pas besoin d'huile en plus. C'est la clé pour garder ce plat raisonnable en calories." },
+        { type: "red", title: "Eau de cuisson", text: "Gardez toujours un peu d'eau de cuisson des pâtes — l'amidon qu'elle contient lie et épaissit la sauce naturellement." }
+    ]
+},
+{
+    id: "riz-cantonais-maison",
+    name: "Riz Cantonais Maison",
+    subtitle: "Riz sauté • Œuf • Jambon • Petits pois",
+    emoji: "🍳",
+    category: "dejeuner",
+    difficulty: "Facile",
+    time: 15,
+    sliderMin: 50,
+    sliderMax: 200,
+    tags: ["Rapide", "Asiatique", "Classique", "Anti-gaspi"],
+    ingredients: [
+        { id: "riz", name: "Riz", detail: "Cuit de la veille, bien froid", emoji: "🍚", baseQty: 200, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+        { id: "oeufs", name: "Œufs", detail: "Battus", emoji: "🥚", baseQty: 2, unit: "unité(s)", scalable: true, role: "protein" },
+        { id: "jambon_blanc", name: "Jambon blanc", detail: "Coupé en dés", emoji: "🥓", baseQty: 50, unit: "g", scalable: true, role: "protein" },
+        { id: "petits_pois", name: "Petits pois", detail: "Surgelés", emoji: "🟢", baseQty: 50, unit: "g", scalable: true, role: "vegetable" },
+        { id: "carotte", name: "Carotte", detail: "En petits dés", emoji: "🥕", baseQty: 40, unit: "g", scalable: true, role: "vegetable" },
+        { id: "oignon", name: "Oignon vert / Oignon", detail: "Émincé", emoji: "🧅", baseQty: 20, unit: "g", scalable: false, role: "vegetable" },
+        { id: "sauce_soja", name: "Sauce soja", detail: "Salée", emoji: "🫘", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+        { id: "huile_sesame", name: "Huile de sésame", detail: "Quelques gouttes en finition", emoji: "🥜", baseQty: 3, unit: "ml", scalable: false, role: "fat" }
+    ],
+    options: [{"id":"proteine-extra","label":"Protéine extra","choices":[{"value":"sans","label":"Sans","emoji":"➖","desc":"Version classique"},{"value":"crevettes","label":"Crevettes","emoji":"🦐","desc":"+15g protéines"}],"default":"sans","modifiers":{"sans":{},"crevettes":{"add":[{"id":"crevettes","name":"Crevettes","detail":"Décortiquées","emoji":"🦐","baseQty":80,"unit":"g","scalable":true,"role":"protein"}]}}}],
+    steps: [
+        { title: "Préparer les dés", text: "Couper le jambon et la carotte en petits dés réguliers (brunoise). Préparer les petits pois et émincer l'oignon. Battre les œufs." },
+        { title: "Saisir les œufs", text: "Chauffer une poêle ou un wok à feu VIF. Verser les œufs battus, les brouiller rapidement 30 secondes. Les retirer avant qu'ils soient trop cuits. Réserver." },
+        { title: "Sauter les légumes", text: "Dans la même poêle très chaude, sauter les dés de carotte 2 min, ajouter les petits pois et le jambon. Cuire 2 minutes." },
+        { title: "Sauter le riz", text: "Ajouter le riz froid, bien l'égrener dans le wok. Sauter 3-4 minutes à feu vif en remuant souvent. Ajouter la sauce soja et les œufs. Finir avec quelques gouttes d'huile de sésame." }
+    ],
+    tips: [
+        { type: "green", title: "Riz de la veille", text: "Le SECRET du riz cantonais : utiliser du riz cuit la veille, refroidi au frigo. Le riz frais colle et ne saute pas correctement." },
+        { type: "red", title: "Feu maximum", text: "Le wok DOIT être brûlant. Si le feu n'est pas assez fort, le riz va cuire à la vapeur au lieu de sauter — résultat mou et collant." }
+    ]
+},
+{
+    id: "poulet-satay-cacahuete",
+    name: "Poulet Satay Sauce Cacahuète",
+    subtitle: "Brochettes marinées • Sauce cacahuète onctueuse • Riz",
+    emoji: "🍢",
+    category: "diner",
+    difficulty: "Moyen",
+    time: 30,
+    sliderMin: 50,
+    sliderMax: 200,
+    tags: ["Asiatique", "Thaïlandais", "Gourmand"],
+    ingredients: [
+        { id: "poulet", name: "Blanc de poulet", detail: "Coupé en lanières pour brochettes", emoji: "🍗", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+        { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "100% cacahuète, sans sucre ajouté", emoji: "🥜", baseQty: 20, unit: "g", scalable: true, role: "fat" },
+        { id: "sauce_soja", name: "Sauce soja", detail: "Salée", emoji: "🫘", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+        { id: "lait_coco", name: "Lait de coco", detail: "Léger", emoji: "🥥", baseQty: 40, unit: "ml", scalable: true, role: "fat" },
+        { id: "citron_vert", name: "Jus de citron vert", detail: "Frais", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+        { id: "riz", name: "Riz basmati", detail: "Poids cuit", emoji: "🍚", baseQty: 160, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+        { id: "concombre", name: "Concombre", detail: "En bâtonnets, pour accompagner", emoji: "🥒", baseQty: 60, unit: "g", scalable: false, role: "vegetable" },
+        { id: "pate_curry", name: "Pâte de curry rouge", detail: "Une pointe", emoji: "🔴", baseQty: 5, unit: "g", scalable: false, role: "seasoning" }
+    ],
+    options: [],
+    steps: [
+        { title: "Mariner le poulet", text: "Mélanger 1 cuillère de sauce soja, la pâte de curry et un filet de citron vert. Enrober les lanières de poulet et laisser mariner 15 min (ou plus au frigo)." },
+        { title: "Préparer la sauce satay", text: "Dans une petite casserole, mélanger le beurre de cacahuète, le lait de coco, le reste de sauce soja et de citron vert. Chauffer à feu doux en remuant jusqu'à consistance onctueuse." },
+        { title: "Griller le poulet", text: "Enfiler le poulet sur des piques en bois. Griller à la poêle ou au grill 3-4 minutes de chaque côté jusqu'à coloration dorée et cuisson à cœur." },
+        { title: "Servir", text: "Disposer les brochettes sur le riz, napper de sauce satay. Accompagner de bâtonnets de concombre et d'un quartier de citron vert." }
+    ],
+    tips: [
+        { type: "green", title: "Sauce onctueuse", text: "Si la sauce épaissit trop, ajouter un peu d'eau chaude cuillère par cuillère. Elle doit napper les brochettes sans être trop épaisse." },
+        { type: "red", title: "Beurre de cacahuète", text: "Utiliser du beurre de cacahuète 100% cacahuètes. Les versions sucrées du commerce ajoutent inutilement des calories et du sucre." }
+    ]
+}
 
 ];
