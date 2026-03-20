@@ -1513,8 +1513,8 @@ const RECIPES_DATA = [
         sliderMax: 220,
         tags: ["Végétarien","Réconfortant","Gourmand"],
         ingredients: [
-            { id: "flocons_avoine", name: "Flocons d'avoine", detail: "", emoji: "🌾", baseQty: 60, unit: "g", scalable: true, role: "carb" },
-            { id: "lait", name: "Lait demi-écrémé", detail: "", emoji: "🥛", baseQty: 200, unit: "ml", scalable: true, role: "base" },
+            { id: "flocons_avoine", name: "Flocons d'avoine", emoji: "🌾", baseQty: 60, unit: "g", scalable: true, role: "carb" },
+            { id: "lait", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 200, unit: "ml", scalable: true, role: "base" },
             { id: "banane", name: "Banane", detail: "en rondelles", emoji: "🍌", baseQty: 100, unit: "g", scalable: true, role: "carb" },
             { id: "cacao", name: "Cacao en poudre", detail: "non sucré", emoji: "🍫", baseQty: 10, unit: "g", scalable: true, role: "base" }
         ],
@@ -1543,9 +1543,9 @@ const RECIPES_DATA = [
         sliderMax: 230,
         tags: ["Végétarien","Sans gluten","Sans cuisson","Vitaminé"],
         ingredients: [
-            { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "", emoji: "🥛", baseQty: 250, unit: "g", scalable: true, role: "protein" },
+            { id: "fromage_blanc_0", name: "Fromage blanc 0%", emoji: "🥛", baseQty: 250, unit: "g", scalable: true, role: "protein" },
             { id: "mangue", name: "Mangue", detail: "en morceaux", emoji: "🥭", baseQty: 150, unit: "g", scalable: true, role: "carb" },
-            { id: "granola", name: "Granola", detail: "", emoji: "🥣", baseQty: 25, unit: "g", scalable: true, role: "carb" }
+            { id: "granola", name: "Granola", emoji: "🥣", baseQty: 25, unit: "g", scalable: true, role: "carb" }
         ],
         options: [],
         steps: [
@@ -1571,7 +1571,7 @@ const RECIPES_DATA = [
         sliderMax: 220,
         tags: ["Végétarien","Haute protéine","Rapide"],
         ingredients: [
-            { id: "blanc_oeuf", name: "Blancs d'œufs", detail: "", emoji: "🥚", baseQty: 4, unit: "unité(s)", scalable: true, role: "protein" },
+            { id: "blanc_oeuf", name: "Blancs d'œufs", emoji: "🥚", baseQty: 4, unit: "unité(s)", scalable: true, role: "protein" },
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "mixés en farine", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "carb" },
             { id: "myrtilles", name: "Myrtilles", detail: "fraîches ou surgelées", emoji: "🫐", baseQty: 100, unit: "g", scalable: true, role: "carb" },
             { id: "banane", name: "Banane", detail: "bien mûre, écrasée", emoji: "🍌", baseQty: 80, unit: "g", scalable: true, role: "carb" }
@@ -1602,8 +1602,8 @@ const RECIPES_DATA = [
         tags: ["Vegan","Sans gluten","Sans cuisson","Express","Vitaminé"],
         ingredients: [
             { id: "banane", name: "Banane", detail: "surgelée de préférence", emoji: "🍌", baseQty: 150, unit: "g", scalable: true, role: "carb" },
-            { id: "epinards", name: "Épinards frais", detail: "", emoji: "🥬", baseQty: 60, unit: "g", scalable: true, role: "base" },
-            { id: "lait_amande", name: "Lait d'amande", detail: "", emoji: "🥛", baseQty: 200, unit: "ml", scalable: true, role: "base" },
+            { id: "epinards", name: "Épinards frais", emoji: "🥬", baseQty: 60, unit: "g", scalable: true, role: "base" },
+            { id: "lait_amande", name: "Lait d'amande", emoji: "🥛", baseQty: 200, unit: "ml", scalable: true, role: "base" },
             { id: "kiwi", name: "Kiwi", detail: "pelé", emoji: "🥝", baseQty: 80, unit: "g", scalable: true, role: "carb" }
         ],
         options: [],
@@ -1630,10 +1630,10 @@ const RECIPES_DATA = [
         sliderMax: 230,
         tags: ["Végétarien","Sans cuisson","Meal prep"],
         ingredients: [
-            { id: "flocons_avoine", name: "Flocons d'avoine", detail: "", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "carb" },
-            { id: "lait", name: "Lait demi-écrémé", detail: "", emoji: "🥛", baseQty: 200, unit: "ml", scalable: true, role: "base" },
+            { id: "flocons_avoine", name: "Flocons d'avoine", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "carb" },
+            { id: "lait", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 200, unit: "ml", scalable: true, role: "base" },
             { id: "cacao", name: "Cacao en poudre", detail: "non sucré", emoji: "🍫", baseQty: 10, unit: "g", scalable: true, role: "base" },
-            { id: "skyr", name: "Skyr", detail: "", emoji: "🥛", baseQty: 150, unit: "g", scalable: true, role: "protein" }
+            { id: "skyr", name: "Skyr", emoji: "🥛", baseQty: 150, unit: "g", scalable: true, role: "protein" }
         ],
         options: [],
         steps: [
@@ -1659,10 +1659,10 @@ const RECIPES_DATA = [
         sliderMax: 200,
         tags: ["Végétarien","Sans gluten","Sans cuisson","Meal prep"],
         ingredients: [
-            { id: "graines_chia", name: "Graines de chia", detail: "", emoji: "🌱", baseQty: 30, unit: "g", scalable: true, role: "fat" },
-            { id: "lait_coco", name: "Lait de coco", detail: "", emoji: "🥥", baseQty: 200, unit: "ml", scalable: true, role: "base" },
+            { id: "graines_chia", name: "Graines de chia", emoji: "🌱", baseQty: 30, unit: "g", scalable: true, role: "fat" },
+            { id: "lait_coco", name: "Lait de coco", emoji: "🥥", baseQty: 200, unit: "ml", scalable: true, role: "base" },
             { id: "mangue", name: "Mangue", detail: "en morceaux", emoji: "🥭", baseQty: 120, unit: "g", scalable: true, role: "carb" },
-            { id: "miel", name: "Miel", detail: "", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "carb" }
+            { id: "miel", name: "Miel", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "carb" }
         ],
         options: [],
         steps: [
@@ -1689,9 +1689,9 @@ const RECIPES_DATA = [
         tags: ["Végétarien","Gourmand","Batch cooking"],
         ingredients: [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "mixés en farine", emoji: "🌾", baseQty: 80, unit: "g", scalable: true, role: "carb" },
-            { id: "oeufs", name: "Œufs", detail: "", emoji: "🥚", baseQty: 2, unit: "unité(s)", scalable: true, role: "protein" },
+            { id: "oeufs", name: "Œufs", emoji: "🥚", baseQty: 2, unit: "unité(s)", scalable: true, role: "protein" },
             { id: "banane", name: "Banane", detail: "bien mûre, écrasée", emoji: "🍌", baseQty: 100, unit: "g", scalable: true, role: "carb" },
-            { id: "lait", name: "Lait demi-écrémé", detail: "", emoji: "🥛", baseQty: 100, unit: "ml", scalable: true, role: "base" }
+            { id: "lait", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 100, unit: "ml", scalable: true, role: "base" }
         ],
         options: [],
         steps: [
@@ -1720,8 +1720,8 @@ const RECIPES_DATA = [
         ingredients: [
             { id: "acai_puree", name: "Purée d'açaï", detail: "surgelée", emoji: "🫐", baseQty: 100, unit: "g", scalable: true, role: "carb" },
             { id: "banane", name: "Banane", detail: "surgelée", emoji: "🍌", baseQty: 100, unit: "g", scalable: true, role: "carb" },
-            { id: "lait_amande", name: "Lait d'amande", detail: "", emoji: "🥛", baseQty: 100, unit: "ml", scalable: true, role: "base" },
-            { id: "granola", name: "Granola", detail: "", emoji: "🥣", baseQty: 20, unit: "g", scalable: true, role: "carb" }
+            { id: "lait_amande", name: "Lait d'amande", emoji: "🥛", baseQty: 100, unit: "ml", scalable: true, role: "base" },
+            { id: "granola", name: "Granola", emoji: "🥣", baseQty: 20, unit: "g", scalable: true, role: "carb" }
         ],
         options: [],
         steps: [
@@ -1748,9 +1748,9 @@ const RECIPES_DATA = [
         sliderMax: 220,
         tags: ["Végétarien","Sans gluten"],
         ingredients: [
-            { id: "oeufs", name: "Œufs", detail: "", emoji: "🥚", baseQty: 2, unit: "unité(s)", scalable: true, role: "protein" },
+            { id: "oeufs", name: "Œufs", emoji: "🥚", baseQty: 2, unit: "unité(s)", scalable: true, role: "protein" },
             { id: "champignon", name: "Champignons", detail: "émincés", emoji: "🍄", baseQty: 120, unit: "g", scalable: true, role: "base" },
-            { id: "epinards", name: "Épinards frais", detail: "", emoji: "🥬", baseQty: 80, unit: "g", scalable: true, role: "base" }
+            { id: "epinards", name: "Épinards frais", emoji: "🥬", baseQty: 80, unit: "g", scalable: true, role: "base" }
         ],
         options: [],
         steps: [
@@ -1778,8 +1778,8 @@ const RECIPES_DATA = [
         tags: ["Express","Rapide","Gourmand"],
         ingredients: [
             { id: "pain_complet", name: "Pain complet", detail: "tranché", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "carb" },
-            { id: "saumon", name: "Saumon fumé", detail: "", emoji: "🐟", baseQty: 60, unit: "g", scalable: true, role: "protein" },
-            { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "", emoji: "🥛", baseQty: 30, unit: "g", scalable: true, role: "protein" },
+            { id: "saumon", name: "Saumon fumé", emoji: "🐟", baseQty: 60, unit: "g", scalable: true, role: "protein" },
+            { id: "fromage_blanc_0", name: "Fromage blanc 0%", emoji: "🥛", baseQty: 30, unit: "g", scalable: true, role: "protein" },
             { id: "concombre", name: "Concombre", detail: "en fines rondelles", emoji: "🥒", baseQty: 40, unit: "g", scalable: true, role: "base" }
         ],
         options: [],
@@ -1806,11 +1806,11 @@ const RECIPES_DATA = [
         sliderMax: 250,
         tags: ["Végétarien","Sans gluten","Batch cooking","Familial"],
         ingredients: [
-            { id: "oeufs", name: "Œufs", detail: "", emoji: "🥚", baseQty: 4, unit: "unité(s)", scalable: true, role: "protein" },
+            { id: "oeufs", name: "Œufs", emoji: "🥚", baseQty: 4, unit: "unité(s)", scalable: true, role: "protein" },
             { id: "courgette", name: "Courgette", detail: "en dés", emoji: "🥒", baseQty: 100, unit: "g", scalable: true, role: "base" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "en dés", emoji: "🌶️", baseQty: 80, unit: "g", scalable: true, role: "base" },
             { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 50, unit: "g", scalable: true, role: "base" },
-            { id: "emmental", name: "Fromage râpé", detail: "", emoji: "🧀", baseQty: 20, unit: "g", scalable: true, role: "fat" }
+            { id: "emmental", name: "Fromage râpé", emoji: "🧀", baseQty: 20, unit: "g", scalable: true, role: "fat" }
         ],
         options: [],
         steps: [
@@ -1837,7 +1837,7 @@ const RECIPES_DATA = [
         sliderMax: 240,
         tags: ["Sans gluten","Meal prep","Batch cooking"],
         ingredients: [
-            { id: "oeufs", name: "Œufs", detail: "", emoji: "🥚", baseQty: 3, unit: "unité(s)", scalable: true, role: "protein" },
+            { id: "oeufs", name: "Œufs", emoji: "🥚", baseQty: 3, unit: "unité(s)", scalable: true, role: "protein" },
             { id: "epinards", name: "Épinards", detail: "hachés", emoji: "🥬", baseQty: 60, unit: "g", scalable: true, role: "base" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "en petits dés", emoji: "🌶️", baseQty: 60, unit: "g", scalable: true, role: "base" },
             { id: "jambon", name: "Jambon blanc", detail: "en dés", emoji: "🥓", baseQty: 40, unit: "g", scalable: true, role: "protein" }
@@ -1870,7 +1870,7 @@ const RECIPES_DATA = [
             { id: "pain_complet", name: "Pain complet", detail: "tranché", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "carb" },
             { id: "sardines_conserve", name: "Sardines en conserve", detail: "égouttées", emoji: "🐟", baseQty: 60, unit: "g", scalable: true, role: "protein" },
             { id: "avocat", name: "Avocat", detail: "écrasé", emoji: "🥑", baseQty: 50, unit: "g", scalable: true, role: "fat" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "base" }
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "base" }
         ],
         options: [],
         steps: [
@@ -1897,7 +1897,7 @@ const RECIPES_DATA = [
         tags: ["Vegan","Sans gluten"],
         ingredients: [
             { id: "tofu", name: "Tofu ferme", detail: "émietté", emoji: "🧈", baseQty: 200, unit: "g", scalable: true, role: "protein" },
-            { id: "epinards", name: "Épinards frais", detail: "", emoji: "🥬", baseQty: 60, unit: "g", scalable: true, role: "base" },
+            { id: "epinards", name: "Épinards frais", emoji: "🥬", baseQty: 60, unit: "g", scalable: true, role: "base" },
             { id: "champignon", name: "Champignons", detail: "émincés", emoji: "🍄", baseQty: 80, unit: "g", scalable: true, role: "base" },
             { id: "avocat", name: "Avocat", detail: "en tranches", emoji: "🥑", baseQty: 50, unit: "g", scalable: true, role: "fat" }
         ],
@@ -1926,10 +1926,10 @@ const RECIPES_DATA = [
         sliderMax: 220,
         tags: ["Rapide","Haute protéine"],
         ingredients: [
-            { id: "tortilla", name: "Tortilla de blé", detail: "", emoji: "🌯", baseQty: 1, unit: "unité(s)", scalable: true, role: "carb" },
-            { id: "saumon", name: "Saumon fumé", detail: "", emoji: "🐟", baseQty: 80, unit: "g", scalable: true, role: "protein" },
-            { id: "epinards", name: "Épinards frais", detail: "", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "base" },
-            { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "", emoji: "🥛", baseQty: 30, unit: "g", scalable: true, role: "protein" }
+            { id: "tortilla", name: "Tortilla de blé", emoji: "🌯", baseQty: 1, unit: "unité(s)", scalable: true, role: "carb" },
+            { id: "saumon", name: "Saumon fumé", emoji: "🐟", baseQty: 80, unit: "g", scalable: true, role: "protein" },
+            { id: "epinards", name: "Épinards frais", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "base" },
+            { id: "fromage_blanc_0", name: "Fromage blanc 0%", emoji: "🥛", baseQty: 30, unit: "g", scalable: true, role: "protein" }
         ],
         options: [],
         steps: [
@@ -1957,8 +1957,8 @@ const RECIPES_DATA = [
         tags: ["Végétarien","Sucré-salé","Gourmand"],
         ingredients: [
             { id: "pain_complet", name: "Pain complet", detail: "tranché", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "carb" },
-            { id: "chevre_frais", name: "Chèvre frais", detail: "", emoji: "🧀", baseQty: 60, unit: "g", scalable: true, role: "protein" },
-            { id: "miel", name: "Miel", detail: "", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "carb" },
+            { id: "chevre_frais", name: "Chèvre frais", emoji: "🧀", baseQty: 60, unit: "g", scalable: true, role: "protein" },
+            { id: "miel", name: "Miel", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "carb" },
             { id: "noix", name: "Noix", detail: "concassées", emoji: "🥜", baseQty: 10, unit: "g", scalable: false, role: "fat" }
         ],
         options: [],
@@ -2024,8 +2024,8 @@ const RECIPES_DATA = [
             { id: "oeufs", name: "Œuf", detail: "battu", emoji: "🥚", baseQty: 1, unit: "unité(s)", scalable: true, role: "protein" },
             { id: "carotte", name: "Carotte", detail: "râpée en julienne", emoji: "🥕", baseQty: 60, unit: "g", scalable: true, role: "base" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "émincé", emoji: "🌶️", baseQty: 60, unit: "g", scalable: true, role: "base" },
-            { id: "sauce_nuoc_mam", name: "Sauce nuoc mam", detail: "", emoji: "🧴", baseQty: 10, unit: "g", scalable: false, role: "base" },
-            { id: "sauce_soja", name: "Sauce soja", detail: "", emoji: "🥫", baseQty: 10, unit: "g", scalable: false, role: "base" }
+            { id: "sauce_nuoc_mam", name: "Sauce nuoc mam", emoji: "🧴", baseQty: 10, unit: "g", scalable: false, role: "base" },
+            { id: "sauce_soja", name: "Sauce soja", emoji: "🥫", baseQty: 10, unit: "g", scalable: false, role: "base" }
         ],
         options: [],
         steps: [
@@ -2154,7 +2154,7 @@ const RECIPES_DATA = [
             { id: "avocat", name: "Avocat", detail: "en tranches", emoji: "🥑", baseQty: 50, unit: "g", scalable: true, role: "fat" },
             { id: "mangue", name: "Mangue", detail: "en cubes", emoji: "🥭", baseQty: 60, unit: "g", scalable: true, role: "carb" },
             { id: "concombre", name: "Concombre", detail: "en rondelles", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "base" },
-            { id: "sauce_soja", name: "Sauce soja", detail: "", emoji: "🥫", baseQty: 10, unit: "g", scalable: false, role: "base" },
+            { id: "sauce_soja", name: "Sauce soja", emoji: "🥫", baseQty: 10, unit: "g", scalable: false, role: "base" },
             { id: "edamame", name: "Edamame", detail: "décortiqués", emoji: "🫛", baseQty: 50, unit: "g", scalable: true, role: "base" }
         ],
         options: [],
@@ -2183,7 +2183,7 @@ const RECIPES_DATA = [
         tags: ["Gourmand"],
         ingredients: [
             { id: "agneau_gigot", name: "Agneau", detail: "émincé finement", emoji: "🥩", baseQty: 150, unit: "g", scalable: true, role: "protein" },
-            { id: "pain_pita", name: "Pain pita", detail: "", emoji: "🫓", baseQty: 1, unit: "unité(s)", scalable: true, role: "carb" },
+            { id: "pain_pita", name: "Pain pita", emoji: "🫓", baseQty: 1, unit: "unité(s)", scalable: true, role: "carb" },
             { id: "tomate", name: "Tomate", detail: "en rondelles", emoji: "🍅", baseQty: 60, unit: "g", scalable: true, role: "base" },
             { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "base" },
             { id: "salade_verte", name: "Salade verte", detail: "quelques feuilles", emoji: "🥬", baseQty: 30, unit: "g", scalable: true, role: "base" },
@@ -2253,7 +2253,7 @@ const RECIPES_DATA = [
             { id: "betterave_cuite", name: "Betterave cuite", detail: "en dés", emoji: "🟣", baseQty: 80, unit: "g", scalable: true, role: "base" },
             { id: "noix", name: "Noix", detail: "concassées", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "fat" },
             { id: "salade_verte", name: "Salade verte", detail: "en chiffonnade", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "base" },
-            { id: "vinaigre_balsamique", name: "Vinaigre balsamique", detail: "", emoji: "🍶", baseQty: 10, unit: "g", scalable: false, role: "base" }
+            { id: "vinaigre_balsamique", name: "Vinaigre balsamique", emoji: "🍶", baseQty: 10, unit: "g", scalable: false, role: "base" }
         ],
         options: [],
         steps: [
@@ -2284,8 +2284,8 @@ const RECIPES_DATA = [
             { id: "brocoli", name: "Brocoli", detail: "en petites fleurettes", emoji: "🥦", baseQty: 100, unit: "g", scalable: true, role: "base" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "émincé", emoji: "🌶️", baseQty: 80, unit: "g", scalable: true, role: "base" },
             { id: "carotte", name: "Carotte", detail: "en julienne", emoji: "🥕", baseQty: 60, unit: "g", scalable: true, role: "base" },
-            { id: "sauce_soja", name: "Sauce soja", detail: "", emoji: "🥫", baseQty: 15, unit: "g", scalable: false, role: "base" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 5, unit: "g", scalable: false, role: "fat" }
+            { id: "sauce_soja", name: "Sauce soja", emoji: "🥫", baseQty: 15, unit: "g", scalable: false, role: "base" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "g", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -2344,8 +2344,8 @@ const RECIPES_DATA = [
         tags: ["Sans gluten","Épicé"],
         ingredients: [
             { id: "crevettes", name: "Crevettes", detail: "décortiquées", emoji: "🦐", baseQty: 180, unit: "g", scalable: true, role: "protein" },
-            { id: "lait_coco", name: "Lait de coco", detail: "", emoji: "🥥", baseQty: 100, unit: "ml", scalable: true, role: "base" },
-            { id: "riz_basmati_cuit", name: "Riz basmati cuit", detail: "", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "lait_coco", name: "Lait de coco", emoji: "🥥", baseQty: 100, unit: "ml", scalable: true, role: "base" },
+            { id: "riz_basmati_cuit", name: "Riz basmati cuit", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "coupé en lanières", emoji: "🌶️", baseQty: 80, unit: "g", scalable: true, role: "base" },
             { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "base" },
             { id: "pate_curry", name: "Pâte de curry", detail: "rouge ou jaune", emoji: "🟠", baseQty: 10, unit: "g", scalable: false, role: "base" }
@@ -2379,7 +2379,7 @@ const RECIPES_DATA = [
             { id: "asperges", name: "Asperges", detail: "vertes, parées", emoji: "🌿", baseQty: 150, unit: "g", scalable: true, role: "base" },
             { id: "pomme_de_terre", name: "Pommes de terre", detail: "coupées en rondelles fines", emoji: "🥔", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
             { id: "citron_jus", name: "Jus de citron", detail: "fraîchement pressé", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "base" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 5, unit: "g", scalable: false, role: "fat" }
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "g", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -2439,7 +2439,7 @@ const RECIPES_DATA = [
             { id: "moules", name: "Moules", detail: "nettoyées et grattées", emoji: "🦪", baseQty: 300, unit: "g", scalable: true, role: "protein" },
             { id: "oignon", name: "Oignon", detail: "finement émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "base" },
             { id: "celeri_branche", name: "Céleri branche", detail: "émincé", emoji: "🥬", baseQty: 30, unit: "g", scalable: false, role: "base" },
-            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "", emoji: "🥛", baseQty: 30, unit: "g", scalable: false, role: "fat" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", emoji: "🥛", baseQty: 30, unit: "g", scalable: false, role: "fat" },
             { id: "pain_complet", name: "Pain complet", detail: "pour accompagner", emoji: "🍞", baseQty: 40, unit: "g", scalable: true, role: "carb" }
         ],
         options: [],
@@ -2471,7 +2471,7 @@ const RECIPES_DATA = [
             { id: "poulet_grille", name: "Poulet", detail: "blanc, coupé en morceaux", emoji: "🍗", baseQty: 180, unit: "g", scalable: true, role: "protein" },
             { id: "champignon", name: "Champignons", detail: "émincés", emoji: "🍄", baseQty: 120, unit: "g", scalable: true, role: "base" },
             { id: "carotte", name: "Carottes", detail: "coupées en rondelles", emoji: "🥕", baseQty: 80, unit: "g", scalable: true, role: "base" },
-            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "", emoji: "🥛", baseQty: 30, unit: "g", scalable: false, role: "fat" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", emoji: "🥛", baseQty: 30, unit: "g", scalable: false, role: "fat" },
             { id: "moutarde", name: "Moutarde", detail: "de Dijon", emoji: "🟡", baseQty: 15, unit: "g", scalable: false, role: "base" }
         ],
         options: [],
@@ -2503,7 +2503,7 @@ const RECIPES_DATA = [
             { id: "epinards", name: "Épinards", detail: "frais ou surgelés", emoji: "🥬", baseQty: 100, unit: "g", scalable: true, role: "base" },
             { id: "tomate", name: "Tomates", detail: "concassées", emoji: "🍅", baseQty: 100, unit: "g", scalable: true, role: "base" },
             { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "base" },
-            { id: "lait_coco", name: "Lait de coco", detail: "", emoji: "🥥", baseQty: 80, unit: "ml", scalable: true, role: "base" },
+            { id: "lait_coco", name: "Lait de coco", emoji: "🥥", baseQty: 80, unit: "ml", scalable: true, role: "base" },
             { id: "pate_curry", name: "Pâte de curry", detail: "jaune de préférence", emoji: "🟠", baseQty: 10, unit: "g", scalable: false, role: "base" }
         ],
         options: [],
@@ -2536,7 +2536,7 @@ const RECIPES_DATA = [
             { id: "poireaux", name: "Poireaux", detail: "émincés en rondelles", emoji: "🥬", baseQty: 150, unit: "g", scalable: true, role: "base" },
             { id: "carotte", name: "Carottes", detail: "taillées en julienne", emoji: "🥕", baseQty: 60, unit: "g", scalable: true, role: "base" },
             { id: "citron_jus", name: "Jus de citron", detail: "fraîchement pressé", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "base" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 5, unit: "g", scalable: false, role: "fat" }
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "g", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -2569,7 +2569,7 @@ const RECIPES_DATA = [
             { id: "champignon", name: "Champignons", detail: "coupés en quartiers", emoji: "🍄", baseQty: 100, unit: "g", scalable: true, role: "base" },
             { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 60, unit: "g", scalable: false, role: "base" },
             { id: "pomme_de_terre", name: "Pommes de terre", detail: "en morceaux", emoji: "🥔", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
-            { id: "concentre_tomate", name: "Concentré de tomate", detail: "", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "base" }
+            { id: "concentre_tomate", name: "Concentré de tomate", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "base" }
         ],
         options: [],
         steps: [
@@ -2598,11 +2598,11 @@ const RECIPES_DATA = [
         tags: ["Sans gluten","Méditerranéen"],
         ingredients: [
             { id: "calamar", name: "Calamar", detail: "nettoyé, coupé en anneaux", emoji: "🦑", baseQty: 200, unit: "g", scalable: true, role: "protein" },
-            { id: "riz_basmati_cuit", name: "Riz basmati cuit", detail: "", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "riz_basmati_cuit", name: "Riz basmati cuit", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "coupé en lanières", emoji: "🌶️", baseQty: 80, unit: "g", scalable: true, role: "base" },
             { id: "tomate", name: "Tomates", detail: "coupées en dés", emoji: "🍅", baseQty: 60, unit: "g", scalable: true, role: "base" },
             { id: "citron_jus", name: "Jus de citron", detail: "fraîchement pressé", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "base" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 5, unit: "g", scalable: false, role: "fat" }
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "g", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -2629,9 +2629,9 @@ const RECIPES_DATA = [
         sliderMax: 200,
         tags: ["Végétarien","Batch cooking","Meal prep"],
         ingredients: [
-            { id: "flocons_avoine", name: "Flocons d'avoine", detail: "", emoji: "🌾", baseQty: 80, unit: "g", scalable: true, role: "carb" },
-            { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "", emoji: "🥜", baseQty: 30, unit: "g", scalable: true, role: "fat" },
-            { id: "miel", name: "Miel", detail: "", emoji: "🍯", baseQty: 20, unit: "g", scalable: false, role: "carb" },
+            { id: "flocons_avoine", name: "Flocons d'avoine", emoji: "🌾", baseQty: 80, unit: "g", scalable: true, role: "carb" },
+            { id: "beurre_cacahuete", name: "Beurre de cacahuète", emoji: "🥜", baseQty: 30, unit: "g", scalable: true, role: "fat" },
+            { id: "miel", name: "Miel", emoji: "🍯", baseQty: 20, unit: "g", scalable: false, role: "carb" },
             { id: "chocolat_noir_70", name: "Chocolat noir 70%", detail: "en pépites", emoji: "🍫", baseQty: 15, unit: "g", scalable: false, role: "fat" }
         ],
         options: [],
@@ -2661,9 +2661,9 @@ const RECIPES_DATA = [
         ingredients: [
             { id: "banane", name: "Banane", detail: "bien mûre", emoji: "🍌", baseQty: 100, unit: "g", scalable: true, role: "carb" },
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "mixés en farine", emoji: "🌾", baseQty: 60, unit: "g", scalable: true, role: "carb" },
-            { id: "oeufs", name: "Œufs", detail: "", emoji: "🥚", baseQty: 1, unit: "unité(s)", scalable: true, role: "protein" },
+            { id: "oeufs", name: "Œufs", emoji: "🥚", baseQty: 1, unit: "unité(s)", scalable: true, role: "protein" },
             { id: "noix", name: "Noix", detail: "concassées", emoji: "🥜", baseQty: 15, unit: "g", scalable: false, role: "fat" },
-            { id: "miel", name: "Miel", detail: "", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "carb" }
+            { id: "miel", name: "Miel", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "carb" }
         ],
         options: [],
         steps: [
@@ -2689,10 +2689,10 @@ const RECIPES_DATA = [
         sliderMax: 200,
         tags: ["Végétarien","Sans gluten","Sans cuisson","Express"],
         ingredients: [
-            { id: "flocons_avoine", name: "Flocons d'avoine", detail: "", emoji: "🌾", baseQty: 60, unit: "g", scalable: true, role: "carb" },
-            { id: "noix_de_coco_rapee", name: "Noix de coco râpée", detail: "", emoji: "🥥", baseQty: 20, unit: "g", scalable: true, role: "fat" },
-            { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "", emoji: "🥜", baseQty: 20, unit: "g", scalable: true, role: "fat" },
-            { id: "miel", name: "Miel", detail: "", emoji: "🍯", baseQty: 15, unit: "g", scalable: false, role: "carb" }
+            { id: "flocons_avoine", name: "Flocons d'avoine", emoji: "🌾", baseQty: 60, unit: "g", scalable: true, role: "carb" },
+            { id: "noix_de_coco_rapee", name: "Noix de coco râpée", emoji: "🥥", baseQty: 20, unit: "g", scalable: true, role: "fat" },
+            { id: "beurre_cacahuete", name: "Beurre de cacahuète", emoji: "🥜", baseQty: 20, unit: "g", scalable: true, role: "fat" },
+            { id: "miel", name: "Miel", emoji: "🍯", baseQty: 15, unit: "g", scalable: false, role: "carb" }
         ],
         options: [],
         steps: [
@@ -2720,9 +2720,9 @@ const RECIPES_DATA = [
         ingredients: [
             { id: "tortilla", name: "Tortilla", detail: "blé complet", emoji: "🌯", baseQty: 1, unit: "unité(s)", scalable: true, role: "carb" },
             { id: "thon_conserve", name: "Thon en conserve", detail: "égoutté", emoji: "🐟", baseQty: 80, unit: "g", scalable: true, role: "protein" },
-            { id: "salade_verte", name: "Salade verte", detail: "", emoji: "🥬", baseQty: 30, unit: "g", scalable: true, role: "base" },
+            { id: "salade_verte", name: "Salade verte", emoji: "🥬", baseQty: 30, unit: "g", scalable: true, role: "base" },
             { id: "tomate", name: "Tomate", detail: "en rondelles", emoji: "🍅", baseQty: 50, unit: "g", scalable: true, role: "base" },
-            { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "", emoji: "🥛", baseQty: 20, unit: "g", scalable: true, role: "protein" }
+            { id: "fromage_blanc_0", name: "Fromage blanc 0%", emoji: "🥛", baseQty: 20, unit: "g", scalable: true, role: "protein" }
         ],
         options: [],
         steps: [
@@ -2749,10 +2749,10 @@ const RECIPES_DATA = [
         tags: ["Végétarien","Batch cooking","Meal prep"],
         ingredients: [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "mixés en farine", emoji: "🌾", baseQty: 80, unit: "g", scalable: true, role: "carb" },
-            { id: "oeufs", name: "Œufs", detail: "", emoji: "🥚", baseQty: 2, unit: "unité(s)", scalable: true, role: "protein" },
+            { id: "oeufs", name: "Œufs", emoji: "🥚", baseQty: 2, unit: "unité(s)", scalable: true, role: "protein" },
             { id: "whey", name: "Whey protéine", detail: "saveur vanille ou neutre", emoji: "💪", baseQty: 20, unit: "g", scalable: false, role: "protein" },
             { id: "citron_jus", name: "Jus de citron", detail: "frais", emoji: "🍋", baseQty: 20, unit: "ml", scalable: false, role: "base" },
-            { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "", emoji: "🥛", baseQty: 60, unit: "g", scalable: true, role: "protein" }
+            { id: "fromage_blanc_0", name: "Fromage blanc 0%", emoji: "🥛", baseQty: 60, unit: "g", scalable: true, role: "protein" }
         ],
         options: [],
         steps: [
@@ -2780,9 +2780,9 @@ const RECIPES_DATA = [
         tags: ["Vegan","Sans gluten","Sans cuisson","Express"],
         ingredients: [
             { id: "amandes", name: "Amandes", detail: "entières", emoji: "🌰", baseQty: 20, unit: "g", scalable: true, role: "fat" },
-            { id: "noix", name: "Noix", detail: "", emoji: "🥜", baseQty: 15, unit: "g", scalable: true, role: "fat" },
+            { id: "noix", name: "Noix", emoji: "🥜", baseQty: 15, unit: "g", scalable: true, role: "fat" },
             { id: "chocolat_noir_70", name: "Chocolat noir 70%", detail: "en pépites", emoji: "🍫", baseQty: 15, unit: "g", scalable: true, role: "fat" },
-            { id: "noix_de_coco_rapee", name: "Noix de coco râpée", detail: "", emoji: "🥥", baseQty: 10, unit: "g", scalable: true, role: "fat" }
+            { id: "noix_de_coco_rapee", name: "Noix de coco râpée", emoji: "🥥", baseQty: 10, unit: "g", scalable: true, role: "fat" }
         ],
         options: [],
         steps: [
@@ -2807,11 +2807,11 @@ const RECIPES_DATA = [
         sliderMax: 200,
         tags: ["Végétarien","Batch cooking","Familial"],
         ingredients: [
-            { id: "oeufs", name: "Œufs", detail: "", emoji: "🥚", baseQty: 3, unit: "unité(s)", scalable: true, role: "protein" },
+            { id: "oeufs", name: "Œufs", emoji: "🥚", baseQty: 3, unit: "unité(s)", scalable: true, role: "protein" },
             { id: "courgette", name: "Courgette", detail: "râpée", emoji: "🥒", baseQty: 80, unit: "g", scalable: true, role: "base" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "en petits dés", emoji: "🌶️", baseQty: 60, unit: "g", scalable: true, role: "base" },
-            { id: "emmental", name: "Emmental râpé", detail: "", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "fat" },
-            { id: "lait", name: "Lait demi-écrémé", detail: "", emoji: "🥛", baseQty: 50, unit: "ml", scalable: true, role: "base" }
+            { id: "emmental", name: "Emmental râpé", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "fat" },
+            { id: "lait", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 50, unit: "ml", scalable: true, role: "base" }
         ],
         options: [],
         steps: [
@@ -2839,7 +2839,7 @@ const RECIPES_DATA = [
         ingredients: [
             { id: "ananas", name: "Ananas", detail: "en morceaux", emoji: "🍍", baseQty: 100, unit: "g", scalable: true, role: "carb" },
             { id: "mangue", name: "Mangue", detail: "en morceaux", emoji: "🥭", baseQty: 80, unit: "g", scalable: true, role: "carb" },
-            { id: "banane", name: "Banane", detail: "", emoji: "🍌", baseQty: 80, unit: "g", scalable: true, role: "carb" },
+            { id: "banane", name: "Banane", emoji: "🍌", baseQty: 80, unit: "g", scalable: true, role: "carb" },
             { id: "lait_amande", name: "Lait d'amande", detail: "non sucré", emoji: "🥛", baseQty: 150, unit: "ml", scalable: true, role: "base" }
         ],
         options: [],
@@ -2866,7 +2866,7 @@ const RECIPES_DATA = [
         tags: ["Végétarien","Express","Rapide","Gourmand"],
         ingredients: [
             { id: "pain_complet", name: "Pain complet", detail: "1 tranche", emoji: "🍞", baseQty: 40, unit: "g", scalable: true, role: "carb" },
-            { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "", emoji: "🥜", baseQty: 15, unit: "g", scalable: true, role: "fat" },
+            { id: "beurre_cacahuete", name: "Beurre de cacahuète", emoji: "🥜", baseQty: 15, unit: "g", scalable: true, role: "fat" },
             { id: "banane", name: "Banane", detail: "en rondelles", emoji: "🍌", baseQty: 80, unit: "g", scalable: true, role: "carb" }
         ],
         options: [],
@@ -2892,8 +2892,8 @@ const RECIPES_DATA = [
         sliderMax: 200,
         tags: ["Végétarien","Sans gluten","Express","Sans cuisson"],
         ingredients: [
-            { id: "yaourt_grec", name: "Yaourt grec", detail: "", emoji: "🥛", baseQty: 200, unit: "g", scalable: true, role: "protein" },
-            { id: "miel", name: "Miel", detail: "", emoji: "🍯", baseQty: 15, unit: "g", scalable: false, role: "carb" },
+            { id: "yaourt_grec", name: "Yaourt grec", emoji: "🥛", baseQty: 200, unit: "g", scalable: true, role: "protein" },
+            { id: "miel", name: "Miel", emoji: "🍯", baseQty: 15, unit: "g", scalable: false, role: "carb" },
             { id: "amandes", name: "Amandes", detail: "effilées ou concassées", emoji: "🌰", baseQty: 15, unit: "g", scalable: false, role: "fat" }
         ],
         options: [],
@@ -2919,9 +2919,9 @@ const RECIPES_DATA = [
         sliderMax: 200,
         tags: ["Végétarien","Sans gluten","Gourmand"],
         ingredients: [
-            { id: "galette_sarrasin", name: "Galette de sarrasin", detail: "", emoji: "🥞", baseQty: 1, unit: "unité(s)", scalable: true, role: "carb" },
+            { id: "galette_sarrasin", name: "Galette de sarrasin", emoji: "🥞", baseQty: 1, unit: "unité(s)", scalable: true, role: "carb" },
             { id: "banane", name: "Banane", detail: "en rondelles", emoji: "🍌", baseQty: 80, unit: "g", scalable: true, role: "carb" },
-            { id: "miel", name: "Miel", detail: "", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "carb" }
+            { id: "miel", name: "Miel", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "carb" }
         ],
         options: [],
         steps: [
@@ -2971,9 +2971,9 @@ const RECIPES_DATA = [
         sliderMax: 200,
         tags: ["Végétarien","Sans gluten","Sans cuisson","Express"],
         ingredients: [
-            { id: "cottage_cheese", name: "Cottage cheese", detail: "", emoji: "🧀", baseQty: 200, unit: "g", scalable: true, role: "protein" },
+            { id: "cottage_cheese", name: "Cottage cheese", emoji: "🧀", baseQty: 200, unit: "g", scalable: true, role: "protein" },
             { id: "ananas", name: "Ananas", detail: "en morceaux", emoji: "🍍", baseQty: 120, unit: "g", scalable: true, role: "carb" },
-            { id: "graines_chia", name: "Graines de chia", detail: "", emoji: "🌱", baseQty: 10, unit: "g", scalable: false, role: "fat" }
+            { id: "graines_chia", name: "Graines de chia", emoji: "🌱", baseQty: 10, unit: "g", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -3001,7 +3001,7 @@ const RECIPES_DATA = [
             { id: "pain_complet", name: "Pain complet", detail: "1 tranche", emoji: "🍞", baseQty: 40, unit: "g", scalable: true, role: "carb" },
             { id: "avocat", name: "Avocat", detail: "bien mûr", emoji: "🥑", baseQty: 60, unit: "g", scalable: true, role: "fat" },
             { id: "radis", name: "Radis", detail: "en fines rondelles", emoji: "🌶️", baseQty: 40, unit: "g", scalable: true, role: "base" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "base" }
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "base" }
         ],
         options: [],
         steps: [
@@ -3028,7 +3028,7 @@ const RECIPES_DATA = [
         ingredients: [
             { id: "farine_complete", name: "Farine complète", detail: "T150", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "carb" },
             { id: "oeufs", name: "Œufs", detail: "Entiers", emoji: "🥚", baseQty: 2, unit: "unité(s)", scalable: true, role: "protein" },
-            { id: "lait", name: "Lait demi-écrémé", detail: "", emoji: "🥛", baseQty: 120, unit: "ml", scalable: true, role: "base" },
+            { id: "lait", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 120, unit: "ml", scalable: true, role: "base" },
             { id: "ricotta", name: "Ricotta", detail: "Bien égouttée", emoji: "🧀", baseQty: 80, unit: "g", scalable: true, role: "protein" },
             { id: "fraises", name: "Fraises", detail: "Fraîches, coupées en quartiers", emoji: "🍓", baseQty: 150, unit: "g", scalable: true, role: "carb" },
             { id: "miel", name: "Miel", detail: "Un filet pour la garniture", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "carb" },
@@ -3062,7 +3062,7 @@ const RECIPES_DATA = [
         ingredients: [
             { id: "pain_complet", name: "Pain complet", detail: "3 tranches épaisses, rassis de préférence", emoji: "🍞", baseQty: 90, unit: "g", scalable: true, role: "carb" },
             { id: "oeufs", name: "Œufs", detail: "Entiers, battus", emoji: "🥚", baseQty: 2, unit: "unité(s)", scalable: true, role: "protein" },
-            { id: "lait", name: "Lait demi-écrémé", detail: "", emoji: "🥛", baseQty: 80, unit: "ml", scalable: true, role: "base" },
+            { id: "lait", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 80, unit: "ml", scalable: true, role: "base" },
             { id: "banane", name: "Banane", detail: "En rondelles épaisses", emoji: "🍌", baseQty: 100, unit: "g", scalable: true, role: "carb" },
             { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "100% cacahuètes", emoji: "🥜", baseQty: 15, unit: "g", scalable: false, role: "fat" },
             { id: "chocolat_noir_70", name: "Chocolat noir 70%", detail: "Râpé finement", emoji: "🍫", baseQty: 10, unit: "g", scalable: false, role: "fat" },
@@ -3128,7 +3128,7 @@ const RECIPES_DATA = [
         tags: ["Végétarien","Haute protéine","Réconfortant"],
         ingredients: [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Petits flocons", emoji: "🌾", baseQty: 60, unit: "g", scalable: true, role: "carb" },
-            { id: "lait", name: "Lait demi-écrémé", detail: "", emoji: "🥛", baseQty: 200, unit: "ml", scalable: true, role: "base" },
+            { id: "lait", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 200, unit: "ml", scalable: true, role: "base" },
             { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "100% cacahuètes, sans sucre", emoji: "🥜", baseQty: 15, unit: "g", scalable: false, role: "fat" },
             { id: "banane", name: "Banane", detail: "En rondelles", emoji: "🍌", baseQty: 80, unit: "g", scalable: true, role: "carb" },
             { id: "whey", name: "Whey protéine", detail: "Vanille ou neutre", emoji: "💪", baseQty: 15, unit: "g", scalable: false, role: "protein" },
@@ -3160,7 +3160,7 @@ const RECIPES_DATA = [
         sliderMax: 200,
         tags: ["Vegan","Sans gluten","Sans cuisson","Meal prep"],
         ingredients: [
-            { id: "graines_chia", name: "Graines de chia", detail: "", emoji: "🌱", baseQty: 30, unit: "g", scalable: true, role: "fat" },
+            { id: "graines_chia", name: "Graines de chia", emoji: "🌱", baseQty: 30, unit: "g", scalable: true, role: "fat" },
             { id: "lait_coco", name: "Lait de coco", detail: "Allégé de préférence", emoji: "🥥", baseQty: 180, unit: "ml", scalable: true, role: "base" },
             { id: "cacao", name: "Cacao en poudre", detail: "Non sucré", emoji: "🍫", baseQty: 10, unit: "g", scalable: false, role: "base" },
             { id: "banane", name: "Banane", detail: "En rondelles", emoji: "🍌", baseQty: 80, unit: "g", scalable: true, role: "carb" },
@@ -3229,7 +3229,7 @@ const RECIPES_DATA = [
         ingredients: [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Petits flocons", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "carb" },
             { id: "yaourt_grec", name: "Yaourt grec", detail: "Nature", emoji: "🥛", baseQty: 100, unit: "g", scalable: true, role: "protein" },
-            { id: "lait", name: "Lait demi-écrémé", detail: "", emoji: "🥛", baseQty: 80, unit: "ml", scalable: true, role: "base" },
+            { id: "lait", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 80, unit: "ml", scalable: true, role: "base" },
             { id: "pomme", name: "Pomme", detail: "Râpée finement ou en petits dés", emoji: "🍎", baseQty: 120, unit: "g", scalable: true, role: "carb" },
             { id: "amandes", name: "Amandes", detail: "Effilées", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "fat" },
             { id: "miel", name: "Miel", detail: "Un filet", emoji: "🍯", baseQty: 8, unit: "g", scalable: false, role: "carb" }
@@ -3360,7 +3360,7 @@ const RECIPES_DATA = [
         ingredients: [
             { id: "pain_mie", name: "Pain de mie complet", detail: "3 tranches épaisses", emoji: "🍞", baseQty: 3, unit: "unité(s)", scalable: true, role: "carb" },
             { id: "oeufs", name: "Œufs", detail: "Battus en omelette", emoji: "🥚", baseQty: 2, unit: "unité(s)", scalable: true, role: "protein" },
-            { id: "lait", name: "Lait demi-écrémé", detail: "", emoji: "🥛", baseQty: 60, unit: "ml", scalable: true, role: "base" },
+            { id: "lait", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 60, unit: "ml", scalable: true, role: "base" },
             { id: "cacao", name: "Cacao en poudre", detail: "Non sucré", emoji: "🍫", baseQty: 8, unit: "g", scalable: false, role: "base" },
             { id: "fruits_rouges", name: "Fruits rouges", detail: "Frais ou surgelés décongelés", emoji: "🍓", baseQty: 120, unit: "g", scalable: true, role: "carb" },
             { id: "fromage_blanc", name: "Fromage blanc 0%", detail: "En topping type chantilly", emoji: "🥛", baseQty: 80, unit: "g", scalable: true, role: "protein" },
@@ -3396,7 +3396,7 @@ const RECIPES_DATA = [
             { id: "mangue", name: "Mangue", detail: "En morceaux", emoji: "🥭", baseQty: 100, unit: "g", scalable: true, role: "carb" },
             { id: "banane", name: "Banane", detail: "Bien mûre", emoji: "🍌", baseQty: 80, unit: "g", scalable: true, role: "carb" },
             { id: "sirop_erable", name: "Sirop d'érable", detail: "Un trait", emoji: "🍁", baseQty: 10, unit: "g", scalable: false, role: "carb" },
-            { id: "graines_chia", name: "Graines de chia", detail: "", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "fat" },
+            { id: "graines_chia", name: "Graines de chia", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "fat" },
             { id: "noix_coco_rapee", name: "Noix de coco râpée", detail: "Non sucrée", emoji: "🥥", baseQty: 5, unit: "g", scalable: false, role: "fat" },
             { id: "amandes", name: "Amandes", detail: "Effilées", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "fat" }
         ],
@@ -3460,7 +3460,7 @@ const RECIPES_DATA = [
         tags: ["Végétarien","Haute protéine","Prise de masse"],
         ingredients: [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Petits flocons", emoji: "🌾", baseQty: 70, unit: "g", scalable: true, role: "carb" },
-            { id: "lait", name: "Lait demi-écrémé", detail: "", emoji: "🥛", baseQty: 200, unit: "ml", scalable: true, role: "base" },
+            { id: "lait", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 200, unit: "ml", scalable: true, role: "base" },
             { id: "whey", name: "Whey protéine", detail: "Vanille ou fraise", emoji: "💪", baseQty: 30, unit: "g", scalable: false, role: "protein" },
             { id: "blanc_oeuf", name: "Blancs d'œufs", detail: "Ajoutés à la cuisson", emoji: "🥚", baseQty: 3, unit: "unité(s)", scalable: true, role: "protein" },
             { id: "fraises", name: "Fraises", detail: "Fraîches, coupées", emoji: "🍓", baseQty: 120, unit: "g", scalable: true, role: "carb" },
@@ -4312,7 +4312,7 @@ const RECIPES_DATA = [
             { id: "courgette", name: "Courgettes", detail: "En gros morceaux", emoji: "🥒", baseQty: 80, unit: "g", scalable: true, role: "base" },
             { id: "pois_chiches_cuits", name: "Pois chiches", detail: "Cuits, égouttés", emoji: "🫘", baseQty: 60, unit: "g", scalable: true, role: "carb" },
             { id: "oignon", name: "Oignon", detail: "En quartiers", emoji: "🧅", baseQty: 50, unit: "g", scalable: false, role: "base" },
-            { id: "concentre_tomate", name: "Concentré de tomate", detail: "", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "base" },
+            { id: "concentre_tomate", name: "Concentré de tomate", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "base" },
             { id: "harissa", name: "Harissa", detail: "À part pour doser", emoji: "🌶️", baseQty: 5, unit: "g", scalable: false, role: "base" }
         ],
         options: [],
@@ -4588,7 +4588,7 @@ const RECIPES_DATA = [
             { id: "poivron_rouge", name: "Poivron rouge", detail: "En lanières", emoji: "🌶️", baseQty: 60, unit: "g", scalable: true, role: "base" },
             { id: "petits_pois", name: "Petits pois", detail: "Surgelés", emoji: "🫛", baseQty: 40, unit: "g", scalable: true, role: "base" },
             { id: "oignon", name: "Oignon", detail: "Haché", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "base" },
-            { id: "concentre_tomate", name: "Concentré de tomate", detail: "", emoji: "🍅", baseQty: 10, unit: "g", scalable: false, role: "base" },
+            { id: "concentre_tomate", name: "Concentré de tomate", emoji: "🍅", baseQty: 10, unit: "g", scalable: false, role: "base" },
             { id: "citron_jus", name: "Citron", detail: "En quartiers pour servir", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "base" }
         ],
         options: [],
@@ -4623,7 +4623,7 @@ const RECIPES_DATA = [
             { id: "oignon", name: "Oignon", detail: "Haché finement", emoji: "🧅", baseQty: 50, unit: "g", scalable: false, role: "base" },
             { id: "carotte", name: "Carotte", detail: "Râpée finement", emoji: "🥕", baseQty: 50, unit: "g", scalable: true, role: "base" },
             { id: "champignon", name: "Champignons", detail: "Hachés grossièrement", emoji: "🍄", baseQty: 60, unit: "g", scalable: true, role: "base" },
-            { id: "concentre_tomate", name: "Concentré de tomate", detail: "", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "base" }
+            { id: "concentre_tomate", name: "Concentré de tomate", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "base" }
         ],
         options: [],
         steps: [
@@ -4689,7 +4689,7 @@ const RECIPES_DATA = [
             { id: "courgette", name: "Courgettes", detail: "En morceaux", emoji: "🥒", baseQty: 80, unit: "g", scalable: true, role: "base" },
             { id: "oignon", name: "Oignon", detail: "En quartiers", emoji: "🧅", baseQty: 50, unit: "g", scalable: false, role: "base" },
             { id: "pois_chiches_cuits", name: "Pois chiches", detail: "Cuits, égouttés", emoji: "🫘", baseQty: 60, unit: "g", scalable: true, role: "carb" },
-            { id: "concentre_tomate", name: "Concentré de tomate", detail: "", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "base" },
+            { id: "concentre_tomate", name: "Concentré de tomate", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "base" },
             { id: "couscous_cuit", name: "Semoule de couscous", detail: "Complète", emoji: "🌾", baseQty: 150, unit: "g", scalable: true, role: "carb" },
             { id: "harissa", name: "Harissa", detail: "À part", emoji: "🌶️", baseQty: 5, unit: "g", scalable: false, role: "base" }
         ],
@@ -4958,7 +4958,7 @@ const RECIPES_DATA = [
         ingredients: [
             { id: "tofu", name: "Tofu ferme", detail: "En cubes, bien pressé", emoji: "🌱", baseQty: 150, unit: "g", scalable: true, role: "protein" },
             { id: "lait_coco", name: "Lait de coco", detail: "Allégé", emoji: "🥥", baseQty: 120, unit: "ml", scalable: true, role: "base" },
-            { id: "pate_curry", name: "Pâte de curry vert", detail: "", emoji: "🌶️", baseQty: 15, unit: "g", scalable: false, role: "base" },
+            { id: "pate_curry", name: "Pâte de curry vert", emoji: "🌶️", baseQty: 15, unit: "g", scalable: false, role: "base" },
             { id: "brocoli", name: "Brocoli", detail: "En bouquets", emoji: "🥦", baseQty: 80, unit: "g", scalable: true, role: "base" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "En lanières", emoji: "🌶️", baseQty: 60, unit: "g", scalable: true, role: "base" },
             { id: "haricots_verts", name: "Haricots verts", detail: "Coupés en tronçons", emoji: "🫛", baseQty: 50, unit: "g", scalable: true, role: "base" },
@@ -5434,7 +5434,7 @@ const RECIPES_DATA = [
             { id: "mais_conserve", name: "Maïs", detail: "Égoutté", emoji: "🌽", baseQty: 60, unit: "g", scalable: true, role: "carb" },
             { id: "oignon", name: "Oignon", detail: "Haché", emoji: "🧅", baseQty: 50, unit: "g", scalable: false, role: "base" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "En dés", emoji: "🌶️", baseQty: 80, unit: "g", scalable: true, role: "base" },
-            { id: "concentre_tomate", name: "Concentré de tomate", detail: "", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "base" },
+            { id: "concentre_tomate", name: "Concentré de tomate", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "base" },
             { id: "riz_basmati_cuit", name: "Riz", detail: "Cuit, en accompagnement", emoji: "🍚", baseQty: 120, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 }
         ],
         options: [],
@@ -5634,10 +5634,10 @@ const RECIPES_DATA = [
         tags: ["Sans cuisson","Express","Végétarien","Sans gluten","Haute protéine"],
         ingredients: [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "mixés fin", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "base" },
-            { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "", emoji: "🥜", baseQty: 25, unit: "g", scalable: true, role: "liant" },
+            { id: "beurre_cacahuete", name: "Beurre de cacahuète", emoji: "🥜", baseQty: 25, unit: "g", scalable: true, role: "liant" },
             { id: "whey_protein", name: "Whey protéine", detail: "vanille ou nature", emoji: "💪", baseQty: 15, unit: "g", scalable: true, role: "protéine" },
-            { id: "miel", name: "Miel", detail: "", emoji: "🍯", baseQty: 10, unit: "g", scalable: true, role: "sucrant" },
-            { id: "noix_coco_rapee", name: "Noix de coco râpée", detail: "", emoji: "🥥", baseQty: 15, unit: "g", scalable: true, role: "enrobage" },
+            { id: "miel", name: "Miel", emoji: "🍯", baseQty: 10, unit: "g", scalable: true, role: "sucrant" },
+            { id: "noix_coco_rapee", name: "Noix de coco râpée", emoji: "🥥", baseQty: 15, unit: "g", scalable: true, role: "enrobage" },
             { id: "lait_amande", name: "Lait d'amande", detail: "non sucré", emoji: "🥛", baseQty: 20, unit: "ml", scalable: true, role: "liant" }
         ],
         options: [],
@@ -5671,9 +5671,9 @@ const RECIPES_DATA = [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "mixés en farine", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "base" },
             { id: "whey_protein", name: "Whey protéine", detail: "vanille", emoji: "💪", baseQty: 20, unit: "g", scalable: true, role: "protéine" },
             { id: "oeuf", name: "Œuf", detail: "entier", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "liant" },
-            { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "", emoji: "🥛", baseQty: 60, unit: "g", scalable: true, role: "moelleux" },
+            { id: "fromage_blanc_0", name: "Fromage blanc 0%", emoji: "🥛", baseQty: 60, unit: "g", scalable: true, role: "moelleux" },
             { id: "myrtilles", name: "Myrtilles", detail: "fraîches ou surgelées", emoji: "🫐", baseQty: 50, unit: "g", scalable: true, role: "fruit" },
-            { id: "miel", name: "Miel", detail: "", emoji: "🍯", baseQty: 10, unit: "g", scalable: true, role: "sucrant" },
+            { id: "miel", name: "Miel", emoji: "🍯", baseQty: 10, unit: "g", scalable: true, role: "sucrant" },
             { id: "citron_jus", name: "Jus de citron", detail: "frais", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "arôme" }
         ],
         options: [],
@@ -5706,8 +5706,8 @@ const RECIPES_DATA = [
         sliderMax: 200,
         tags: ["Végétarien","Haute protéine"],
         ingredients: [
-            { id: "flocons_avoine", name: "Flocons d'avoine", detail: "", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "base" },
-            { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "", emoji: "🥜", baseQty: 20, unit: "g", scalable: true, role: "liant" },
+            { id: "flocons_avoine", name: "Flocons d'avoine", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "base" },
+            { id: "beurre_cacahuete", name: "Beurre de cacahuète", emoji: "🥜", baseQty: 20, unit: "g", scalable: true, role: "liant" },
             { id: "whey_protein", name: "Whey protéine", detail: "chocolat ou vanille", emoji: "💪", baseQty: 15, unit: "g", scalable: true, role: "protéine" },
             { id: "oeuf", name: "Œuf", detail: "entier", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "liant" },
             { id: "chocolat_noir_70", name: "Chocolat noir 70%", detail: "concassé", emoji: "🍫", baseQty: 15, unit: "g", scalable: true, role: "garniture" },
@@ -5747,7 +5747,7 @@ const RECIPES_DATA = [
             { id: "concombre", name: "Concombre", detail: "en bâtonnets", emoji: "🥒", baseQty: 40, unit: "g", scalable: true, role: "crudité" },
             { id: "carotte", name: "Carotte", detail: "râpée", emoji: "🥕", baseQty: 30, unit: "g", scalable: true, role: "crudité" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "en fines lamelles", emoji: "🌶️", baseQty: 30, unit: "g", scalable: true, role: "crudité" },
-            { id: "salade_verte", name: "Jeunes pousses", detail: "", emoji: "🥬", baseQty: 15, unit: "g", scalable: true, role: "verdure" }
+            { id: "salade_verte", name: "Jeunes pousses", emoji: "🥬", baseQty: 15, unit: "g", scalable: true, role: "verdure" }
         ],
         options: [],
         steps: [
@@ -5781,7 +5781,7 @@ const RECIPES_DATA = [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "mixés en farine", emoji: "🌾", baseQty: 60, unit: "g", scalable: true, role: "farine" },
             { id: "whey_protein", name: "Whey protéine", detail: "vanille", emoji: "💪", baseQty: 25, unit: "g", scalable: true, role: "protéine" },
             { id: "oeuf", name: "Œuf", detail: "entier", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "liant" },
-            { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "", emoji: "🥛", baseQty: 50, unit: "g", scalable: true, role: "moelleux" },
+            { id: "fromage_blanc_0", name: "Fromage blanc 0%", emoji: "🥛", baseQty: 50, unit: "g", scalable: true, role: "moelleux" },
             { id: "noix", name: "Noix", detail: "concassées", emoji: "🌰", baseQty: 15, unit: "g", scalable: true, role: "croquant" },
             { id: "chocolat_noir_70", name: "Pépites de chocolat noir", detail: "70%", emoji: "🍫", baseQty: 10, unit: "g", scalable: true, role: "garniture" }
         ],
@@ -5818,7 +5818,7 @@ const RECIPES_DATA = [
             { id: "riz_basmati_cuit", name: "Riz à sushi", detail: "cuit et légèrement vinaigré", emoji: "🍚", baseQty: 120, unit: "g", scalable: true, role: "base", rawRatio: 2.25 },
             { id: "thon_conserve", name: "Thon en conserve", detail: "égoutté", emoji: "🐟", baseQty: 40, unit: "g", scalable: true, role: "protéine" },
             { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "remplace la mayo", emoji: "🥛", baseQty: 15, unit: "g", scalable: true, role: "liant" },
-            { id: "sauce_soja", name: "Sauce soja", detail: "", emoji: "🫘", baseQty: 5, unit: "ml", scalable: false, role: "assaisonnement" },
+            { id: "sauce_soja", name: "Sauce soja", emoji: "🫘", baseQty: 5, unit: "ml", scalable: false, role: "assaisonnement" },
             { id: "concombre", name: "Concombre", detail: "coupé en dés fins", emoji: "🥒", baseQty: 20, unit: "g", scalable: true, role: "garniture" },
             { id: "graines_lin", name: "Graines de sésame", detail: "pour l'extérieur", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "décoration" }
         ],
@@ -5851,13 +5851,13 @@ const RECIPES_DATA = [
         sliderMax: 200,
         tags: ["Végétarien","Batch cooking","Haute protéine"],
         ingredients: [
-            { id: "flocons_avoine", name: "Flocons d'avoine", detail: "", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "base" },
+            { id: "flocons_avoine", name: "Flocons d'avoine", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "base" },
             { id: "amandes", name: "Amandes", detail: "concassées", emoji: "🌰", baseQty: 15, unit: "g", scalable: true, role: "croquant" },
             { id: "whey_protein", name: "Whey protéine", detail: "chocolat", emoji: "💪", baseQty: 15, unit: "g", scalable: true, role: "protéine" },
-            { id: "miel", name: "Miel", detail: "", emoji: "🍯", baseQty: 15, unit: "g", scalable: true, role: "liant" },
-            { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "", emoji: "🥜", baseQty: 15, unit: "g", scalable: true, role: "liant" },
+            { id: "miel", name: "Miel", emoji: "🍯", baseQty: 15, unit: "g", scalable: true, role: "liant" },
+            { id: "beurre_cacahuete", name: "Beurre de cacahuète", emoji: "🥜", baseQty: 15, unit: "g", scalable: true, role: "liant" },
             { id: "chocolat_noir_70", name: "Chocolat noir 70%", detail: "fondu", emoji: "🍫", baseQty: 15, unit: "g", scalable: true, role: "enrobage" },
-            { id: "graines_chia", name: "Graines de chia", detail: "", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "nutrition" }
+            { id: "graines_chia", name: "Graines de chia", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "nutrition" }
         ],
         options: [],
         steps: [
@@ -5891,9 +5891,9 @@ const RECIPES_DATA = [
         ingredients: [
             { id: "pois_chiches_cuits", name: "Pois chiches", detail: "égouttés", emoji: "🫘", baseQty: 100, unit: "g", scalable: true, role: "base" },
             { id: "oignon", name: "Oignon", detail: "haché fin", emoji: "🧅", baseQty: 20, unit: "g", scalable: true, role: "arôme" },
-            { id: "farine_complete", name: "Farine complète", detail: "", emoji: "🌾", baseQty: 10, unit: "g", scalable: true, role: "liant" },
+            { id: "farine_complete", name: "Farine complète", emoji: "🌾", baseQty: 10, unit: "g", scalable: true, role: "liant" },
             { id: "citron_jus", name: "Jus de citron", detail: "frais", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "fraîcheur" },
-            { id: "sauce_tahini", name: "Tahini", detail: "", emoji: "🥄", baseQty: 10, unit: "g", scalable: true, role: "onctuosité" },
+            { id: "sauce_tahini", name: "Tahini", emoji: "🥄", baseQty: 10, unit: "g", scalable: true, role: "onctuosité" },
             { id: "huile_olive", name: "Huile d'olive", detail: "pour badigeonner", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "cuisson" }
         ],
         options: [],
@@ -5926,12 +5926,12 @@ const RECIPES_DATA = [
         sliderMax: 150,
         tags: ["Vegan","Sans cuisson","Sans gluten"],
         ingredients: [
-            { id: "noix", name: "Noix", detail: "", emoji: "🌰", baseQty: 25, unit: "g", scalable: true, role: "base" },
-            { id: "amandes", name: "Amandes", detail: "", emoji: "🌰", baseQty: 20, unit: "g", scalable: true, role: "base" },
+            { id: "noix", name: "Noix", emoji: "🌰", baseQty: 25, unit: "g", scalable: true, role: "base" },
+            { id: "amandes", name: "Amandes", emoji: "🌰", baseQty: 20, unit: "g", scalable: true, role: "base" },
             { id: "cacao_poudre", name: "Cacao en poudre", detail: "non sucré", emoji: "🍫", baseQty: 8, unit: "g", scalable: true, role: "arôme" },
-            { id: "noix_coco_rapee", name: "Noix de coco râpée", detail: "", emoji: "🥥", baseQty: 10, unit: "g", scalable: true, role: "texture" },
-            { id: "sirop_erable", name: "Sirop d'érable", detail: "", emoji: "🍁", baseQty: 10, unit: "ml", scalable: true, role: "liant" },
-            { id: "graines_chia", name: "Graines de chia", detail: "", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "nutrition" }
+            { id: "noix_coco_rapee", name: "Noix de coco râpée", emoji: "🥥", baseQty: 10, unit: "g", scalable: true, role: "texture" },
+            { id: "sirop_erable", name: "Sirop d'érable", emoji: "🍁", baseQty: 10, unit: "ml", scalable: true, role: "liant" },
+            { id: "graines_chia", name: "Graines de chia", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "nutrition" }
         ],
         options: [],
         steps: [
@@ -5964,7 +5964,7 @@ const RECIPES_DATA = [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "mixés en farine", emoji: "🌾", baseQty: 60, unit: "g", scalable: true, role: "base" },
             { id: "fromage_rape", name: "Fromage râpé", detail: "emmental ou comté", emoji: "🧀", baseQty: 20, unit: "g", scalable: true, role: "goût" },
             { id: "oeuf", name: "Œuf", detail: "entier", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "liant" },
-            { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "", emoji: "🥛", baseQty: 40, unit: "g", scalable: true, role: "moelleux" },
+            { id: "fromage_blanc_0", name: "Fromage blanc 0%", emoji: "🥛", baseQty: 40, unit: "g", scalable: true, role: "moelleux" },
             { id: "epinards", name: "Épinards", detail: "frais, ciselés", emoji: "🥬", baseQty: 20, unit: "g", scalable: true, role: "légume" },
             { id: "tomate", name: "Tomates séchées", detail: "hachées", emoji: "🍅", baseQty: 10, unit: "g", scalable: true, role: "garniture" }
         ],
@@ -5998,10 +5998,10 @@ const RECIPES_DATA = [
         sliderMax: 200,
         tags: ["Végétarien","Sans gluten","Haute protéine"],
         ingredients: [
-            { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "", emoji: "🥛", baseQty: 120, unit: "g", scalable: true, role: "base" },
-            { id: "lait_demi", name: "Lait demi-écrémé", detail: "", emoji: "🥛", baseQty: 50, unit: "ml", scalable: true, role: "texture" },
+            { id: "fromage_blanc_0", name: "Fromage blanc 0%", emoji: "🥛", baseQty: 120, unit: "g", scalable: true, role: "base" },
+            { id: "lait_demi", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 50, unit: "ml", scalable: true, role: "texture" },
             { id: "fruits_rouges", name: "Fruits rouges", detail: "mélangés (frais ou surgelés)", emoji: "🍓", baseQty: 60, unit: "g", scalable: true, role: "coulis" },
-            { id: "miel", name: "Miel", detail: "", emoji: "🍯", baseQty: 10, unit: "g", scalable: true, role: "sucrant" },
+            { id: "miel", name: "Miel", emoji: "🍯", baseQty: 10, unit: "g", scalable: true, role: "sucrant" },
             { id: "whey_protein", name: "Whey protéine", detail: "vanille", emoji: "💪", baseQty: 15, unit: "g", scalable: true, role: "protéine" }
         ],
         options: [],
@@ -6035,10 +6035,10 @@ const RECIPES_DATA = [
             { id: "acai_puree", name: "Purée d'açaï", detail: "surgelée", emoji: "🫐", baseQty: 100, unit: "g", scalable: true, role: "base" },
             { id: "banane", name: "Banane", detail: "surgelée en rondelles", emoji: "🍌", baseQty: 60, unit: "g", scalable: true, role: "texture" },
             { id: "lait_amande", name: "Lait d'amande", detail: "non sucré", emoji: "🥛", baseQty: 40, unit: "ml", scalable: true, role: "liquide" },
-            { id: "granola", name: "Granola", detail: "", emoji: "🥣", baseQty: 20, unit: "g", scalable: true, role: "topping" },
+            { id: "granola", name: "Granola", emoji: "🥣", baseQty: 20, unit: "g", scalable: true, role: "topping" },
             { id: "myrtilles", name: "Myrtilles", detail: "fraîches", emoji: "🫐", baseQty: 25, unit: "g", scalable: true, role: "topping" },
-            { id: "noix_coco_rapee", name: "Noix de coco râpée", detail: "", emoji: "🥥", baseQty: 5, unit: "g", scalable: false, role: "topping" },
-            { id: "graines_chia", name: "Graines de chia", detail: "", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "topping" }
+            { id: "noix_coco_rapee", name: "Noix de coco râpée", emoji: "🥥", baseQty: 5, unit: "g", scalable: false, role: "topping" },
+            { id: "graines_chia", name: "Graines de chia", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "topping" }
         ],
         options: [],
         steps: [
@@ -6071,7 +6071,7 @@ const RECIPES_DATA = [
             { id: "tofu", name: "Tofu soyeux", detail: "ferme", emoji: "🧊", baseQty: 100, unit: "g", scalable: true, role: "base" },
             { id: "chocolat_noir_70", name: "Chocolat noir 70%", detail: "fondu", emoji: "🍫", baseQty: 25, unit: "g", scalable: true, role: "arôme" },
             { id: "cacao_poudre", name: "Cacao en poudre", detail: "non sucré", emoji: "🍫", baseQty: 5, unit: "g", scalable: true, role: "arôme" },
-            { id: "sirop_erable", name: "Sirop d'érable", detail: "", emoji: "🍁", baseQty: 10, unit: "ml", scalable: true, role: "sucrant" },
+            { id: "sirop_erable", name: "Sirop d'érable", emoji: "🍁", baseQty: 10, unit: "ml", scalable: true, role: "sucrant" },
             { id: "banane", name: "Banane", detail: "mûre", emoji: "🍌", baseQty: 30, unit: "g", scalable: true, role: "sucrant" }
         ],
         options: [],
@@ -6104,7 +6104,7 @@ const RECIPES_DATA = [
         tags: ["Végétarien","Haute protéine"],
         ingredients: [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "petits", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "base" },
-            { id: "lait_demi", name: "Lait demi-écrémé", detail: "", emoji: "🥛", baseQty: 120, unit: "ml", scalable: true, role: "liquide" },
+            { id: "lait_demi", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 120, unit: "ml", scalable: true, role: "liquide" },
             { id: "whey_protein", name: "Whey protéine", detail: "chocolat", emoji: "💪", baseQty: 15, unit: "g", scalable: true, role: "protéine" },
             { id: "pomme", name: "Poire", detail: "en dés", emoji: "🍐", baseQty: 60, unit: "g", scalable: true, role: "fruit" },
             { id: "amandes", name: "Noisettes", detail: "concassées", emoji: "🌰", baseQty: 10, unit: "g", scalable: true, role: "croquant" },
@@ -6139,9 +6139,9 @@ const RECIPES_DATA = [
         tags: ["Végétarien","Sans gluten"],
         ingredients: [
             { id: "riz_basmati_cuit", name: "Riz rond", detail: "cru", emoji: "🍚", baseQty: 40, unit: "g", scalable: true, role: "base", rawRatio: 2.25 },
-            { id: "lait_demi", name: "Lait demi-écrémé", detail: "", emoji: "🥛", baseQty: 200, unit: "ml", scalable: true, role: "liquide" },
+            { id: "lait_demi", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 200, unit: "ml", scalable: true, role: "liquide" },
             { id: "whey_protein", name: "Whey protéine", detail: "vanille", emoji: "💪", baseQty: 15, unit: "g", scalable: true, role: "protéine" },
-            { id: "miel", name: "Miel", detail: "", emoji: "🍯", baseQty: 10, unit: "g", scalable: true, role: "sucrant" },
+            { id: "miel", name: "Miel", emoji: "🍯", baseQty: 10, unit: "g", scalable: true, role: "sucrant" },
             { id: "citron_jus", name: "Zeste de citron", detail: "bio", emoji: "🍋", baseQty: 3, unit: "g", scalable: false, role: "arôme" }
         ],
         options: [],
@@ -6173,9 +6173,9 @@ const RECIPES_DATA = [
         tags: ["Végétarien"],
         ingredients: [
             { id: "pomme", name: "Pomme", detail: "type Golden, en dés", emoji: "🍎", baseQty: 100, unit: "g", scalable: true, role: "fruit" },
-            { id: "flocons_avoine", name: "Flocons d'avoine", detail: "", emoji: "🌾", baseQty: 30, unit: "g", scalable: true, role: "crumble" },
+            { id: "flocons_avoine", name: "Flocons d'avoine", emoji: "🌾", baseQty: 30, unit: "g", scalable: true, role: "crumble" },
             { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "ou beurre d'amande", emoji: "🥜", baseQty: 10, unit: "g", scalable: true, role: "liant" },
-            { id: "miel", name: "Miel", detail: "", emoji: "🍯", baseQty: 8, unit: "g", scalable: true, role: "sucrant" },
+            { id: "miel", name: "Miel", emoji: "🍯", baseQty: 8, unit: "g", scalable: true, role: "sucrant" },
             { id: "amandes", name: "Amandes", detail: "effilées", emoji: "🌰", baseQty: 8, unit: "g", scalable: true, role: "croquant" },
             { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "pour servir", emoji: "🥛", baseQty: 40, unit: "g", scalable: true, role: "accompagnement" }
         ],
@@ -6243,7 +6243,7 @@ const RECIPES_DATA = [
         tags: ["Végétarien","Express","Haute protéine"],
         ingredients: [
             { id: "pain_complet", name: "Pain complet", detail: "1 tranche épaisse", emoji: "🍞", baseQty: 1, unit: "tranche", scalable: true, role: "base" },
-            { id: "cottage_cheese", name: "Cottage cheese", detail: "", emoji: "🧀", baseQty: 60, unit: "g", scalable: true, role: "protéine" },
+            { id: "cottage_cheese", name: "Cottage cheese", emoji: "🧀", baseQty: 60, unit: "g", scalable: true, role: "protéine" },
             { id: "tomate", name: "Tomate", detail: "en rondelles", emoji: "🍅", baseQty: 50, unit: "g", scalable: true, role: "garniture" },
             { id: "huile_olive", name: "Huile d'olive", detail: "un filet", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "assaisonnement" },
             { id: "vinaigre_balsamique", name: "Vinaigre balsamique", detail: "un filet", emoji: "🫗", baseQty: 3, unit: "ml", scalable: false, role: "assaisonnement" }
@@ -6278,9 +6278,9 @@ const RECIPES_DATA = [
             { id: "skyr_0", name: "Skyr 0%", detail: "nature", emoji: "🥛", baseQty: 120, unit: "g", scalable: true, role: "base" },
             { id: "mangue", name: "Mangue", detail: "fraîche, en dés", emoji: "🥭", baseQty: 50, unit: "g", scalable: true, role: "fruit" },
             { id: "ananas", name: "Ananas", detail: "frais, en morceaux", emoji: "🍍", baseQty: 40, unit: "g", scalable: true, role: "fruit" },
-            { id: "granola", name: "Granola", detail: "", emoji: "🥣", baseQty: 20, unit: "g", scalable: true, role: "croquant" },
-            { id: "noix_coco_rapee", name: "Noix de coco râpée", detail: "", emoji: "🥥", baseQty: 5, unit: "g", scalable: false, role: "topping" },
-            { id: "miel", name: "Miel", detail: "", emoji: "🍯", baseQty: 5, unit: "g", scalable: true, role: "sucrant" }
+            { id: "granola", name: "Granola", emoji: "🥣", baseQty: 20, unit: "g", scalable: true, role: "croquant" },
+            { id: "noix_coco_rapee", name: "Noix de coco râpée", emoji: "🥥", baseQty: 5, unit: "g", scalable: false, role: "topping" },
+            { id: "miel", name: "Miel", emoji: "🍯", baseQty: 5, unit: "g", scalable: true, role: "sucrant" }
         ],
         options: [],
         steps: [
@@ -6386,10 +6386,10 @@ const RECIPES_DATA = [
             { id: "lentilles_cuites", name: "Lentilles corail", detail: "sèches", emoji: "🫘", baseQty: 60, unit: "g", scalable: true, role: "base", rawRatio: 2 },
             { id: "carotte", name: "Carotte", detail: "en rondelles", emoji: "🥕", baseQty: 50, unit: "g", scalable: true, role: "légume" },
             { id: "oignon", name: "Oignon", detail: "haché", emoji: "🧅", baseQty: 30, unit: "g", scalable: true, role: "arôme" },
-            { id: "lait_coco", name: "Lait de coco", detail: "", emoji: "🥥", baseQty: 30, unit: "ml", scalable: true, role: "onctuosité" },
+            { id: "lait_coco", name: "Lait de coco", emoji: "🥥", baseQty: 30, unit: "ml", scalable: true, role: "onctuosité" },
             { id: "tomate", name: "Tomate", detail: "concassée", emoji: "🍅", baseQty: 50, unit: "g", scalable: true, role: "base" },
             { id: "citron_jus", name: "Jus de citron", detail: "frais", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "fraîcheur" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "cuisson" }
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "cuisson" }
         ],
         options: [],
         steps: [
@@ -6425,7 +6425,7 @@ const RECIPES_DATA = [
             { id: "fromage_rape", name: "Fromage râpé", detail: "emmental", emoji: "🧀", baseQty: 10, unit: "g", scalable: true, role: "goût" },
             { id: "oignon", name: "Échalote", detail: "émincée", emoji: "🧅", baseQty: 15, unit: "g", scalable: true, role: "arôme" },
             { id: "salade_verte", name: "Salade verte", detail: "en accompagnement", emoji: "🥬", baseQty: 30, unit: "g", scalable: true, role: "accompagnement" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "cuisson" }
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "cuisson" }
         ],
         options: [],
         steps: [
@@ -6442,8 +6442,8 @@ const RECIPES_DATA = [
             { type: "green", title: "💡 Champignons", text: "Ne pas laver les champignons sous l'eau courante, les essuyer avec un papier humide pour garder leur texture." },
             { type: "red", title: "⚠️ Cuisson", text: "Ne pas trop cuire l'omelette : elle doit rester légèrement baveuse au centre pour être moelleuse." }
         ]
-    }
-,
+    },
+
     {
         id: "waffles-proteinees-vanille",
         name: "Gaufres protéinées vanille",
@@ -6454,7 +6454,7 @@ const RECIPES_DATA = [
         time: 25,
         sliderMin: 40,
         sliderMax: 200,
-        tags: ["Végétarien", "Protéiné", "Petit-déjeuner"],
+        tags: ["Végétarien","Protéiné","Petit-déjeuner"],
         ingredients: [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Mixés en farine", emoji: "🌾", baseQty: 60, unit: "g", scalable: true, role: "carb" },
             { id: "whey_protein", name: "Whey vanille", detail: "Poudre", emoji: "🥛", baseQty: 30, unit: "g", scalable: true, role: "protein" },
@@ -6479,6 +6479,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention cuisson", text: "Ne surchargez pas le gaufrier de pâte, les gaufres protéinées gonflent davantage que les classiques." }
         ]
     },
+
     {
         id: "smoothie-bowl-betterave-framboise",
         name: "Smoothie bowl betterave-framboise",
@@ -6489,7 +6490,7 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 40,
         sliderMax: 200,
-        tags: ["Vegan", "Sans gluten", "Petit-déjeuner"],
+        tags: ["Vegan","Sans gluten","Petit-déjeuner"],
         ingredients: [
             { id: "betterave_cuite", name: "Betterave cuite", detail: "Coupée en morceaux", emoji: "🟣", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "fruits_rouges", name: "Framboises", detail: "Surgelées", emoji: "🍓", baseQty: 100, unit: "g", scalable: true, role: "base" },
@@ -6513,6 +6514,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention texture", text: "Ne rajoutez pas trop de lait d'un coup, le bowl doit rester épais pour tenir les toppings." }
         ]
     },
+
     {
         id: "porridge-carrot-cake",
         name: "Porridge carrot cake",
@@ -6523,7 +6525,7 @@ const RECIPES_DATA = [
         time: 15,
         sliderMin: 40,
         sliderMax: 200,
-        tags: ["Végétarien", "Petit-déjeuner", "Réconfortant"],
+        tags: ["Végétarien","Petit-déjeuner","Réconfortant"],
         ingredients: [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Petits flocons", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "carb" },
             { id: "lait_demi", name: "Lait demi-écrémé", detail: "Liquide", emoji: "🥛", baseQty: 150, unit: "ml", scalable: true, role: "base" },
@@ -6548,6 +6550,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention à l'œuf", text: "L'œuf doit être incorporé hors du feu pour éviter qu'il ne cuise en morceaux. Fouettez énergiquement." }
         ]
     },
+
     {
         id: "crepes-avoine-compote",
         name: "Crêpes d'avoine à la compote",
@@ -6558,7 +6561,7 @@ const RECIPES_DATA = [
         time: 20,
         sliderMin: 40,
         sliderMax: 200,
-        tags: ["Végétarien", "Petit-déjeuner"],
+        tags: ["Végétarien","Petit-déjeuner"],
         ingredients: [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Mixés en farine", emoji: "🌾", baseQty: 60, unit: "g", scalable: true, role: "carb" },
             { id: "oeuf", name: "Œuf", detail: "Entier", emoji: "🥚", baseQty: 2, unit: "pièce(s)", scalable: true, role: "protein" },
@@ -6583,6 +6586,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Cuisson des crêpes", text: "La pâte à l'avoine est plus fragile qu'une pâte classique, retournez les crêpes délicatement avec une spatule large." }
         ]
     },
+
     {
         id: "toast-ricotta-figues-miel",
         name: "Toast ricotta figues et miel",
@@ -6593,7 +6597,7 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 30,
         sliderMax: 150,
-        tags: ["Végétarien", "Petit-déjeuner", "Rapide"],
+        tags: ["Végétarien","Petit-déjeuner","Rapide"],
         ingredients: [
             { id: "pain_complet", name: "Pain complet", detail: "Tranches épaisses", emoji: "🍞", baseQty: 80, unit: "g", scalable: true, role: "carb" },
             { id: "ricotta", name: "Ricotta", detail: "Fraîche", emoji: "🧀", baseQty: 80, unit: "g", scalable: true, role: "protein" },
@@ -6616,6 +6620,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention au miel", text: "Le miel est très calorique, respectez la quantité indiquée pour ne pas déséquilibrer la recette." }
         ]
     },
+
     {
         id: "bowl-skyr-tropical",
         name: "Bowl skyr tropical coco-ananas",
@@ -6626,7 +6631,7 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 40,
         sliderMax: 200,
-        tags: ["Végétarien", "Sans gluten", "Protéiné"],
+        tags: ["Végétarien","Sans gluten","Protéiné"],
         ingredients: [
             { id: "skyr_0", name: "Skyr 0%", detail: "Bien froid", emoji: "🥛", baseQty: 150, unit: "g", scalable: true, role: "protein" },
             { id: "ananas", name: "Ananas", detail: "Frais, coupé en dés", emoji: "🍍", baseQty: 80, unit: "g", scalable: true, role: "base" },
@@ -6650,6 +6655,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention au granola", text: "Vérifiez les étiquettes du granola, certains contiennent beaucoup de sucres ajoutés. Privilégiez un granola maison ou peu sucré." }
         ]
     },
+
     {
         id: "overnight-oats-matcha-banane",
         name: "Overnight oats matcha-banane",
@@ -6660,7 +6666,7 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 40,
         sliderMax: 200,
-        tags: ["Vegan", "Petit-déjeuner", "Meal prep"],
+        tags: ["Vegan","Petit-déjeuner","Meal prep"],
         ingredients: [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Petits ou gros", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "carb" },
             { id: "lait_avoine", name: "Lait d'avoine", detail: "Froid", emoji: "🥛", baseQty: 150, unit: "ml", scalable: true, role: "base" },
@@ -6684,6 +6690,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Dosage du matcha", text: "Le matcha a un goût puissant, commencez par une demi-cuillère à café et ajustez selon vos goûts." }
         ]
     },
+
     {
         id: "pancakes-patate-douce",
         name: "Pancakes à la patate douce",
@@ -6694,7 +6701,7 @@ const RECIPES_DATA = [
         time: 25,
         sliderMin: 40,
         sliderMax: 200,
-        tags: ["Végétarien", "Petit-déjeuner"],
+        tags: ["Végétarien","Petit-déjeuner"],
         ingredients: [
             { id: "patate_douce_cuite", name: "Patate douce cuite", detail: "Écrasée en purée", emoji: "🍠", baseQty: 100, unit: "g", scalable: true, role: "carb" },
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Mixés en farine", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "carb" },
@@ -6719,6 +6726,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Feu doux impératif", text: "Ces pancakes brûlent facilement à cause du sucre naturel de la patate douce. Cuisez à feu moyen-doux." }
         ]
     },
+
     {
         id: "granola-bowl-chocolat",
         name: "Granola bowl chocolat-noisette",
@@ -6729,7 +6737,7 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 40,
         sliderMax: 200,
-        tags: ["Végétarien", "Petit-déjeuner", "Gourmand"],
+        tags: ["Végétarien","Petit-déjeuner","Gourmand"],
         ingredients: [
             { id: "yaourt_grec", name: "Yaourt grec", detail: "Nature, 0% ou 2%", emoji: "🥛", baseQty: 150, unit: "g", scalable: true, role: "protein" },
             { id: "granola", name: "Granola", detail: "Aux noisettes si possible", emoji: "🥣", baseQty: 40, unit: "g", scalable: true, role: "carb" },
@@ -6753,6 +6761,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Choix du cacao", text: "Utilisez uniquement du cacao pur non sucré. Le cacao pour petit-déjeuner est trop sucré et calorique." }
         ]
     },
+
     {
         id: "smoothie-bowl-vert-kiwi",
         name: "Smoothie bowl vert kiwi-épinard",
@@ -6763,7 +6772,7 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 40,
         sliderMax: 200,
-        tags: ["Vegan", "Sans gluten", "Petit-déjeuner"],
+        tags: ["Vegan","Sans gluten","Petit-déjeuner"],
         ingredients: [
             { id: "epinards", name: "Épinards frais", detail: "Lavés", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "vegetable" },
             { id: "kiwi", name: "Kiwi", detail: "Pelé, coupé en morceaux", emoji: "🥝", baseQty: 2, unit: "pièce(s)", scalable: true, role: "base" },
@@ -6788,6 +6797,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Banane surgelée indispensable", text: "La banane doit être surgelée pour donner la texture épaisse caractéristique d'un smoothie bowl. Sans elle, le résultat sera trop liquide." }
         ]
     },
+
     {
         id: "oeuf-nuage-asperges",
         name: "Œuf nuage aux asperges",
@@ -6798,7 +6808,7 @@ const RECIPES_DATA = [
         time: 20,
         sliderMin: 30,
         sliderMax: 200,
-        tags: ["Végétarien", "Sans gluten", "Petit-déjeuner"],
+        tags: ["Végétarien","Sans gluten","Petit-déjeuner"],
         ingredients: [
             { id: "oeuf", name: "Œuf", detail: "Séparés blanc/jaune", emoji: "🥚", baseQty: 3, unit: "pièce(s)", scalable: true, role: "protein" },
             { id: "asperges", name: "Asperges vertes", detail: "Parées, bases coupées", emoji: "🌿", baseQty: 120, unit: "g", scalable: true, role: "vegetable" },
@@ -6822,6 +6832,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Timing crucial", text: "Surveillez la cuisson des œufs nuage de très près : 30 secondes de trop et les jaunes seront durs." }
         ]
     },
+
     {
         id: "bowl-riz-saumon-avocat-matin",
         name: "Bowl riz saumon-avocat du matin",
@@ -6832,7 +6843,7 @@ const RECIPES_DATA = [
         time: 15,
         sliderMin: 40,
         sliderMax: 250,
-        tags: ["Protéiné", "Oméga-3", "Petit-déjeuner"],
+        tags: ["Protéiné","Oméga-3","Petit-déjeuner"],
         ingredients: [
             { id: "riz_basmati_cuit", name: "Riz basmati cuit", detail: "Tiède ou froid", emoji: "🍚", baseQty: 100, unit: "g", scalable: true, role: "carb" },
             { id: "saumon", name: "Saumon fumé", detail: "En tranches", emoji: "🐟", baseQty: 80, unit: "g", scalable: true, role: "protein" },
@@ -6858,6 +6869,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Fraîcheur du saumon", text: "Le saumon fumé doit être consommé rapidement après ouverture du paquet. Vérifiez la date de péremption." }
         ]
     },
+
     {
         id: "toast-houmous-champignon-epinard",
         name: "Toast houmous champignon-épinard",
@@ -6868,7 +6880,7 @@ const RECIPES_DATA = [
         time: 15,
         sliderMin: 30,
         sliderMax: 200,
-        tags: ["Vegan", "Protéiné", "Petit-déjeuner"],
+        tags: ["Vegan","Protéiné","Petit-déjeuner"],
         ingredients: [
             { id: "pain_complet", name: "Pain complet", detail: "Tranches épaisses", emoji: "🍞", baseQty: 80, unit: "g", scalable: true, role: "carb" },
             { id: "pois_chiches_cuits", name: "Houmous (pois chiches)", detail: "Maison ou du commerce", emoji: "🫘", baseQty: 80, unit: "g", scalable: true, role: "protein" },
@@ -6893,6 +6905,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Champignons bien dorés", text: "Ne surchargez pas la poêle de champignons, ils doivent dorer et non bouillir. Cuisez en deux fois si nécessaire." }
         ]
     },
+
     {
         id: "galette-sarrasin-jambon-oeuf",
         name: "Galette sarrasin jambon-œuf",
@@ -6903,7 +6916,7 @@ const RECIPES_DATA = [
         time: 20,
         sliderMin: 40,
         sliderMax: 200,
-        tags: ["Protéiné", "Petit-déjeuner"],
+        tags: ["Protéiné","Petit-déjeuner"],
         ingredients: [
             { id: "galette_sarrasin", name: "Galette de sarrasin", detail: "Prête à l'emploi", emoji: "🥞", baseQty: 2, unit: "pièce(s)", scalable: true, role: "carb" },
             { id: "oeuf", name: "Œuf", detail: "Entier", emoji: "🥚", baseQty: 2, unit: "pièce(s)", scalable: true, role: "protein" },
@@ -6927,6 +6940,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Cuisson de l'œuf", text: "Couvrez la poêle avec un couvercle pour que le blanc cuise bien sans trop cuire le jaune." }
         ]
     },
+
     {
         id: "shakshuka-verte-epinards",
         name: "Shakshuka verte aux épinards",
@@ -6937,7 +6951,7 @@ const RECIPES_DATA = [
         time: 25,
         sliderMin: 40,
         sliderMax: 250,
-        tags: ["Végétarien", "Sans gluten", "Protéiné"],
+        tags: ["Végétarien","Sans gluten","Protéiné"],
         ingredients: [
             { id: "oeuf", name: "Œuf", detail: "Entier", emoji: "🥚", baseQty: 3, unit: "pièce(s)", scalable: true, role: "protein" },
             { id: "epinards", name: "Épinards frais", detail: "Lavés, grossièrement hachés", emoji: "🥬", baseQty: 150, unit: "g", scalable: true, role: "vegetable" },
@@ -6962,6 +6976,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Cuisson des œufs", text: "Le couvercle est essentiel pour cuire le dessus des blancs. Sans couvercle, le dessous brûlera avant que les blancs ne soient pris." }
         ]
     },
+
     {
         id: "wrap-petit-dej-veggie",
         name: "Wrap petit-déj végétarien complet",
@@ -6972,7 +6987,7 @@ const RECIPES_DATA = [
         time: 15,
         sliderMin: 40,
         sliderMax: 200,
-        tags: ["Végétarien", "Petit-déjeuner", "À emporter"],
+        tags: ["Végétarien","Petit-déjeuner","À emporter"],
         ingredients: [
             { id: "tortilla_ble", name: "Tortilla de blé", detail: "Complète de préférence", emoji: "🌯", baseQty: 1, unit: "pièce(s)", scalable: true, role: "carb" },
             { id: "oeuf", name: "Œuf", detail: "Brouillé", emoji: "🥚", baseQty: 2, unit: "pièce(s)", scalable: true, role: "protein" },
@@ -6996,6 +7011,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Œufs crémeux", text: "Retirez les œufs brouillés du feu avant qu'ils ne soient totalement pris, ils continueront de cuire avec la chaleur résiduelle." }
         ]
     },
+
     {
         id: "porridge-sale-parmesan-oeuf",
         name: "Porridge salé parmesan et œuf poché",
@@ -7006,7 +7022,7 @@ const RECIPES_DATA = [
         time: 20,
         sliderMin: 40,
         sliderMax: 200,
-        tags: ["Végétarien", "Protéiné", "Réconfortant"],
+        tags: ["Végétarien","Protéiné","Réconfortant"],
         ingredients: [
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "Petits flocons", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "carb" },
             { id: "oeuf", name: "Œuf", detail: "Pour pocher", emoji: "🥚", baseQty: 2, unit: "pièce(s)", scalable: true, role: "protein" },
@@ -7030,6 +7046,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Consistance du porridge", text: "Le porridge salé doit être plus crémeux que la version sucrée. N'hésitez pas à ajouter du lait en fin de cuisson si nécessaire." }
         ]
     },
+
     {
         id: "tartine-thon-avocat-matin",
         name: "Tartine thon-avocat du matin",
@@ -7040,7 +7057,7 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 30,
         sliderMax: 200,
-        tags: ["Protéiné", "Oméga-3", "Rapide"],
+        tags: ["Protéiné","Oméga-3","Rapide"],
         ingredients: [
             { id: "pain_complet", name: "Pain complet", detail: "Tranches épaisses, grillées", emoji: "🍞", baseQty: 80, unit: "g", scalable: true, role: "carb" },
             { id: "thon_conserve", name: "Thon en conserve", detail: "Au naturel, égoutté", emoji: "🐟", baseQty: 80, unit: "g", scalable: true, role: "protein" },
@@ -7064,6 +7081,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Avocat mûr", text: "L'avocat doit être bien mûr pour s'écraser facilement. Un avocat dur ne donnera pas la bonne texture." }
         ]
     },
+
     {
         id: "muffins-jambon-courgette",
         name: "Muffins jambon-courgette",
@@ -7074,7 +7092,7 @@ const RECIPES_DATA = [
         time: 30,
         sliderMin: 40,
         sliderMax: 250,
-        tags: ["Protéiné", "Petit-déjeuner", "Meal prep"],
+        tags: ["Protéiné","Petit-déjeuner","Meal prep"],
         ingredients: [
             { id: "oeuf", name: "Œuf", detail: "Entier", emoji: "🥚", baseQty: 3, unit: "pièce(s)", scalable: true, role: "protein" },
             { id: "courgette", name: "Courgette", detail: "Râpée et pressée", emoji: "🥒", baseQty: 120, unit: "g", scalable: true, role: "vegetable" },
@@ -7100,6 +7118,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Eau de la courgette", text: "Bien presser la courgette est crucial. Trop d'eau rendra les muffins spongieux et empêchera une bonne cuisson." }
         ]
     },
+
     {
         id: "bowl-quinoa-oeuf-legumes-matin",
         name: "Bowl quinoa œuf et légumes du matin",
@@ -7110,7 +7129,7 @@ const RECIPES_DATA = [
         time: 20,
         sliderMin: 40,
         sliderMax: 250,
-        tags: ["Végétarien", "Sans gluten", "Protéiné"],
+        tags: ["Végétarien","Sans gluten","Protéiné"],
         ingredients: [
             { id: "quinoa_cuit", name: "Quinoa cuit", detail: "Tiède", emoji: "🌾", baseQty: 100, unit: "g", scalable: true, role: "carb" },
             { id: "oeuf", name: "Œuf", detail: "Au plat ou mollet", emoji: "🥚", baseQty: 2, unit: "pièce(s)", scalable: true, role: "protein" },
@@ -7136,6 +7155,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Quinoa bien rincé", text: "Rincez toujours le quinoa abondamment avant cuisson pour éliminer la saponine qui donne un goût amer." }
         ]
     },
+
     {
         id: "soupe-minestrone-haricots",
         name: "Minestrone aux haricots blancs",
@@ -7155,8 +7175,8 @@ const RECIPES_DATA = [
             { id: "tomate", name: "Tomate", detail: "Concassée", emoji: "🍅", baseQty: 100, unit: "g", scalable: true, role: "vegetable" },
             { id: "celeri_branche", name: "Céleri branche", detail: "Émincé finement", emoji: "🥬", baseQty: 50, unit: "g", scalable: true, role: "vegetable" },
             { id: "oignon", name: "Oignon", detail: "Ciselé", emoji: "🧅", baseQty: 50, unit: "g", scalable: true, role: "base" },
-            { id: "concentre_tomate", name: "Concentré de tomate", detail: "", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "fat" }
+            { id: "concentre_tomate", name: "Concentré de tomate", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "seasoning" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -7172,6 +7192,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Ne pas trop cuire les pâtes dans la soupe, elles continueront à gonfler. Ajoutez-les en fin de cuisson." }
         ]
     },
+
     {
         id: "filet-bar-fenouil-citron",
         name: "Filet de bar au fenouil et citron",
@@ -7190,7 +7211,7 @@ const RECIPES_DATA = [
             { id: "pomme_de_terre", name: "Pomme de terre", detail: "Coupée en rondelles fines", emoji: "🥔", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
             { id: "tomate", name: "Tomate", detail: "En tranches", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "oignon", name: "Oignon", detail: "Émincé en anneaux", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "base" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "fat" }
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -7206,6 +7227,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Ne pas surcuire le poisson au risque qu'il devienne sec. La chair doit rester nacrée et se détacher facilement." }
         ]
     },
+
     {
         id: "poulet-tikka-bowl",
         name: "Poulet tikka bowl au riz",
@@ -7226,8 +7248,8 @@ const RECIPES_DATA = [
             { id: "oignon", name: "Oignon", detail: "Ciselé", emoji: "🧅", baseQty: 50, unit: "g", scalable: true, role: "base" },
             { id: "tomate", name: "Tomate", detail: "Concassée", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "epinards", name: "Épinards frais", detail: "Lavés", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "vegetable" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" }
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -7243,6 +7265,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Ne pas cuire le poulet à feu trop doux, il doit saisir pour rester juteux à l'intérieur." }
         ]
     },
+
     {
         id: "gratin-chou-fleur-jambon",
         name: "Gratin chou-fleur et jambon",
@@ -7257,9 +7280,9 @@ const RECIPES_DATA = [
         ingredients: [
             { id: "chou_fleur", name: "Chou-fleur", detail: "Séparé en fleurettes", emoji: "🥦", baseQty: 200, unit: "g", scalable: true, role: "vegetable" },
             { id: "jambon_blanc", name: "Jambon blanc", detail: "Coupé en morceaux", emoji: "🥩", baseQty: 100, unit: "g", scalable: true, role: "protein" },
-            { id: "fromage_rape", name: "Fromage râpé", detail: "", emoji: "🧀", baseQty: 30, unit: "g", scalable: true, role: "fat" },
+            { id: "fromage_rape", name: "Fromage râpé", emoji: "🧀", baseQty: 30, unit: "g", scalable: true, role: "fat" },
             { id: "lait_demi", name: "Lait demi-écrémé", detail: "Pour la béchamel", emoji: "🥛", baseQty: 100, unit: "ml", scalable: true, role: "base" },
-            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "fat" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "fat" },
             { id: "moutarde", name: "Moutarde", detail: "De Dijon", emoji: "🟡", baseQty: 5, unit: "g", scalable: false, role: "seasoning" },
             { id: "oignon", name: "Oignon", detail: "Ciselé", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "base" }
         ],
@@ -7277,6 +7300,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Ne pas trop cuire le chou-fleur avant de le gratiner, il continuera à cuire au four." }
         ]
     },
+
     {
         id: "curry-jaune-tofu-patate",
         name: "Curry jaune tofu et patate douce",
@@ -7291,13 +7315,13 @@ const RECIPES_DATA = [
         ingredients: [
             { id: "tofu", name: "Tofu ferme", detail: "Coupé en cubes", emoji: "🧈", baseQty: 130, unit: "g", scalable: true, role: "protein" },
             { id: "patate_douce_cuite", name: "Patate douce", detail: "Coupée en cubes", emoji: "🍠", baseQty: 150, unit: "g", scalable: true, role: "carb" },
-            { id: "lait_coco", name: "Lait de coco", detail: "", emoji: "🥥", baseQty: 100, unit: "ml", scalable: true, role: "fat" },
-            { id: "pate_curry", name: "Pâte de curry jaune", detail: "", emoji: "🌶️", baseQty: 15, unit: "g", scalable: false, role: "seasoning" },
+            { id: "lait_coco", name: "Lait de coco", emoji: "🥥", baseQty: 100, unit: "ml", scalable: true, role: "fat" },
+            { id: "pate_curry", name: "Pâte de curry jaune", emoji: "🌶️", baseQty: 15, unit: "g", scalable: false, role: "seasoning" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "En lanières", emoji: "🌶️", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "epinards", name: "Épinards", detail: "Frais", emoji: "🥬", baseQty: 50, unit: "g", scalable: true, role: "vegetable" },
             { id: "oignon", name: "Oignon", detail: "Ciselé", emoji: "🧅", baseQty: 50, unit: "g", scalable: true, role: "base" },
-            { id: "sauce_soja", name: "Sauce soja", detail: "", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" }
+            { id: "sauce_soja", name: "Sauce soja", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -7313,6 +7337,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Ne remuez pas trop le tofu pendant la cuisson sinon il se cassera et ne dorera pas." }
         ]
     },
+
     {
         id: "salade-tiede-lentilles-saumon",
         name: "Salade tiède lentilles et saumon",
@@ -7333,7 +7358,7 @@ const RECIPES_DATA = [
             { id: "oignon", name: "Oignon rouge", detail: "Émincé finement", emoji: "🧅", baseQty: 30, unit: "g", scalable: true, role: "base" },
             { id: "moutarde", name: "Moutarde", detail: "À l'ancienne", emoji: "🟡", baseQty: 5, unit: "g", scalable: false, role: "seasoning" },
             { id: "huile_olive", name: "Huile d'olive", detail: "Pour la vinaigrette", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "fat" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" }
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" }
         ],
         options: [],
         steps: [
@@ -7349,6 +7374,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Ne pas trop cuire le saumon. Il doit rester moelleux et légèrement rosé au centre." }
         ]
     },
+
     {
         id: "omelette-roulee-legumes",
         name: "Omelette roulée aux légumes",
@@ -7365,9 +7391,9 @@ const RECIPES_DATA = [
             { id: "champignon", name: "Champignons", detail: "Émincés", emoji: "🍄", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "En petits dés", emoji: "🌶️", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
             { id: "epinards", name: "Épinards frais", detail: "Lavés", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "vegetable" },
-            { id: "fromage_rape", name: "Fromage râpé", detail: "", emoji: "🧀", baseQty: 20, unit: "g", scalable: true, role: "fat" },
+            { id: "fromage_rape", name: "Fromage râpé", emoji: "🧀", baseQty: 20, unit: "g", scalable: true, role: "fat" },
             { id: "oignon", name: "Oignon", detail: "Ciselé", emoji: "🧅", baseQty: 30, unit: "g", scalable: true, role: "base" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" },
             { id: "salade_verte", name: "Salade verte", detail: "En accompagnement", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "vegetable" }
         ],
         options: [],
@@ -7384,6 +7410,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Ne cuisez pas l'omelette à feu trop fort, elle deviendrait caoutchouteuse. Un feu moyen est idéal." }
         ]
     },
+
     {
         id: "cabillaud-provencal",
         name: "Cabillaud à la provençale",
@@ -7401,9 +7428,9 @@ const RECIPES_DATA = [
             { id: "courgette", name: "Courgette", detail: "En rondelles", emoji: "🥒", baseQty: 100, unit: "g", scalable: true, role: "vegetable" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "En lanières", emoji: "🌶️", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "oignon", name: "Oignon", detail: "Émincé", emoji: "🧅", baseQty: 50, unit: "g", scalable: true, role: "base" },
-            { id: "concentre_tomate", name: "Concentré de tomate", detail: "", emoji: "🍅", baseQty: 10, unit: "g", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "fat" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" }
+            { id: "concentre_tomate", name: "Concentré de tomate", emoji: "🍅", baseQty: 10, unit: "g", scalable: false, role: "seasoning" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "fat" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" }
         ],
         options: [],
         steps: [
@@ -7419,6 +7446,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Le cabillaud cuit rapidement. Surveillez la cuisson pour garder une chair tendre et fondante." }
         ]
     },
+
     {
         id: "soupe-butternut-lentilles-corail",
         name: "Soupe butternut et lentilles corail",
@@ -7435,9 +7463,9 @@ const RECIPES_DATA = [
             { id: "lentilles_cuites", name: "Lentilles corail", detail: "Cuites", emoji: "🫘", baseQty: 100, unit: "g", scalable: true, role: "protein", rawRatio: 2 },
             { id: "carotte", name: "Carotte", detail: "En rondelles", emoji: "🥕", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "oignon", name: "Oignon", detail: "Ciselé", emoji: "🧅", baseQty: 50, unit: "g", scalable: true, role: "base" },
-            { id: "lait_coco", name: "Lait de coco", detail: "", emoji: "🥥", baseQty: 50, unit: "ml", scalable: true, role: "fat" },
+            { id: "lait_coco", name: "Lait de coco", emoji: "🥥", baseQty: 50, unit: "ml", scalable: true, role: "fat" },
             { id: "pate_curry", name: "Pâte de curry", detail: "Doux", emoji: "🌶️", baseQty: 10, unit: "g", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" }
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -7453,6 +7481,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Attention en mixant une préparation chaude : commencez à vitesse lente pour éviter les éclaboussures." }
         ]
     },
+
     {
         id: "pave-dinde-puree-brocoli",
         name: "Pavé de dinde purée de brocoli",
@@ -7468,9 +7497,9 @@ const RECIPES_DATA = [
             { id: "dinde", name: "Pavé de dinde", detail: "Épais", emoji: "🍗", baseQty: 150, unit: "g", scalable: true, role: "protein" },
             { id: "brocoli", name: "Brocoli", detail: "En fleurettes", emoji: "🥦", baseQty: 200, unit: "g", scalable: true, role: "vegetable" },
             { id: "pomme_de_terre", name: "Pomme de terre", detail: "Coupée en morceaux", emoji: "🥔", baseQty: 100, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
-            { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "", emoji: "🥛", baseQty: 30, unit: "g", scalable: false, role: "base" },
+            { id: "fromage_blanc_0", name: "Fromage blanc 0%", emoji: "🥛", baseQty: 30, unit: "g", scalable: false, role: "base" },
             { id: "moutarde", name: "Moutarde", detail: "De Dijon", emoji: "🟡", baseQty: 5, unit: "g", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" }
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -7486,6 +7515,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "La dinde se dessèche vite. Ne dépassez pas le temps de cuisson et utilisez un feu moyen." }
         ]
     },
+
     {
         id: "nouilles-soba-tofu-cacahuetes",
         name: "Nouilles soba tofu sauce cacahuètes",
@@ -7501,12 +7531,12 @@ const RECIPES_DATA = [
             { id: "tofu", name: "Tofu ferme", detail: "Coupé en cubes", emoji: "🧈", baseQty: 130, unit: "g", scalable: true, role: "protein" },
             { id: "nouilles_soba_cuites", name: "Nouilles soba", detail: "Cuites", emoji: "🍜", baseQty: 120, unit: "g", scalable: true, role: "carb" },
             { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "Non sucré", emoji: "🥜", baseQty: 20, unit: "g", scalable: false, role: "fat" },
-            { id: "sauce_soja", name: "Sauce soja", detail: "", emoji: "🫗", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "sauce_soja", name: "Sauce soja", emoji: "🫗", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
             { id: "carotte", name: "Carotte", detail: "Râpée ou en julienne", emoji: "🥕", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
             { id: "concombre", name: "Concombre", detail: "En bâtonnets", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
             { id: "edamame", name: "Edamame", detail: "Décortiqués", emoji: "🫛", baseQty: 40, unit: "g", scalable: true, role: "vegetable" },
-            { id: "citron_jus", name: "Jus de citron vert", detail: "", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" }
+            { id: "citron_jus", name: "Jus de citron vert", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -7522,6 +7552,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Ne rincez pas les nouilles soba trop longtemps sous l'eau froide, elles doivent juste être rafraîchies." }
         ]
     },
+
     {
         id: "saumon-miso-asperges",
         name: "Saumon laqué miso et asperges",
@@ -7537,10 +7568,10 @@ const RECIPES_DATA = [
             { id: "saumon", name: "Pavé de saumon", detail: "Avec peau", emoji: "🐟", baseQty: 140, unit: "g", scalable: true, role: "protein" },
             { id: "asperges", name: "Asperges vertes", detail: "Parées", emoji: "🌿", baseQty: 120, unit: "g", scalable: true, role: "vegetable" },
             { id: "riz_basmati_cuit", name: "Riz basmati", detail: "Cuit", emoji: "🍚", baseQty: 120, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
-            { id: "sauce_soja", name: "Sauce soja", detail: "", emoji: "🫗", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "sauce_soja", name: "Sauce soja", emoji: "🫗", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
             { id: "miel", name: "Miel", detail: "Pour le glaçage", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "seasoning" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" },
             { id: "graines_chia", name: "Graines de sésame", detail: "Pour la finition", emoji: "🌰", baseQty: 5, unit: "g", scalable: false, role: "seasoning" }
         ],
         options: [],
@@ -7557,6 +7588,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Surveillez attentivement le glaçage, le miel peut brûler rapidement à feu trop fort." }
         ]
     },
+
     {
         id: "poulet-olives-citron-confit",
         name: "Poulet aux olives et citron confit",
@@ -7575,8 +7607,8 @@ const RECIPES_DATA = [
             { id: "carotte", name: "Carotte", detail: "En rondelles", emoji: "🥕", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "courgette", name: "Courgette", detail: "En demi-rondelles", emoji: "🥒", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "citron_jus", name: "Jus de citron", detail: "Et zeste", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
-            { id: "concentre_tomate", name: "Concentré de tomate", detail: "", emoji: "🍅", baseQty: 10, unit: "g", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "fat" }
+            { id: "concentre_tomate", name: "Concentré de tomate", emoji: "🍅", baseQty: 10, unit: "g", scalable: false, role: "seasoning" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -7592,6 +7624,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Maintenez un feu doux pendant le mijotage. Un feu trop fort dessécherait le poulet." }
         ]
     },
+
     {
         id: "bowl-haricots-noirs-avocat",
         name: "Bowl haricots noirs et avocat",
@@ -7611,7 +7644,7 @@ const RECIPES_DATA = [
             { id: "tomate", name: "Tomate", detail: "En dés", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "En dés", emoji: "🌶️", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
             { id: "oignon", name: "Oignon rouge", detail: "Ciselé finement", emoji: "🧅", baseQty: 30, unit: "g", scalable: true, role: "base" },
-            { id: "citron_jus", name: "Jus de citron vert", detail: "", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "citron_jus", name: "Jus de citron vert", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
             { id: "sauce_sriracha", name: "Sauce sriracha", detail: "Optionnelle", emoji: "🌶️", baseQty: 5, unit: "ml", scalable: false, role: "seasoning" }
         ],
         options: [],
@@ -7628,6 +7661,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Coupez l'avocat au dernier moment et citronez-le immédiatement pour éviter l'oxydation." }
         ]
     },
+
     {
         id: "truite-amandes-epinards",
         name: "Truite aux amandes et épinards",
@@ -7645,7 +7679,7 @@ const RECIPES_DATA = [
             { id: "epinards", name: "Épinards frais", detail: "Lavés", emoji: "🥬", baseQty: 120, unit: "g", scalable: true, role: "vegetable" },
             { id: "pomme_de_terre", name: "Pommes de terre", detail: "En petits cubes", emoji: "🥔", baseQty: 130, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
             { id: "citron_jus", name: "Jus de citron", detail: "Frais", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "fat" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "fat" },
             { id: "oignon", name: "Échalote", detail: "Ciselée", emoji: "🧅", baseQty: 20, unit: "g", scalable: false, role: "base" }
         ],
         options: [],
@@ -7662,6 +7696,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Les amandes brûlent très vite. Restez devant la poêle et remuez constamment pendant la torréfaction." }
         ]
     },
+
     {
         id: "wok-seitan-poivrons",
         name: "Wok de seitan aux poivrons",
@@ -7679,9 +7714,9 @@ const RECIPES_DATA = [
             { id: "brocoli", name: "Brocoli", detail: "En petites fleurettes", emoji: "🥦", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "carotte", name: "Carotte", detail: "En julienne", emoji: "🥕", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
             { id: "vermicelles_riz", name: "Vermicelles de riz", detail: "Cuits", emoji: "🍜", baseQty: 100, unit: "g", scalable: true, role: "carb" },
-            { id: "sauce_soja", name: "Sauce soja", detail: "", emoji: "🫗", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "sauce_soja", name: "Sauce soja", emoji: "🫗", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
             { id: "sauce_sriracha", name: "Sauce sriracha", detail: "Optionnelle", emoji: "🌶️", baseQty: 5, unit: "ml", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "fat" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "fat" },
             { id: "oignon", name: "Oignon", detail: "Émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "base" }
         ],
         options: [],
@@ -7698,6 +7733,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Ne surchargez pas le wok. Cuisez en plusieurs fois si nécessaire pour que les légumes saisissent bien." }
         ]
     },
+
     {
         id: "veloute-poireaux-oeuf-poche",
         name: "Velouté de poireaux oeuf poché",
@@ -7713,9 +7749,9 @@ const RECIPES_DATA = [
             { id: "poireaux", name: "Poireaux", detail: "Lavés et émincés", emoji: "🌿", baseQty: 200, unit: "g", scalable: true, role: "vegetable" },
             { id: "oeuf", name: "Œuf", detail: "Pour pocher", emoji: "🥚", baseQty: 1, unit: "unité(s)", scalable: true, role: "protein" },
             { id: "pomme_de_terre", name: "Pomme de terre", detail: "En morceaux", emoji: "🥔", baseQty: 100, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
-            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "fat" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "fat" },
             { id: "oignon", name: "Oignon", detail: "Ciselé", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "base" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" },
             { id: "vinaigre_balsamique", name: "Vinaigre", detail: "Pour l'œuf poché", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
             { id: "pain_complet", name: "Pain complet", detail: "Grillé, en mouillettes", emoji: "🍞", baseQty: 30, unit: "g", scalable: true, role: "carb" }
         ],
@@ -7733,6 +7769,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Ne faites pas bouillir le velouté après avoir ajouté la crème, il perdrait sa texture soyeuse." }
         ]
     },
+
     {
         id: "porc-laque-chou-rouge",
         name: "Porc laqué au chou rouge",
@@ -7749,10 +7786,10 @@ const RECIPES_DATA = [
             { id: "chou_rouge", name: "Chou rouge", detail: "Émincé finement", emoji: "🥬", baseQty: 150, unit: "g", scalable: true, role: "vegetable" },
             { id: "pomme", name: "Pomme", detail: "Coupée en quartiers", emoji: "🍎", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
             { id: "riz_basmati_cuit", name: "Riz basmati", detail: "Cuit", emoji: "🍚", baseQty: 120, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
-            { id: "sauce_soja", name: "Sauce soja", detail: "", emoji: "🫗", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "sauce_soja", name: "Sauce soja", emoji: "🫗", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
             { id: "miel", name: "Miel", detail: "Pour le laquage", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "seasoning" },
-            { id: "vinaigre_balsamique", name: "Vinaigre balsamique", detail: "", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "fat" }
+            { id: "vinaigre_balsamique", name: "Vinaigre balsamique", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -7768,6 +7805,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Le miel brûle facilement lors du laquage. Restez à feu moyen et retournez souvent les médaillons." }
         ]
     },
+
     {
         id: "salade-pois-chiches-grilles-feta",
         name: "Salade pois chiches grillés et feta",
@@ -7787,7 +7825,7 @@ const RECIPES_DATA = [
             { id: "poivron_rouge", name: "Poivron rouge", detail: "En dés", emoji: "🌶️", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
             { id: "oignon", name: "Oignon rouge", detail: "Émincé finement", emoji: "🧅", baseQty: 30, unit: "g", scalable: true, role: "base" },
             { id: "huile_olive", name: "Huile d'olive", detail: "Pour la vinaigrette", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "fat" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
             { id: "salade_verte", name: "Salade verte", detail: "Lavée et essorée", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "vegetable" }
         ],
         options: [],
@@ -7804,6 +7842,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Les pois chiches doivent être bien secs avant le four sinon ils ne deviendront jamais croquants." }
         ]
     },
+
     {
         id: "gambas-sautees-courgettes-ail",
         name: "Gambas sautées courgettes et ail",
@@ -7822,7 +7861,7 @@ const RECIPES_DATA = [
             { id: "tomate", name: "Tomates cerises", detail: "Coupées en deux", emoji: "🍅", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
             { id: "oignon", name: "Ail et oignon", detail: "Émincés", emoji: "🧅", baseQty: 30, unit: "g", scalable: true, role: "base" },
             { id: "citron_jus", name: "Jus de citron", detail: "Frais", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "fat" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "fat" },
             { id: "pesto", name: "Pesto", detail: "En touche finale", emoji: "🌿", baseQty: 10, unit: "g", scalable: false, role: "seasoning" }
         ],
         options: [],
@@ -7839,6 +7878,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Ne faites pas recuire les gambas trop longtemps lors de l'assemblage, elles deviendraient caoutchouteuses." }
         ]
     },
+
     {
         id: "biscuits-avoine-chocolat-noir",
         name: "Biscuits avoine-chocolat noir",
@@ -7873,6 +7913,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Cuisson", text: "Ne pas surcuire : les biscuits durcissent en refroidissant. Sortez-les quand le centre semble encore légèrement mou." }
         ]
     },
+
     {
         id: "boules-energie-dattes-tahini",
         name: "Boules énergie dattes-tahini",
@@ -7906,6 +7947,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Texture", text: "Si la pâte est trop sèche, ajouter une cuillère de sirop d'érable. Si trop humide, ajouter des flocons d'avoine." }
         ]
     },
+
     {
         id: "mini-muffins-carotte-epices",
         name: "Mini muffins carotte-épices",
@@ -7940,6 +7982,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Conservation", text: "À conserver au réfrigérateur dans une boîte hermétique. Consommer sous 3 jours." }
         ]
     },
+
     {
         id: "barre-proteinee-coco-amande",
         name: "Barre protéinée coco-amande",
@@ -7973,6 +8016,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Attention", text: "Le beurre de cacahuète est allergène. Remplacez par de la purée de noisette si nécessaire." }
         ]
     },
+
     {
         id: "crackers-graines-parmesan",
         name: "Crackers graines et parmesan",
@@ -8006,6 +8050,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Épaisseur", text: "Une pâte trop épaisse donnera des crackers mous. Veillez à étaler très finement." }
         ]
     },
+
     {
         id: "wrap-beurre-cacahuete-banane",
         name: "Wrap beurre cacahuète-banane",
@@ -8038,6 +8083,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Timing", text: "Préparez juste avant de partir pour éviter que la banane ne noircisse et ramollisse la tortilla." }
         ]
     },
+
     {
         id: "muffins-courgette-chocolat",
         name: "Muffins courgette-chocolat",
@@ -8072,6 +8118,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Essorage", text: "Ne sautez pas l'étape d'essorage de la courgette sous peine d'obtenir des muffins trop humides." }
         ]
     },
+
     {
         id: "boules-pois-chiches-chocolat",
         name: "Boules pois chiches-chocolat",
@@ -8104,6 +8151,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Texture", text: "Bien égoutter et sécher les pois chiches pour éviter une texture trop humide." }
         ]
     },
+
     {
         id: "bol-fromage-blanc-granola-kiwi",
         name: "Bol fromage blanc granola-kiwi",
@@ -8136,6 +8184,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Timing", text: "Ajoutez le granola au dernier moment pour qu'il reste croustillant." }
         ]
     },
+
     {
         id: "tartine-avocat-oeuf-piment",
         name: "Tartine avocat-oeuf au piment",
@@ -8168,6 +8217,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Avocat", text: "Choisissez un avocat bien mûr qui cède légèrement sous la pression du doigt." }
         ]
     },
+
     {
         id: "smoothie-proteine-mangue-coco",
         name: "Smoothie protéiné mangue-coco",
@@ -8200,6 +8250,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Température", text: "Utilisez au moins un ingrédient surgelé (banane ou mangue) pour un smoothie bien frais et épais." }
         ]
     },
+
     {
         id: "pancakes-mini-chocolat",
         name: "Mini pancakes au chocolat",
@@ -8233,6 +8284,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Cuisson", text: "Feu moyen uniquement. Un feu trop fort brûlera l'extérieur en laissant l'intérieur cru." }
         ]
     },
+
     {
         id: "chia-pudding-orange-cannelle",
         name: "Chia pudding orange-cannelle",
@@ -8265,6 +8317,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Patience", text: "Respectez le temps de repos minimum de 4 heures pour que les graines absorbent le liquide et forment le pudding." }
         ]
     },
+
     {
         id: "cottage-cheese-bowl-fraises",
         name: "Cottage cheese bowl aux fraises",
@@ -8297,6 +8350,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Fraîcheur", text: "Ne préparez pas à l'avance, le granola ramollirait. Assemblez juste avant de déguster." }
         ]
     },
+
     {
         id: "toast-pesto-tomate-mozzarella",
         name: "Toast pesto tomate-mozzarella",
@@ -8329,6 +8383,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Qualité", text: "Privilégiez une mozzarella fraîche type fior di latte plutôt qu'une mozzarella industrielle pour un meilleur résultat." }
         ]
     },
+
     {
         id: "houmous-classique-maison",
         name: "Houmous classique maison",
@@ -8339,10 +8394,10 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 30,
         sliderMax: 200,
-        tags: ["Vegan", "Sans gluten", "Rapide"],
+        tags: ["Vegan","Sans gluten","Rapide"],
         ingredients: [
             { id: "pois_chiches_cuits", name: "Pois chiches", detail: "égouttés et rincés", emoji: "🫘", baseQty: 200, unit: "g", scalable: true, role: "protein" },
-            { id: "sauce_tahini", name: "Tahini", detail: "", emoji: "🥜", baseQty: 30, unit: "g", scalable: true, role: "fat" },
+            { id: "sauce_tahini", name: "Tahini", emoji: "🥜", baseQty: 30, unit: "g", scalable: true, role: "fat" },
             { id: "citron_jus", name: "Jus de citron", detail: "fraîchement pressé", emoji: "🍋", baseQty: 20, unit: "ml", scalable: true, role: "seasoning" },
             { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 15, unit: "ml", scalable: true, role: "fat" },
             { id: "oignon", name: "Ail", detail: "1 gousse pressée", emoji: "🧄", baseQty: 5, unit: "g", scalable: false, role: "seasoning" },
@@ -8364,6 +8419,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Conservation", text: "Se conserve 3-4 jours au réfrigérateur dans un contenant hermétique recouvert d'un filet d'huile d'olive." }
         ]
     },
+
     {
         id: "guacamole-proteine",
         name: "Guacamole protéiné aux edamame",
@@ -8374,7 +8430,7 @@ const RECIPES_DATA = [
         time: 15,
         sliderMin: 30,
         sliderMax: 200,
-        tags: ["Vegan", "Sans gluten", "Rapide"],
+        tags: ["Vegan","Sans gluten","Rapide"],
         ingredients: [
             { id: "avocat", name: "Avocat", detail: "bien mûr", emoji: "🥑", baseQty: 120, unit: "g", scalable: true, role: "fat" },
             { id: "edamame", name: "Edamame", detail: "décortiqués, décongelés", emoji: "🫛", baseQty: 100, unit: "g", scalable: true, role: "protein" },
@@ -8398,6 +8454,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Oxydation", text: "Préparer au dernier moment ou couvrir de film au contact pour éviter le brunissement. Le citron aide aussi à ralentir l'oxydation." }
         ]
     },
+
     {
         id: "bruschetta-tomate-basilic",
         name: "Bruschetta tomate-basilic classique",
@@ -8408,7 +8465,7 @@ const RECIPES_DATA = [
         time: 15,
         sliderMin: 30,
         sliderMax: 200,
-        tags: ["Vegan", "Rapide"],
+        tags: ["Vegan","Rapide"],
         ingredients: [
             { id: "tomate", name: "Tomates", detail: "bien mûres, coupées en petits dés", emoji: "🍅", baseQty: 200, unit: "g", scalable: true, role: "vegetable" },
             { id: "pain_complet", name: "Pain complet", detail: "tranché et grillé", emoji: "🍞", baseQty: 80, unit: "g", scalable: true, role: "carb" },
@@ -8431,6 +8488,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Timing", text: "Assembler les bruschetta au dernier moment pour garder le pain croustillant. Préparez les éléments séparément et assemblez devant les invités." }
         ]
     },
+
     {
         id: "rillettes-thon-ricotta",
         name: "Rillettes de thon à la ricotta",
@@ -8441,10 +8499,10 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 30,
         sliderMax: 200,
-        tags: ["Rapide", "Sans gluten"],
+        tags: ["Rapide","Sans gluten"],
         ingredients: [
             { id: "thon_conserve", name: "Thon en conserve", detail: "égoutté et émietté", emoji: "🐟", baseQty: 120, unit: "g", scalable: true, role: "protein" },
-            { id: "ricotta", name: "Ricotta", detail: "", emoji: "🧀", baseQty: 80, unit: "g", scalable: true, role: "protein" },
+            { id: "ricotta", name: "Ricotta", emoji: "🧀", baseQty: 80, unit: "g", scalable: true, role: "protein" },
             { id: "citron_jus", name: "Jus de citron", detail: "fraîchement pressé", emoji: "🍋", baseQty: 15, unit: "ml", scalable: true, role: "seasoning" },
             { id: "moutarde", name: "Moutarde", detail: "à l'ancienne", emoji: "🟡", baseQty: 10, unit: "g", scalable: false, role: "seasoning" },
             { id: "concombre", name: "Concombre", detail: "en bâtonnets", emoji: "🥒", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
@@ -8465,6 +8523,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Conservation", text: "Les rillettes se conservent 2 jours maximum au réfrigérateur. Ne pas congeler car la ricotta change de texture." }
         ]
     },
+
     {
         id: "caviar-aubergine",
         name: "Caviar d'aubergine",
@@ -8475,10 +8534,10 @@ const RECIPES_DATA = [
         time: 40,
         sliderMin: 30,
         sliderMax: 200,
-        tags: ["Vegan", "Sans gluten"],
+        tags: ["Vegan","Sans gluten"],
         ingredients: [
             { id: "aubergine", name: "Aubergine", detail: "grosse", emoji: "🍆", baseQty: 250, unit: "g", scalable: true, role: "vegetable" },
-            { id: "sauce_tahini", name: "Tahini", detail: "", emoji: "🥜", baseQty: 25, unit: "g", scalable: true, role: "fat" },
+            { id: "sauce_tahini", name: "Tahini", emoji: "🥜", baseQty: 25, unit: "g", scalable: true, role: "fat" },
             { id: "citron_jus", name: "Jus de citron", detail: "fraîchement pressé", emoji: "🍋", baseQty: 20, unit: "ml", scalable: true, role: "seasoning" },
             { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: true, role: "fat" },
             { id: "oignon", name: "Ail", detail: "1 gousse", emoji: "🧄", baseQty: 5, unit: "g", scalable: false, role: "seasoning" },
@@ -8500,6 +8559,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Égouttage", text: "Bien égoutter la chair d'aubergine pour éviter un caviar trop liquide. Pressez-la légèrement dans la passoire." }
         ]
     },
+
     {
         id: "mini-brochettes-poulet-ananas",
         name: "Mini brochettes poulet-ananas",
@@ -8515,10 +8575,10 @@ const RECIPES_DATA = [
             { id: "poulet_grille", name: "Poulet", detail: "coupé en cubes de 2 cm", emoji: "🍗", baseQty: 150, unit: "g", scalable: true, role: "protein" },
             { id: "ananas", name: "Ananas", detail: "coupé en cubes", emoji: "🍍", baseQty: 100, unit: "g", scalable: true, role: "base" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "coupé en carrés", emoji: "🌶️", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
-            { id: "sauce_soja", name: "Sauce soja", detail: "", emoji: "🫗", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
-            { id: "miel", name: "Miel", detail: "", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "seasoning" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "fat" }
+            { id: "sauce_soja", name: "Sauce soja", emoji: "🫗", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "miel", name: "Miel", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "seasoning" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -8534,6 +8594,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Pics en bois", text: "Trempez les pics en bois dans l'eau froide 30 minutes avant utilisation pour éviter qu'ils ne brûlent à la cuisson." }
         ]
     },
+
     {
         id: "verrines-saumon-avocat",
         name: "Verrines saumon-avocat-concombre",
@@ -8549,9 +8610,9 @@ const RECIPES_DATA = [
             { id: "saumon", name: "Saumon", detail: "frais ou fumé, en petits dés", emoji: "🐟", baseQty: 120, unit: "g", scalable: true, role: "protein" },
             { id: "avocat", name: "Avocat", detail: "mûr, en dés", emoji: "🥑", baseQty: 80, unit: "g", scalable: true, role: "fat" },
             { id: "concombre", name: "Concombre", detail: "épépiné et coupé en petits dés", emoji: "🥒", baseQty: 100, unit: "g", scalable: true, role: "vegetable" },
-            { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "", emoji: "🥛", baseQty: 60, unit: "g", scalable: true, role: "protein" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 15, unit: "ml", scalable: true, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" },
+            { id: "fromage_blanc_0", name: "Fromage blanc 0%", emoji: "🥛", baseQty: 60, unit: "g", scalable: true, role: "protein" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 15, unit: "ml", scalable: true, role: "seasoning" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" },
             { id: "graines_chia", name: "Graines de chia", detail: "pour le topping", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "seasoning" }
         ],
         options: [],
@@ -8568,6 +8629,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Saumon cru", text: "Si vous utilisez du saumon frais cru, assurez-vous qu'il a été congelé à -20°C pendant au moins 48h pour éliminer les risques parasitaires." }
         ]
     },
+
     {
         id: "dip-cottage-cheese-herbes",
         name: "Dip de cottage cheese aux herbes",
@@ -8578,15 +8640,15 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 30,
         sliderMax: 200,
-        tags: ["Végétarien", "Sans gluten", "Rapide"],
+        tags: ["Végétarien","Sans gluten","Rapide"],
         ingredients: [
-            { id: "cottage_cheese", name: "Cottage cheese", detail: "", emoji: "🧀", baseQty: 200, unit: "g", scalable: true, role: "protein" },
+            { id: "cottage_cheese", name: "Cottage cheese", emoji: "🧀", baseQty: 200, unit: "g", scalable: true, role: "protein" },
             { id: "concombre", name: "Concombre", detail: "en bâtonnets", emoji: "🥒", baseQty: 100, unit: "g", scalable: true, role: "vegetable" },
             { id: "carotte", name: "Carottes", detail: "en bâtonnets", emoji: "🥕", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "en lamelles", emoji: "🌶️", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" },
-            { id: "galette_riz", name: "Galettes de riz", detail: "", emoji: "🍘", baseQty: 30, unit: "g", scalable: true, role: "carb" }
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" },
+            { id: "galette_riz", name: "Galettes de riz", emoji: "🍘", baseQty: 30, unit: "g", scalable: true, role: "carb" }
         ],
         options: [],
         steps: [
@@ -8602,6 +8664,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Texture", text: "Ne mixez pas tout le cottage cheese, gardez des morceaux pour la texture. C'est ce qui fait le charme de ce dip." }
         ]
     },
+
     {
         id: "chips-patate-douce-maison",
         name: "Chips de patate douce maison",
@@ -8612,13 +8675,13 @@ const RECIPES_DATA = [
         time: 35,
         sliderMin: 30,
         sliderMax: 200,
-        tags: ["Vegan", "Sans gluten"],
+        tags: ["Vegan","Sans gluten"],
         ingredients: [
             { id: "patate_douce_crue", name: "Patate douce", detail: "coupée en fines rondelles", emoji: "🍠", baseQty: 200, unit: "g", scalable: true, role: "carb" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 10, unit: "ml", scalable: true, role: "fat" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 10, unit: "ml", scalable: true, role: "fat" },
             { id: "edamame", name: "Edamame", detail: "décortiqués, pour accompagner", emoji: "🫛", baseQty: 80, unit: "g", scalable: true, role: "protein" },
             { id: "sauce_sriracha", name: "Sauce sriracha", detail: "pour tremper", emoji: "🌶️", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" }
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" }
         ],
         options: [],
         steps: [
@@ -8634,6 +8697,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Cuisson", text: "Surveillez attentivement les dernières minutes de cuisson car les chips brûlent très vite. Mieux vaut les sortir un peu tôt, elles durciront en refroidissant." }
         ]
     },
+
     {
         id: "tartare-saumon-mangue",
         name: "Tartare de saumon à la mangue",
@@ -8650,8 +8714,8 @@ const RECIPES_DATA = [
             { id: "mangue", name: "Mangue", detail: "en petits dés", emoji: "🥭", baseQty: 80, unit: "g", scalable: true, role: "base" },
             { id: "avocat", name: "Avocat", detail: "en petits dés", emoji: "🥑", baseQty: 60, unit: "g", scalable: true, role: "fat" },
             { id: "concombre", name: "Concombre", detail: "épépiné, en petits dés", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
-            { id: "citron_jus", name: "Jus de citron vert", detail: "", emoji: "🍋", baseQty: 20, unit: "ml", scalable: true, role: "seasoning" },
-            { id: "sauce_soja", name: "Sauce soja", detail: "", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "citron_jus", name: "Jus de citron vert", emoji: "🍋", baseQty: 20, unit: "ml", scalable: true, role: "seasoning" },
+            { id: "sauce_soja", name: "Sauce soja", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
             { id: "huile_olive", name: "Huile d'olive", detail: "ou huile de sésame", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "fat" },
             { id: "graines_chia", name: "Graines de chia", detail: "pour le topping", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "seasoning" }
         ],
@@ -8669,6 +8733,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Fraîcheur impérative", text: "Le saumon doit être ultra-frais et préalablement congelé. Gardez tous les ingrédients au froid et servez immédiatement après l'assemblage." }
         ]
     },
+
     {
         id: "blinis-saumon-ricotta",
         name: "Blinis au saumon fumé et ricotta",
@@ -8681,12 +8746,12 @@ const RECIPES_DATA = [
         sliderMax: 200,
         tags: [],
         ingredients: [
-            { id: "farine_complete", name: "Farine complète", detail: "", emoji: "🌾", baseQty: 60, unit: "g", scalable: true, role: "carb" },
-            { id: "oeuf", name: "Œuf", detail: "", emoji: "🥚", baseQty: 50, unit: "g", scalable: true, role: "protein" },
-            { id: "lait_demi", name: "Lait demi-écrémé", detail: "", emoji: "🥛", baseQty: 80, unit: "ml", scalable: true, role: "base" },
+            { id: "farine_complete", name: "Farine complète", emoji: "🌾", baseQty: 60, unit: "g", scalable: true, role: "carb" },
+            { id: "oeuf", name: "Œuf", emoji: "🥚", baseQty: 50, unit: "g", scalable: true, role: "protein" },
+            { id: "lait_demi", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 80, unit: "ml", scalable: true, role: "base" },
             { id: "saumon", name: "Saumon fumé", detail: "en tranches", emoji: "🐟", baseQty: 100, unit: "g", scalable: true, role: "protein" },
-            { id: "ricotta", name: "Ricotta", detail: "", emoji: "🧀", baseQty: 60, unit: "g", scalable: true, role: "protein" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "ricotta", name: "Ricotta", emoji: "🧀", baseQty: 60, unit: "g", scalable: true, role: "protein" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
             { id: "concombre", name: "Concombre", detail: "en fines rondelles", emoji: "🥒", baseQty: 40, unit: "g", scalable: true, role: "vegetable" }
         ],
         options: [],
@@ -8703,6 +8768,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Cuisson", text: "Feu moyen impératif pour les blinis. Trop chaud, ils brûlent à l'extérieur et restent crus à l'intérieur." }
         ]
     },
+
     {
         id: "crevettes-plancha-ail",
         name: "Crevettes à la plancha ail-citron",
@@ -8713,11 +8779,11 @@ const RECIPES_DATA = [
         time: 15,
         sliderMin: 40,
         sliderMax: 250,
-        tags: ["Sans gluten", "Rapide"],
+        tags: ["Sans gluten","Rapide"],
         ingredients: [
             { id: "crevettes", name: "Crevettes", detail: "décortiquées, queue intacte", emoji: "🦐", baseQty: 180, unit: "g", scalable: true, role: "protein" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 15, unit: "ml", scalable: true, role: "fat" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 20, unit: "ml", scalable: true, role: "seasoning" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 15, unit: "ml", scalable: true, role: "fat" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 20, unit: "ml", scalable: true, role: "seasoning" },
             { id: "oignon", name: "Ail", detail: "2 gousses émincées", emoji: "🧄", baseQty: 10, unit: "g", scalable: false, role: "seasoning" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "en lanières", emoji: "🌶️", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "tomate", name: "Tomates cerises", detail: "coupées en deux", emoji: "🍅", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
@@ -8737,6 +8803,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Feu vif obligatoire", text: "La poêle doit être brûlante pour saisir les crevettes. Si elle n'est pas assez chaude, les crevettes vont bouillir au lieu de griller." }
         ]
     },
+
     {
         id: "tzatziki-concombre",
         name: "Tzatziki concombre-menthe",
@@ -8747,11 +8814,11 @@ const RECIPES_DATA = [
         time: 15,
         sliderMin: 30,
         sliderMax: 200,
-        tags: ["Végétarien", "Sans gluten"],
+        tags: ["Végétarien","Sans gluten"],
         ingredients: [
-            { id: "yaourt_grec", name: "Yaourt grec", detail: "", emoji: "🥛", baseQty: 200, unit: "g", scalable: true, role: "protein" },
+            { id: "yaourt_grec", name: "Yaourt grec", emoji: "🥛", baseQty: 200, unit: "g", scalable: true, role: "protein" },
             { id: "concombre", name: "Concombre", detail: "râpé et égoutté", emoji: "🥒", baseQty: 120, unit: "g", scalable: true, role: "vegetable" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 15, unit: "ml", scalable: true, role: "seasoning" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 15, unit: "ml", scalable: true, role: "seasoning" },
             { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: true, role: "fat" },
             { id: "oignon", name: "Ail", detail: "1 gousse pressée", emoji: "🧄", baseQty: 5, unit: "g", scalable: false, role: "seasoning" },
             { id: "carotte", name: "Carottes", detail: "en bâtonnets", emoji: "🥕", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
@@ -8772,6 +8839,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Repos", text: "Le tzatziki est meilleur après 1-2h de repos au frais. Préparez-le à l'avance pour un maximum de saveur." }
         ]
     },
+
     {
         id: "nachos-healthy-poulet",
         name: "Nachos healthy au poulet effiloché",
@@ -8786,12 +8854,12 @@ const RECIPES_DATA = [
         ingredients: [
             { id: "poulet_grille", name: "Poulet", detail: "effiloché", emoji: "🍗", baseQty: 150, unit: "g", scalable: true, role: "protein" },
             { id: "tortilla_ble", name: "Tortillas de blé", detail: "coupées en triangles", emoji: "🫓", baseQty: 80, unit: "g", scalable: true, role: "carb" },
-            { id: "fromage_rape", name: "Fromage râpé", detail: "", emoji: "🧀", baseQty: 40, unit: "g", scalable: true, role: "fat" },
+            { id: "fromage_rape", name: "Fromage râpé", emoji: "🧀", baseQty: 40, unit: "g", scalable: true, role: "fat" },
             { id: "tomate", name: "Tomates", detail: "en dés pour la salsa", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "oignon", name: "Oignon", detail: "ciselé", emoji: "🧅", baseQty: 30, unit: "g", scalable: true, role: "vegetable" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "en dés", emoji: "🌶️", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
             { id: "haricots_noirs", name: "Haricots noirs", detail: "égouttés", emoji: "🫘", baseQty: 60, unit: "g", scalable: true, role: "protein" },
-            { id: "citron_jus", name: "Jus de citron vert", detail: "", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "citron_jus", name: "Jus de citron vert", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
             { id: "yaourt_grec", name: "Yaourt grec", detail: "en crème fraîche", emoji: "🥛", baseQty: 40, unit: "g", scalable: true, role: "protein" }
         ],
         options: [],
@@ -8808,6 +8876,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Service rapide", text: "Les nachos doivent être servis immédiatement après la sortie du four pour rester croustillants. Ne les préparez pas à l'avance." }
         ]
     },
+
     {
         id: "mini-quiches-legumes-chevre",
         name: "Mini quiches sans pâte légumes-chèvre",
@@ -8818,14 +8887,14 @@ const RECIPES_DATA = [
         time: 35,
         sliderMin: 40,
         sliderMax: 200,
-        tags: ["Végétarien", "Sans gluten"],
+        tags: ["Végétarien","Sans gluten"],
         ingredients: [
-            { id: "oeuf", name: "Œufs", detail: "", emoji: "🥚", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "oeuf", name: "Œufs", emoji: "🥚", baseQty: 150, unit: "g", scalable: true, role: "protein" },
             { id: "chevre_frais", name: "Chèvre frais", detail: "émietté", emoji: "🧀", baseQty: 60, unit: "g", scalable: true, role: "protein" },
             { id: "courgette", name: "Courgette", detail: "en petits dés", emoji: "🥒", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "en petits dés", emoji: "🌶️", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
             { id: "tomate", name: "Tomates cerises", detail: "coupées en deux", emoji: "🍅", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
-            { id: "lait_demi", name: "Lait demi-écrémé", detail: "", emoji: "🥛", baseQty: 50, unit: "ml", scalable: true, role: "base" },
+            { id: "lait_demi", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 50, unit: "ml", scalable: true, role: "base" },
             { id: "huile_olive", name: "Huile d'olive", detail: "pour les moules", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" }
         ],
         options: [],
@@ -8842,6 +8911,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Démoulage", text: "Bien huiler les moules et laisser tiédir avant de démouler. Passer la lame d'un couteau sur les bords si nécessaire." }
         ]
     },
+
     {
         id: "empanadas-boeuf-light",
         name: "Empanadas au boeuf allégées",
@@ -8854,13 +8924,13 @@ const RECIPES_DATA = [
         sliderMax: 250,
         tags: [],
         ingredients: [
-            { id: "boeuf_hache_5", name: "Bœuf haché 5%", detail: "", emoji: "🥩", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "boeuf_hache_5", name: "Bœuf haché 5%", emoji: "🥩", baseQty: 150, unit: "g", scalable: true, role: "protein" },
             { id: "farine_complete", name: "Farine complète", detail: "pour la pâte", emoji: "🌾", baseQty: 100, unit: "g", scalable: true, role: "carb" },
             { id: "oeuf", name: "Œuf", detail: "1 pour la pâte, 1 pour la dorure", emoji: "🥚", baseQty: 50, unit: "g", scalable: true, role: "protein" },
             { id: "oignon", name: "Oignon", detail: "ciselé", emoji: "🧅", baseQty: 50, unit: "g", scalable: true, role: "vegetable" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "en petits dés", emoji: "🌶️", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
-            { id: "concentre_tomate", name: "Concentré de tomate", detail: "", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 15, unit: "ml", scalable: true, role: "fat" }
+            { id: "concentre_tomate", name: "Concentré de tomate", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "seasoning" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 15, unit: "ml", scalable: true, role: "fat" }
         ],
         options: [],
         steps: [
@@ -8876,6 +8946,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Scellage", text: "Bien sceller les bords à la fourchette en appuyant fermement pour éviter que la farce ne s'échappe à la cuisson." }
         ]
     },
+
     {
         id: "gyozas-poulet-legumes",
         name: "Gyozas poulet-légumes maison",
@@ -8893,7 +8964,7 @@ const RECIPES_DATA = [
             { id: "carotte", name: "Carotte", detail: "râpée", emoji: "🥕", baseQty: 40, unit: "g", scalable: true, role: "vegetable" },
             { id: "champignon", name: "Champignons", detail: "finement hachés", emoji: "🍄", baseQty: 40, unit: "g", scalable: true, role: "vegetable" },
             { id: "farine_complete", name: "Farine complète", detail: "pour la pâte", emoji: "🌾", baseQty: 80, unit: "g", scalable: true, role: "carb" },
-            { id: "sauce_soja", name: "Sauce soja", detail: "", emoji: "🫗", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "sauce_soja", name: "Sauce soja", emoji: "🫗", baseQty: 15, unit: "ml", scalable: false, role: "seasoning" },
             { id: "huile_olive", name: "Huile d'olive", detail: "pour la cuisson", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "fat" },
             { id: "sauce_sriracha", name: "Sauce sriracha", detail: "pour accompagner", emoji: "🌶️", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" }
         ],
@@ -8911,6 +8982,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Pliage", text: "Ne surchargez pas les gyozas de farce, une cuillère à café suffit. Trop de farce empêche un bon scellage et les gyozas s'ouvrent à la cuisson." }
         ]
     },
+
     {
         id: "mezze-complet",
         name: "Plateau mezze complet",
@@ -8927,11 +8999,11 @@ const RECIPES_DATA = [
             { id: "yaourt_grec", name: "Yaourt grec", detail: "pour tzatziki", emoji: "🥛", baseQty: 100, unit: "g", scalable: true, role: "protein" },
             { id: "concombre", name: "Concombre", detail: "en bâtonnets et pour tzatziki", emoji: "🥒", baseQty: 100, unit: "g", scalable: true, role: "vegetable" },
             { id: "feta", name: "Feta", detail: "en dés", emoji: "🧀", baseQty: 50, unit: "g", scalable: true, role: "protein" },
-            { id: "tomate", name: "Tomates cerises", detail: "", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
+            { id: "tomate", name: "Tomates cerises", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "sauce_tahini", name: "Tahini", detail: "pour le houmous", emoji: "🥜", baseQty: 20, unit: "g", scalable: true, role: "fat" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 15, unit: "ml", scalable: true, role: "fat" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 15, unit: "ml", scalable: true, role: "fat" },
             { id: "pain_pita", name: "Pain pita", detail: "coupé en triangles", emoji: "🫓", baseQty: 60, unit: "g", scalable: true, role: "carb" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 15, unit: "ml", scalable: true, role: "seasoning" }
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 15, unit: "ml", scalable: true, role: "seasoning" }
         ],
         options: [],
         steps: [
@@ -8947,6 +9019,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Préparation", text: "Le houmous et le tzatziki peuvent être préparés la veille. Sortez-les du frigo 15 minutes avant de servir pour un goût optimal." }
         ]
     },
+
     {
         id: "boulettes-dinde-sauce-yaourt",
         name: "Boulettes de dinde sauce yaourt",
@@ -8964,8 +9037,8 @@ const RECIPES_DATA = [
             { id: "oeuf", name: "Œuf", detail: "pour lier", emoji: "🥚", baseQty: 25, unit: "g", scalable: true, role: "protein" },
             { id: "flocons_avoine", name: "Flocons d'avoine", detail: "pour lier", emoji: "🌾", baseQty: 20, unit: "g", scalable: true, role: "carb" },
             { id: "yaourt_grec", name: "Yaourt grec", detail: "pour la sauce", emoji: "🥛", baseQty: 80, unit: "g", scalable: true, role: "protein" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 15, unit: "ml", scalable: true, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "fat" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 15, unit: "ml", scalable: true, role: "seasoning" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "fat" },
             { id: "concombre", name: "Concombre", detail: "en dés pour la sauce", emoji: "🥒", baseQty: 40, unit: "g", scalable: true, role: "vegetable" }
         ],
         options: [],
@@ -8982,6 +9055,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Cuisson", text: "Ne pas tasser les boulettes en les formant pour qu'elles restent moelleuses. Vérifier la cuisson à cœur avant de servir." }
         ]
     },
+
     {
         id: "tapas-champignons-ail",
         name: "Tapas champignons à l'ail",
@@ -8992,12 +9066,12 @@ const RECIPES_DATA = [
         time: 15,
         sliderMin: 30,
         sliderMax: 200,
-        tags: ["Vegan", "Rapide"],
+        tags: ["Vegan","Rapide"],
         ingredients: [
             { id: "champignon", name: "Champignons", detail: "coupés en quartiers", emoji: "🍄", baseQty: 250, unit: "g", scalable: true, role: "vegetable" },
             { id: "huile_olive", name: "Huile d'olive", detail: "généreusement", emoji: "🫒", baseQty: 20, unit: "ml", scalable: true, role: "fat" },
             { id: "oignon", name: "Ail", detail: "3 gousses émincées", emoji: "🧄", baseQty: 15, unit: "g", scalable: false, role: "seasoning" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
             { id: "pain_complet", name: "Pain complet", detail: "grillé, pour saucer", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "carb" },
             { id: "edamame", name: "Edamame", detail: "pour accompagner", emoji: "🫛", baseQty: 60, unit: "g", scalable: true, role: "protein" }
         ],
@@ -9015,6 +9089,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Ail", text: "Ajoutez l'ail en fin de cuisson et à feu réduit. L'ail brûlé devient amer et gâche le plat." }
         ]
     },
+
     {
         id: "edamame-epice-apero",
         name: "Edamame épicé pour l'apéro",
@@ -9025,13 +9100,13 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 30,
         sliderMax: 200,
-        tags: ["Vegan", "Sans gluten", "Rapide"],
+        tags: ["Vegan","Sans gluten","Rapide"],
         ingredients: [
             { id: "edamame", name: "Edamame", detail: "en cosse, surgelés", emoji: "🫛", baseQty: 200, unit: "g", scalable: true, role: "protein" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "fat" },
-            { id: "sauce_soja", name: "Sauce soja", detail: "", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
-            { id: "sauce_sriracha", name: "Sauce sriracha", detail: "", emoji: "🌶️", baseQty: 5, unit: "ml", scalable: false, role: "seasoning" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "fat" },
+            { id: "sauce_soja", name: "Sauce soja", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "sauce_sriracha", name: "Sauce sriracha", emoji: "🌶️", baseQty: 5, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
             { id: "graines_chia", name: "Graines de sésame", detail: "pour le topping", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "seasoning" }
         ],
         options: [],
@@ -9047,6 +9122,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Sel", text: "Attention au cumul de sel entre la sauce soja et le sel de cuisson. Goûtez avant de saler davantage." }
         ]
     },
+
     {
         id: "salade-crevettes-mangue-coco",
         name: "Salade de crevettes mangue-coco",
@@ -9057,16 +9133,16 @@ const RECIPES_DATA = [
         time: 15,
         sliderMin: 40,
         sliderMax: 200,
-        tags: ["Sans gluten", "Rapide"],
+        tags: ["Sans gluten","Rapide"],
         ingredients: [
             { id: "crevettes", name: "Crevettes", detail: "décortiquées et cuites", emoji: "🦐", baseQty: 150, unit: "g", scalable: true, role: "protein" },
             { id: "mangue", name: "Mangue", detail: "en dés", emoji: "🥭", baseQty: 80, unit: "g", scalable: true, role: "base" },
             { id: "noix_coco_rapee", name: "Noix de coco râpée", detail: "grillée", emoji: "🥥", baseQty: 15, unit: "g", scalable: false, role: "fat" },
-            { id: "salade_verte", name: "Mesclun", detail: "", emoji: "🥬", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
+            { id: "salade_verte", name: "Mesclun", emoji: "🥬", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
             { id: "concombre", name: "Concombre", detail: "en rondelles fines", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
-            { id: "citron_jus", name: "Jus de citron vert", detail: "", emoji: "🍋", baseQty: 20, unit: "ml", scalable: true, role: "seasoning" },
-            { id: "sauce_nuoc_mam", name: "Nuoc mam", detail: "", emoji: "🫗", baseQty: 5, unit: "ml", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "fat" }
+            { id: "citron_jus", name: "Jus de citron vert", emoji: "🍋", baseQty: 20, unit: "ml", scalable: true, role: "seasoning" },
+            { id: "sauce_nuoc_mam", name: "Nuoc mam", emoji: "🫗", baseQty: 5, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -9082,6 +9158,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Fraîcheur", text: "Assembler la salade au dernier moment pour éviter que le mesclun ne flétrisse. La vinaigrette peut être préparée à l'avance." }
         ]
     },
+
     {
         id: "toast-sardine-poivron",
         name: "Toasts sardines-poivron grillé",
@@ -9098,9 +9175,9 @@ const RECIPES_DATA = [
             { id: "poivron_rouge", name: "Poivron rouge", detail: "grillé et coupé en lamelles", emoji: "🌶️", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "pain_complet", name: "Pain complet", detail: "tranché et grillé", emoji: "🍞", baseQty: 80, unit: "g", scalable: true, role: "carb" },
             { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "en base tartine", emoji: "🥛", baseQty: 40, unit: "g", scalable: true, role: "protein" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
             { id: "oignon", name: "Oignon rouge", detail: "en fines rondelles", emoji: "🧅", baseQty: 20, unit: "g", scalable: false, role: "vegetable" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" }
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "fat" }
         ],
         options: [],
         steps: [
@@ -9116,6 +9193,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Pain grillé", text: "Tartiner et garnir les toasts juste avant de servir. Le pain grillé ramollit vite au contact des garnitures humides." }
         ]
     },
+
     {
         id: "dip-betterave-feta",
         name: "Dip de betterave à la feta",
@@ -9126,14 +9204,14 @@ const RECIPES_DATA = [
         time: 10,
         sliderMin: 30,
         sliderMax: 200,
-        tags: ["Végétarien", "Sans gluten", "Rapide"],
+        tags: ["Végétarien","Sans gluten","Rapide"],
         ingredients: [
-            { id: "betterave_cuite", name: "Betterave cuite", detail: "", emoji: "🟣", baseQty: 150, unit: "g", scalable: true, role: "vegetable" },
+            { id: "betterave_cuite", name: "Betterave cuite", emoji: "🟣", baseQty: 150, unit: "g", scalable: true, role: "vegetable" },
             { id: "feta", name: "Feta", detail: "émiettée", emoji: "🧀", baseQty: 60, unit: "g", scalable: true, role: "protein" },
-            { id: "yaourt_grec", name: "Yaourt grec", detail: "", emoji: "🥛", baseQty: 40, unit: "g", scalable: true, role: "protein" },
+            { id: "yaourt_grec", name: "Yaourt grec", emoji: "🥛", baseQty: 40, unit: "g", scalable: true, role: "protein" },
             { id: "noix", name: "Noix", detail: "concassées pour le topping", emoji: "🌰", baseQty: 15, unit: "g", scalable: false, role: "fat" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "fat" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "seasoning" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "fat" },
             { id: "carotte", name: "Carottes", detail: "en bâtonnets", emoji: "🥕", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
             { id: "pain_pita", name: "Pain pita", detail: "en triangles grillés", emoji: "🫓", baseQty: 40, unit: "g", scalable: true, role: "carb" }
         ],
@@ -9151,6 +9229,7 @@ const RECIPES_DATA = [
             { type: "red", title: "Taches", text: "Attention aux éclaboussures de betterave qui tachent. Portez un tablier et mixez avec le couvercle bien fermé." }
         ]
     },
+
     {
         id: "plancha-gambas-poivrons",
         name: "Plancha gambas et poivrons grillés",
@@ -9166,10 +9245,10 @@ const RECIPES_DATA = [
             { id: "gambas", name: "Gambas", detail: "entières ou décortiquées", emoji: "🦐", baseQty: 180, unit: "g", scalable: true, role: "protein" },
             { id: "poivron_rouge", name: "Poivron rouge", detail: "en grosses lanières", emoji: "🌶️", baseQty: 100, unit: "g", scalable: true, role: "vegetable" },
             { id: "courgette", name: "Courgette", detail: "en rondelles épaisses", emoji: "🥒", baseQty: 80, unit: "g", scalable: true, role: "vegetable" },
-            { id: "huile_olive", name: "Huile d'olive", detail: "", emoji: "🫒", baseQty: 20, unit: "ml", scalable: true, role: "fat" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 20, unit: "ml", scalable: true, role: "fat" },
             { id: "oignon", name: "Ail", detail: "3 gousses émincées", emoji: "🧄", baseQty: 15, unit: "g", scalable: false, role: "seasoning" },
-            { id: "citron_jus", name: "Jus de citron", detail: "", emoji: "🍋", baseQty: 20, unit: "ml", scalable: true, role: "seasoning" },
-            { id: "tomate", name: "Tomates cerises", detail: "", emoji: "🍅", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 20, unit: "ml", scalable: true, role: "seasoning" },
+            { id: "tomate", name: "Tomates cerises", emoji: "🍅", baseQty: 60, unit: "g", scalable: true, role: "vegetable" },
             { id: "pain_complet", name: "Pain complet", detail: "grillé", emoji: "🍞", baseQty: 50, unit: "g", scalable: true, role: "carb" }
         ],
         options: [],
@@ -9186,4080 +9265,4217 @@ const RECIPES_DATA = [
             { type: "red", title: "Ne pas surcuire", text: "Les gambas sont cuites dès qu'elles deviennent roses et opaques (2-3 min par face max). Trop cuites, elles deviennent caoutchouteuses." }
         ]
     },
-{
-  id: "poulet-tandoori-riz-coco",
-  name: "Poulet Tandoori & Riz Coco",
-  subtitle: "Poulet mariné aux épices tandoori, riz basmati au lait de coco et légumes rôtis",
-  emoji: "🍗",
-  category: "dejeuner",
-  difficulty: "Moyen",
-  time: 40,
-  sliderMin: 40,
-  sliderMax: 280,
-  tags: ["Protéiné", "Sans gluten"],
-  ingredients: [
-    { id: "poulet_grille", name: "Blanc de poulet", detail: "coupé en morceaux", emoji: "🍗", baseQty: 150, unit: "g", scalable: true, role: "Protéines" },
-    { id: "riz_basmati_cuit", name: "Riz basmati", detail: "cuit", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "Féculents", rawRatio: 2.25 },
-    { id: "lait_coco", name: "Lait de coco", detail: "léger", emoji: "🥥", baseQty: 50, unit: "ml", scalable: false, role: "Sauce" },
-    { id: "yaourt_grec", name: "Yaourt grec", detail: "pour la marinade", emoji: "🥛", baseQty: 40, unit: "g", scalable: false, role: "Sauce" },
-    { id: "poivron_rouge", name: "Poivron rouge", detail: "en lanières", emoji: "🫑", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
-    { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 50, unit: "g", scalable: false, role: "Légumes" },
-    { id: "citron_jus", name: "Jus de citron", detail: "frais", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
-    { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
-  ],
-  steps: [
-    "Mélangez le yaourt grec avec le jus de citron, le curcuma, le paprika, le cumin et le gingembre en poudre pour créer la marinade tandoori.",
-    "Enrobez les morceaux de poulet dans la marinade et laissez reposer au moins 15 minutes (idéalement 30 min au frigo).",
-    "Faites cuire le riz basmati selon les instructions, puis ajoutez le lait de coco en fin de cuisson et mélangez délicatement.",
-    "Faites griller le poulet mariné dans une poêle bien chaude avec un filet d'huile d'olive, 4-5 min de chaque côté jusqu'à coloration dorée.",
-    "En parallèle, faites revenir le poivron et l'oignon émincés dans une autre poêle jusqu'à ce qu'ils soient tendres et légèrement caramélisés.",
-    "Dressez le riz coco dans un bol, disposez le poulet tandoori et les légumes rôtis par-dessus. Servez avec un quartier de citron."
-  ],
-  tips: [
-    { type: "green", title: "Marinade express", text: "Même 15 minutes de marinade suffisent pour donner du goût. Pour un résultat optimal, préparez la veille." },
-    { type: "red", title: "Cuisson du poulet", text: "Ne cuisez pas à feu trop fort pour éviter que le yaourt ne brûle. Un feu moyen-vif est idéal." }
-  ]
-},
-{
-  id: "bowl-poke-veggie-edamame",
-  name: "Poké Bowl Veggie Edamame",
-  subtitle: "Bowl coloré aux edamame, avocat, mangue et riz vinaigré, sauce soja-sésame",
-  emoji: "🥗",
-  category: "dejeuner",
-  difficulty: "Facile",
-  time: 20,
-  sliderMin: 40,
-  sliderMax: 250,
-  tags: ["Vegan", "Sans gluten", "Rapide"],
-  ingredients: [
-    { id: "edamame", name: "Edamame", detail: "décortiqués", emoji: "🫘", baseQty: 100, unit: "g", scalable: true, role: "Protéines" },
-    { id: "riz_complet_cuit", name: "Riz complet", detail: "cuit", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "Féculents", rawRatio: 2.25 },
-    { id: "avocat", name: "Avocat", detail: "en tranches", emoji: "🥑", baseQty: 60, unit: "g", scalable: true, role: "Lipides" },
-    { id: "mangue", name: "Mangue", detail: "en dés", emoji: "🥭", baseQty: 60, unit: "g", scalable: true, role: "Fruits" },
-    { id: "concombre", name: "Concombre", detail: "en rondelles", emoji: "🥒", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
-    { id: "carotte", name: "Carotte", detail: "râpée", emoji: "🥕", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
-    { id: "sauce_soja", name: "Sauce soja", detail: "allégée en sel", emoji: "🥫", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
-    { id: "graines_chia", name: "Graines de sésame", detail: "pour garnir", emoji: "🌰", baseQty: 5, unit: "g", scalable: false, role: "Topping" }
-  ],
-  steps: [
-    "Faites cuire le riz complet et laissez-le refroidir. Assaisonnez-le avec un filet de vinaigre de riz et une pincée de sucre.",
-    "Faites bouillir les edamame 3-4 minutes dans l'eau salée, puis égouttez et passez-les sous l'eau froide.",
-    "Préparez tous les légumes : tranchez l'avocat, coupez la mangue en dés, émincez le concombre et râpez la carotte.",
-    "Préparez la sauce en mélangeant la sauce soja avec un trait de vinaigre de riz et quelques gouttes d'huile de sésame.",
-    "Disposez le riz dans un bol, arrangez harmonieusement tous les ingrédients par-dessus en sections colorées.",
-    "Arrosez de sauce soja-sésame et parsemez de graines. Servez frais."
-  ],
-  tips: [
-    { type: "green", title: "Meal prep", text: "Préparez les légumes et le riz la veille. Il suffit d'assembler le matin pour un déjeuner express." },
-    { type: "red", title: "Avocat", text: "Coupez l'avocat au dernier moment pour éviter qu'il ne s'oxyde. Un filet de citron aide à le conserver." }
-  ]
-},
-{
-  id: "gratin-pates-brocoli-poulet",
-  name: "Gratin de Pâtes Brocoli-Poulet",
-  subtitle: "Gratin crémeux de pâtes au poulet effiloché, brocoli et sauce béchamel légère",
-  emoji: "🧀",
-  category: "dejeuner",
-  difficulty: "Moyen",
-  time: 40,
-  sliderMin: 40,
-  sliderMax: 280,
-  tags: ["Protéiné", "Cheat meal"],
-  ingredients: [
-    { id: "poulet_grille", name: "Blanc de poulet", detail: "cuit et effiloché", emoji: "🍗", baseQty: 130, unit: "g", scalable: true, role: "Protéines" },
-    { id: "pates_cuites", name: "Pâtes complètes", detail: "cuites al dente", emoji: "🍝", baseQty: 150, unit: "g", scalable: true, role: "Féculents", rawRatio: 2.5 },
-    { id: "brocoli", name: "Brocoli", detail: "en petits fleurettes", emoji: "🥦", baseQty: 120, unit: "g", scalable: true, role: "Légumes" },
-    { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 30, unit: "g", scalable: false, role: "Sauce" },
-    { id: "fromage_rape", name: "Emmental râpé", detail: "pour gratiner", emoji: "🧀", baseQty: 25, unit: "g", scalable: false, role: "Topping" },
-    { id: "lait_demi", name: "Lait demi-écrémé", detail: "pour la béchamel", emoji: "🥛", baseQty: 80, unit: "ml", scalable: false, role: "Sauce" },
-    { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "Légumes" },
-    { id: "moutarde", name: "Moutarde de Dijon", emoji: "🟡", baseQty: 5, unit: "g", scalable: false, role: "Assaisonnement" }
-  ],
-  steps: [
-    "Préchauffez le four à 200°C. Faites cuire les pâtes al dente et blanchissez le brocoli 3 minutes à la vapeur.",
-    "Préparez une béchamel légère : faites fondre une noisette de beurre, ajoutez une cuillère de farine, puis versez le lait progressivement en fouettant.",
-    "Incorporez la crème légère et la moutarde à la béchamel. Assaisonnez de sel, poivre et muscade.",
-    "Mélangez les pâtes, le brocoli, le poulet effiloché et l'oignon émincé dans un plat à gratin.",
-    "Nappez de béchamel, mélangez bien puis parsemez de fromage râpé sur le dessus.",
-    "Enfournez 15-20 minutes jusqu'à ce que le dessus soit bien doré et gratiné. Laissez reposer 5 minutes avant de servir."
-  ],
-  tips: [
-    { type: "green", title: "Meal prep", text: "Assemblez le gratin la veille et réfrigérez. Ajoutez 5-10 min de cuisson si le plat sort du frigo." },
-    { type: "red", title: "Béchamel", text: "Versez le lait progressivement en fouettant sans cesse pour éviter les grumeaux." }
-  ]
-},
-{
-  id: "salade-quinoa-halloumi-grenade",
-  name: "Salade Quinoa, Halloumi & Grenade",
-  subtitle: "Salade fraîche et gourmande au quinoa, halloumi grillé, grenade et herbes fraîches",
-  emoji: "🥗",
-  category: "dejeuner",
-  difficulty: "Facile",
-  time: 25,
-  sliderMin: 40,
-  sliderMax: 250,
-  tags: ["Végétarien", "Sans gluten"],
-  ingredients: [
-    { id: "quinoa_cuit", name: "Quinoa", detail: "cuit", emoji: "🌾", baseQty: 150, unit: "g", scalable: true, role: "Féculents", rawRatio: 1.8 },
-    { id: "feta", name: "Halloumi / Feta", detail: "grillé(e) en tranches", emoji: "🧀", baseQty: 80, unit: "g", scalable: true, role: "Protéines" },
-    { id: "concombre", name: "Concombre", detail: "en dés", emoji: "🥒", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
-    { id: "tomate", name: "Tomates cerises", detail: "coupées en deux", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
-    { id: "epinards", name: "Pousses d'épinards", detail: "fraîches", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "Légumes" },
-    { id: "citron_jus", name: "Jus de citron", detail: "frais", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
-    { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-    { id: "amandes", name: "Amandes effilées", detail: "torréfiées", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" }
-  ],
-  steps: [
-    "Faites cuire le quinoa selon les instructions du paquet, puis laissez-le refroidir complètement à température ambiante.",
-    "Coupez la feta ou le halloumi en tranches épaisses et faites-les griller à la poêle sans matière grasse, 2 min de chaque côté.",
-    "Préparez les crudités : coupez le concombre en dés, les tomates cerises en deux, et lavez les pousses d'épinards.",
-    "Préparez la vinaigrette en mélangeant l'huile d'olive, le jus de citron, du sel et du poivre.",
-    "Dans un grand bol, mélangez le quinoa refroidi avec les légumes et la vinaigrette. Disposez le fromage grillé par-dessus.",
-    "Parsemez d'amandes effilées torréfiées et de menthe fraîche ciselée. Servez immédiatement."
-  ],
-  tips: [
-    { type: "green", title: "Variante", text: "Remplacez le halloumi par du tofu fumé grillé pour une version vegan tout aussi gourmande." },
-    { type: "red", title: "Quinoa", text: "Rincez bien le quinoa avant cuisson pour éliminer l'amertume naturelle (saponines)." }
-  ]
-},
-{
-  id: "boeuf-stroganoff-light",
-  name: "Bœuf Stroganoff Light",
-  subtitle: "Émincé de bœuf sauce crémeuse aux champignons et paprika, servi avec des tagliatelles",
-  emoji: "🥩",
-  category: "dejeuner",
-  difficulty: "Moyen",
-  time: 30,
-  sliderMin: 40,
-  sliderMax: 280,
-  tags: ["Protéiné", "Cheat meal"],
-  ingredients: [
-    { id: "boeuf_hache_5", name: "Émincé de bœuf", detail: "5% MG", emoji: "🥩", baseQty: 140, unit: "g", scalable: true, role: "Protéines" },
-    { id: "pates_cuites", name: "Tagliatelles", detail: "cuites", emoji: "🍝", baseQty: 150, unit: "g", scalable: true, role: "Féculents", rawRatio: 2.5 },
-    { id: "champignon", name: "Champignons", detail: "émincés", emoji: "🍄", baseQty: 120, unit: "g", scalable: true, role: "Légumes" },
-    { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 40, unit: "g", scalable: false, role: "Sauce" },
-    { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 50, unit: "g", scalable: false, role: "Légumes" },
-    { id: "moutarde", name: "Moutarde de Dijon", emoji: "🟡", baseQty: 10, unit: "g", scalable: false, role: "Assaisonnement" },
-    { id: "concentre_tomate", name: "Concentré de tomate", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "Sauce" },
-    { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
-  ],
-  steps: [
-    "Faites cuire les tagliatelles al dente selon les instructions du paquet. Égouttez et réservez.",
-    "Dans une poêle bien chaude, saisissez l'émincé de bœuf avec un filet d'huile d'olive, 2-3 min à feu vif. Réservez.",
-    "Dans la même poêle, faites revenir l'oignon émincé puis les champignons jusqu'à ce qu'ils aient rendu toute leur eau.",
-    "Ajoutez le concentré de tomate et le paprika, mélangez bien et laissez cuire 1 minute pour développer les saveurs.",
-    "Incorporez la crème fraîche légère et la moutarde, mélangez et laissez réduire 2-3 minutes à feu doux.",
-    "Remettez le bœuf dans la sauce, rectifiez l'assaisonnement. Servez sur les tagliatelles avec du persil frais."
-  ],
-  tips: [
-    { type: "green", title: "Variante champignons", text: "Utilisez un mélange de champignons (shiitake, pleurotes) pour plus de saveur et de texture." },
-    { type: "red", title: "Cuisson du bœuf", text: "Saisissez le bœuf à feu très vif sans remuer pour obtenir une belle coloration. Ne surchargez pas la poêle." }
-  ]
-},
-{
-  id: "fajitas-crevettes-poivrons",
-  name: "Fajitas Crevettes & Poivrons",
-  subtitle: "Fajitas épicées aux crevettes sautées, poivrons colorés et garniture fraîche",
-  emoji: "🌮",
-  category: "dejeuner",
-  difficulty: "Facile",
-  time: 20,
-  sliderMin: 40,
-  sliderMax: 250,
-  tags: ["Protéiné", "Rapide"],
-  ingredients: [
-    { id: "crevettes", name: "Crevettes", detail: "décortiquées", emoji: "🦐", baseQty: 140, unit: "g", scalable: true, role: "Protéines" },
-    { id: "tortilla_ble", name: "Tortillas de blé", detail: "complètes", emoji: "🌮", baseQty: 80, unit: "g", scalable: true, role: "Féculents" },
-    { id: "poivron_rouge", name: "Poivron rouge", detail: "en lanières", emoji: "🫑", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
-    { id: "oignon", name: "Oignon", detail: "en lamelles", emoji: "🧅", baseQty: 50, unit: "g", scalable: false, role: "Légumes" },
-    { id: "avocat", name: "Avocat", detail: "en tranches", emoji: "🥑", baseQty: 40, unit: "g", scalable: true, role: "Lipides" },
-    { id: "tomate", name: "Tomate", detail: "en dés pour salsa", emoji: "🍅", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
-    { id: "citron_jus", name: "Jus de citron vert", detail: "frais", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-    { id: "yaourt_grec", name: "Yaourt grec", detail: "en garniture", emoji: "🥛", baseQty: 30, unit: "g", scalable: false, role: "Sauce" }
-  ],
-  steps: [
-    "Préparez une salsa fraîche en mélangeant les dés de tomate avec un filet de citron vert, de la coriandre ciselée, sel et poivre.",
-    "Assaisonnez les crevettes avec du paprika fumé, du cumin, de l'ail en poudre, du sel et du poivre.",
-    "Dans une poêle très chaude, faites sauter les crevettes 2-3 minutes de chaque côté. Réservez.",
-    "Dans la même poêle, faites revenir les lanières de poivron et d'oignon à feu vif 4-5 min pour qu'ils restent croquants.",
-    "Réchauffez les tortillas 30 secondes de chaque côté à la poêle sèche ou au micro-ondes.",
-    "Garnissez les tortillas de légumes sautés, crevettes, tranches d'avocat, salsa fraîche et une cuillère de yaourt grec."
-  ],
-  tips: [
-    { type: "green", title: "Cuisson express", text: "Les crevettes cuisent très vite. Dès qu'elles sont roses et enroulées, c'est prêt !" },
-    { type: "red", title: "Tortillas", text: "Ne chauffez pas trop les tortillas sinon elles deviennent cassantes. 30 secondes suffisent." }
-  ]
-},
-{
-  id: "risotto-courge-parmesan",
-  name: "Risotto Butternut & Parmesan",
-  subtitle: "Risotto crémeux à la courge butternut rôtie, parmesan et sauge",
-  emoji: "🍚",
-  category: "dejeuner",
-  difficulty: "Avancé",
-  time: 45,
-  sliderMin: 40,
-  sliderMax: 280,
-  tags: ["Végétarien", "Sans gluten", "Cheat meal"],
-  ingredients: [
-    { id: "riz_basmati_cuit", name: "Riz arborio / basmati", detail: "cuit", emoji: "🍚", baseQty: 170, unit: "g", scalable: true, role: "Féculents", rawRatio: 2.25 },
-    { id: "patate_douce_cuite", name: "Courge butternut", detail: "rôtie en dés", emoji: "🎃", baseQty: 120, unit: "g", scalable: true, role: "Légumes" },
-    { id: "parmesan", name: "Parmesan", detail: "râpé", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "Fromage" },
-    { id: "oignon", name: "Oignon", detail: "émincé finement", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "Légumes" },
-    { id: "creme_fraiche_legere", name: "Crème fraîche légère", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "Sauce" },
-    { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" },
-    { id: "oeuf", name: "Jaune d'œuf", detail: "pour la crémosité", emoji: "🥚", baseQty: 1, unit: "pce", scalable: false, role: "Liant" }
-  ],
-  steps: [
-    "Préchauffez le four à 200°C. Coupez la courge en dés, arrosez d'huile d'olive et enfournez 20-25 min jusqu'à tendreté.",
-    "Dans une casserole, faites revenir l'oignon émincé dans un filet d'huile d'olive jusqu'à translucidité.",
-    "Ajoutez le riz et faites-le nacrer 1-2 minutes en remuant. Versez une louche de bouillon chaud et remuez jusqu'à absorption.",
-    "Continuez à ajouter du bouillon louche par louche en remuant régulièrement pendant 18-20 minutes.",
-    "Hors du feu, incorporez la crème, le parmesan râpé et le jaune d'œuf. Mélangez vigoureusement pour créer la mantecatura.",
-    "Incorporez délicatement les dés de courge rôtie, rectifiez l'assaisonnement et servez parsemé de sauge fraîche."
-  ],
-  tips: [
-    { type: "green", title: "Mantecatura", text: "Cette étape finale hors du feu avec parmesan et crème rend le risotto onctueux. Ne la sautez pas !" },
-    { type: "red", title: "Bouillon", text: "Le bouillon doit être chaud quand vous l'ajoutez au riz. Du bouillon froid stoppe la cuisson." }
-  ]
-},
-{
-  id: "bo-bun-boeuf-herbes",
-  name: "Bo Bun au Bœuf",
-  subtitle: "Salade vietnamienne de vermicelles de riz, bœuf mariné, herbes fraîches et cacahuètes",
-  emoji: "🍜",
-  category: "dejeuner",
-  difficulty: "Moyen",
-  time: 30,
-  sliderMin: 40,
-  sliderMax: 260,
-  tags: ["Protéiné"],
-  ingredients: [
-    { id: "boeuf_hache_5", name: "Bœuf haché", detail: "5% MG, sauté", emoji: "🥩", baseQty: 130, unit: "g", scalable: true, role: "Protéines" },
-    { id: "vermicelles_riz", name: "Vermicelles de riz", detail: "cuits", emoji: "🍜", baseQty: 100, unit: "g", scalable: true, role: "Féculents" },
-    { id: "carotte", name: "Carotte", detail: "râpée", emoji: "🥕", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
-    { id: "concombre", name: "Concombre", detail: "en julienne", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
-    { id: "salade_verte", name: "Salade", detail: "feuilles croquantes", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "Légumes" },
-    { id: "sauce_nuoc_mam", name: "Nuoc mam", detail: "pour la sauce", emoji: "🥫", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
-    { id: "citron_jus", name: "Jus de citron vert", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
-    { id: "beurre_cacahuete", name: "Cacahuètes", detail: "concassées", emoji: "🥜", baseQty: 10, unit: "g", scalable: false, role: "Topping" }
-  ],
-  steps: [
-    "Préparez la sauce en mélangeant le nuoc mam, le jus de citron vert, une cuillère de sucre et un peu d'eau tiède. Réservez.",
-    "Faites tremper les vermicelles de riz dans l'eau bouillante 3-4 minutes, égouttez et passez sous l'eau froide.",
-    "Marinez le bœuf haché avec de la sauce soja, de l'ail haché et du gingembre râpé pendant 10 minutes.",
-    "Faites sauter le bœuf à feu très vif dans une poêle ou un wok, en le laissant bien colorer sans trop remuer.",
-    "Préparez les légumes : râpez la carotte, coupez le concombre en julienne, lavez la salade.",
-    "Dressez dans un bol : vermicelles, salade, crudités, bœuf chaud. Arrosez de sauce et parsemez de cacahuètes concassées et menthe fraîche."
-  ],
-  tips: [
-    { type: "green", title: "Herbes fraîches", text: "Ajoutez menthe, coriandre et basilic thaï pour un bo bun authentique et parfumé." },
-    { type: "red", title: "Vermicelles", text: "Ne laissez pas trop tremper les vermicelles sinon ils deviennent collants. 3-4 minutes maximum." }
-  ]
-},
-{
-  id: "bowl-burrito-haricots-noirs",
-  name: "Burrito Bowl Haricots Noirs",
-  subtitle: "Bowl tex-mex aux haricots noirs épicés, riz, maïs, avocat et salsa fraîche",
-  emoji: "🌯",
-  category: "dejeuner",
-  difficulty: "Facile",
-  time: 25,
-  sliderMin: 40,
-  sliderMax: 260,
-  tags: ["Vegan", "Sans gluten", "Protéiné"],
-  ingredients: [
-    { id: "haricots_noirs", name: "Haricots noirs", detail: "cuits", emoji: "🫘", baseQty: 120, unit: "g", scalable: true, role: "Protéines" },
-    { id: "riz_complet_cuit", name: "Riz complet", detail: "cuit", emoji: "🍚", baseQty: 130, unit: "g", scalable: true, role: "Féculents", rawRatio: 2.25 },
-    { id: "mais_conserve", name: "Maïs", detail: "égoutté", emoji: "🌽", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
-    { id: "avocat", name: "Avocat", detail: "en tranches", emoji: "🥑", baseQty: 50, unit: "g", scalable: true, role: "Lipides" },
-    { id: "tomate", name: "Tomate", detail: "en dés", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
-    { id: "poivron_rouge", name: "Poivron rouge", detail: "en dés", emoji: "🫑", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
-    { id: "citron_jus", name: "Jus de citron vert", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-    { id: "sauce_sriracha", name: "Sauce piquante", detail: "facultatif", emoji: "🌶️", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" }
-  ],
-  steps: [
-    "Faites chauffer les haricots noirs dans une petite casserole avec du cumin, du paprika fumé, de l'ail en poudre et une pincée de sel.",
-    "Préparez la salsa en mélangeant les dés de tomate, un peu d'oignon rouge finement haché, du citron vert et de la coriandre.",
-    "Faites revenir les dés de poivron à la poêle 3-4 minutes pour qu'ils restent légèrement croquants.",
-    "Réchauffez le riz avec un filet de citron vert et de la coriandre ciselée pour un riz à la mexicaine.",
-    "Disposez le riz dans un bol, ajoutez les haricots noirs, le maïs, le poivron sauté, la salsa et l'avocat en tranches.",
-    "Ajoutez un trait de sauce piquante si désiré et parsemez de coriandre fraîche. Servez avec un quartier de citron vert."
-  ],
-  tips: [
-    { type: "green", title: "Protéines", text: "Ajoutez du poulet grillé ou du tofu émietté pour augmenter l'apport protéique." },
-    { type: "red", title: "Haricots", text: "Si vous utilisez des haricots en conserve, rincez-les bien pour réduire le sodium." }
-  ]
-},
-{
-  id: "poulet-miel-sesame-brocoli",
-  name: "Poulet Miel-Sésame & Brocoli",
-  subtitle: "Poulet laqué au miel et sésame, brocoli sauté et riz basmati",
-  emoji: "🍯",
-  category: "dejeuner",
-  difficulty: "Moyen",
-  time: 30,
-  sliderMin: 40,
-  sliderMax: 280,
-  tags: ["Protéiné"],
-  ingredients: [
-    { id: "poulet_grille", name: "Blanc de poulet", detail: "coupé en morceaux", emoji: "🍗", baseQty: 150, unit: "g", scalable: true, role: "Protéines" },
-    { id: "riz_basmati_cuit", name: "Riz basmati", detail: "cuit", emoji: "🍚", baseQty: 140, unit: "g", scalable: true, role: "Féculents", rawRatio: 2.25 },
-    { id: "brocoli", name: "Brocoli", detail: "en fleurettes", emoji: "🥦", baseQty: 120, unit: "g", scalable: true, role: "Légumes" },
-    { id: "miel", name: "Miel", detail: "pour le laquage", emoji: "🍯", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
-    { id: "sauce_soja", name: "Sauce soja", emoji: "🥫", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
-    { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "Légumes" },
-    { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
-  ],
-  steps: [
-    "Préparez la sauce laquée en mélangeant le miel, la sauce soja, une gousse d'ail hachée et du gingembre râpé.",
-    "Coupez le poulet en morceaux réguliers et faites-les saisir dans une poêle bien chaude avec un filet d'huile d'olive.",
-    "Quand le poulet est doré sur tous les côtés (5-6 min), versez la sauce miel-soja et laissez caraméliser 2-3 min à feu moyen.",
-    "En parallèle, faites sauter le brocoli et l'oignon au wok ou à la poêle 4-5 minutes, ils doivent rester croquants.",
-    "Parsemez le poulet de graines de sésame et mélangez délicatement pour bien enrober.",
-    "Dressez le riz basmati dans une assiette, disposez le brocoli sauté et le poulet laqué par-dessus."
-  ],
-  tips: [
-    { type: "green", title: "Laquage", text: "Surveillez bien la sauce : le miel caramélise vite. Feu moyen et remuez souvent pour un laquage uniforme." },
-    { type: "red", title: "Régime", text: "Recette contenant du miel, non adaptée pour un régime vegan strict." }
-  ]
-},
-{
-  id: "salade-saumon-lentilles-betterave",
-  name: "Salade Saumon, Lentilles & Betterave",
-  subtitle: "Salade complète au saumon fumé, lentilles vertes, betterave et vinaigrette moutardée",
-  emoji: "🥗",
-  category: "dejeuner",
-  difficulty: "Facile",
-  time: 15,
-  sliderMin: 40,
-  sliderMax: 250,
-  tags: ["Protéiné", "Sans gluten", "Rapide"],
-  ingredients: [
-    { id: "saumon", name: "Saumon fumé", detail: "en lanières", emoji: "🐟", baseQty: 100, unit: "g", scalable: true, role: "Protéines" },
-    { id: "lentilles_cuites", name: "Lentilles vertes", detail: "cuites", emoji: "🫘", baseQty: 120, unit: "g", scalable: true, role: "Féculents", rawRatio: 2 },
-    { id: "betterave_cuite", name: "Betterave", detail: "cuite, en dés", emoji: "🟣", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
-    { id: "salade_verte", name: "Mesclun", detail: "frais", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "Légumes" },
-    { id: "chevre_frais", name: "Chèvre frais", detail: "émietté", emoji: "🧀", baseQty: 25, unit: "g", scalable: false, role: "Fromage" },
-    { id: "noix", name: "Noix", detail: "concassées", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
-    { id: "moutarde", name: "Moutarde à l'ancienne", emoji: "🟡", baseQty: 8, unit: "g", scalable: false, role: "Assaisonnement" },
-    { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" }
-  ],
-  steps: [
-    "Si les lentilles ne sont pas déjà cuites, faites-les cuire 20-25 min dans l'eau bouillante. Égouttez et laissez tiédir.",
-    "Préparez la vinaigrette en fouettant la moutarde à l'ancienne avec l'huile d'olive, un filet de vinaigre de cidre, sel et poivre.",
-    "Coupez la betterave en dés réguliers et le saumon fumé en lanières.",
-    "Disposez le mesclun dans un plat, ajoutez les lentilles tièdes assaisonnées de vinaigrette.",
-    "Répartissez les dés de betterave et les lanières de saumon fumé harmonieusement.",
-    "Émiettez le chèvre frais par-dessus, parsemez de noix concassées et servez immédiatement."
-  ],
-  tips: [
-    { type: "green", title: "Lentilles tièdes", text: "Les lentilles absorbent mieux la vinaigrette quand elles sont encore tièdes. Assaisonnez-les dès la sortie de cuisson." },
-    { type: "red", title: "Betterave", text: "Utilisez de la betterave cuite sous vide pour un gain de temps. Coupez-la en dernier pour ne pas colorer le reste." }
-  ]
-},
-{
-  id: "wok-tofu-laque-legumes",
-  name: "Wok Tofu Laqué & Légumes",
-  subtitle: "Tofu croustillant laqué sauce soja-érable, légumes croquants et nouilles soba",
-  emoji: "🥡",
-  category: "dejeuner",
-  difficulty: "Moyen",
-  time: 25,
-  sliderMin: 40,
-  sliderMax: 250,
-  tags: ["Vegan", "Protéiné"],
-  ingredients: [
-    { id: "tofu", name: "Tofu ferme", detail: "coupé en cubes", emoji: "🧈", baseQty: 150, unit: "g", scalable: true, role: "Protéines" },
-    { id: "nouilles_soba_cuites", name: "Nouilles soba", detail: "cuites", emoji: "🍜", baseQty: 120, unit: "g", scalable: true, role: "Féculents" },
-    { id: "brocoli", name: "Brocoli", detail: "en petits bouquets", emoji: "🥦", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
-    { id: "poivron_rouge", name: "Poivron rouge", detail: "en lanières", emoji: "🫑", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
-    { id: "carotte", name: "Carotte", detail: "en julienne", emoji: "🥕", baseQty: 50, unit: "g", scalable: true, role: "Légumes" },
-    { id: "sauce_soja", name: "Sauce soja", emoji: "🥫", baseQty: 20, unit: "ml", scalable: false, role: "Assaisonnement" },
-    { id: "sirop_erable", name: "Sirop d'érable", emoji: "🍁", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-    { id: "huile_olive", name: "Huile de sésame", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
-  ],
-  steps: [
-    "Pressez le tofu entre deux torchons propres pendant 10 minutes pour en extraire l'excès d'eau, puis coupez-le en cubes.",
-    "Préparez la sauce laquée en mélangeant la sauce soja, le sirop d'érable, une gousse d'ail hachée et du gingembre râpé.",
-    "Faites dorer les cubes de tofu dans une poêle bien chaude avec un peu d'huile, en les retournant pour qu'ils soient croustillants sur tous les côtés (7-8 min).",
-    "Ajoutez la moitié de la sauce laquée sur le tofu et laissez caraméliser 2 minutes. Réservez.",
-    "Dans le même wok, faites sauter le brocoli, le poivron et la carotte à feu vif 4-5 min. Ajoutez les nouilles soba et le reste de sauce.",
-    "Dressez les nouilles et légumes dans un bol, disposez le tofu laqué par-dessus. Parsemez de graines de sésame et de ciboulette."
-  ],
-  tips: [
-    { type: "green", title: "Tofu croustillant", text: "Le secret est de bien presser le tofu et de le saisir à feu vif sans trop le toucher pour une croûte dorée." },
-    { type: "red", title: "Sirop d'érable", text: "Le sirop d'érable brûle facilement. Ajoutez la sauce quand le tofu est déjà bien doré et réduisez le feu." }
-  ]
-},
-{
-  id: "galette-complete-jambon-chevre",
-  name: "Galette Complète Jambon-Chèvre",
-  subtitle: "Galette de sarrasin garnie de jambon, chèvre fondant, œuf et champignons",
-  emoji: "🥞",
-  category: "dejeuner",
-  difficulty: "Moyen",
-  time: 25,
-  sliderMin: 40,
-  sliderMax: 250,
-  tags: ["Sans gluten"],
-  ingredients: [
-    { id: "galette_sarrasin", name: "Galette de sarrasin", detail: "prête à l'emploi", emoji: "🥞", baseQty: 60, unit: "g", scalable: true, role: "Féculents" },
-    { id: "jambon_blanc", name: "Jambon blanc", detail: "découenné", emoji: "🥓", baseQty: 60, unit: "g", scalable: true, role: "Protéines" },
-    { id: "chevre_frais", name: "Chèvre frais", detail: "en rondelles", emoji: "🧀", baseQty: 40, unit: "g", scalable: true, role: "Fromage" },
-    { id: "oeuf", name: "Œuf", detail: "entier", emoji: "🥚", baseQty: 1, unit: "pce", scalable: true, role: "Protéines" },
-    { id: "champignon", name: "Champignons", detail: "émincés", emoji: "🍄", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
-    { id: "epinards", name: "Pousses d'épinards", detail: "fraîches", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "Légumes" },
-    { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
-  ],
-  steps: [
-    "Faites revenir les champignons émincés dans un filet d'huile d'olive à feu vif jusqu'à évaporation de l'eau, 5-6 min.",
-    "Ajoutez les pousses d'épinards dans la poêle avec les champignons et laissez-les tomber 1-2 minutes.",
-    "Dans une grande poêle ou billig, faites chauffer la galette de sarrasin à feu moyen.",
-    "Disposez le jambon, les champignons-épinards et les rondelles de chèvre sur la galette.",
-    "Cassez l'œuf au centre de la galette, couvrez et laissez cuire 3-4 minutes pour que le blanc soit pris mais le jaune encore coulant.",
-    "Repliez les bords de la galette pour former un carré, laissez griller 1 minute supplémentaire et servez immédiatement."
-  ],
-  tips: [
-    { type: "green", title: "Classique breton", text: "La galette de sarrasin est naturellement sans gluten, idéale pour les intolérants." },
-    { type: "red", title: "Cuisson de l'œuf", text: "Couvrez la poêle pour cuire le blanc sans surcuire le jaune. Le jaune coulant fait tout le charme !" }
-  ]
-},
-{
-  id: "salade-thon-pois-chiches-olive",
-  name: "Salade Thon, Pois Chiches & Olives",
-  subtitle: "Salade méditerranéenne au thon, pois chiches, olives noires et herbes de Provence",
-  emoji: "🥗",
-  category: "dejeuner",
-  difficulty: "Facile",
-  time: 10,
-  sliderMin: 30,
-  sliderMax: 240,
-  tags: ["Protéiné", "Sans gluten", "Rapide"],
-  ingredients: [
-    { id: "thon_conserve", name: "Thon en conserve", detail: "au naturel, égoutté", emoji: "🐟", baseQty: 120, unit: "g", scalable: true, role: "Protéines" },
-    { id: "pois_chiches_cuits", name: "Pois chiches", detail: "cuits, rincés", emoji: "🫘", baseQty: 100, unit: "g", scalable: true, role: "Protéines" },
-    { id: "tomate", name: "Tomates", detail: "en quartiers", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
-    { id: "concombre", name: "Concombre", detail: "en rondelles", emoji: "🥒", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
-    { id: "oignon", name: "Oignon rouge", detail: "émincé finement", emoji: "🧅", baseQty: 30, unit: "g", scalable: false, role: "Légumes" },
-    { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-    { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" }
-  ],
-  steps: [
-    "Égouttez soigneusement le thon et émiettez-le à la fourchette dans un grand saladier.",
-    "Rincez et égouttez les pois chiches. Ajoutez-les au thon.",
-    "Coupez les tomates en quartiers, le concombre en rondelles et l'oignon rouge en fines lamelles.",
-    "Ajoutez tous les légumes dans le saladier et mélangez délicatement.",
-    "Préparez la vinaigrette avec l'huile d'olive, le jus de citron, les herbes de Provence, sel et poivre. Versez sur la salade.",
-    "Mélangez bien, laissez reposer 5 minutes pour que les saveurs se marient et servez."
-  ],
-  tips: [
-    { type: "green", title: "Express", text: "Cette salade se prépare en 10 minutes et ne nécessite aucune cuisson. Parfaite pour les journées chargées." },
-    { type: "red", title: "Thon", text: "Choisissez du thon au naturel plutôt qu'à l'huile pour limiter les lipides ajoutés." }
-  ]
-},
-{
-  id: "dinde-farcie-epinards-ricotta",
-  name: "Escalope de Dinde Farcie Épinards-Ricotta",
-  subtitle: "Escalope de dinde roulée et farcie aux épinards, ricotta et pignons",
-  emoji: "🍗",
-  category: "dejeuner",
-  difficulty: "Avancé",
-  time: 40,
-  sliderMin: 40,
-  sliderMax: 280,
-  tags: ["Protéiné", "Sans gluten"],
-  ingredients: [
-    { id: "dinde", name: "Escalope de dinde", detail: "aplatie finement", emoji: "🍗", baseQty: 160, unit: "g", scalable: true, role: "Protéines" },
-    { id: "epinards", name: "Épinards", detail: "frais", emoji: "🥬", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
-    { id: "ricotta", name: "Ricotta", detail: "égouttée", emoji: "🧀", baseQty: 40, unit: "g", scalable: false, role: "Fromage" },
-    { id: "tomate", name: "Tomates cerises", detail: "pour accompagner", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
-    { id: "patate_douce_cuite", name: "Patate douce", detail: "cuite en rondelles", emoji: "🍠", baseQty: 120, unit: "g", scalable: true, role: "Féculents", rawRatio: 1 },
-    { id: "parmesan", name: "Parmesan", detail: "râpé", emoji: "🧀", baseQty: 10, unit: "g", scalable: false, role: "Fromage" },
-    { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
-  ],
-  steps: [
-    "Préchauffez le four à 190°C. Faites tomber les épinards frais dans une poêle avec un filet d'huile d'olive, 2-3 minutes.",
-    "Mélangez les épinards égouttés et pressés avec la ricotta, le parmesan râpé, une pincée de muscade, sel et poivre.",
-    "Aplatissez l'escalope de dinde entre deux feuilles de film alimentaire. Étalez la farce épinards-ricotta sur toute la surface.",
-    "Roulez l'escalope bien serrée et fixez-la avec des cure-dents ou de la ficelle alimentaire.",
-    "Saisissez la roulade 2 minutes de chaque côté à la poêle, puis transférez au four avec les rondelles de patate douce pour 20-25 minutes.",
-    "Coupez la roulade en tranches épaisses, servez avec les patates douces rôties et les tomates cerises poêlées."
-  ],
-  tips: [
-    { type: "green", title: "Présentation", text: "Coupez la roulade en tranches après 5 min de repos pour des tranches nettes avec la spirale épinards-ricotta visible." },
-    { type: "red", title: "Farce", text: "Essorez bien les épinards pour éviter qu'ils ne rendent trop d'eau à la cuisson et détrempe la farce." }
-  ]
-},
-{
-  id: "curry-rouge-tempeh-legumes",
-  name: "Curry Rouge au Tempeh & Légumes",
-  subtitle: "Curry rouge thaï au tempeh doré, légumes croquants et lait de coco",
-  emoji: "🍛",
-  category: "dejeuner",
-  difficulty: "Moyen",
-  time: 30,
-  sliderMin: 40,
-  sliderMax: 260,
-  tags: ["Vegan", "Sans gluten", "Protéiné"],
-  ingredients: [
-    { id: "tempeh", name: "Tempeh", detail: "coupé en cubes", emoji: "🧈", baseQty: 130, unit: "g", scalable: true, role: "Protéines" },
-    { id: "riz_basmati_cuit", name: "Riz basmati", detail: "cuit", emoji: "🍚", baseQty: 140, unit: "g", scalable: true, role: "Féculents", rawRatio: 2.25 },
-    { id: "lait_coco", name: "Lait de coco", detail: "léger", emoji: "🥥", baseQty: 100, unit: "ml", scalable: false, role: "Sauce" },
-    { id: "pate_curry", name: "Pâte de curry rouge", emoji: "🌶️", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
-    { id: "courgette", name: "Courgette", detail: "en rondelles", emoji: "🥒", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
-    { id: "poivron_rouge", name: "Poivron rouge", detail: "en morceaux", emoji: "🫑", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
-    { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "Légumes" },
-    { id: "huile_olive", name: "Huile de coco", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
-  ],
-  steps: [
-    "Coupez le tempeh en cubes et faites-le dorer à la poêle avec un filet d'huile, 5-6 minutes de chaque côté. Réservez.",
-    "Dans la même poêle, faites revenir l'oignon émincé 2-3 minutes puis ajoutez la pâte de curry rouge et faites-la torréfier 1 minute.",
-    "Ajoutez les légumes (courgette, poivron) et faites sauter 3-4 minutes à feu vif.",
-    "Versez le lait de coco, mélangez bien et laissez mijoter 8-10 minutes à feu doux jusqu'à épaississement.",
-    "Remettez les cubes de tempeh dorés dans le curry et laissez chauffer 2-3 minutes pour qu'ils s'imprègnent des saveurs.",
-    "Servez le curry sur le riz basmati, garni de feuilles de basilic thaï et d'un quartier de citron vert."
-  ],
-  tips: [
-    { type: "green", title: "Tempeh", text: "Le tempeh absorbe très bien les saveurs du curry. N'hésitez pas à le mariner 15 min dans de la sauce soja avant de le dorer." },
-    { type: "red", title: "Pâte de curry", text: "Les pâtes de curry varient en puissance. Goûtez d'abord, vous pourrez toujours en ajouter mais pas en retirer !" }
-  ]
-},
-{
-  id: "quiche-sans-pate-saumon-poireaux",
-  name: "Quiche Sans Pâte Saumon-Poireaux",
-  subtitle: "Quiche légère sans pâte au saumon, poireaux fondants et aneth",
-  emoji: "🥧",
-  category: "dejeuner",
-  difficulty: "Facile",
-  time: 40,
-  sliderMin: 40,
-  sliderMax: 260,
-  tags: ["Protéiné", "Sans gluten"],
-  ingredients: [
-    { id: "saumon", name: "Saumon frais", detail: "en dés", emoji: "🐟", baseQty: 120, unit: "g", scalable: true, role: "Protéines" },
-    { id: "oeuf", name: "Œufs", detail: "entiers", emoji: "🥚", baseQty: 2, unit: "pce", scalable: true, role: "Protéines" },
-    { id: "poireaux", name: "Poireaux", detail: "émincés", emoji: "🥬", baseQty: 120, unit: "g", scalable: true, role: "Légumes" },
-    { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 40, unit: "g", scalable: false, role: "Appareil" },
-    { id: "lait_demi", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 60, unit: "ml", scalable: false, role: "Appareil" },
-    { id: "fromage_rape", name: "Emmental râpé", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "Topping" },
-    { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
-  ],
-  steps: [
-    "Préchauffez le four à 180°C. Huilez légèrement un moule à tarte ou des ramequins individuels.",
-    "Faites fondre les poireaux émincés dans une poêle avec un filet d'huile d'olive, 8-10 min à feu doux jusqu'à ce qu'ils soient bien tendres.",
-    "Fouettez les œufs avec la crème légère et le lait. Assaisonnez de sel, poivre, aneth ciselé et une pincée de muscade.",
-    "Répartissez les poireaux fondus et les dés de saumon dans le fond du moule.",
-    "Versez l'appareil aux œufs par-dessus, parsemez de fromage râpé.",
-    "Enfournez 25-30 minutes jusqu'à ce que la quiche soit dorée et prise au centre. Laissez tiédir 5 min avant de servir."
-  ],
-  tips: [
-    { type: "green", title: "Sans pâte", text: "L'absence de pâte réduit considérablement les calories tout en gardant le moelleux grâce à l'appareil crème-œufs." },
-    { type: "red", title: "Poireaux", text: "Faites bien fondre les poireaux à feu doux. Pressés, ils peuvent rendre de l'eau et détremper la quiche." }
-  ]
-},
-{
-  id: "penne-arrabiata-seitan",
-  name: "Penne Arrabiata au Seitan",
-  subtitle: "Penne sauce tomate piquante au seitan émincé, basilic frais",
-  emoji: "🍝",
-  category: "dejeuner",
-  difficulty: "Facile",
-  time: 20,
-  sliderMin: 40,
-  sliderMax: 270,
-  tags: ["Vegan", "Protéiné", "Rapide"],
-  ingredients: [
-    { id: "seitan", name: "Seitan", detail: "émincé", emoji: "🌾", baseQty: 120, unit: "g", scalable: true, role: "Protéines" },
-    { id: "pates_cuites", name: "Penne complètes", detail: "cuites al dente", emoji: "🍝", baseQty: 160, unit: "g", scalable: true, role: "Féculents", rawRatio: 2.5 },
-    { id: "sauce_tomate", name: "Sauce tomate", detail: "passata", emoji: "🍅", baseQty: 120, unit: "g", scalable: false, role: "Sauce" },
-    { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "Légumes" },
-    { id: "poivron_rouge", name: "Poivron rouge", detail: "en dés", emoji: "🫑", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
-    { id: "concentre_tomate", name: "Concentré de tomate", emoji: "🍅", baseQty: 10, unit: "g", scalable: false, role: "Sauce" },
-    { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" }
-  ],
-  steps: [
-    "Faites cuire les penne al dente selon les instructions du paquet. Égouttez en réservant un peu d'eau de cuisson.",
-    "Faites dorer le seitan émincé dans une poêle avec un filet d'huile d'olive, 3-4 minutes. Réservez.",
-    "Dans la même poêle, faites revenir l'oignon et le poivron 3-4 minutes. Ajoutez l'ail haché et le piment.",
-    "Versez la sauce tomate et le concentré, ajoutez les flocons de piment rouge et laissez mijoter 8-10 minutes.",
-    "Incorporez le seitan doré dans la sauce, ajoutez les penne et un peu d'eau de cuisson pour lier.",
-    "Mélangez bien, rectifiez l'assaisonnement. Servez parsemé de basilic frais ciselé."
-  ],
-  tips: [
-    { type: "green", title: "Piquant", text: "Dosez le piment selon votre tolérance. Commencez par une pincée et ajustez en fin de cuisson." },
-    { type: "red", title: "Seitan", text: "Le seitan peut devenir caoutchouteux s'il est trop cuit. Saisissez-le rapidement à feu vif." }
-  ]
-},
-{
-  id: "croque-monsieur-dinde-bechamel",
-  name: "Croque-Monsieur Dinde-Béchamel",
-  subtitle: "Croque-monsieur au four, dinde fumée, béchamel légère et emmental gratiné",
-  emoji: "🥪",
-  category: "dejeuner",
-  difficulty: "Facile",
-  time: 25,
-  sliderMin: 40,
-  sliderMax: 250,
-  tags: ["Cheat meal", "Protéiné"],
-  ingredients: [
-    { id: "dinde", name: "Dinde fumée", detail: "en tranches", emoji: "🍗", baseQty: 80, unit: "g", scalable: true, role: "Protéines" },
-    { id: "pain_mie_complet", name: "Pain de mie complet", detail: "2 tranches", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "Féculents" },
-    { id: "fromage_rape", name: "Emmental râpé", emoji: "🧀", baseQty: 25, unit: "g", scalable: false, role: "Fromage" },
-    { id: "lait_demi", name: "Lait demi-écrémé", detail: "pour béchamel", emoji: "🥛", baseQty: 60, unit: "ml", scalable: false, role: "Sauce" },
-    { id: "moutarde", name: "Moutarde de Dijon", emoji: "🟡", baseQty: 5, unit: "g", scalable: false, role: "Assaisonnement" },
-    { id: "salade_verte", name: "Salade verte", detail: "en accompagnement", emoji: "🥬", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
-    { id: "tomate", name: "Tomates cerises", detail: "en accompagnement", emoji: "🍅", baseQty: 60, unit: "g", scalable: true, role: "Légumes" }
-  ],
-  steps: [
-    "Préchauffez le four à 200°C. Préparez une béchamel légère avec une noisette de beurre, une cuillère de farine et le lait.",
-    "Tartinez une tranche de pain de mie de moutarde et l'autre d'une fine couche de béchamel.",
-    "Disposez les tranches de dinde fumée sur la moutarde, refermez le croque-monsieur.",
-    "Nappez le dessus du croque avec le reste de béchamel et parsemez généreusement de fromage râpé.",
-    "Enfournez sur une plaque 12-15 minutes jusqu'à ce que le fromage soit bien doré et gratiné.",
-    "Servez immédiatement avec la salade verte assaisonnée et les tomates cerises."
-  ],
-  tips: [
-    { type: "green", title: "Au four", text: "La cuisson au four plutôt qu'à la poêle permet d'éviter le beurre de cuisson et donne un résultat plus croustillant." },
-    { type: "red", title: "Béchamel", text: "Ne surchargez pas de béchamel sinon le croque sera détrempé. Une fine couche suffit pour le goût." }
-  ]
-},
-{
-  id: "buddha-bowl-patate-douce-tahini",
-  name: "Buddha Bowl Patate Douce & Tahini",
-  subtitle: "Bowl complet aux patates douces rôties, pois chiches croustillants, kale et sauce tahini-citron",
-  emoji: "🥗",
-  category: "dejeuner",
-  difficulty: "Facile",
-  time: 35,
-  sliderMin: 40,
-  sliderMax: 260,
-  tags: ["Vegan", "Sans gluten", "Protéiné"],
-  ingredients: [
-    { id: "patate_douce_cuite", name: "Patate douce", detail: "rôtie en cubes", emoji: "🍠", baseQty: 130, unit: "g", scalable: true, role: "Féculents", rawRatio: 1 },
-    { id: "pois_chiches_cuits", name: "Pois chiches", detail: "rôtis croustillants", emoji: "🫘", baseQty: 100, unit: "g", scalable: true, role: "Protéines" },
-    { id: "chou_kale", name: "Chou kale", detail: "massé et assaisonné", emoji: "🥬", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
-    { id: "avocat", name: "Avocat", detail: "en tranches", emoji: "🥑", baseQty: 50, unit: "g", scalable: true, role: "Lipides" },
-    { id: "quinoa_cuit", name: "Quinoa", detail: "cuit", emoji: "🌾", baseQty: 80, unit: "g", scalable: true, role: "Féculents", rawRatio: 1.8 },
-    { id: "sauce_tahini", name: "Tahini", detail: "pour la sauce", emoji: "🥜", baseQty: 15, unit: "g", scalable: false, role: "Sauce" },
-    { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-    { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
-  ],
-  steps: [
-    "Préchauffez le four à 200°C. Coupez la patate douce en cubes, arrosez d'huile d'olive et de paprika, enfournez 25 min.",
-    "Égouttez et séchez les pois chiches, assaisonnez de cumin et de paprika. Enfournez avec les patates les 15 dernières minutes.",
-    "Massez le chou kale avec un filet d'huile d'olive, du sel et du citron pour l'attendrir et le rendre plus digeste.",
-    "Préparez la sauce tahini en mélangeant le tahini, le jus de citron, de l'eau tiède, de l'ail râpé, sel et poivre.",
-    "Disposez dans un bol le quinoa, le kale massé, les cubes de patate douce rôtie et les pois chiches croustillants.",
-    "Ajoutez les tranches d'avocat, arrosez généreusement de sauce tahini-citron et parsemez de graines de sésame."
-  ],
-  tips: [
-    { type: "green", title: "Pois chiches croustillants", text: "Le secret est de bien les sécher avant l'assaisonnement. Plus ils sont secs, plus ils seront croustillants." },
-    { type: "red", title: "Kale", text: "Massez le kale au moins 2-3 minutes avec l'huile et le citron. Sans ce massage, il reste fibreux et amer." }
-  ]
-}
 
-,
-{
-  id: "souffle-pancake-japonais",
-  name: "Soufflé Pancake Japonais",
-  subtitle: "Pancakes aériens et jiggly à la japonaise, fruits frais et chantilly légère",
-  emoji: "🥞",
-  category: "petit-dej-sucre",
-  difficulty: "Avancé",
-  time: 35,
-  sliderMin: 40,
-  sliderMax: 250,
-  tags: ["Végétarien"],
-  ingredients: [
-    { id: "oeuf", name: "Œufs", detail: "blancs et jaunes séparés", emoji: "🥚", baseQty: 3, unit: "pce", scalable: true, role: "Base" },
-    { id: "farine_complete", name: "Farine complète", detail: "tamisée", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "Base" },
-    { id: "lait_demi", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 30, unit: "ml", scalable: false, role: "Base" },
-    { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "en garniture façon chantilly", emoji: "🥛", baseQty: 60, unit: "g", scalable: true, role: "Topping" },
-    { id: "fraises", name: "Fraises", detail: "fraîches, coupées", emoji: "🍓", baseQty: 80, unit: "g", scalable: true, role: "Fruits" },
-    { id: "myrtilles", name: "Myrtilles", detail: "fraîches", emoji: "🫐", baseQty: 40, unit: "g", scalable: true, role: "Fruits" },
-    { id: "sirop_erable", name: "Sirop d'érable", detail: "un filet", emoji: "🍁", baseQty: 10, unit: "ml", scalable: false, role: "Topping" }
-  ],
-  options: [],
-  steps: [
-    "Séparez les blancs des jaunes d'œufs dans deux bols bien propres. Les blancs ne doivent contenir aucune trace de jaune pour monter correctement.",
-    "Dans le bol des jaunes, fouettez avec le lait, une pincée de vanille et la farine tamisée jusqu'à obtenir une pâte lisse et sans grumeaux.",
-    "Montez les blancs en neige très ferme avec une pincée de crème de tartre ou de jus de citron. Ajoutez 1 c.à.s de sucre en fin de montage pour stabiliser.",
-    "Incorporez les blancs à la pâte en 3 fois, en soulevant délicatement la préparation avec une maryse pour ne pas casser les bulles d'air.",
-    "Graissez une poêle antiadhésive à feu très doux. Déposez de hauts cercles de pâte (à la poche ou à la cuillère) et couvrez. Cuire 6-7 min par face.",
-    "Fouettez le fromage blanc avec un trait de vanille et de sirop d'érable pour créer une chantilly légère protéinée.",
-    "Empilez 2-3 pancakes par assiette, garnissez de chantilly légère, fraises et myrtilles, et un filet de sirop d'érable."
-  ],
-  tips: [
-    { type: "green", title: "Technique soufflé", text: "Le secret est la cuisson à feu TRÈS doux avec couvercle. C'est la vapeur qui fait gonfler les pancakes sans les brûler." },
-    { type: "red", title: "Blancs en neige", text: "Tout doit être impeccablement propre et sans gras. La moindre trace de jaune empêche les blancs de monter." }
-  ]
-},
-{
-  id: "french-toast-brioche-caramelise",
-  name: "French Toast Briochée Caramélisé",
-  subtitle: "Brioche épaisse imbibée d'appareil vanillé, caramélisée au beurre et compotée de fruits",
-  emoji: "🍞",
-  category: "petit-dej-sucre",
-  difficulty: "Moyen",
-  time: 25,
-  sliderMin: 40,
-  sliderMax: 280,
-  tags: ["Végétarien", "Cheat meal"],
-  ingredients: [
-    { id: "pain_mie_complet", name: "Brioche / Pain de mie", detail: "tranches épaisses (3cm)", emoji: "🍞", baseQty: 80, unit: "g", scalable: true, role: "Base" },
-    { id: "oeuf", name: "Œufs", detail: "entiers pour l'appareil", emoji: "🥚", baseQty: 2, unit: "pce", scalable: true, role: "Appareil" },
-    { id: "lait_demi", name: "Lait demi-écrémé", detail: "vanillé", emoji: "🥛", baseQty: 60, unit: "ml", scalable: false, role: "Appareil" },
-    { id: "ricotta", name: "Ricotta", detail: "fouettée en garniture", emoji: "🧀", baseQty: 50, unit: "g", scalable: true, role: "Topping" },
-    { id: "pomme", name: "Pomme", detail: "en compotée caramélisée", emoji: "🍎", baseQty: 100, unit: "g", scalable: true, role: "Fruits" },
-    { id: "sirop_erable", name: "Sirop d'érable", emoji: "🍁", baseQty: 10, unit: "ml", scalable: false, role: "Topping" },
-    { id: "amandes", name: "Amandes effilées", detail: "torréfiées", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
-    { id: "huile_olive", name: "Beurre / Huile", detail: "pour la poêle", emoji: "🧈", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
-  ],
-  options: [],
-  steps: [
-    "Préparez la compotée : coupez la pomme en petits dés, faites-la fondre à la poêle avec un filet de sirop d'érable et une pincée de cannelle, 8-10 min à feu doux jusqu'à caramélisation.",
-    "Préparez l'appareil à tremper en fouettant les œufs, le lait, la vanille et une pincée de cannelle dans un plat creux.",
-    "Trempez chaque tranche de brioche épaisse dans l'appareil, 30 secondes de chaque côté. La brioche doit s'imbiber sans se déliter.",
-    "Faites chauffer une poêle antiadhésive à feu moyen avec une noisette de beurre. Posez les tranches et cuisez 3-4 min de chaque côté jusqu'à caramélisation dorée.",
-    "Pendant ce temps, fouettez la ricotta avec un trait de vanille et un filet de sirop d'érable pour obtenir une crème onctueuse.",
-    "Dressez les French toasts caramélisés, nappez de compotée de pomme, d'un nuage de ricotta fouettée, d'amandes torréfiées et d'un dernier filet de sirop."
-  ],
-  tips: [
-    { type: "green", title: "Texture parfaite", text: "L'idéal est du pain rassis de la veille — il absorbe mieux l'appareil sans se défaire. Tranches de 3cm minimum." },
-    { type: "red", title: "Caramélisation", text: "Feu moyen impératif : trop fort brûle l'extérieur avant que l'intérieur soit cuit. Patience pour un résultat doré uniforme." }
-  ]
-},
-{
-  id: "crepes-suzette-light",
-  name: "Crêpes Suzette Light",
-  subtitle: "Crêpes fines nappées de sauce à l'orange caramélisée, façon bistrot français revisité",
-  emoji: "🍊",
-  category: "petit-dej-sucre",
-  difficulty: "Avancé",
-  time: 30,
-  sliderMin: 40,
-  sliderMax: 250,
-  tags: ["Végétarien"],
-  ingredients: [
-    { id: "farine_complete", name: "Farine complète", detail: "tamisée", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "Base" },
-    { id: "oeuf", name: "Œuf", detail: "entier", emoji: "🥚", baseQty: 1, unit: "pce", scalable: true, role: "Base" },
-    { id: "lait_demi", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 100, unit: "ml", scalable: false, role: "Base" },
-    { id: "orange", name: "Orange", detail: "zeste et jus frais", emoji: "🍊", baseQty: 120, unit: "g", scalable: true, role: "Sauce" },
-    { id: "sirop_erable", name: "Sirop d'érable", detail: "pour caraméliser", emoji: "🍁", baseQty: 15, unit: "ml", scalable: false, role: "Sauce" },
-    { id: "ricotta", name: "Ricotta", detail: "en quenelle", emoji: "🧀", baseQty: 40, unit: "g", scalable: true, role: "Garniture" },
-    { id: "huile_olive", name: "Beurre léger", detail: "pour la poêle et sauce", emoji: "🧈", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" }
-  ],
-  options: [],
-  steps: [
-    "Préparez la pâte à crêpes : fouettez la farine, l'œuf et le lait jusqu'à obtenir une pâte fluide sans grumeaux. Laissez reposer 15 min.",
-    "Prélevez le zeste de l'orange à la microplane (zeste fin, sans la partie blanche amère) et pressez le jus.",
-    "Cuisez 3-4 crêpes fines dans une poêle antiadhésive chaude légèrement beurrée. Réservez.",
-    "Préparez la sauce suzette : dans une poêle large, faites chauffer le sirop d'érable avec le jus d'orange et les zestes. Laissez réduire de moitié à feu moyen (3-4 min).",
-    "Pliez chaque crêpe en quatre et disposez-les dans la sauce à l'orange. Laissez-les s'imbiber 1-2 minutes en les nappant régulièrement.",
-    "Dressez les crêpes suzette nappées de sauce, avec une quenelle de ricotta vanillée et quelques zestes d'orange frais."
-  ],
-  tips: [
-    { type: "green", title: "Classique revisité", text: "La version originale utilise du beurre et du Grand Marnier. Ici le sirop d'érable et la réduction d'orange apportent la même profondeur." },
-    { type: "red", title: "Sauce", text: "La sauce doit napper la cuillère mais rester sirupeuse. Si elle réduit trop, ajoutez un peu de jus d'orange." }
-  ]
-},
-{
-  id: "porridge-creme-brulee",
-  name: "Porridge Façon Crème Brûlée",
-  subtitle: "Porridge crémeux vanillé avec une croûte de sucre caramélisée au chalumeau",
-  emoji: "🍮",
-  category: "petit-dej-sucre",
-  difficulty: "Moyen",
-  time: 20,
-  sliderMin: 40,
-  sliderMax: 260,
-  tags: ["Végétarien", "Sans gluten", "Protéiné"],
-  ingredients: [
-    { id: "flocons_avoine", name: "Flocons d'avoine", detail: "fins", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "Base" },
-    { id: "lait_demi", name: "Lait demi-écrémé", detail: "vanillé", emoji: "🥛", baseQty: 150, unit: "ml", scalable: false, role: "Base" },
-    { id: "whey_protein", name: "Whey vanille", detail: "pour la crémosité", emoji: "💪", baseQty: 20, unit: "g", scalable: true, role: "Protéines" },
-    { id: "oeuf", name: "Jaune d'œuf", detail: "mélangé au porridge chaud", emoji: "🥚", baseQty: 1, unit: "pce", scalable: false, role: "Crémosité" },
-    { id: "banane", name: "Banane", detail: "caramélisée en rondelles", emoji: "🍌", baseQty: 80, unit: "g", scalable: true, role: "Topping" },
-    { id: "amandes", name: "Amandes effilées", detail: "torréfiées", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
-    { id: "sirop_erable", name: "Sirop d'érable", detail: "un fin filet", emoji: "🍁", baseQty: 8, unit: "ml", scalable: false, role: "Topping" }
-  ],
-  options: [],
-  steps: [
-    "Faites cuire les flocons d'avoine dans le lait vanillé à feu doux en remuant régulièrement, 5-7 minutes, jusqu'à consistance crémeuse.",
-    "Hors du feu, incorporez le jaune d'œuf en fouettant rapidement — la chaleur résiduelle le cuit doucement et crée une texture façon crème anglaise.",
-    "Ajoutez la whey vanille en mélangeant énergiquement pour éviter les grumeaux. Le porridge doit être épais et soyeux.",
-    "Transférez dans un bol résistant à la chaleur. Saupoudrez une fine couche de sucre de coco en surface.",
-    "Caramélisez la surface au chalumeau de cuisine (ou sous le grill du four 1-2 min) pour obtenir une croûte craquante dorée.",
-    "Garnissez de rondelles de banane caramélisées à la poêle, d'amandes effilées torréfiées et d'un filet de sirop d'érable."
-  ],
-  tips: [
-    { type: "green", title: "Sans chalumeau", text: "Passez le bol sous le grill du four (position haute) 2-3 min en surveillant. Le sucre doit brunir mais pas brûler." },
-    { type: "red", title: "Jaune d'œuf", text: "Incorporez-le hors du feu et fouettez vite. Si le porridge est trop chaud, le jaune coagulera en petits morceaux." }
-  ]
-},
-{
-  id: "granola-clusters-fleur-sel",
-  name: "Granola Clusters Chocolat & Fleur de Sel",
-  subtitle: "Granola artisanal en gros clusters croquants, chocolat noir, noisettes et fleur de sel",
-  emoji: "🍫",
-  category: "petit-dej-sucre",
-  difficulty: "Facile",
-  time: 35,
-  sliderMin: 30,
-  sliderMax: 200,
-  tags: ["Vegan", "Sans gluten"],
-  ingredients: [
-    { id: "flocons_avoine", name: "Flocons d'avoine", detail: "gros flocons", emoji: "🌾", baseQty: 60, unit: "g", scalable: true, role: "Base" },
-    { id: "amandes", name: "Noisettes / Amandes", detail: "concassées grossièrement", emoji: "🌰", baseQty: 20, unit: "g", scalable: true, role: "Croquant" },
-    { id: "noix_coco_rapee", name: "Noix de coco râpée", emoji: "🥥", baseQty: 10, unit: "g", scalable: false, role: "Croquant" },
-    { id: "chocolat_noir_70", name: "Chocolat noir 70%", detail: "haché en pépites", emoji: "🍫", baseQty: 20, unit: "g", scalable: true, role: "Gourmandise" },
-    { id: "sirop_erable", name: "Sirop d'érable", detail: "comme liant", emoji: "🍁", baseQty: 20, unit: "ml", scalable: false, role: "Liant" },
-    { id: "huile_olive", name: "Huile de coco", detail: "fondue", emoji: "🥥", baseQty: 10, unit: "ml", scalable: false, role: "Liant" },
-    { id: "graines_chia", name: "Graines de chia", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "Nutrition" }
-  ],
-  options: [],
-  steps: [
-    "Préchauffez le four à 160°C. Mélangez les flocons d'avoine, les noisettes concassées, la noix de coco et les graines de chia.",
-    "Faites tiédir le sirop d'érable avec l'huile de coco et une pincée de fleur de sel. Versez sur le mélange sec et compactez bien.",
-    "Étalez le mélange sur une plaque recouverte de papier cuisson en une couche compacte — NE PAS remuer pendant la cuisson, c'est le secret des clusters.",
-    "Enfournez 25-30 minutes jusqu'à coloration dorée profonde. Laissez refroidir COMPLÈTEMENT sur la plaque sans toucher.",
-    "Une fois totalement refroidi, cassez le granola en gros morceaux irréguliers. Ajoutez les pépites de chocolat noir.",
-    "Saupoudrez d'une pincée de fleur de sel. Servez avec du yaourt, du lait ou tel quel."
-  ],
-  tips: [
-    { type: "green", title: "Secret des clusters", text: "Ne JAMAIS remuer pendant la cuisson ni casser avant refroidissement complet. Le granola durcit en refroidissant." },
-    { type: "red", title: "Chocolat", text: "Ajoutez le chocolat APRÈS refroidissement complet sinon il fond et rend le granola mou." }
-  ]
-},
-{
-  id: "bowl-smoothie-pitaya-coco",
-  name: "Smoothie Bowl Pitaya & Coco",
-  subtitle: "Bowl rose vif au fruit du dragon, lait de coco, garnitures tropicales et granola",
-  emoji: "🐉",
-  category: "petit-dej-sucre",
-  difficulty: "Facile",
-  time: 10,
-  sliderMin: 30,
-  sliderMax: 220,
-  tags: ["Vegan", "Sans gluten"],
-  ingredients: [
-    { id: "fruits_rouges", name: "Pitaya / Fruits rouges", detail: "surgelés", emoji: "🐉", baseQty: 100, unit: "g", scalable: true, role: "Base" },
-    { id: "banane", name: "Banane", detail: "surgelée pour épaisseur", emoji: "🍌", baseQty: 80, unit: "g", scalable: true, role: "Base" },
-    { id: "lait_coco", name: "Lait de coco", detail: "léger", emoji: "🥥", baseQty: 80, unit: "ml", scalable: false, role: "Liquide" },
-    { id: "mangue", name: "Mangue", detail: "en dés frais", emoji: "🥭", baseQty: 50, unit: "g", scalable: true, role: "Topping" },
-    { id: "noix_coco_rapee", name: "Copeaux de coco", detail: "toastés", emoji: "🥥", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
-    { id: "granola", name: "Granola", detail: "croquant", emoji: "🥣", baseQty: 20, unit: "g", scalable: true, role: "Topping" },
-    { id: "graines_chia", name: "Graines de chia", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "Topping" }
-  ],
-  options: [],
-  steps: [
-    "Sortez la banane et les fruits du congélateur 5 minutes avant. Ils doivent être encore bien gelés mais légèrement ramollis.",
-    "Mixez les fruits surgelés avec le lait de coco à l'aide d'un blender puissant. Ajoutez le liquide par petites doses pour garder une texture ÉPAISSE (consistance sorbet).",
-    "Toastez les copeaux de coco à sec dans une poêle 1-2 min en remuant sans cesse. Réservez dès qu'ils sont dorés.",
-    "Versez le smoothie épais dans un bol. La texture doit être assez ferme pour que les toppings restent en surface.",
-    "Disposez artistiquement les dés de mangue, le granola, les copeaux de coco toastés et les graines de chia en lignes parallèles.",
-    "Servez immédiatement — un smoothie bowl se déguste glacé avant que la texture ne se liquéfie."
-  ],
-  tips: [
-    { type: "green", title: "Texture épaisse", text: "Utilisez TRÈS PEU de liquide et des fruits bien surgelés. Ajoutez le lait cuillère par cuillère au blender." },
-    { type: "red", title: "Rapidité", text: "Préparez tous les toppings AVANT de mixer. Le bowl se liquéfie vite à température ambiante." }
-  ]
-},
-{
-  id: "clafoutis-cerises-amande",
-  name: "Clafoutis Cerises & Amande",
-  subtitle: "Clafoutis fondant aux cerises et poudre d'amande, version allégée du classique français",
-  emoji: "🍒",
-  category: "petit-dej-sucre",
-  difficulty: "Moyen",
-  time: 40,
-  sliderMin: 40,
-  sliderMax: 250,
-  tags: ["Végétarien", "Sans gluten"],
-  ingredients: [
-    { id: "oeuf", name: "Œufs", detail: "entiers", emoji: "🥚", baseQty: 2, unit: "pce", scalable: true, role: "Base" },
-    { id: "fruits_rouges", name: "Cerises / Fruits rouges", detail: "dénoyautées", emoji: "🍒", baseQty: 120, unit: "g", scalable: true, role: "Fruits" },
-    { id: "amandes", name: "Poudre d'amande", detail: "remplace la farine", emoji: "🌰", baseQty: 30, unit: "g", scalable: true, role: "Base" },
-    { id: "lait_demi", name: "Lait demi-écrémé", detail: "vanillé", emoji: "🥛", baseQty: 80, unit: "ml", scalable: false, role: "Appareil" },
-    { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "pour l'onctuosité", emoji: "🥛", baseQty: 40, unit: "g", scalable: false, role: "Appareil" },
-    { id: "sirop_erable", name: "Sirop d'érable", emoji: "🍁", baseQty: 12, unit: "ml", scalable: false, role: "Sucrant" },
-    { id: "huile_olive", name: "Beurre", detail: "pour le moule", emoji: "🧈", baseQty: 3, unit: "ml", scalable: false, role: "Cuisson" }
-  ],
-  options: [],
-  steps: [
-    "Préchauffez le four à 180°C. Beurrez un petit plat à gratin ou des ramequins individuels.",
-    "Fouettez les œufs avec le sirop d'érable et la vanille en poudre jusqu'à ce que le mélange soit mousseux et pâle.",
-    "Incorporez la poudre d'amande, le fromage blanc et le lait progressivement en fouettant pour obtenir un appareil lisse et fluide.",
-    "Disposez les cerises (ou fruits rouges) dans le fond du plat beurré en une seule couche régulière.",
-    "Versez délicatement l'appareil sur les fruits. Le liquide doit à peine recouvrir les cerises.",
-    "Enfournez 25-30 minutes : le clafoutis est prêt quand le dessus est doré et gonflé mais le centre encore légèrement tremblotant. Laissez tiédir 10 min."
-  ],
-  tips: [
-    { type: "green", title: "Tradition", text: "Les puristes gardent les noyaux dans les cerises — ils apportent un arôme d'amande amère subtil pendant la cuisson." },
-    { type: "red", title: "Cuisson", text: "Le centre doit rester légèrement tremblotant à la sortie du four. Il finit de prendre en refroidissant." }
-  ]
-},
-{
-  id: "brioche-perdue-praline",
-  name: "Brioche Perdue Pralinée",
-  subtitle: "Brioche dorée à l'appareil vanillé, crème de pralin, noisettes caramélisées et fruits",
-  emoji: "🥐",
-  category: "petit-dej-sucre",
-  difficulty: "Moyen",
-  time: 25,
-  sliderMin: 40,
-  sliderMax: 270,
-  tags: ["Végétarien", "Cheat meal"],
-  ingredients: [
-    { id: "pain_mie_complet", name: "Brioche", detail: "tranches épaisses de la veille", emoji: "🥐", baseQty: 80, unit: "g", scalable: true, role: "Base" },
-    { id: "oeuf", name: "Œufs", detail: "pour l'appareil à tremper", emoji: "🥚", baseQty: 2, unit: "pce", scalable: true, role: "Appareil" },
-    { id: "lait_demi", name: "Lait vanillé", emoji: "🥛", baseQty: 60, unit: "ml", scalable: false, role: "Appareil" },
-    { id: "beurre_cacahuete", name: "Purée de noisette / Pralin", detail: "tiédi", emoji: "🌰", baseQty: 15, unit: "g", scalable: false, role: "Garniture" },
-    { id: "banane", name: "Banane", detail: "en rondelles caramélisées", emoji: "🍌", baseQty: 80, unit: "g", scalable: true, role: "Fruits" },
-    { id: "amandes", name: "Noisettes", detail: "concassées et torréfiées", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
-    { id: "yaourt_grec", name: "Yaourt grec", detail: "onctueux", emoji: "🥛", baseQty: 40, unit: "g", scalable: true, role: "Fraîcheur" },
-    { id: "sirop_erable", name: "Sirop d'érable", emoji: "🍁", baseQty: 8, unit: "ml", scalable: false, role: "Topping" }
-  ],
-  options: [],
-  steps: [
-    "Fouettez les œufs avec le lait vanillé et une pincée de cannelle pour créer l'appareil à tremper.",
-    "Trempez les tranches de brioche rassise 30 secondes de chaque côté — elles doivent s'imbiber sans se défaire.",
-    "Faites dorer les brioches dans une poêle à feu moyen avec une noisette de beurre, 3 min de chaque côté jusqu'à caramélisation.",
-    "Dans la même poêle, faites caraméliser les rondelles de banane 1-2 min de chaque côté avec un filet de sirop d'érable.",
-    "Tiédissez la purée de noisette 15 secondes au micro-ondes pour la rendre coulante, ou mélangez-la avec un peu de lait chaud.",
-    "Dressez les brioches perdues, nappez de pralin coulant, disposez les bananes caramélisées, une cuillère de yaourt grec et parsemez de noisettes concassées."
-  ],
-  tips: [
-    { type: "green", title: "Pain rassis", text: "Le pain rassis est MEILLEUR que le frais — il absorbe l'appareil sans se désintégrer et donne une croûte plus croustillante." },
-    { type: "red", title: "Pralin", text: "La purée de noisette est dense. Tiédissez-la impérativement sinon elle sera impossible à napper." }
-  ]
-},
-{
-  id: "pancakes-souffle-matcha",
-  name: "Pancakes Soufflés au Matcha",
-  subtitle: "Pancakes aériens japonais au thé matcha, crème fouettée légère et haricots rouges sucrés",
-  emoji: "🍵",
-  category: "petit-dej-sucre",
-  difficulty: "Avancé",
-  time: 35,
-  sliderMin: 40,
-  sliderMax: 250,
-  tags: ["Végétarien"],
-  ingredients: [
-    { id: "oeuf", name: "Œufs", detail: "blancs et jaunes séparés", emoji: "🥚", baseQty: 3, unit: "pce", scalable: true, role: "Base" },
-    { id: "farine_complete", name: "Farine complète", detail: "tamisée avec le matcha", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "Base" },
-    { id: "lait_demi", name: "Lait", emoji: "🥛", baseQty: 30, unit: "ml", scalable: false, role: "Base" },
-    { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "fouetté en chantilly", emoji: "🥛", baseQty: 60, unit: "g", scalable: true, role: "Topping" },
-    { id: "haricots_rouges", name: "Haricots rouges", detail: "en pâte sucrée (anko)", emoji: "🫘", baseQty: 40, unit: "g", scalable: true, role: "Garniture" },
-    { id: "fraises", name: "Fraises", detail: "coupées", emoji: "🍓", baseQty: 60, unit: "g", scalable: true, role: "Fruits" },
-    { id: "sirop_erable", name: "Sirop d'érable", emoji: "🍁", baseQty: 8, unit: "ml", scalable: false, role: "Sucrant" }
-  ],
-  options: [],
-  steps: [
-    "Séparez les blancs des jaunes. Tamisez la farine avec 2 c.à.c de poudre de matcha dans le bol des jaunes avec le lait.",
-    "Fouettez les jaunes avec la farine-matcha et le lait pour obtenir une pâte verte lisse et sans grumeaux.",
-    "Montez les blancs en neige très ferme. Incorporez-les en 3 fois dans la pâte matcha en soulevant délicatement avec une maryse.",
-    "Dans une poêle antiadhésive à feu TRÈS doux, déposez des dômes de pâte (7-8cm). Ajoutez 1 c.à.s d'eau dans la poêle, couvrez et cuisez 6-7 min.",
-    "Retournez très délicatement, remettez de l'eau, couvrez et cuisez encore 5-6 min. Les pancakes doivent être gonflés et tremblotants.",
-    "Dressez 2-3 pancakes par assiette, garnissez de fromage blanc fouetté vanillé, d'une quenelle de pâte de haricots rouges sucrée et de fraises."
-  ],
-  tips: [
-    { type: "green", title: "Matcha", text: "Utilisez du matcha de qualité culinaire (pas cérémoniel). Tamisez-le impérativement avec la farine pour éviter les grumeaux." },
-    { type: "red", title: "Patience", text: "La cuisson prend 12+ minutes au total. Résistez à l'envie d'augmenter le feu, la vapeur fait tout le travail." }
-  ]
-},
-{
-  id: "bol-overnight-tiramisu",
-  name: "Overnight Oats Façon Tiramisu",
-  subtitle: "Flocons d'avoine imbibés de café, crème mascarpone légère, cacao et copeaux de chocolat",
-  emoji: "☕",
-  category: "petit-dej-sucre",
-  difficulty: "Facile",
-  time: 10,
-  sliderMin: 40,
-  sliderMax: 250,
-  tags: ["Végétarien", "Protéiné"],
-  ingredients: [
-    { id: "flocons_avoine", name: "Flocons d'avoine", detail: "petits flocons", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "Base" },
-    { id: "skyr_0", name: "Skyr", detail: "façon mascarpone", emoji: "🥛", baseQty: 80, unit: "g", scalable: true, role: "Crème" },
-    { id: "lait_demi", name: "Café espresso froid", detail: "mélangé au lait", emoji: "☕", baseQty: 80, unit: "ml", scalable: false, role: "Liquide" },
-    { id: "whey_protein", name: "Whey vanille", detail: "protéine", emoji: "💪", baseQty: 15, unit: "g", scalable: true, role: "Protéines" },
-    { id: "cacao_poudre", name: "Cacao pur", detail: "en poudre, non sucré", emoji: "🍫", baseQty: 8, unit: "g", scalable: false, role: "Saveur" },
-    { id: "chocolat_noir_70", name: "Chocolat noir", detail: "en copeaux", emoji: "🍫", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
-    { id: "sirop_erable", name: "Sirop d'érable", emoji: "🍁", baseQty: 8, unit: "ml", scalable: false, role: "Sucrant" }
-  ],
-  options: [],
-  steps: [
-    "Mélangez les flocons d'avoine avec le café espresso froid (ou café soluble dissous dans de l'eau froide), le lait et la whey vanille.",
-    "Ajoutez la moitié du cacao en poudre et le sirop d'érable. Mélangez bien pour que tout soit homogène.",
-    "Préparez la crème : fouettez le skyr avec une pointe de vanille et un filet de sirop d'érable pour obtenir une texture façon mascarpone.",
-    "Dans un verre ou bocal, alternez les couches : overnight oats au café, crème de skyr, overnight oats, crème de skyr.",
-    "Couvrez et placez au réfrigérateur minimum 6 heures (idéalement toute la nuit) pour que les flocons absorbent le café.",
-    "Au moment de servir, saupoudrez de cacao tamisé, de copeaux de chocolat noir et dégustez bien frais."
-  ],
-  tips: [
-    { type: "green", title: "Couches", text: "Plus vous faites de couches fines, plus l'effet tiramisu est réussi. Un verre transparent met en valeur le résultat." },
-    { type: "red", title: "Café", text: "Utilisez du café froid, pas chaud ! Le café chaud cuirait partiellement les flocons et altérerait la texture overnight." }
-  ]
-},
-{
-  id: "tartine-ricotta-fouettee-pistache",
-  name: "Tartine Ricotta Fouettée & Pistache",
-  subtitle: "Pain complet toasté, ricotta fouettée aérienne, figues, miel de lavande et éclats de pistache",
-  emoji: "🍯",
-  category: "petit-dej-sucre",
-  difficulty: "Facile",
-  time: 10,
-  sliderMin: 30,
-  sliderMax: 220,
-  tags: ["Végétarien"],
-  ingredients: [
-    { id: "pain_complet", name: "Pain complet", detail: "tranches épaisses, toastées", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "Base" },
-    { id: "ricotta", name: "Ricotta", detail: "fouettée au batteur", emoji: "🧀", baseQty: 80, unit: "g", scalable: true, role: "Garniture" },
-    { id: "fraises", name: "Figues / Fraises", detail: "fraîches, coupées", emoji: "🍓", baseQty: 60, unit: "g", scalable: true, role: "Fruits" },
-    { id: "miel", name: "Miel de lavande", detail: "filet généreux", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "Sucrant" },
-    { id: "amandes", name: "Pistaches / Amandes", detail: "concassées", emoji: "💚", baseQty: 10, unit: "g", scalable: false, role: "Croquant" },
-    { id: "citron_jus", name: "Zeste de citron", detail: "râpé finement", emoji: "🍋", baseQty: 3, unit: "ml", scalable: false, role: "Fraîcheur" }
-  ],
-  options: [],
-  steps: [
-    "Fouettez la ricotta énergiquement au batteur électrique pendant 2-3 minutes jusqu'à obtenir une texture aérienne, presque mousseuse.",
-    "Incorporez le zeste de citron finement râpé et une pointe de vanille dans la ricotta fouettée. Mélangez délicatement.",
-    "Toastez les tranches de pain complet jusqu'à ce qu'elles soient dorées et croustillantes.",
-    "Concassez grossièrement les pistaches dans un mortier ou sous un couteau large — des morceaux irréguliers sont plus jolis.",
-    "Étalez généreusement la ricotta fouettée sur les tartines toastées chaudes.",
-    "Disposez les fruits tranchés, parsemez d'éclats de pistache, terminez par un filet de miel de lavande et quelques feuilles de menthe."
-  ],
-  tips: [
-    { type: "green", title: "Ricotta fouettée", text: "Le batteur électrique est la clé — 3 minutes de fouet transforment la ricotta granuleuse en mousse aérienne." },
-    { type: "red", title: "Miel", text: "Recette contenant du miel, non adaptée pour un régime vegan. Remplacez par du sirop d'érable si besoin." }
-  ]
-},
-{
-  id: "gateau-mug-fondant-chocolat",
-  name: "Gâteau Mug Fondant Chocolat",
-  subtitle: "Mug cake au chocolat noir au cœur coulant, enrichi en protéines, prêt en 5 minutes",
-  emoji: "🍫",
-  category: "petit-dej-sucre",
-  difficulty: "Facile",
-  time: 5,
-  sliderMin: 30,
-  sliderMax: 230,
-  tags: ["Végétarien", "Cheat meal", "Protéiné"],
-  ingredients: [
-    { id: "oeuf", name: "Œuf", detail: "entier", emoji: "🥚", baseQty: 1, unit: "pce", scalable: true, role: "Base" },
-    { id: "chocolat_noir_70", name: "Chocolat noir 70%", detail: "fondu (cœur coulant + pâte)", emoji: "🍫", baseQty: 25, unit: "g", scalable: true, role: "Chocolat" },
-    { id: "whey_protein", name: "Whey chocolat", detail: "protéine en poudre", emoji: "💪", baseQty: 20, unit: "g", scalable: true, role: "Protéines" },
-    { id: "cacao_poudre", name: "Cacao pur", detail: "non sucré", emoji: "🍫", baseQty: 8, unit: "g", scalable: false, role: "Saveur" },
-    { id: "banane", name: "Banane", detail: "mûre, écrasée", emoji: "🍌", baseQty: 50, unit: "g", scalable: true, role: "Sucrant naturel" },
-    { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "1 cuillère au centre", emoji: "🥜", baseQty: 10, unit: "g", scalable: false, role: "Cœur coulant" },
-    { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "en garniture", emoji: "🥛", baseQty: 30, unit: "g", scalable: true, role: "Topping" }
-  ],
-  options: [],
-  steps: [
-    "Faites fondre 15g de chocolat noir au micro-ondes par intervalles de 15 secondes en mélangeant à chaque fois. Réservez les 10g restants.",
-    "Dans un mug graissé, mélangez l'œuf, la banane écrasée, le cacao, la whey et le chocolat fondu. La pâte doit être homogène.",
-    "Créez un puits au centre de la pâte et enfoncez-y le beurre de cacahuète et un carré de chocolat noir pour le cœur coulant.",
-    "Refermez légèrement la pâte sur le centre. Micro-ondes 90 secondes à puissance maximum (ajustez selon votre micro-ondes).",
-    "Laissez reposer 30 secondes dans le mug — le gâteau continue de cuire. Le centre doit être encore tremblotant.",
-    "Garnissez d'une cuillère de fromage blanc frais et de quelques éclats de chocolat noir. Dégustez immédiatement à la cuillère."
-  ],
-  tips: [
-    { type: "green", title: "Cœur coulant", text: "Le secret est de SOUS-cuire légèrement. 90 sec est un point de départ, ajustez de 10 sec selon votre micro-ondes." },
-    { type: "red", title: "Timing", text: "Ne laissez pas trop reposer — le cœur coulant se solidifie en 2-3 minutes. Mangez immédiatement pour l'effet fondant." }
-  ]
-}
-,
-{
-  id: "oeuf-royale-hollandaise-yuzu",
-  name: "Œuf Royale, Hollandaise au Yuzu",
-  subtitle: "Œuf poché sur blini de sarrasin, saumon fumé et hollandaise légère au citron yuzu",
-  emoji: "🥚",
-  category: "petit-dej-sale",
-  difficulty: "Avancé",
-  time: 30,
-  sliderMin: 40,
-  sliderMax: 270,
-  tags: ["Protéiné"],
-  ingredients: [
-    { id: "oeuf", name: "Œufs", detail: "ultra-frais pour le pochage", emoji: "🥚", baseQty: 2, unit: "pce", scalable: true, role: "Protéines" },
-    { id: "saumon", name: "Saumon fumé", detail: "en tranches fines", emoji: "🐟", baseQty: 60, unit: "g", scalable: true, role: "Protéines" },
-    { id: "galette_sarrasin", name: "Blinis de sarrasin", detail: "ou galette découpée", emoji: "🥞", baseQty: 50, unit: "g", scalable: true, role: "Base" },
-    { id: "yaourt_grec", name: "Yaourt grec", detail: "base de la hollandaise légère", emoji: "🥛", baseQty: 40, unit: "g", scalable: false, role: "Sauce" },
-    { id: "citron_jus", name: "Jus de citron / yuzu", detail: "frais pressé", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Sauce" },
-    { id: "epinards", name: "Pousses d'épinards", detail: "fraîches, wilted", emoji: "🥬", baseQty: 50, unit: "g", scalable: true, role: "Légumes" },
-    { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" },
-    { id: "vinaigre_balsamique", name: "Vinaigre blanc", detail: "pour le pochage", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "Technique" }
-  ],
-  options: [],
-  steps: [
-    "Préparez la hollandaise légère : fouettez le yaourt grec avec le jus de citron/yuzu, une pincée de curcuma pour la couleur, sel et poivre blanc. Réservez à température ambiante.",
-    "Faites tomber les pousses d'épinards dans une poêle chaude avec un filet d'huile d'olive, 1-2 minutes. Assaisonnez et réservez.",
-    "Portez une casserole d'eau à frémissement doux (bulles à peine visibles). Ajoutez le vinaigre blanc. Créez un tourbillon avec une cuillère.",
-    "Cassez chaque œuf dans un ramequin, puis glissez-le délicatement au centre du tourbillon. Pochez 3 minutes pour un jaune coulant.",
-    "Pendant le pochage, réchauffez les blinis de sarrasin à la poêle sèche ou au toaster.",
-    "Dressez : blini, lit d'épinards, tranche de saumon fumé, œuf poché. Nappez de hollandaise au yuzu et parsemez de ciboulette ciselée."
-  ],
-  tips: [
-    { type: "green", title: "Œuf poché parfait", text: "L'eau doit FRÉMIR, pas bouillir. Le tourbillon aide le blanc à enrober le jaune. Utilisez des œufs ultra-frais." },
-    { type: "red", title: "Timing", text: "3 minutes exactement pour un jaune coulant. Sortez avec une écumoire et posez sur du papier absorbant pour égoutter." }
-  ]
-},
-{
-  id: "avocado-toast-oeuf-poche-truffe",
-  name: "Avocado Toast Œuf Poché & Truffe",
-  subtitle: "Pain au levain toasté, avocat écrasé au citron vert, œuf poché parfait et huile de truffe",
-  emoji: "🥑",
-  category: "petit-dej-sale",
-  difficulty: "Moyen",
-  time: 15,
-  sliderMin: 40,
-  sliderMax: 260,
-  tags: ["Végétarien", "Protéiné"],
-  ingredients: [
-    { id: "pain_complet", name: "Pain au levain", detail: "tranche épaisse, toastée", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "Base" },
-    { id: "avocat", name: "Avocat", detail: "bien mûr, écrasé", emoji: "🥑", baseQty: 80, unit: "g", scalable: true, role: "Garniture" },
-    { id: "oeuf", name: "Œuf", detail: "poché, jaune coulant", emoji: "🥚", baseQty: 1, unit: "pce", scalable: true, role: "Protéines" },
-    { id: "citron_jus", name: "Jus de citron vert", detail: "frais", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-    { id: "radis", name: "Radis", detail: "en fines rondelles", emoji: "🔴", baseQty: 30, unit: "g", scalable: false, role: "Croquant" },
-    { id: "graines_chia", name: "Graines mix", detail: "sésame, chia, lin", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "Topping" },
-    { id: "huile_olive", name: "Huile de truffe", detail: "quelques gouttes", emoji: "🫒", baseQty: 3, unit: "ml", scalable: false, role: "Finition" }
-  ],
-  options: [],
-  steps: [
-    "Écrasez l'avocat à la fourchette avec le jus de citron vert, du piment d'Espelette, du sel et du poivre. La texture doit rester rustique, pas lisse.",
-    "Toastez la tranche de pain au levain jusqu'à ce qu'elle soit croustillante et dorée — la croûte doit craquer.",
-    "Pochez l'œuf : eau frémissante + vinaigre, tourbillon, 3 minutes. Égouttez sur papier absorbant.",
-    "Tartinez généreusement l'avocat écrasé sur le toast chaud. La chaleur du pain fait légèrement fondre l'avocat.",
-    "Déposez l'œuf poché, les fines rondelles de radis pour le croquant et parsemez du mélange de graines.",
-    "Terminez par quelques gouttes d'huile de truffe et de la fleur de sel. L'huile de truffe s'ajoute TOUJOURS à froid, en finition."
-  ],
-  tips: [
-    { type: "green", title: "Huile de truffe", text: "Quelques gouttes suffisent — l'arôme est puissant. Ajoutez-la au dernier moment, la chaleur dissipe le parfum." },
-    { type: "red", title: "Avocat", text: "L'avocat s'oxyde vite. Préparez-le au dernier moment et le citron vert ralentit le brunissement." }
-  ]
-},
-{
-  id: "hash-brown-patate-douce-oeuf-mollet",
-  name: "Hash Browns Patate Douce & Œuf Mollet",
-  subtitle: "Galettes croustillantes de patate douce râpée, œuf mollet coulant et crème d'avocat",
-  emoji: "🍠",
-  category: "petit-dej-sale",
-  difficulty: "Moyen",
-  time: 25,
-  sliderMin: 40,
-  sliderMax: 260,
-  tags: ["Sans gluten", "Végétarien", "Protéiné"],
-  ingredients: [
-    { id: "patate_douce_crue", name: "Patate douce", detail: "râpée grossièrement", emoji: "🍠", baseQty: 150, unit: "g", scalable: true, role: "Base" },
-    { id: "oeuf", name: "Œufs", detail: "mollets (6 min)", emoji: "🥚", baseQty: 2, unit: "pce", scalable: true, role: "Protéines" },
-    { id: "avocat", name: "Avocat", detail: "en crème lisse", emoji: "🥑", baseQty: 50, unit: "g", scalable: true, role: "Sauce" },
-    { id: "oignon", name: "Oignon", detail: "râpé finement", emoji: "🧅", baseQty: 30, unit: "g", scalable: false, role: "Saveur" },
-    { id: "farine_complete", name: "Farine", detail: "1 c.à.s comme liant", emoji: "🌾", baseQty: 10, unit: "g", scalable: false, role: "Liant" },
-    { id: "salade_verte", name: "Roquette", detail: "poignée", emoji: "🥬", baseQty: 20, unit: "g", scalable: false, role: "Fraîcheur" },
-    { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" },
-    { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" }
-  ],
-  options: [],
-  steps: [
-    "Râpez la patate douce et l'oignon grossièrement. Pressez bien le mélange dans un torchon propre pour extraire un maximum d'eau — c'est la clé du croustillant.",
-    "Mélangez les légumes pressés avec la farine, du sel, du poivre et du paprika fumé. Formez des galettes compactes de 8cm de diamètre.",
-    "Faites cuire les hash browns dans une poêle avec l'huile d'olive, 4-5 min de chaque côté à feu moyen-vif. Ne les touchez pas pendant la cuisson pour qu'une croûte se forme.",
-    "Plongez les œufs dans l'eau bouillante exactement 6 minutes pour des œufs mollets au jaune crémeux. Transférez immédiatement dans l'eau glacée.",
-    "Préparez la crème d'avocat en mixant l'avocat avec le jus de citron, du sel et une pointe de piment. Texture lisse comme un guacamole.",
-    "Dressez les hash browns croustillants, une cuillère de crème d'avocat, les œufs mollets coupés en deux (jaune visible) et une poignée de roquette."
-  ],
-  tips: [
-    { type: "green", title: "Croustillant garanti", text: "Essorer la patate douce est l'étape la plus importante. Plus elle est sèche, plus les hash browns seront croustillants." },
-    { type: "red", title: "Œuf mollet", text: "6 minutes EXACTEMENT dans l'eau bouillante, puis eau glacée immédiatement pour stopper la cuisson. Pas 7 minutes !" }
-  ]
-},
-{
-  id: "galette-complete-forestiere",
-  name: "Galette Complète Forestière",
-  subtitle: "Galette de sarrasin aux champignons sauvages sautés, œuf, comté affiné et crème de cèpes",
-  emoji: "🍄",
-  category: "petit-dej-sale",
-  difficulty: "Moyen",
-  time: 25,
-  sliderMin: 40,
-  sliderMax: 260,
-  tags: ["Sans gluten", "Végétarien"],
-  ingredients: [
-    { id: "galette_sarrasin", name: "Galette de sarrasin", detail: "prête à l'emploi", emoji: "🥞", baseQty: 60, unit: "g", scalable: true, role: "Base" },
-    { id: "champignon", name: "Champignons variés", detail: "shiitake, pleurotes, de Paris", emoji: "🍄", baseQty: 120, unit: "g", scalable: true, role: "Garniture" },
-    { id: "oeuf", name: "Œuf", detail: "au plat ou poché", emoji: "🥚", baseQty: 1, unit: "pce", scalable: true, role: "Protéines" },
-    { id: "fromage_rape", name: "Comté / Emmental", detail: "affiné, râpé", emoji: "🧀", baseQty: 25, unit: "g", scalable: false, role: "Fromage" },
-    { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "pour la sauce aux cèpes", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "Sauce" },
-    { id: "oignon", name: "Échalote", detail: "émincée finement", emoji: "🧅", baseQty: 20, unit: "g", scalable: false, role: "Saveur" },
-    { id: "epinards", name: "Pousses d'épinards", detail: "fraîches", emoji: "🥬", baseQty: 30, unit: "g", scalable: true, role: "Légumes" },
-    { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" }
-  ],
-  options: [],
-  steps: [
-    "Nettoyez les champignons au pinceau (jamais sous l'eau) et émincez-les en tranches irrégulières pour varier les textures.",
-    "Faites chauffer une poêle à feu vif avec l'huile d'olive. Saisissez les champignons SANS LES REMUER pendant 3 min pour obtenir une coloration dorée.",
-    "Ajoutez l'échalote, poursuivez 2 min. Déglacez avec un filet de crème légère, assaisonnez de thym frais, sel et poivre noir.",
-    "Dans une grande poêle ou billig, réchauffez la galette de sarrasin. Parsemez de fromage râpé pour qu'il fonde.",
-    "Disposez les épinards frais, les champignons sautés et cassez l'œuf au centre. Couvrez 3-4 min pour un blanc pris et un jaune coulant.",
-    "Pliez la galette en carré, laissez griller 1 min de plus. Servez avec une pincée de fleur de sel et du persil plat."
-  ],
-  tips: [
-    { type: "green", title: "Champignons dorés", text: "Le secret est de NE PAS remuer les champignons pendant les 3 premières minutes. Le contact continu avec la poêle crée la caramélisation." },
-    { type: "red", title: "Eau des champignons", text: "Ne surchargez pas la poêle — les champignons rendront de l'eau s'ils sont trop serrés, et bouilliront au lieu de dorer." }
-  ]
-},
-{
-  id: "shakshuka-merguez-feta-herbes",
-  name: "Shakshuka Merguez & Feta aux Herbes",
-  subtitle: "Œufs pochés dans une sauce tomate épicée aux merguez, feta émiettée et herbes fraîches",
-  emoji: "🍳",
-  category: "petit-dej-sale",
-  difficulty: "Moyen",
-  time: 30,
-  sliderMin: 40,
-  sliderMax: 280,
-  tags: ["Protéiné", "Sans gluten"],
-  ingredients: [
-    { id: "oeuf", name: "Œufs", detail: "pochés dans la sauce", emoji: "🥚", baseQty: 2, unit: "pce", scalable: true, role: "Protéines" },
-    { id: "boeuf_hache_5", name: "Viande façon merguez", detail: "5% MG, épicée au cumin-harissa", emoji: "🥩", baseQty: 80, unit: "g", scalable: true, role: "Protéines" },
-    { id: "sauce_tomate", name: "Sauce tomate", detail: "concassée", emoji: "🍅", baseQty: 150, unit: "g", scalable: false, role: "Sauce" },
-    { id: "feta", name: "Feta", detail: "émiettée", emoji: "🧀", baseQty: 30, unit: "g", scalable: false, role: "Fromage" },
-    { id: "poivron_rouge", name: "Poivron rouge", detail: "en dés", emoji: "🫑", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
-    { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "Légumes" },
-    { id: "harissa", name: "Harissa", detail: "1 c.à.c", emoji: "🌶️", baseQty: 5, unit: "g", scalable: false, role: "Épice" },
-    { id: "pain_pita", name: "Pain pita", detail: "chaud, pour tremper", emoji: "🫓", baseQty: 40, unit: "g", scalable: true, role: "Accompagnement" }
-  ],
-  options: [],
-  steps: [
-    "Émiettez la viande hachée et assaisonnez-la avec du cumin, du paprika fumé, de la harissa et de l'ail en poudre pour recréer le goût merguez.",
-    "Dans une poêle en fonte, faites revenir l'oignon et le poivron 4-5 min. Ajoutez la viande épicée et faites dorer 3-4 min en émiettant.",
-    "Versez la sauce tomate, ajoutez la harissa, du cumin supplémentaire et une pincée de sucre. Laissez mijoter 10 min jusqu'à épaississement.",
-    "Creusez 2 puits dans la sauce avec le dos d'une cuillère. Cassez un œuf dans chaque puits. Couvrez et cuisez 4-5 min à feu doux.",
-    "Les blancs doivent être pris mais les jaunes encore tremblotants et coulants. Retirez du feu.",
-    "Émiettez la feta par-dessus, parsemez de coriandre et persil frais. Servez brûlant dans la poêle avec le pain pita chaud pour tremper."
-  ],
-  tips: [
-    { type: "green", title: "Présentation", text: "Servez directement dans la poêle en fonte — c'est plus authentique et la fonte garde le plat chaud pendant tout le repas." },
-    { type: "red", title: "Cuisson des œufs", text: "Couvrez la poêle et cuisez à feu DOUX. Les œufs doivent pocher doucement dans la vapeur, pas frire dans la sauce." }
-  ]
-},
-{
-  id: "croque-truffe-jambon-bechamel",
-  name: "Croque-Monsieur Truffe & Jambon",
-  subtitle: "Croque-monsieur au four, jambon de qualité, béchamel truffée et comté gratiné",
-  emoji: "🥪",
-  category: "petit-dej-sale",
-  difficulty: "Moyen",
-  time: 25,
-  sliderMin: 40,
-  sliderMax: 260,
-  tags: ["Cheat meal", "Protéiné"],
-  ingredients: [
-    { id: "pain_mie_complet", name: "Pain de mie complet", detail: "tranches épaisses", emoji: "🍞", baseQty: 70, unit: "g", scalable: true, role: "Base" },
-    { id: "jambon_blanc", name: "Jambon blanc", detail: "qualité supérieure", emoji: "🥓", baseQty: 60, unit: "g", scalable: true, role: "Protéines" },
-    { id: "fromage_rape", name: "Comté / Emmental", detail: "râpé pour gratiner", emoji: "🧀", baseQty: 30, unit: "g", scalable: false, role: "Fromage" },
-    { id: "lait_demi", name: "Lait demi-écrémé", detail: "pour la béchamel", emoji: "🥛", baseQty: 60, unit: "ml", scalable: false, role: "Béchamel" },
-    { id: "moutarde", name: "Moutarde de Dijon", detail: "fine couche intérieure", emoji: "🟡", baseQty: 5, unit: "g", scalable: false, role: "Assaisonnement" },
-    { id: "huile_olive", name: "Huile de truffe", detail: "quelques gouttes dans la béchamel", emoji: "🫒", baseQty: 3, unit: "ml", scalable: false, role: "Finition" },
-    { id: "salade_verte", name: "Mesclun", detail: "en accompagnement", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "Fraîcheur" }
-  ],
-  options: [],
-  steps: [
-    "Préparez la béchamel truffée : faites fondre une noisette de beurre, ajoutez 1 c.à.s de farine, puis versez le lait en fouettant. Hors du feu, ajoutez l'huile de truffe.",
-    "Tartinez l'intérieur d'une tranche de moutarde de Dijon. Sur l'autre tranche, étalez une couche de béchamel truffée.",
-    "Disposez le jambon sur la moutarde, refermez le croque. Nappez le dessus de béchamel et parsemez généreusement de fromage râpé.",
-    "Préchauffez le four à 200°C (ou grill). Enfournez le croque sur une plaque 12-15 minutes jusqu'à gratinage doré et bouillonnant.",
-    "Préparez une petite salade de mesclun assaisonnée d'une vinaigrette légère au vinaigre balsamique.",
-    "Sortez le croque doré et croustillant, servez immédiatement avec la salade fraîche en contraste."
-  ],
-  tips: [
-    { type: "green", title: "Truffe", text: "L'huile de truffe s'ajoute HORS du feu dans la béchamel. La chaleur excessive détruit l'arôme délicat." },
-    { type: "red", title: "Béchamel", text: "La béchamel doit être épaisse, pas liquide. Si elle est trop fluide, le croque sera détrempé. Réduisez 1-2 min de plus." }
-  ]
-},
-{
-  id: "oeufs-en-meurette-light",
-  name: "Œufs en Meurette Light",
-  subtitle: "Œufs pochés en sauce bourguignonne au vin rouge, lardons de dinde et croûtons dorés",
-  emoji: "🍷",
-  category: "petit-dej-sale",
-  difficulty: "Avancé",
-  time: 35,
-  sliderMin: 40,
-  sliderMax: 270,
-  tags: ["Protéiné"],
-  ingredients: [
-    { id: "oeuf", name: "Œufs", detail: "pochés dans la sauce", emoji: "🥚", baseQty: 2, unit: "pce", scalable: true, role: "Protéines" },
-    { id: "dinde", name: "Lardons de dinde", detail: "ou allumettes", emoji: "🥓", baseQty: 40, unit: "g", scalable: true, role: "Protéines" },
-    { id: "champignon", name: "Champignons de Paris", detail: "émincés", emoji: "🍄", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
-    { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "Légumes" },
-    { id: "concentre_tomate", name: "Concentré de tomate", detail: "1 c.à.s", emoji: "🍅", baseQty: 10, unit: "g", scalable: false, role: "Sauce" },
-    { id: "pain_complet", name: "Pain complet", detail: "en croûtons grillés", emoji: "🍞", baseQty: 40, unit: "g", scalable: true, role: "Accompagnement" },
-    { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" },
-    { id: "vinaigre_balsamique", name: "Vinaigre balsamique", detail: "pour déglacer", emoji: "🫗", baseQty: 15, unit: "ml", scalable: false, role: "Sauce" }
-  ],
-  options: [],
-  steps: [
-    "Faites revenir les lardons de dinde à sec dans une cocotte jusqu'à coloration dorée. Ajoutez l'oignon émincé et les champignons, cuisez 5 min.",
-    "Ajoutez le concentré de tomate, mélangez 1 minute, puis déglacez avec le vinaigre balsamique et 200ml d'eau ou bouillon. Laissez réduire 15 min à feu doux.",
-    "Préparez les croûtons : coupez le pain en cubes, frottez d'ail et faites-les dorer dans une poêle avec un filet d'huile jusqu'à ce qu'ils soient croustillants.",
-    "Quand la sauce est réduite et nappante, baissez à frémissement. Creusez des puits et cassez-y les œufs. Couvrez et pochez 4-5 min.",
-    "Les œufs sont prêts quand les blancs sont pris mais les jaunes encore tremblotants sous la surface de la sauce.",
-    "Dressez dans des assiettes creuses : sauce, œufs pochés, croûtons dorés aillés. Parsemez de persil plat et de poivre noir concassé."
-  ],
-  tips: [
-    { type: "green", title: "Classique bourguignon", text: "L'original se fait au vin rouge. Le vinaigre balsamique et le bouillon donnent une profondeur similaire sans alcool." },
-    { type: "red", title: "Sauce nappante", text: "La sauce doit napper la cuillère avant d'y pocher les œufs. Si elle est trop liquide, les œufs se disperseront." }
-  ]
-},
-{
-  id: "bruschetta-tomate-burrata-basilic",
-  name: "Bruschetta Tomate Confite & Burrata",
-  subtitle: "Pain ciabatta grillé, tomates cerises rôties au four, mozzarella crémeuse et basilic frais",
-  emoji: "🍅",
-  category: "petit-dej-sale",
-  difficulty: "Facile",
-  time: 25,
-  sliderMin: 30,
-  sliderMax: 240,
-  tags: ["Végétarien"],
-  ingredients: [
-    { id: "pain_complet", name: "Pain ciabatta / complet", detail: "tranches épaisses", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "Base" },
-    { id: "tomate", name: "Tomates cerises", detail: "coupées en deux pour confites", emoji: "🍅", baseQty: 120, unit: "g", scalable: true, role: "Garniture" },
-    { id: "mozzarella", name: "Mozzarella / Burrata", detail: "déchirée à la main", emoji: "🧀", baseQty: 60, unit: "g", scalable: true, role: "Fromage" },
-    { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge de qualité", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-    { id: "vinaigre_balsamique", name: "Vinaigre balsamique", detail: "réduction ou classique", emoji: "🫗", baseQty: 8, unit: "ml", scalable: false, role: "Finition" },
-    { id: "oignon", name: "Ail", detail: "gousse coupée pour frotter", emoji: "🧄", baseQty: 5, unit: "g", scalable: false, role: "Saveur" }
-  ],
-  options: [],
-  steps: [
-    "Préchauffez le four à 160°C. Disposez les tomates cerises coupées en deux sur une plaque, arrosez d'huile d'olive, sel, poivre et une pincée de sucre.",
-    "Enfournez les tomates 15-20 minutes jusqu'à ce qu'elles soient confites, ridées et caramélisées. Elles doivent avoir réduit d'un tiers.",
-    "Toastez les tranches de pain au grill ou au four les dernières minutes. Frottez chaque tranche chaude avec la gousse d'ail coupée.",
-    "Déchirez la mozzarella en morceaux irréguliers à la main — jamais au couteau, la texture est plus belle et crémeuse.",
-    "Disposez les tomates confites tièdes sur le pain frotté d'ail, puis la mozzarella déchirée.",
-    "Terminez par un généreux filet d'huile d'olive extra vierge, du vinaigre balsamique, des feuilles de basilic et de la fleur de sel."
-  ],
-  tips: [
-    { type: "green", title: "Tomates confites", text: "La cuisson lente concentre les sucres et transforme des tomates banales en bouchées incroyables. Ne sautez pas cette étape." },
-    { type: "red", title: "Température", text: "Pain chaud + tomates tièdes + mozzarella froide = le contraste thermique idéal. Ne réchauffez pas la mozzarella." }
-  ]
-},
-{
-  id: "bowl-japonais-saumon-miso",
-  name: "Bowl Japonais Saumon & Miso",
-  subtitle: "Bol petit-déjeuner japonais : riz, saumon grillé, soupe miso, pickles et œuf onsen",
-  emoji: "🍱",
-  category: "petit-dej-sale",
-  difficulty: "Avancé",
-  time: 30,
-  sliderMin: 40,
-  sliderMax: 280,
-  tags: ["Protéiné", "Sans gluten"],
-  ingredients: [
-    { id: "saumon", name: "Pavé de saumon", detail: "grillé au miso", emoji: "🐟", baseQty: 100, unit: "g", scalable: true, role: "Protéines" },
-    { id: "riz_complet_cuit", name: "Riz japonais", detail: "cuit et chaud", emoji: "🍚", baseQty: 120, unit: "g", scalable: true, role: "Féculents", rawRatio: 2.25 },
-    { id: "oeuf", name: "Œuf onsen", detail: "cuit 13 min à 75°C", emoji: "🥚", baseQty: 1, unit: "pce", scalable: true, role: "Protéines" },
-    { id: "edamame", name: "Edamame", detail: "décortiqués", emoji: "🫘", baseQty: 40, unit: "g", scalable: true, role: "Légumes" },
-    { id: "concombre", name: "Concombre", detail: "en pickles express", emoji: "🥒", baseQty: 40, unit: "g", scalable: false, role: "Pickles" },
-    { id: "sauce_soja", name: "Sauce soja", emoji: "🥫", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-    { id: "graines_chia", name: "Graines de sésame", detail: "toastées", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "Topping" }
-  ],
-  options: [],
-  steps: [
-    "Marinez le saumon 10 min dans un mélange sauce soja + un soupçon de miso dilué + gingembre râpé. Égouttez.",
-    "Faites griller le saumon mariné à la poêle très chaude, 3 min peau en bas puis 2 min côté chair. La peau doit être croustillante.",
-    "Pour l'œuf onsen : plongez l'œuf dans l'eau à 75°C pendant 13 min (ou 6 min 30 dans l'eau bouillante pour un œuf mollet classique).",
-    "Préparez des pickles express : tranchez le concombre finement, marinezle 10 min dans du vinaigre de riz + sucre + sel.",
-    "Disposez le riz chaud dans un bol, ajoutez le saumon grillé émietté, l'œuf onsen, les edamame et les pickles de concombre.",
-    "Arrosez d'un filet de sauce soja, parsemez de graines de sésame toastées et de nori émietté. Servez avec un thé vert."
-  ],
-  tips: [
-    { type: "green", title: "Petit-déjeuner japonais", text: "Au Japon, le petit-déjeuner est un vrai repas complet et salé. Ce bowl en est la version simplifiée mais authentique." },
-    { type: "red", title: "Saumon miso", text: "Ne laissez pas mariner plus de 15 min dans le miso — le sel cuit la chair et la rend sèche." }
-  ]
-},
-{
-  id: "toast-champignon-truffe-oeuf-poche",
-  name: "Toast Champignons Truffés & Œuf Poché",
-  subtitle: "Toast de pain au levain, duxelles de champignons au thym, œuf poché et copeaux de parmesan",
-  emoji: "🍄",
-  category: "petit-dej-sale",
-  difficulty: "Moyen",
-  time: 20,
-  sliderMin: 40,
-  sliderMax: 250,
-  tags: ["Végétarien", "Protéiné"],
-  ingredients: [
-    { id: "pain_complet", name: "Pain au levain", detail: "tranche épaisse, toastée", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "Base" },
-    { id: "champignon", name: "Champignons", detail: "mélange shiitake, pleurotes, Paris", emoji: "🍄", baseQty: 120, unit: "g", scalable: true, role: "Garniture" },
-    { id: "oeuf", name: "Œuf", detail: "poché", emoji: "🥚", baseQty: 1, unit: "pce", scalable: true, role: "Protéines" },
-    { id: "parmesan", name: "Parmesan", detail: "en copeaux à la mandoline", emoji: "🧀", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
-    { id: "oignon", name: "Échalote", detail: "ciselée finement", emoji: "🧅", baseQty: 20, unit: "g", scalable: false, role: "Saveur" },
-    { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "un filet", emoji: "🥛", baseQty: 15, unit: "g", scalable: false, role: "Onctuosité" },
-    { id: "huile_olive", name: "Huile d'olive / truffe", detail: "pour la finition", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" }
-  ],
-  options: [],
-  steps: [
-    "Hachez finement les champignons au couteau pour obtenir une duxelles (texture hachée grossière, pas en purée).",
-    "Saisissez la duxelles à feu vif dans l'huile d'olive avec l'échalote ciselée. Ne remuez pas les premières 2 min pour colorer.",
-    "Ajoutez le thym frais, du sel, du poivre noir et un filet de crème. Cuisez 3-4 min jusqu'à évaporation complète. La duxelles doit être sèche et intense.",
-    "Pochez l'œuf dans l'eau frémissante vinaigrée. 3 minutes pour un jaune coulant.",
-    "Toastez le pain, frottez-le avec une demi-gousse d'ail. Tartinez généreusement de duxelles de champignons.",
-    "Déposez l'œuf poché, les copeaux de parmesan à la mandoline, quelques gouttes d'huile de truffe et du persil plat."
-  ],
-  tips: [
-    { type: "green", title: "Duxelles", text: "La duxelles est une technique de base de la cuisine française. Le hachage fin et la cuisson à sec concentrent tous les arômes." },
-    { type: "red", title: "Eau des champignons", text: "Les champignons rendent beaucoup d'eau. Cuisez à feu vif sans couvrir pour évaporer — la duxelles doit être SÈCHE." }
-  ]
-},
-{
-  id: "socca-nicoise-legumes",
-  name: "Socca Niçoise aux Légumes Grillés",
-  subtitle: "Galette croustillante de pois chiches façon Nice, légumes méditerranéens grillés et herbes",
-  emoji: "🫓",
-  category: "petit-dej-sale",
-  difficulty: "Moyen",
-  time: 30,
-  sliderMin: 40,
-  sliderMax: 240,
-  tags: ["Vegan", "Sans gluten"],
-  ingredients: [
-    { id: "pois_chiches_cuits", name: "Farine de pois chiches", detail: "mélangée à l'eau (socca)", emoji: "🫘", baseQty: 60, unit: "g", scalable: true, role: "Base" },
-    { id: "courgette", name: "Courgette", detail: "en rubans grillés", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
-    { id: "poivron_rouge", name: "Poivron rouge", detail: "grillé en lanières", emoji: "🫑", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
-    { id: "tomate", name: "Tomates cerises", detail: "rôties", emoji: "🍅", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
-    { id: "oignon", name: "Oignon rouge", detail: "en rondelles grillées", emoji: "🧅", baseQty: 30, unit: "g", scalable: false, role: "Légumes" },
-    { id: "huile_olive", name: "Huile d'olive", detail: "généreuse", emoji: "🫒", baseQty: 12, unit: "ml", scalable: false, role: "Cuisson" },
-    { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" }
-  ],
-  options: [],
-  steps: [
-    "Préparez la pâte à socca : mélangez la farine de pois chiches avec 120ml d'eau tiède, l'huile d'olive, du sel et du poivre. Laissez reposer 30 min minimum.",
-    "Préchauffez le grill du four au maximum. Huilez généreusement une poêle en fonte allant au four.",
-    "Faites griller les légumes (courgette en rubans, poivron en lanières, oignon en rondelles) au grill ou à la poêle très chaude. Réservez.",
-    "Versez la pâte à socca dans la poêle en fonte huilée (couche fine de 3-4mm). Enfournez sous le grill 8-10 min jusqu'à surface dorée et cloquée.",
-    "La socca est prête quand le dessus est croustillant et doré avec des cloques — l'intérieur reste moelleux.",
-    "Servez la socca chaude directement coupée en parts, garnie des légumes grillés, un filet de citron, de l'huile d'olive et du basilic frais."
-  ],
-  tips: [
-    { type: "green", title: "Spécialité niçoise", text: "La socca se mange traditionnellement brûlante, sortie du four, avec juste du poivre noir. Les légumes en font un repas complet." },
-    { type: "red", title: "Repos de la pâte", text: "30 minutes de repos minimum sont nécessaires pour que la farine de pois chiches s'hydrate. Sinon la socca sera granuleuse." }
-  ]
-},
-{
-  id: "tortilla-espagnole-chorizo-poivron",
-  name: "Tortilla Espagnole au Chorizo & Poivron",
-  subtitle: "Tortilla épaisse et fondante aux pommes de terre, chorizo de dinde, poivron et oignon confit",
-  emoji: "🥘",
-  category: "petit-dej-sale",
-  difficulty: "Moyen",
-  time: 35,
-  sliderMin: 40,
-  sliderMax: 280,
-  tags: ["Sans gluten", "Protéiné"],
-  ingredients: [
-    { id: "oeuf", name: "Œufs", detail: "battus", emoji: "🥚", baseQty: 3, unit: "pce", scalable: true, role: "Base" },
-    { id: "pomme_de_terre", name: "Pommes de terre", detail: "en fines rondelles", emoji: "🥔", baseQty: 120, unit: "g", scalable: true, role: "Féculents", rawRatio: 1 },
-    { id: "dinde", name: "Chorizo de dinde", detail: "en rondelles fines", emoji: "🌶️", baseQty: 40, unit: "g", scalable: true, role: "Protéines" },
-    { id: "poivron_rouge", name: "Poivron rouge", detail: "en lanières", emoji: "🫑", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
-    { id: "oignon", name: "Oignon", detail: "émincé, confit lentement", emoji: "🧅", baseQty: 50, unit: "g", scalable: false, role: "Légumes" },
-    { id: "huile_olive", name: "Huile d'olive", detail: "généreuse comme en Espagne", emoji: "🫒", baseQty: 15, unit: "ml", scalable: false, role: "Cuisson" },
-    { id: "salade_verte", name: "Mesclun", detail: "en accompagnement", emoji: "🥬", baseQty: 30, unit: "g", scalable: true, role: "Fraîcheur" }
-  ],
-  options: [],
-  steps: [
-    "Faites confire les rondelles de pomme de terre et l'oignon émincé dans l'huile d'olive à feu doux pendant 15 min. Ils doivent être fondants, PAS dorés.",
-    "Ajoutez les rondelles de chorizo de dinde et le poivron en lanières. Poursuivez 3-4 min pour que le chorizo rende ses saveurs épicées.",
-    "Battez les œufs vigoureusement avec du sel, du poivre et du piment d'Espelette. Incorporez tous les légumes confits dans les œufs.",
-    "Versez le mélange dans une petite poêle antiadhésive (20cm max). Cuisez à feu TRÈS doux pendant 10-12 min avec couvercle.",
-    "Le retournement : placez une assiette plate sur la poêle, retournez d'un geste vif, glissez la tortilla côté cru dans la poêle. Cuisez 4-5 min.",
-    "La tortilla est prête quand elle est ferme à l'extérieur mais encore légèrement crémeuse au centre. Servez tiède avec du mesclun."
-  ],
-  tips: [
-    { type: "green", title: "Confit, pas frit", text: "La vraie tortilla espagnole CONFIT les pommes de terre à l'huile d'olive douce, elle ne les fait pas frire. Feu doux impératif." },
-    { type: "red", title: "Le retournement", text: "Le moment le plus stressant ! Utilisez une assiette plus grande que la poêle et un geste rapide et assuré. En cas de doute, finissez sous le grill." }
-  ]
-}
-,
-{
-    id: "tataki-thon-sesame-wasabi",
-    name: "Tataki de thon au sésame et wasabi",
-    subtitle: "Thon mi-cuit en croûte de sésame, sauce ponzu maison, radis croquants",
-    emoji: "🐟",
-    category: "dejeuner",
-    difficulty: "Avancé",
-    time: 25,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Sans gluten", "Low carb"],
-    ingredients: [
-        { id: "thon_conserve", name: "Pavé de thon", detail: "frais, qualité sashimi", emoji: "🐟", baseQty: 150, unit: "g", scalable: true, role: "Protéine" },
-        { id: "concombre", name: "Concombre", detail: "en fines rondelles", emoji: "🥒", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
-        { id: "radis", name: "Radis", detail: "en fines lamelles", emoji: "🌶️", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
-        { id: "avocat", name: "Avocat", detail: "en éventail", emoji: "🥑", baseQty: 60, unit: "g", scalable: true, role: "Lipide" },
-        { id: "sauce_soja", name: "Sauce soja", detail: "allégée en sel", emoji: "🫘", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "citron_jus", name: "Jus de citron vert", detail: "fraîchement pressé", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Mélanger sauce soja, jus de citron vert et huile de sésame pour préparer la sauce ponzu maison.",
-        "Enrober généreusement le pavé de thon de graines de sésame (noir et blanc) en pressant bien.",
-        "Saisir le thon 30 secondes de chaque côté dans une poêle fumante huilée — l'intérieur doit rester cru.",
-        "Laisser reposer 2 minutes puis trancher en fines lamelles à l'aide d'un couteau bien aiguisé.",
-        "Disposer les tranches en éventail sur l'assiette avec le concombre, les radis et l'avocat.",
-        "Napper délicatement de sauce ponzu et servir immédiatement."
-    ],
-    tips: [
-        { type: "green", title: "🔥 Saisie parfaite", text: "La poêle doit être fumante pour une croûte dorée. 30 secondes max par face pour garder le cœur cru et fondant." },
-        { type: "red", title: "⚠️ Qualité du thon", text: "Utilisez impérativement du thon qualité sashimi (surgelé à -20°C minimum 24h) pour une dégustation mi-cuit en toute sécurité." }
-    ]
-},
-{
-    id: "risotto-gambas-citron-safran",
-    name: "Risotto crémeux aux gambas, citron et safran",
-    subtitle: "Riz nacré au safran, gambas snackées, zeste de citron et parmesan",
-    emoji: "🦐",
-    category: "dejeuner",
-    difficulty: "Avancé",
-    time: 40,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Équilibré", "Sans gluten"],
-    ingredients: [
-        { id: "gambas", name: "Gambas", detail: "décortiquées, déveinées", emoji: "🦐", baseQty: 120, unit: "g", scalable: true, role: "Protéine" },
-        { id: "riz_basmati_cuit", name: "Riz arborio", detail: "cuit façon risotto", emoji: "🍚", baseQty: 180, unit: "g", scalable: true, role: "Féculent", rawRatio: 2.25 },
-        { id: "oignon", name: "Échalote", detail: "finement ciselée", emoji: "🧅", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
-        { id: "parmesan", name: "Parmesan", detail: "Parmigiano Reggiano, râpé fin", emoji: "🧀", baseQty: 15, unit: "g", scalable: false, role: "Fromage" },
-        { id: "citron_jus", name: "Jus de citron", detail: "et zeste râpé", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "Liant" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Faire revenir l'échalote ciselée dans l'huile d'olive à feu doux jusqu'à translucidité.",
-        "Ajouter le riz et le nacrer 2 minutes en remuant jusqu'à ce qu'il devienne translucide sur les bords.",
-        "Mouiller louche par louche avec du bouillon chaud safrané, en remuant constamment pendant 18-20 minutes.",
-        "Pendant ce temps, saisir les gambas 1 min 30 de chaque côté à feu vif dans une poêle séparée.",
-        "Hors du feu, incorporer le parmesan, la crème, le jus et le zeste de citron — remuer vigoureusement pour l'onctuosité.",
-        "Dresser le risotto en formant une vague dans l'assiette, disposer les gambas par-dessus.",
-        "Finaliser avec un filet d'huile d'olive crue et quelques zestes de citron."
-    ],
-    tips: [
-        { type: "green", title: "🍚 Onctuosité parfaite", text: "Le secret du risotto : toujours ajouter le bouillon chaud et remuer sans cesse. Le résultat doit couler lentement quand on incline l'assiette." },
-        { type: "red", title: "⚠️ Cuisson des gambas", text: "Ne pas surcuire les gambas — elles deviennent caoutchouteuses. 1 min 30 par face suffit, elles continuent de cuire hors du feu." }
-    ]
-},
-{
-    id: "canard-laque-asiatique",
-    name: "Canard laqué à l'asiatique",
-    subtitle: "Filet de canard caramélisé miel-soja, pak choï sautés, riz parfumé",
-    emoji: "🦆",
-    category: "dejeuner",
-    difficulty: "Avancé",
-    time: 45,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Prise de masse"],
-    ingredients: [
-        { id: "canard_filet", name: "Filet de canard", detail: "avec peau, entaillé en croisillons", emoji: "🦆", baseQty: 150, unit: "g", scalable: true, role: "Protéine" },
-        { id: "riz_basmati_cuit", name: "Riz basmati", detail: "cuit, parfumé", emoji: "🍚", baseQty: 180, unit: "g", scalable: true, role: "Féculent", rawRatio: 2.25 },
-        { id: "brocoli", name: "Pak choï / Brocoli", detail: "coupé en deux", emoji: "🥦", baseQty: 120, unit: "g", scalable: true, role: "Légume" },
-        { id: "miel", name: "Miel", detail: "toutes fleurs", emoji: "🍯", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "sauce_soja", name: "Sauce soja", detail: "allégée", emoji: "🫘", baseQty: 20, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "oignon", name: "Gingembre frais", detail: "râpé finement", emoji: "🧅", baseQty: 10, unit: "g", scalable: false, role: "Aromate" },
-        { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Entailler la peau du canard en croisillons sans percer la chair, assaisonner généreusement.",
-        "Déposer le filet côté peau dans une poêle froide puis monter progressivement à feu moyen pour rendre la graisse.",
-        "Cuire 8-10 minutes côté peau jusqu'à ce qu'elle soit dorée et croustillante, puis retourner 4 minutes côté chair.",
-        "Mélanger miel, sauce soja et gingembre râpé. Badigeonner le canard et passer 2 minutes sous le gril pour laquer.",
-        "Laisser reposer le canard 5 minutes sous aluminium, puis trancher en fines lamelles.",
-        "Faire sauter le brocoli/pak choï 3 minutes à feu vif avec un filet d'huile de sésame.",
-        "Dresser le riz en dôme, disposer les lamelles de canard laqué et les légumes sautés autour."
-    ],
-    tips: [
-        { type: "green", title: "🦆 Peau croustillante", text: "Démarrer la cuisson à froid permet de rendre la graisse progressivement et d'obtenir une peau ultra-croustillante sans brûler." },
-        { type: "red", title: "⚠️ Repos obligatoire", text: "Laisser reposer le canard 5 min permet aux jus de se redistribuer. Trancher trop tôt = viande sèche et jus perdu." }
-    ]
-},
-{
-    id: "tagliata-boeuf-roquette-parmesan",
-    name: "Tagliata di manzo, roquette et parmesan",
-    subtitle: "Bavette de bœuf grillée, copeaux de parmesan, roquette citronnée et balsamique",
-    emoji: "🥩",
-    category: "dejeuner",
-    difficulty: "Moyen",
-    time: 20,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Low carb", "Sans gluten"],
-    ingredients: [
-        { id: "boeuf_hache_5", name: "Bavette de bœuf", detail: "épaisse, à température ambiante", emoji: "🥩", baseQty: 160, unit: "g", scalable: true, role: "Protéine" },
-        { id: "salade_verte", name: "Roquette", detail: "fraîche, lavée", emoji: "🥬", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "tomate", name: "Tomates cerises", detail: "coupées en deux", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
-        { id: "parmesan", name: "Parmesan", detail: "en copeaux (économe)", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "Fromage" },
-        { id: "vinaigre_balsamique", name: "Vinaigre balsamique", detail: "réduit en crème", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "citron_jus", name: "Jus de citron", detail: "fraîchement pressé", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge premium", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Sortir la viande 30 minutes avant cuisson. Assaisonner généreusement de sel et poivre.",
-        "Saisir la bavette 3-4 minutes par face à feu très vif pour une cuisson saignante à rosée.",
-        "Laisser reposer 5 minutes sous aluminium, puis trancher en biais en fines lamelles.",
-        "Assaisonner la roquette avec le jus de citron et l'huile d'olive.",
-        "Dresser la roquette en lit, disposer les lamelles de bœuf par-dessus, ajouter les tomates cerises.",
-        "Terminer avec les copeaux de parmesan et un filet de crème de balsamique."
-    ],
-    tips: [
-        { type: "green", title: "🥩 Température clé", text: "Sortir la viande 30 min avant et utiliser une poêle fumante : c'est le secret d'une saisie parfaite avec un cœur rosé uniforme." },
-        { type: "red", title: "⚠️ Sens de la coupe", text: "Toujours trancher perpendiculairement aux fibres de la viande pour une tendreté maximale." }
-    ]
-},
-{
-    id: "poulet-croute-herbes-gratin",
-    name: "Poulet en croûte d'herbes et gratin dauphinois light",
-    subtitle: "Suprême de poulet pané aux herbes fraîches, gratin de pommes de terre crémeux allégé",
-    emoji: "🍗",
-    category: "dejeuner",
-    difficulty: "Moyen",
-    time: 50,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Équilibré", "Prise de masse"],
-    ingredients: [
-        { id: "poulet_grille", name: "Suprême de poulet", detail: "aplati légèrement", emoji: "🍗", baseQty: 150, unit: "g", scalable: true, role: "Protéine" },
-        { id: "pomme_de_terre", name: "Pommes de terre", detail: "en fines rondelles (mandoline)", emoji: "🥔", baseQty: 180, unit: "g", scalable: true, role: "Féculent", rawRatio: 1 },
-        { id: "fromage_rape", name: "Fromage râpé", detail: "gruyère ou emmental", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "Fromage" },
-        { id: "lait_demi", name: "Lait demi-écrémé", detail: "pour le gratin", emoji: "🥛", baseQty: 80, unit: "ml", scalable: true, role: "Liant" },
-        { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "Liant" },
-        { id: "moutarde", name: "Moutarde de Dijon", detail: "pour le poulet", emoji: "🟡", baseQty: 10, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "haricots_verts", name: "Haricots verts", detail: "extra-fins", emoji: "🫘", baseQty: 100, unit: "g", scalable: true, role: "Légume" }
-    ],
-    options: [],
-    steps: [
-        "Préchauffer le four à 180°C. Badigeonner le poulet de moutarde sur toute la surface.",
-        "Presser les herbes fraîches hachées (persil, thym, romarin) sur le poulet moutardé.",
-        "Disposer les rondelles de pommes de terre en couches dans un plat, intercaler crème et lait assaisonné de muscade.",
-        "Enfourner le gratin 30 minutes, puis ajouter le fromage râpé et poursuivre 10 minutes.",
-        "Saisir le poulet en croûte d'herbes 5 min par face à la poêle, puis enfourner 10 min.",
-        "Blanchir les haricots verts 4 minutes à l'eau bouillante salée, rafraîchir à l'eau glacée.",
-        "Dresser le poulet tranché en biais sur le gratin doré, accompagner des haricots verts."
-    ],
-    tips: [
-        { type: "green", title: "🌿 Croûte d'herbes", text: "La moutarde sert de colle naturelle pour les herbes et ajoute de la saveur. Presser fermement pour que la croûte tienne à la cuisson." },
-        { type: "red", title: "⚠️ Épaisseur des rondelles", text: "Les rondelles de pommes de terre doivent être ultra-fines (2mm max) pour un gratin fondant. Utilisez une mandoline." }
-    ]
-},
-{
-    id: "soba-froides-dashi-tempura",
-    name: "Soba froides au dashi, légumes tempura",
-    subtitle: "Nouilles soba glacées, bouillon dashi parfumé, beignets de légumes croustillants",
-    emoji: "🍜",
-    category: "dejeuner",
-    difficulty: "Avancé",
-    time: 35,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Équilibré"],
-    ingredients: [
-        { id: "nouilles_soba_cuites", name: "Nouilles soba", detail: "cuites et refroidies", emoji: "🍜", baseQty: 180, unit: "g", scalable: true, role: "Féculent" },
-        { id: "courgette", name: "Courgette", detail: "en bâtonnets pour tempura", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "patate_douce_crue", name: "Patate douce", detail: "en fines rondelles pour tempura", emoji: "🍠", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "champignon", name: "Champignons shiitake", detail: "entiers", emoji: "🍄", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
-        { id: "farine_complete", name: "Farine", detail: "pour pâte à tempura (eau glacée)", emoji: "🌾", baseQty: 30, unit: "g", scalable: false, role: "Liant" },
-        { id: "oeuf", name: "Œuf", detail: "pour pâte à tempura", emoji: "🥚", baseQty: 1, unit: "unité", scalable: false, role: "Liant" },
-        { id: "sauce_soja", name: "Sauce soja", detail: "pour le bouillon dashi", emoji: "🫘", baseQty: 20, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "citron_jus", name: "Jus de citron", detail: "dans le dashi", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Préparer le dashi : porter à frémissement de l'eau avec sauce soja et un trait de citron, puis refroidir au frigo.",
-        "Cuire les soba selon le paquet, rincer abondamment à l'eau froide jusqu'à ce qu'elles soient bien froides et non collantes.",
-        "Préparer la pâte à tempura : mélanger très brièvement farine, œuf et eau glacée — la pâte doit rester grumeleuse.",
-        "Tremper les légumes dans la pâte et frire par petites quantités dans de l'huile à 180°C jusqu'à dorure (2-3 min).",
-        "Égoutter les tempura sur papier absorbant et saler immédiatement.",
-        "Disposer les soba froides dans un bol, verser le dashi froid à côté, et dresser les tempura croustillants."
-    ],
-    tips: [
-        { type: "green", title: "🧊 Tempura croustillant", text: "Le secret : eau glacée + mélange minimum. Les grumeaux dans la pâte créent le croustillant caractéristique. Ne pas trop mélanger !" },
-        { type: "red", title: "⚠️ Température de l'huile", text: "Trop froide = gras et mou. Trop chaude = brûlé. Testez avec une goutte de pâte : elle doit remonter immédiatement." }
-    ]
-},
-{
-    id: "ceviche-bar-lait-coco",
-    name: "Ceviche de cabillaud au lait de coco",
-    subtitle: "Poisson cru mariné au citron vert, lait de coco, mangue et piment doux",
-    emoji: "🐠",
-    category: "dejeuner",
-    difficulty: "Avancé",
-    time: 30,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Sans gluten", "Perte de poids", "Sans cuisson"],
-    ingredients: [
-        { id: "cabillaud", name: "Cabillaud", detail: "ultra frais, en cubes de 2cm", emoji: "🐠", baseQty: 150, unit: "g", scalable: true, role: "Protéine" },
-        { id: "mangue", name: "Mangue", detail: "en petits dés", emoji: "🥭", baseQty: 60, unit: "g", scalable: true, role: "Fruit" },
-        { id: "concombre", name: "Concombre", detail: "en brunoise", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "oignon", name: "Oignon rouge", detail: "finement émincé", emoji: "🧅", baseQty: 20, unit: "g", scalable: true, role: "Aromate" },
-        { id: "lait_coco", name: "Lait de coco", detail: "léger, bien froid", emoji: "🥥", baseQty: 40, unit: "ml", scalable: false, role: "Sauce" },
-        { id: "citron_jus", name: "Jus de citron vert", detail: "4-5 citrons verts pressés", emoji: "🍋", baseQty: 40, unit: "ml", scalable: false, role: "Marinade" },
-        { id: "sauce_sriracha", name: "Piment", detail: "un trait de sriracha", emoji: "🌶️", baseQty: 3, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Couper le cabillaud en cubes réguliers de 2 cm, les disposer dans un plat creux en verre.",
-        "Recouvrir entièrement de jus de citron vert et laisser mariner 20 minutes au réfrigérateur jusqu'à ce que le poisson blanchisse.",
-        "Égoutter une partie du jus de citron, ajouter le lait de coco froid et mélanger délicatement.",
-        "Ajouter la mangue en dés, la brunoise de concombre et l'oignon rouge émincé.",
-        "Assaisonner avec un trait de sriracha, du sel et du poivre. Mélanger avec précaution.",
-        "Servir immédiatement dans des bols frais, garni de coriandre fraîche et d'un zeste de citron vert."
-    ],
-    tips: [
-        { type: "green", title: "🍋 Marinade au citron", text: "Le citron vert 'cuit' le poisson par dénaturation acide. 20 min = texture idéale, mi-ferme mi-fondante. Au-delà, le poisson devient caoutchouteux." },
-        { type: "red", title: "⚠️ Fraîcheur impérative", text: "Le ceviche se déguste cru : utilisez du poisson extra-frais du jour ou préalablement surgelé 48h minimum à -20°C." }
-    ]
-},
-{
-    id: "curry-massaman-boeuf",
-    name: "Curry Massaman de bœuf",
-    subtitle: "Bœuf braisé fondant, sauce curry cacahuète coco, pommes de terre confites",
-    emoji: "🍛",
-    category: "dejeuner",
-    difficulty: "Avancé",
-    time: 55,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Sans gluten", "Prise de masse"],
-    ingredients: [
-        { id: "boeuf_hache_5", name: "Bœuf à braiser", detail: "en morceaux de 3cm", emoji: "🥩", baseQty: 150, unit: "g", scalable: true, role: "Protéine" },
-        { id: "pomme_de_terre", name: "Pommes de terre", detail: "en cubes moyens", emoji: "🥔", baseQty: 120, unit: "g", scalable: true, role: "Féculent", rawRatio: 1 },
-        { id: "lait_coco", name: "Lait de coco", detail: "entier", emoji: "🥥", baseQty: 100, unit: "ml", scalable: true, role: "Sauce" },
-        { id: "pate_curry", name: "Pâte de curry", detail: "massaman ou rouge", emoji: "🟤", baseQty: 20, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "100% cacahuètes", emoji: "🥜", baseQty: 15, unit: "g", scalable: false, role: "Liant" },
-        { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
-        { id: "sauce_nuoc_mam", name: "Nuoc mam", detail: "un filet", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Saisir les morceaux de bœuf à feu vif dans une cocotte pour les colorer sur toutes les faces. Réserver.",
-        "Dans la même cocotte, faire revenir l'oignon et la pâte de curry 2 minutes jusqu'aux arômes.",
-        "Remettre le bœuf, ajouter le lait de coco et couvrir. Laisser mijoter 35 minutes à feu doux.",
-        "Ajouter les pommes de terre en cubes et poursuivre la cuisson 15 minutes jusqu'à tendreté.",
-        "Incorporer le beurre de cacahuète et le nuoc mam, mélanger jusqu'à obtenir une sauce onctueuse.",
-        "Rectifier l'assaisonnement. Servir dans un bol profond avec du riz parfumé et des cacahuètes concassées."
-    ],
-    tips: [
-        { type: "green", title: "🥜 Onctuosité du massaman", text: "Le beurre de cacahuète ajouté en fin de cuisson épaissit la sauce et apporte une richesse inégalée. Mélangez bien pour l'homogénéiser." },
-        { type: "red", title: "⚠️ Cuisson basse température", text: "Le bœuf doit mijoter doucement (frémissement, pas ébullition) pour devenir fondant. Trop de chaleur = viande sèche et dure." }
-    ]
-},
-{
-    id: "filet-mignon-porc-pommes-fondantes",
-    name: "Filet mignon de porc, pommes fondantes",
-    subtitle: "Filet mignon rôti doré, pommes de terre fondantes au thym, jus de cuisson réduit",
-    emoji: "🐷",
-    category: "dejeuner",
-    difficulty: "Moyen",
-    time: 45,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Équilibré", "Sans gluten"],
-    ingredients: [
-        { id: "porc_filet", name: "Filet mignon de porc", detail: "paré, à température ambiante", emoji: "🐷", baseQty: 160, unit: "g", scalable: true, role: "Protéine" },
-        { id: "pomme_de_terre", name: "Pommes de terre", detail: "en cylindres de 4cm de haut", emoji: "🥔", baseQty: 180, unit: "g", scalable: true, role: "Féculent", rawRatio: 1 },
-        { id: "champignon", name: "Champignons de Paris", detail: "émincés", emoji: "🍄", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
-        { id: "haricots_verts", name: "Haricots verts", detail: "extra-fins", emoji: "🫘", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
-        { id: "moutarde", name: "Moutarde à l'ancienne", detail: "en grains", emoji: "🟡", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "pour la sauce", emoji: "🥛", baseQty: 25, unit: "g", scalable: false, role: "Sauce" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Préchauffer le four à 180°C. Saisir le filet mignon de tous côtés dans une poêle chaude huilée.",
-        "Enrober le filet de moutarde à l'ancienne, puis enfourner 20-25 minutes jusqu'à 63°C à cœur.",
-        "Saisir les pommes de terre (cylindres) à la poêle côté plat, ajouter un fond de bouillon et cuire à couvert 20 min.",
-        "Retourner les pommes pour dorer l'autre face — dorées à l'extérieur et fondantes à l'intérieur.",
-        "Faire sauter les champignons à feu vif, déglacer avec la crème et le jus de cuisson du porc.",
-        "Blanchir les haricots verts 4 minutes, les rafraîchir à l'eau glacée pour garder le croquant.",
-        "Trancher le filet mignon en médaillons épais, napper de sauce aux champignons, accompagner des pommes fondantes."
-    ],
-    tips: [
-        { type: "green", title: "🌡️ Cuisson au thermomètre", text: "Le filet mignon est parfait à 63°C à cœur — rosé et juteux. Investissez dans un thermomètre de cuisson pour un résultat garanti." },
-        { type: "red", title: "⚠️ Repos de la viande", text: "Laissez reposer le filet mignon 5-8 min après le four, couvert d'aluminium. Cela peut augmenter la température interne de 3-5°C." }
-    ]
-},
-{
-    id: "ravioles-ricotta-epinards-beurre-sauge",
-    name: "Ravioles ricotta-épinards, beurre de sauge",
-    subtitle: "Pâtes farcies ricotta-épinards, beurre noisette à la sauge croustillante",
-    emoji: "🥟",
-    category: "dejeuner",
-    difficulty: "Avancé",
-    time: 50,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Équilibré"],
-    ingredients: [
-        { id: "pates_cuites", name: "Ravioles / Pâtes fraîches", detail: "du commerce ou maison", emoji: "🍝", baseQty: 200, unit: "g", scalable: true, role: "Féculent", rawRatio: 2.5 },
-        { id: "ricotta", name: "Ricotta", detail: "bien égouttée", emoji: "🧀", baseQty: 80, unit: "g", scalable: true, role: "Protéine" },
-        { id: "epinards", name: "Épinards frais", detail: "tombés et essorés", emoji: "🥬", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
-        { id: "parmesan", name: "Parmesan", detail: "râpé fin + copeaux pour finition", emoji: "🧀", baseQty: 15, unit: "g", scalable: false, role: "Fromage" },
-        { id: "oeuf", name: "Jaune d'œuf", detail: "pour lier la farce", emoji: "🥚", baseQty: 1, unit: "unité", scalable: false, role: "Liant" },
-        { id: "huile_olive", name: "Beurre", detail: "pour beurre noisette", emoji: "🧈", baseQty: 15, unit: "g", scalable: false, role: "Sauce" },
-        { id: "noix", name: "Noix", detail: "concassées grossièrement", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" }
-    ],
-    options: [],
-    steps: [
-        "Faire tomber les épinards 2 minutes à la poêle, les essorer soigneusement en pressant dans un torchon.",
-        "Mélanger la ricotta égouttée, les épinards hachés, le jaune d'œuf, le parmesan, sel, poivre et muscade.",
-        "Si ravioles maison : étaler la pâte finement, déposer des petites boules de farce, refermer et sceller.",
-        "Cuire les ravioles 3-4 minutes dans une grande casserole d'eau bouillante salée (elles remontent quand elles sont prêtes).",
-        "Faire chauffer le beurre dans une poêle jusqu'à coloration noisette et parfum de noisette.",
-        "Ajouter les feuilles de sauge dans le beurre noisette et les faire croustiller 30 secondes.",
-        "Égoutter les ravioles, les napper de beurre de sauge, parsemer de noix concassées et copeaux de parmesan."
-    ],
-    tips: [
-        { type: "green", title: "🧈 Beurre noisette parfait", text: "Surveillez le beurre attentivement : il passe de doré à brûlé en quelques secondes. Retirez du feu dès que les arômes de noisette se développent." },
-        { type: "red", title: "⚠️ Épinards bien essorés", text: "Des épinards trop humides diluent la farce et font éclater les ravioles à la cuisson. Pressez-les fermement dans un torchon." }
-    ]
-},
-{
-    id: "poke-bowl-thon-tartare",
-    name: "Poké bowl au thon en tartare",
-    subtitle: "Thon cru mariné soja-sésame, riz vinaigré, avocat, mangue et edamame",
-    emoji: "🍣",
-    category: "dejeuner",
-    difficulty: "Moyen",
-    time: 20,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Équilibré", "Sans cuisson"],
-    ingredients: [
-        { id: "thon_conserve", name: "Thon frais", detail: "en cubes de 1.5cm, qualité sashimi", emoji: "🐟", baseQty: 130, unit: "g", scalable: true, role: "Protéine" },
-        { id: "riz_basmati_cuit", name: "Riz à sushi", detail: "vinaigré, tiède", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "Féculent", rawRatio: 2.25 },
-        { id: "avocat", name: "Avocat", detail: "en tranches", emoji: "🥑", baseQty: 60, unit: "g", scalable: true, role: "Lipide" },
-        { id: "mangue", name: "Mangue", detail: "en cubes", emoji: "🥭", baseQty: 50, unit: "g", scalable: true, role: "Fruit" },
-        { id: "edamame", name: "Edamame", detail: "décortiqués, cuits", emoji: "🫛", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
-        { id: "concombre", name: "Concombre", detail: "en rondelles fines", emoji: "🥒", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
-        { id: "sauce_soja", name: "Sauce soja", detail: "marinade pour le thon", emoji: "🫘", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Couper le thon en cubes réguliers de 1.5 cm, mariner 10 minutes dans la sauce soja et l'huile de sésame.",
-        "Préparer le riz vinaigré : mélanger le riz chaud avec un filet de vinaigre de riz et un soupçon de sucre.",
-        "Disposer le riz tiède en base du bowl, créer des sections pour chaque garniture.",
-        "Répartir harmonieusement l'avocat, la mangue, les edamame et le concombre en quartiers.",
-        "Déposer le thon mariné au centre du bowl.",
-        "Parsemer de graines de sésame torréfiées et de ciboulette ciselée. Servir immédiatement."
-    ],
-    tips: [
-        { type: "green", title: "🍣 Marinade express", text: "10 minutes de marinade suffisent pour parfumer le thon sans le 'cuire' dans la sauce soja. Au-delà, la texture change et le goût devient trop salé." },
-        { type: "red", title: "⚠️ Riz tiède, pas chaud", text: "Le riz doit être tiède pour le poké (pas brûlant, pas froid). Le riz chaud commence à cuire le poisson cru au contact." }
-    ]
-},
-{
-    id: "coq-au-vin-light",
-    name: "Coq au vin allégé",
-    subtitle: "Poulet braisé au vin rouge, lardons, champignons et petits oignons caramélisés",
-    emoji: "🍷",
-    category: "dejeuner",
-    difficulty: "Avancé",
-    time: 55,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Équilibré"],
-    ingredients: [
-        { id: "poulet_grille", name: "Hauts de cuisse de poulet", detail: "désossés, sans peau", emoji: "🍗", baseQty: 160, unit: "g", scalable: true, role: "Protéine" },
-        { id: "champignon", name: "Champignons de Paris", detail: "en quartiers", emoji: "🍄", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
-        { id: "carotte", name: "Carottes", detail: "en rondelles épaisses", emoji: "🥕", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
-        { id: "oignon", name: "Petits oignons grelots", detail: "entiers, pelés", emoji: "🧅", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
-        { id: "jambon_blanc", name: "Lardons", detail: "allumettes, dégraissés", emoji: "🥓", baseQty: 30, unit: "g", scalable: false, role: "Garniture" },
-        { id: "concentre_tomate", name: "Concentré de tomate", detail: "double concentré", emoji: "🍅", baseQty: 10, unit: "g", scalable: false, role: "Sauce" },
-        { id: "farine_complete", name: "Farine", detail: "pour singer", emoji: "🌾", baseQty: 10, unit: "g", scalable: false, role: "Liant" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "pour la cuisson", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Faire rissoler les lardons et les petits oignons dans une cocotte. Réserver quand ils sont dorés.",
-        "Saisir les morceaux de poulet assaisonnés de tous côtés jusqu'à coloration dorée. Réserver.",
-        "Singer : saupoudrer de farine, mélanger, ajouter le concentré de tomate et cuire 1 minute.",
-        "Déglacer avec du vin rouge (25cl), gratter les sucs de cuisson et porter à ébullition.",
-        "Remettre le poulet, les lardons, les oignons et les carottes. Couvrir et mijoter 35 minutes à feu doux.",
-        "Ajouter les champignons 10 minutes avant la fin de cuisson.",
-        "Rectifier l'assaisonnement, servir dans la cocotte avec du persil frais ciselé."
-    ],
-    tips: [
-        { type: "green", title: "🍷 Réduction du vin", text: "Faites réduire le vin de moitié avant d'ajouter les autres ingrédients pour concentrer les saveurs et éliminer l'acidité." },
-        { type: "red", title: "⚠️ Cuisson lente", text: "Le coq au vin ne se presse pas. Un mijotage doux (pas d'ébullition) pendant 35+ min est essentiel pour une viande fondante." }
-    ]
-},
-{
-    id: "linguine-vongole-light",
-    name: "Linguine alle vongole light",
-    subtitle: "Pâtes aux moules, vin blanc, ail rôti et persil, façon napolitaine",
-    emoji: "🍝",
-    category: "dejeuner",
-    difficulty: "Moyen",
-    time: 25,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Équilibré"],
-    ingredients: [
-        { id: "pates_cuites", name: "Linguine", detail: "cuites al dente", emoji: "🍝", baseQty: 200, unit: "g", scalable: true, role: "Féculent", rawRatio: 2.5 },
-        { id: "moules", name: "Moules", detail: "nettoyées, grattées", emoji: "🦪", baseQty: 150, unit: "g", scalable: true, role: "Protéine" },
-        { id: "oignon", name: "Ail", detail: "3-4 gousses, finement émincées", emoji: "🧄", baseQty: 10, unit: "g", scalable: false, role: "Aromate" },
-        { id: "tomate", name: "Tomates cerises", detail: "coupées en deux", emoji: "🍅", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "citron_jus", name: "Jus de citron", detail: "un filet", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge de qualité", emoji: "🫒", baseQty: 12, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Faire chauffer l'huile d'olive à feu moyen, ajouter l'ail émincé et le faire dorer sans le brûler (1-2 min).",
-        "Ajouter les moules nettoyées et les tomates cerises. Couvrir et cuire 4-5 minutes jusqu'à ouverture.",
-        "Retirer les moules ouvertes, jeter celles qui restent fermées. Décoquiller la moitié, garder l'autre en coquille.",
-        "Cuire les linguine 1 minute de moins que le temps indiqué (elles finiront de cuire dans la sauce).",
-        "Transférer les pâtes dans la poêle avec le jus des moules, ajouter un peu d'eau de cuisson et mélanger vigoureusement.",
-        "Remettre les moules, ajouter le jus de citron et le persil. Mélanger et servir immédiatement."
-    ],
-    tips: [
-        { type: "green", title: "🍝 Eau de cuisson magique", text: "Gardez toujours un verre d'eau de cuisson des pâtes : l'amidon qu'elle contient lie la sauce et la rend soyeuse." },
-        { type: "red", title: "⚠️ Ail doré, jamais brûlé", text: "L'ail brûlé devient amer et gâche tout le plat. Feu moyen, surveillance constante, et retirer dès qu'il est blond doré." }
-    ]
-},
-{
-    id: "agneau-confit-legumes-printaniers",
-    name: "Épaule d'agneau confite, légumes printaniers",
-    subtitle: "Agneau fondant longuement rôti, carottes glacées, petits pois et asperges",
-    emoji: "🐑",
-    category: "dejeuner",
-    difficulty: "Avancé",
-    time: 60,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Sans gluten", "Prise de masse"],
-    ingredients: [
-        { id: "agneau_gigot", name: "Épaule d'agneau", detail: "désossée, en morceaux", emoji: "🐑", baseQty: 160, unit: "g", scalable: true, role: "Protéine" },
-        { id: "carotte", name: "Carottes nouvelles", detail: "avec fanes, entières", emoji: "🥕", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
-        { id: "petits_pois", name: "Petits pois", detail: "frais ou surgelés", emoji: "🟢", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "asperges", name: "Asperges vertes", detail: "parées, coupées en tronçons", emoji: "🌿", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "oignon", name: "Oignon", detail: "en quartiers", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "Aromate" },
-        { id: "miel", name: "Miel", detail: "pour le glaçage", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "concentre_tomate", name: "Concentré de tomate", detail: "pour le jus", emoji: "🍅", baseQty: 10, unit: "g", scalable: false, role: "Sauce" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Préchauffer le four à 150°C. Saisir les morceaux d'agneau dans une cocotte allant au four.",
-        "Ajouter l'oignon et le concentré de tomate, mélanger, puis mouiller à hauteur avec de l'eau chaude.",
-        "Couvrir et enfourner 45 minutes jusqu'à ce que la viande se défasse à la fourchette.",
-        "Glacer les carottes : les cuire dans un fond d'eau avec le miel jusqu'à évaporation et brillance.",
-        "Blanchir les petits pois et asperges 3-4 minutes à l'eau bouillante, rafraîchir à l'eau glacée.",
-        "Sortir l'agneau, réduire le jus de cuisson à feu vif jusqu'à consistance nappante.",
-        "Dresser l'agneau effiloché, napper du jus réduit, disposer les légumes printaniers autour."
-    ],
-    tips: [
-        { type: "green", title: "🐑 Cuisson basse température", text: "À 150°C, le collagène de l'épaule se transforme en gélatine — c'est ce qui rend la viande fondante. Ne pas monter la température." },
-        { type: "red", title: "⚠️ Carottes glacées", text: "Les carottes sont prêtes quand le liquide s'est complètement évaporé et qu'elles brillent. Attention à ne pas les laisser brûler." }
-    ]
-},
-{
-    id: "pad-thai-gambas-elabore",
-    name: "Pad Thaï élaboré aux gambas",
-    subtitle: "Nouilles de riz sautées au wok, gambas flambées, sauce tamarin-cacahuète",
-    emoji: "🍜",
-    category: "dejeuner",
-    difficulty: "Avancé",
-    time: 30,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Équilibré"],
-    ingredients: [
-        { id: "gambas", name: "Gambas", detail: "décortiquées, queue intacte", emoji: "🦐", baseQty: 120, unit: "g", scalable: true, role: "Protéine" },
-        { id: "vermicelles_riz", name: "Nouilles de riz", detail: "larges, réhydratées", emoji: "🍜", baseQty: 150, unit: "g", scalable: true, role: "Féculent" },
-        { id: "oeuf", name: "Œuf", detail: "battu en omelette fine", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "Protéine" },
-        { id: "carotte", name: "Carotte", detail: "en julienne fine", emoji: "🥕", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
-        { id: "oignon", name: "Échalote", detail: "émincée", emoji: "🧅", baseQty: 20, unit: "g", scalable: true, role: "Aromate" },
-        { id: "beurre_cacahuete", name: "Cacahuètes", detail: "concassées pour le topping", emoji: "🥜", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
-        { id: "sauce_nuoc_mam", name: "Nuoc mam", detail: "pour la sauce pad thaï", emoji: "🫗", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "citron_jus", name: "Jus de citron vert", detail: "pressé", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Préparer la sauce pad thaï : mélanger nuoc mam, jus de citron vert, un peu de sucre et de la sauce tamarin.",
-        "Saisir les gambas 1 minute de chaque côté dans un wok fumant huilé. Réserver.",
-        "Dans le même wok, verser l'œuf battu et le brouiller rapidement en fines lanières.",
-        "Ajouter l'échalote et la carotte en julienne, sauter 2 minutes à feu très vif.",
-        "Incorporer les nouilles de riz réhydratées et la sauce pad thaï, mélanger vigoureusement au wok.",
-        "Remettre les gambas et mélanger 1 minute supplémentaire.",
-        "Dresser dans un bol, parsemer de cacahuètes concassées, servir avec un quartier de citron vert."
-    ],
-    tips: [
-        { type: "green", title: "🔥 Wok fumant (wok hei)", text: "Le secret d'un vrai pad thaï : un wok ultra-chaud pour le goût fumé caractéristique. Travaillez par petites quantités." },
-        { type: "red", title: "⚠️ Nouilles pas trop cuites", text: "Réhydratez les nouilles à l'eau tiède (pas bouillante) 8-10 min avant de les sauter. Trop molles, elles casseront au wok." }
-    ]
-},
-{
-    id: "poulet-miso-aubergine-laquee",
-    name: "Poulet au miso, aubergine laquée",
-    subtitle: "Suprême de poulet glacé miso-miel, aubergine rôtie laquée au sésame",
-    emoji: "🍗",
-    category: "dejeuner",
-    difficulty: "Moyen",
-    time: 35,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Équilibré"],
-    ingredients: [
-        { id: "poulet_grille", name: "Suprême de poulet", detail: "entaillé pour la marinade", emoji: "🍗", baseQty: 150, unit: "g", scalable: true, role: "Protéine" },
-        { id: "aubergine", name: "Aubergine", detail: "coupée en deux dans la longueur", emoji: "🍆", baseQty: 120, unit: "g", scalable: true, role: "Légume" },
-        { id: "riz_basmati_cuit", name: "Riz japonais", detail: "cuit, collant", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "Féculent", rawRatio: 2.25 },
-        { id: "miel", name: "Miel", detail: "pour le glaçage miso-miel", emoji: "🍯", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "sauce_soja", name: "Pâte miso / Sauce soja", detail: "miso blanc de préférence", emoji: "🫘", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "concombre", name: "Concombre", detail: "en pickles express (vinaigre de riz)", emoji: "🥒", baseQty: 50, unit: "g", scalable: true, role: "Accompagnement" },
-        { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Mélanger la pâte miso, le miel et un trait de sauce soja pour obtenir un glaçage onctueux.",
-        "Entailler le poulet en croisillons, badigeonner de glaçage miso-miel et mariner 15 minutes minimum.",
-        "Entailler la chair de l'aubergine en croisillons, badigeonner du même glaçage.",
-        "Cuire le poulet à la poêle 6-7 min par face à feu moyen, en badigeonnant régulièrement.",
-        "Rôtir l'aubergine au four à 200°C pendant 20 minutes face chair vers le haut.",
-        "Préparer les pickles express : trancher finement le concombre, mariner dans du vinaigre de riz, sel et sucre.",
-        "Dresser le poulet tranché sur le riz, l'aubergine laquée à côté, et les pickles de concombre."
-    ],
-    tips: [
-        { type: "green", title: "🍯 Glaçage miso", text: "Le miso + miel caramélise magnifiquement. Appliquez plusieurs couches pendant la cuisson pour un effet laqué brillant et savoureux." },
-        { type: "red", title: "⚠️ Feu modéré", text: "Le miel et le miso brûlent facilement à haute température. Cuisez à feu moyen et surveillez la coloration." }
-    ]
-},
-{
-    id: "salade-nicoise-gastronomique",
-    name: "Salade niçoise gastronomique",
-    subtitle: "Thon mi-cuit, œuf mollet, haricots verts croquants, vinaigrette provençale",
-    emoji: "🥗",
-    category: "dejeuner",
-    difficulty: "Moyen",
-    time: 25,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Sans gluten", "Perte de poids"],
-    ingredients: [
-        { id: "thon_conserve", name: "Thon", detail: "pavé mi-cuit ou conserve premium", emoji: "🐟", baseQty: 120, unit: "g", scalable: true, role: "Protéine" },
-        { id: "oeuf", name: "Œuf", detail: "mollet (6 min)", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "Protéine" },
-        { id: "haricots_verts", name: "Haricots verts", detail: "extra-fins, blanchis", emoji: "🫘", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
-        { id: "tomate", name: "Tomates", detail: "en quartiers", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
-        { id: "poivron_rouge", name: "Poivron rouge", detail: "en lanières fines", emoji: "🫑", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
-        { id: "radis", name: "Radis", detail: "en rondelles fines", emoji: "🌶️", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "de Nice de préférence", emoji: "🫒", baseQty: 12, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "vinaigre_balsamique", name: "Vinaigre de vin", detail: "vieux, pour la vinaigrette", emoji: "🫗", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Cuire l'œuf 6 minutes dans l'eau bouillante pour un cœur mollet crémeux, refroidir immédiatement à l'eau glacée.",
-        "Blanchir les haricots verts 4 minutes à l'eau bouillante salée, puis les plonger dans l'eau glacée.",
-        "Préparer la vinaigrette provençale : huile d'olive, vinaigre de vin, herbes de Provence, sel et poivre.",
-        "Si thon frais : saisir le pavé 1 min par face pour un mi-cuit. Trancher en lamelles épaisses.",
-        "Dresser la salade en composée — disposer chaque élément séparément pour un rendu graphique.",
-        "Écaler l'œuf mollet et le couper en deux pour révéler le cœur coulant. Arroser de vinaigrette."
-    ],
-    tips: [
-        { type: "green", title: "🥚 Œuf mollet parfait", text: "6 minutes dans l'eau bouillante puis immédiatement à l'eau glacée. Le blanc est pris, le jaune reste crémeux et coulant au centre." },
-        { type: "red", title: "⚠️ Dresser en composée", text: "Une vraie niçoise se dresse en composée (ingrédients séparés), jamais mélangée. Chaque élément se déguste individuellement." }
-    ]
-},
-{
-    id: "tian-legumes-provencal",
-    name: "Tian de légumes provençal",
-    subtitle: "Fines rondelles de courgette, tomate et aubergine, parmesan gratiné",
-    emoji: "🌿",
-    category: "dejeuner",
-    difficulty: "Moyen",
-    time: 50,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Sans gluten", "Perte de poids", "Low carb"],
-    ingredients: [
-        { id: "courgette", name: "Courgette", detail: "en rondelles fines (3mm)", emoji: "🥒", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
-        { id: "tomate", name: "Tomates", detail: "en rondelles fines", emoji: "🍅", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
-        { id: "aubergine", name: "Aubergine", detail: "en rondelles fines", emoji: "🍆", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
-        { id: "oignon", name: "Oignon", detail: "en rondelles fines", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
-        { id: "parmesan", name: "Parmesan", detail: "râpé pour gratiner", emoji: "🧀", baseQty: 15, unit: "g", scalable: false, role: "Fromage" },
-        { id: "chevre_frais", name: "Chèvre frais", detail: "émietté entre les rangées", emoji: "🧀", baseQty: 30, unit: "g", scalable: true, role: "Fromage" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "parfumée au thym et romarin", emoji: "🫒", baseQty: 12, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "sauce_tomate", name: "Coulis de tomate", detail: "en fond de plat", emoji: "🍅", baseQty: 40, unit: "g", scalable: false, role: "Sauce" }
-    ],
-    options: [],
-    steps: [
-        "Préchauffer le four à 180°C. Étaler le coulis de tomate en fond d'un plat à gratin.",
-        "Trancher tous les légumes à 3mm d'épaisseur (mandoline recommandée).",
-        "Alterner les rondelles debout dans le plat : courgette, tomate, aubergine, oignon. Intercaler des miettes de chèvre.",
-        "Arroser d'huile d'olive parfumée aux herbes de Provence, saler et poivrer.",
-        "Couvrir d'aluminium et enfourner 35 minutes, puis retirer l'aluminium.",
-        "Parsemer de parmesan râpé et gratiner 10 minutes à 200°C jusqu'à dorure.",
-        "Laisser reposer 5 minutes avant de servir — le tian est meilleur tiède."
-    ],
-    tips: [
-        { type: "green", title: "🔪 Régularité des tranches", text: "La clé d'un beau tian : des tranches parfaitement régulières. La mandoline est indispensable pour un résultat visuellement parfait." },
-        { type: "red", title: "⚠️ Excès d'eau", text: "Les légumes rendent beaucoup d'eau. Ne couvrez pas les 10 dernières minutes pour que l'eau s'évapore et que le dessus gratine." }
-    ]
-},
-{
-    id: "chirashi-saumon-bowl",
-    name: "Chirashi au saumon frais",
-    subtitle: "Riz vinaigré parfumé, saumon cru en tranches, avocat, concombre",
-    emoji: "🍣",
-    category: "dejeuner",
-    difficulty: "Moyen",
-    time: 20,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Sans gluten", "Équilibré", "Sans cuisson"],
-    ingredients: [
-        { id: "saumon", name: "Saumon frais", detail: "qualité sashimi, tranché finement", emoji: "🐟", baseQty: 130, unit: "g", scalable: true, role: "Protéine" },
-        { id: "riz_basmati_cuit", name: "Riz à sushi", detail: "vinaigré, tiède", emoji: "🍚", baseQty: 180, unit: "g", scalable: true, role: "Féculent", rawRatio: 2.25 },
-        { id: "avocat", name: "Avocat", detail: "en lamelles fines", emoji: "🥑", baseQty: 50, unit: "g", scalable: true, role: "Lipide" },
-        { id: "concombre", name: "Concombre", detail: "en demi-lunes fines", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "carotte", name: "Carotte", detail: "râpée ou en julienne", emoji: "🥕", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
-        { id: "edamame", name: "Edamame", detail: "décortiqués", emoji: "🫛", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
-        { id: "sauce_soja", name: "Sauce soja", detail: "pour tremper", emoji: "🫘", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile de sésame", detail: "torréfié, un filet", emoji: "🫒", baseQty: 3, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Préparer le riz vinaigré : mélanger le riz chaud avec du vinaigre de riz, du sel et un peu de sucre. Éventer pour refroidir.",
-        "Trancher le saumon en fines lamelles régulières à l'aide d'un couteau aiguisé mouillé.",
-        "Disposer le riz en base du bol de manière lisse et légèrement bombée.",
-        "Répartir les tranches de saumon en éventail sur une moitié du riz.",
-        "Dresser les garnitures (avocat, concombre, carotte, edamame) de manière ordonnée.",
-        "Parsemer de graines de sésame, un filet d'huile de sésame, et servir avec la sauce soja à part."
-    ],
-    tips: [
-        { type: "green", title: "🔪 Coupe du saumon", text: "Coupez en tirant le couteau vers vous en un seul geste fluide. Un couteau mouillé évite que le poisson ne colle à la lame." },
-        { type: "red", title: "⚠️ Température du riz", text: "Le riz doit être tiède ou à température ambiante, jamais froid (trop dur) ni chaud (cuit le poisson)." }
-    ]
-},
-{
-    id: "osso-buco-legumes-gremolata",
-    name: "Osso buco milanaise, gremolata",
-    subtitle: "Jarret braisé à la tomate, gremolata citron-persil-ail, risotto",
-    emoji: "🍖",
-    category: "dejeuner",
-    difficulty: "Avancé",
-    time: 60,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Prise de masse"],
-    ingredients: [
-        { id: "porc_filet", name: "Jarret / Filet de porc", detail: "en tranches épaisses", emoji: "🐷", baseQty: 170, unit: "g", scalable: true, role: "Protéine" },
-        { id: "riz_basmati_cuit", name: "Risotto", detail: "cuit, crémeux", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "Féculent", rawRatio: 2.25 },
-        { id: "carotte", name: "Carotte", detail: "en mirepoix", emoji: "🥕", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
-        { id: "celeri_branche", name: "Céleri", detail: "en mirepoix", emoji: "🥬", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
-        { id: "oignon", name: "Oignon", detail: "en mirepoix", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
-        { id: "sauce_tomate", name: "Sauce tomate", detail: "concassée", emoji: "🍅", baseQty: 60, unit: "g", scalable: false, role: "Sauce" },
-        { id: "citron_jus", name: "Citron", detail: "zeste et jus pour gremolata", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Fariner et saisir les morceaux de porc de chaque côté dans une cocotte chaude huilée. Réserver.",
-        "Faire suer la mirepoix (carotte, céleri, oignon) 5 minutes à feu doux dans la même cocotte.",
-        "Remettre la viande, ajouter la sauce tomate et mouiller avec du bouillon. Porter à frémissement.",
-        "Couvrir et cuire 45 minutes à feu très doux jusqu'à ce que la viande soit fondante.",
-        "Préparer la gremolata : mélanger zeste de citron finement râpé, persil haché menu et ail haché.",
-        "Servir le braisé avec son jus de cuisson réduit, parsemé généreusement de gremolata fraîche.",
-        "Accompagner d'un risotto milanaise crémeux."
-    ],
-    tips: [
-        { type: "green", title: "🌿 Gremolata fraîcheur", text: "La gremolata s'ajoute TOUJOURS au dernier moment pour préserver sa fraîcheur et son parfum. C'est elle qui fait la signature du plat." },
-        { type: "red", title: "⚠️ Cuisson couverte", text: "Le couvercle est essentiel : il emprisonne la vapeur et empêche la viande de sécher pendant le braisage." }
-    ]
-},
-{
-    id: "tempeh-katsu-curry",
-    name: "Tempeh katsu curry",
-    subtitle: "Tempeh pané croustillant, sauce curry japonaise onctueuse, riz japonais",
-    emoji: "🍛",
-    category: "dejeuner",
-    difficulty: "Moyen",
-    time: 35,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Vegan", "Haute protéine", "Équilibré"],
-    ingredients: [
-        { id: "tempeh", name: "Tempeh", detail: "en tranches de 1cm d'épaisseur", emoji: "🫘", baseQty: 120, unit: "g", scalable: true, role: "Protéine" },
-        { id: "riz_basmati_cuit", name: "Riz japonais", detail: "cuit, collant", emoji: "🍚", baseQty: 180, unit: "g", scalable: true, role: "Féculent", rawRatio: 2.25 },
-        { id: "carotte", name: "Carotte", detail: "râpée pour la sauce curry", emoji: "🥕", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
-        { id: "oignon", name: "Oignon", detail: "émincé pour la sauce", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
-        { id: "farine_complete", name: "Farine + panure", detail: "pour paner le tempeh", emoji: "🌾", baseQty: 25, unit: "g", scalable: false, role: "Enrobage" },
-        { id: "pate_curry", name: "Pâte de curry", detail: "japonais ou poudre de curry", emoji: "🟤", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "sauce_soja", name: "Sauce soja", detail: "pour la sauce curry", emoji: "🫘", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile végétale", detail: "pour la friture", emoji: "🫒", baseQty: 15, unit: "ml", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Préparer la sauce curry : faire revenir oignon et carotte râpée, ajouter la pâte de curry et de l'eau, mijoter 15 min puis mixer.",
-        "Couper le tempeh en tranches épaisses, le mariner 5 min dans la sauce soja.",
-        "Paner le tempeh : farine, puis lait végétal, puis chapelure panko en pressant bien.",
-        "Frire les tranches de tempeh panées 3 minutes de chaque côté à feu moyen-vif jusqu'à dorure.",
-        "Égoutter sur papier absorbant et trancher en lamelles comme un tonkatsu.",
-        "Dresser le riz en dôme, disposer le tempeh katsu tranché à côté, napper de sauce curry onctueuse."
-    ],
-    tips: [
-        { type: "green", title: "🍛 Sauce curry japonaise", text: "Pour une sauce ultra-lisse, mixez après cuisson. Le curry japonais doit être épais et onctueux, presque comme une béchamel." },
-        { type: "red", title: "⚠️ Panure panko", text: "Pressez bien la panure panko sur le tempeh pour qu'elle adhère. Si elle tombe, ajoutez une fine couche de fécule avant le lait." }
-    ]
-},
-{
-    id: "souris-agneau-confite-patate-douce",
-    name: "Souris d'agneau confite, purée de patate douce",
-    subtitle: "Agneau fondant après cuisson lente, purée veloutée patate douce-vanille",
-    emoji: "🐑",
-    category: "dejeuner",
-    difficulty: "Avancé",
-    time: 60,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Sans gluten", "Prise de masse"],
-    ingredients: [
-        { id: "agneau_gigot", name: "Souris d'agneau", detail: "entière, avec os", emoji: "🐑", baseQty: 200, unit: "g", scalable: true, role: "Protéine" },
-        { id: "patate_douce_cuite", name: "Patate douce", detail: "pour la purée", emoji: "🍠", baseQty: 180, unit: "g", scalable: true, role: "Féculent" },
-        { id: "carotte", name: "Carottes", detail: "en tronçons", emoji: "🥕", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "oignon", name: "Oignon", detail: "en quartiers", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "Aromate" },
-        { id: "concentre_tomate", name: "Concentré de tomate", detail: "pour le fond de braisage", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "Sauce" },
-        { id: "miel", name: "Miel", detail: "un filet pour laquer", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "pour la purée", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "Liant" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Préchauffer le four à 150°C. Saisir la souris d'agneau de tous côtés dans une cocotte allant au four.",
-        "Ajouter l'oignon, les carottes et le concentré de tomate. Faire revenir 2 minutes.",
-        "Mouiller à mi-hauteur avec de l'eau chaude, ajouter le miel. Couvrir et enfourner 2h30 à 3h.",
-        "Cuire la patate douce à l'eau ou à la vapeur 20 minutes, écraser en purée avec la crème.",
-        "L'agneau est prêt quand la viande se détache de l'os au toucher — elle doit être fondante.",
-        "Filtrer et réduire le jus de cuisson à feu vif jusqu'à consistance sirupeuse.",
-        "Dresser la purée de patate douce en quenelle, poser la souris d'agneau dessus, napper du jus réduit."
-    ],
-    tips: [
-        { type: "green", title: "⏰ Patience récompensée", text: "Plus la cuisson est longue à basse température, plus le collagène se transforme en gélatine et la viande fond en bouche." },
-        { type: "red", title: "⚠️ Jus de cuisson", text: "Le jus réduit est concentré — goûtez avant d'assaisonner. L'assaisonnement s'intensifie avec la réduction." }
-    ]
-},
-{
-    id: "saumon-croute-nori-sesame",
-    name: "Saumon en croûte de nori et sésame",
-    subtitle: "Pavé de saumon croustillant sous sa croûte d'algue nori, sauce teriyaki légère",
-    emoji: "🍣",
-    category: "diner",
-    difficulty: "Avancé",
-    time: 30,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Low carb", "Sans gluten"],
-    ingredients: [
-        { id: "saumon", name: "Pavé de saumon", detail: "frais, avec peau", emoji: "🐟", baseQty: 150, unit: "g", scalable: true, role: "Protéine" },
-        { id: "brocoli", name: "Brocoli", detail: "en fleurettes", emoji: "🥦", baseQty: 120, unit: "g", scalable: true, role: "Légume" },
-        { id: "riz_basmati_cuit", name: "Riz basmati", detail: "cuit, parfumé", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "Féculent", rawRatio: 2.25 },
-        { id: "sauce_soja", name: "Sauce soja", detail: "pour la sauce teriyaki", emoji: "🫘", baseQty: 20, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "miel", name: "Miel", detail: "pour la sauce teriyaki", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "citron_jus", name: "Jus de citron", detail: "un filet", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Préchauffer le four à 200°C. Préparer la sauce teriyaki : réduire sauce soja et miel à feu doux jusqu'à consistance sirupeuse.",
-        "Émietter une feuille de nori et la mélanger avec des graines de sésame pour créer la croûte.",
-        "Badigeonner le dessus du saumon de sauce teriyaki, puis presser le mélange nori-sésame.",
-        "Saisir le saumon côté peau 3 minutes à la poêle, puis enfourner côté croûte vers le haut 8-10 minutes.",
-        "Cuire le brocoli à la vapeur 4 minutes pour qu'il reste croquant et vert vif.",
-        "Dresser le saumon sur le riz, disposer le brocoli à côté et napper d'un filet de sauce teriyaki."
-    ],
-    tips: [
-        { type: "green", title: "🍣 Croûte nori parfaite", text: "La nori émiettée avec du sésame crée une croûte croustillante et umami. Pressez fermement pour qu'elle adhère bien." },
-        { type: "red", title: "⚠️ Cuisson du saumon", text: "Le saumon doit rester rosé à cœur. Vérifiez à la pointe d'un couteau : l'intérieur doit être à peine translucide." }
-    ]
-},
-{
-    id: "veloute-topinambour-truffe",
-    name: "Velouté de topinambour à la truffe",
-    subtitle: "Crème veloutée de pomme de terre et chou-fleur, huile de truffe, chips de légumes",
-    emoji: "🍄",
-    category: "diner",
-    difficulty: "Moyen",
-    time: 35,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Sans gluten", "Perte de poids"],
-    ingredients: [
-        { id: "pomme_de_terre", name: "Pomme de terre", detail: "pelée, en morceaux", emoji: "🥔", baseQty: 120, unit: "g", scalable: true, role: "Féculent", rawRatio: 1 },
-        { id: "chou_fleur", name: "Chou-fleur", detail: "en fleurettes", emoji: "🥦", baseQty: 120, unit: "g", scalable: true, role: "Légume" },
-        { id: "poireaux", name: "Poireaux", detail: "le blanc, émincé", emoji: "🥬", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 30, unit: "g", scalable: true, role: "Aromate" },
-        { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 25, unit: "g", scalable: false, role: "Liant" },
-        { id: "huile_olive", name: "Huile d'olive truffée", detail: "quelques gouttes en finition", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "noix", name: "Noix", detail: "concassées pour le topping", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" }
-    ],
-    options: [],
-    steps: [
-        "Faire suer l'oignon et le blanc de poireau dans un filet d'huile d'olive à feu doux 5 minutes.",
-        "Ajouter la pomme de terre et le chou-fleur, couvrir d'eau à hauteur, saler et porter à ébullition.",
-        "Cuire 20 minutes à couvert jusqu'à ce que les légumes soient très tendres.",
-        "Mixer finement au blender en ajoutant la crème fraîche pour obtenir une texture veloutée.",
-        "Passer au chinois pour un velouté ultra-lisse (facultatif mais recommandé pour le côté gastronomique).",
-        "Servir dans des bols chauds, ajouter quelques gouttes d'huile truffée et les noix concassées."
-    ],
-    tips: [
-        { type: "green", title: "🍄 Huile truffée", text: "Quelques gouttes suffisent — l'huile truffée est très puissante. Ajoutez-la au dernier moment, la chaleur altère son arôme." },
-        { type: "red", title: "⚠️ Mixer chaud avec précaution", text: "Ne remplissez jamais le blender à plus de la moitié avec du liquide chaud. La vapeur peut faire sauter le couvercle." }
-    ]
-},
-{
-    id: "magret-canard-miel-epices",
-    name: "Magret de canard au miel et aux épices",
-    subtitle: "Magret rosé à la peau croustillante, glaçage miel-épices douces, purée de céleri",
-    emoji: "🦆",
-    category: "diner",
-    difficulty: "Avancé",
-    time: 35,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Sans gluten"],
-    ingredients: [
-        { id: "canard_filet", name: "Magret de canard", detail: "peau entaillée en croisillons", emoji: "🦆", baseQty: 160, unit: "g", scalable: true, role: "Protéine" },
-        { id: "celeri_branche", name: "Céleri-rave / Céleri", detail: "en morceaux pour purée", emoji: "🥬", baseQty: 120, unit: "g", scalable: true, role: "Légume" },
-        { id: "pomme", name: "Pomme", detail: "Granny Smith, en quartiers", emoji: "🍏", baseQty: 60, unit: "g", scalable: true, role: "Accompagnement" },
-        { id: "miel", name: "Miel", detail: "pour le glaçage", emoji: "🍯", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "pour la purée", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "Liant" },
-        { id: "vinaigre_balsamique", name: "Vinaigre balsamique", detail: "pour déglacer", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "Sauce" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "un filet", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Entailler la peau du magret en croisillons sans percer la chair. Assaisonner sel, poivre, cannelle et muscade.",
-        "Déposer le magret côté peau dans une poêle froide, monter à feu moyen pour rendre la graisse (8-10 min).",
-        "Retourner côté chair 3-4 minutes selon l'épaisseur pour un magret rosé.",
-        "Badigeonner de miel mélangé aux épices, passer 1 minute sous le gril pour caraméliser.",
-        "Préparer la purée de céleri : cuire les morceaux 15 min à l'eau, mixer avec la crème.",
-        "Poêler les quartiers de pomme dans la graisse de canard 2 minutes pour les caraméliser.",
-        "Laisser reposer le magret 5 min, trancher en fines lamelles, dresser sur la purée avec les pommes et un filet de balsamique."
-    ],
-    tips: [
-        { type: "green", title: "🦆 Peau croustillante", text: "Départ à froid obligatoire pour rendre la graisse progressivement. La peau doit être dorée et craquante comme un cracker." },
-        { type: "red", title: "⚠️ Repos crucial", text: "5 minutes de repos minimum sous aluminium. Le magret continue de cuire et les jus se redistribuent uniformément." }
-    ]
-},
-{
-    id: "cabillaud-beurre-noisette-capres",
-    name: "Cabillaud au beurre noisette et câpres",
-    subtitle: "Dos de cabillaud nacré, beurre noisette mousseux, câpres croustillantes et citron",
-    emoji: "🐟",
-    category: "diner",
-    difficulty: "Moyen",
-    time: 20,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Sans gluten", "Perte de poids"],
-    ingredients: [
-        { id: "cabillaud", name: "Dos de cabillaud", detail: "épais, peau retirée", emoji: "🐟", baseQty: 160, unit: "g", scalable: true, role: "Protéine" },
-        { id: "epinards", name: "Épinards frais", detail: "en accompagnement", emoji: "🥬", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
-        { id: "pomme_de_terre", name: "Pommes de terre grenaille", detail: "coupées en deux", emoji: "🥔", baseQty: 120, unit: "g", scalable: true, role: "Féculent", rawRatio: 1 },
-        { id: "huile_olive", name: "Beurre", detail: "pour beurre noisette", emoji: "🧈", baseQty: 15, unit: "g", scalable: false, role: "Sauce" },
-        { id: "citron_jus", name: "Jus de citron", detail: "fraîchement pressé", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "moutarde", name: "Câpres / Moutarde", detail: "égouttées", emoji: "🟢", baseQty: 10, unit: "g", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Cuire les pommes de terre grenaille 15 minutes à l'eau bouillante salée, puis les dorer à la poêle.",
-        "Assaisonner le cabillaud. Le saisir 4 minutes côté chair dans une poêle chaude, retourner 2 minutes.",
-        "Retirer le poisson. Dans la même poêle, faire chauffer le beurre jusqu'à coloration noisette.",
-        "Ajouter les câpres dans le beurre noisette — elles vont crépiter et devenir croustillantes (30 sec).",
-        "Faire tomber les épinards 2 minutes dans une poêle avec un filet d'huile.",
-        "Dresser le cabillaud sur les épinards, napper de beurre noisette aux câpres, ajouter un filet de citron."
-    ],
-    tips: [
-        { type: "green", title: "🧈 Beurre noisette", text: "Le beurre doit mousser puis brunir avec un parfum de noisette. Retirez-le du feu à cet instant précis — quelques secondes de trop et il brûle." },
-        { type: "red", title: "⚠️ Cabillaud nacré", text: "Le cabillaud est cuit quand il s'effeuille facilement mais reste nacré au centre. Surcuit, il devient sec et sans saveur." }
-    ]
-},
-{
-    id: "risotto-asperges-citron-parmesan",
-    name: "Risotto aux asperges, citron et parmesan",
-    subtitle: "Risotto crémeux aux asperges vertes, zeste de citron, parmesan affiné",
-    emoji: "🌿",
-    category: "diner",
-    difficulty: "Moyen",
-    time: 35,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Sans gluten", "Équilibré"],
-    ingredients: [
-        { id: "riz_basmati_cuit", name: "Riz arborio", detail: "cuit façon risotto", emoji: "🍚", baseQty: 180, unit: "g", scalable: true, role: "Féculent", rawRatio: 2.25 },
-        { id: "asperges", name: "Asperges vertes", detail: "parées, coupées en tronçons", emoji: "🌿", baseQty: 120, unit: "g", scalable: true, role: "Légume" },
-        { id: "oignon", name: "Échalote", detail: "finement ciselée", emoji: "🧅", baseQty: 30, unit: "g", scalable: true, role: "Aromate" },
-        { id: "parmesan", name: "Parmesan", detail: "Reggiano, râpé fin", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "Fromage" },
-        { id: "citron_jus", name: "Citron", detail: "jus et zeste", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "pour la mantecatura", emoji: "🥛", baseQty: 15, unit: "g", scalable: false, role: "Liant" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Blanchir les pointes d'asperges 2 minutes, réserver. Couper les tiges en rondelles fines.",
-        "Faire suer l'échalote dans l'huile d'olive, ajouter les tiges d'asperges et le riz, nacrer 2 minutes.",
-        "Mouiller louche par louche avec du bouillon de légumes chaud, en remuant constamment 18-20 min.",
-        "À mi-cuisson, ajouter les tronçons de tiges d'asperges pour qu'ils fondent dans le risotto.",
-        "Hors du feu : mantecatura — incorporer parmesan, crème, zeste et jus de citron en remuant vigoureusement.",
-        "Dresser le risotto en vague, disposer les pointes d'asperges blanchies par-dessus, quelques copeaux de parmesan."
-    ],
-    tips: [
-        { type: "green", title: "🌿 Deux textures d'asperges", text: "Les tiges fondent dans le risotto pour parfumer, les pointes blanchies gardent leur croquant en garniture — deux textures pour un même légume." },
-        { type: "red", title: "⚠️ Mantecatura hors du feu", text: "Ajoutez le parmesan et la crème HORS du feu. La chaleur résiduelle suffit, sinon le fromage file et le risotto devient collant." }
-    ]
-},
-{
-    id: "gyozas-maison-poulet-gingembre",
-    name: "Gyozas maison poulet-gingembre",
-    subtitle: "Raviolis japonais croustillants dessous, fondants dessus, sauce soja-vinaigre",
-    emoji: "🥟",
-    category: "diner",
-    difficulty: "Avancé",
-    time: 45,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Équilibré"],
-    ingredients: [
-        { id: "poulet_grille", name: "Poulet", detail: "haché finement au couteau", emoji: "🍗", baseQty: 130, unit: "g", scalable: true, role: "Protéine" },
-        { id: "chou_rouge", name: "Chou", detail: "finement émincé, pressé", emoji: "🥬", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "oignon", name: "Gingembre et ciboule", detail: "râpés finement", emoji: "🧅", baseQty: 15, unit: "g", scalable: false, role: "Aromate" },
-        { id: "farine_complete", name: "Pâte à gyoza / Farine", detail: "feuilles rondes du commerce", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "Féculent" },
-        { id: "sauce_soja", name: "Sauce soja", detail: "pour la sauce et la farce", emoji: "🫘", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile de sésame", detail: "torréfié, dans la farce", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "vinaigre_balsamique", name: "Vinaigre de riz", detail: "pour la sauce trempage", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "Sauce" },
-        { id: "salade_verte", name: "Salade", detail: "en accompagnement", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "Légume" }
-    ],
-    options: [],
-    steps: [
-        "Mélanger le poulet haché, le chou pressé, le gingembre râpé, un trait de sauce soja et d'huile de sésame.",
-        "Déposer une cuillère de farce au centre de chaque feuille de gyoza. Humidifier les bords à l'eau.",
-        "Plier en demi-lune en formant de jolis plis sur un côté pour sceller hermétiquement.",
-        "Chauffer un filet d'huile dans une poêle antiadhésive, disposer les gyozas côté plat vers le bas.",
-        "Dorer 2-3 minutes à feu moyen, puis ajouter 3 cuillères d'eau et couvrir pour cuire à la vapeur 5 min.",
-        "Retirer le couvercle, laisser l'eau s'évaporer pour re-croustiller le dessous.",
-        "Préparer la sauce : mélanger sauce soja, vinaigre de riz et un trait de sriracha. Servir avec la salade."
-    ],
-    tips: [
-        { type: "green", title: "🥟 Technique poêle-vapeur", text: "Le secret des gyozas parfaits : dorer d'abord, puis cuire à la vapeur, puis re-croustiller. C'est la technique 'yaki' traditionnelle." },
-        { type: "red", title: "⚠️ Chou bien pressé", text: "Le chou contient beaucoup d'eau — pressez-le dans un torchon après l'avoir salé 10 min. Sinon les gyozas seront détrempés." }
-    ]
-},
-{
-    id: "ramen-tonkotsu-light",
-    name: "Ramen tonkotsu light",
-    subtitle: "Bouillon crémeux au lait de coco, nouilles, œuf mollet, porc effiloché",
-    emoji: "🍜",
-    category: "diner",
-    difficulty: "Avancé",
-    time: 45,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Équilibré"],
-    ingredients: [
-        { id: "porc_filet", name: "Filet de porc", detail: "pour chashu, en tranche épaisse", emoji: "🐷", baseQty: 100, unit: "g", scalable: true, role: "Protéine" },
-        { id: "nouilles_soba_cuites", name: "Nouilles ramen", detail: "cuites al dente", emoji: "🍜", baseQty: 180, unit: "g", scalable: true, role: "Féculent" },
-        { id: "oeuf", name: "Œuf", detail: "mollet mariné (ajitama)", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "Protéine" },
-        { id: "lait_coco", name: "Lait de coco", detail: "pour crémer le bouillon", emoji: "🥥", baseQty: 50, unit: "ml", scalable: false, role: "Bouillon" },
-        { id: "champignon", name: "Champignons", detail: "émincés", emoji: "🍄", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
-        { id: "mais_conserve", name: "Maïs", detail: "en garniture", emoji: "🌽", baseQty: 30, unit: "g", scalable: true, role: "Garniture" },
-        { id: "sauce_soja", name: "Sauce soja", detail: "tare (sauce de base)", emoji: "🫘", baseQty: 20, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "oignon", name: "Ciboule", detail: "émincée en garniture", emoji: "🧅", baseQty: 10, unit: "g", scalable: false, role: "Garniture" }
-    ],
-    options: [],
-    steps: [
-        "Préparer l'œuf ajitama : cuire 6 min 30, refroidir, écaler et mariner 2h dans sauce soja + mirin.",
-        "Saisir le filet de porc, puis le braiser 25 min dans un mélange sauce soja, eau et gingembre.",
-        "Préparer le bouillon : chauffer du bouillon de poulet avec le lait de coco, sauce soja et un trait de sésame.",
-        "Faire sauter les champignons à feu vif pour les colorer.",
-        "Cuire les nouilles al dente, les égoutter et les disposer dans le bol.",
-        "Verser le bouillon crémeux chaud, disposer le porc tranché, l'œuf coupé en deux, le maïs et les champignons.",
-        "Garnir de ciboule émincée, de graines de sésame et d'un filet d'huile de sésame."
-    ],
-    tips: [
-        { type: "green", title: "🥚 Œuf ajitama parfait", text: "6 min 30 de cuisson + marinade 2h minimum dans soja-mirin. Le jaune doit être crémeux et orangé, jamais dur ni liquide." },
-        { type: "red", title: "⚠️ Bouillon pas bouillant", text: "Servez le bouillon chaud mais pas bouillant — un bouillon qui bout casse l'émulsion crémeuse et le rend huileux." }
-    ]
-},
-{
-    id: "souffle-fromage-courgette",
-    name: "Soufflé au fromage et courgette",
-    subtitle: "Soufflé aérien au gruyère et courgette fondante, salade d'accompagnement",
-    emoji: "🧀",
-    category: "diner",
-    difficulty: "Avancé",
-    time: 40,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Perte de poids", "Low carb"],
-    ingredients: [
-        { id: "oeuf", name: "Œufs", detail: "blancs et jaunes séparés", emoji: "🥚", baseQty: 2, unit: "unités", scalable: true, role: "Protéine" },
-        { id: "courgette", name: "Courgette", detail: "râpée et essorée", emoji: "🥒", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
-        { id: "fromage_rape", name: "Gruyère râpé", detail: "finement râpé", emoji: "🧀", baseQty: 30, unit: "g", scalable: true, role: "Fromage" },
-        { id: "lait_demi", name: "Lait demi-écrémé", detail: "pour la béchamel", emoji: "🥛", baseQty: 80, unit: "ml", scalable: true, role: "Liant" },
-        { id: "farine_complete", name: "Farine", detail: "pour la béchamel", emoji: "🌾", baseQty: 15, unit: "g", scalable: false, role: "Liant" },
-        { id: "salade_verte", name: "Salade verte", detail: "assaisonnée", emoji: "🥬", baseQty: 50, unit: "g", scalable: true, role: "Accompagnement" },
-        { id: "huile_olive", name: "Beurre", detail: "pour le moule et la béchamel", emoji: "🧈", baseQty: 10, unit: "g", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Préchauffer le four à 200°C. Beurrer et fariner les ramequins à soufflé.",
-        "Préparer une béchamel : fondre le beurre, ajouter la farine, cuire 1 min puis ajouter le lait en fouettant.",
-        "Hors du feu, incorporer les jaunes d'œufs un par un, le fromage râpé et la courgette essorée.",
-        "Monter les blancs en neige très ferme avec une pincée de sel.",
-        "Incorporer délicatement les blancs à l'appareil en 3 fois, en soulevant la masse sans casser.",
-        "Remplir les ramequins aux 3/4, enfourner 20-25 min sans ouvrir le four.",
-        "Servir immédiatement à la sortie du four — le soufflé n'attend pas — avec la salade assaisonnée."
-    ],
-    tips: [
-        { type: "green", title: "🎈 Soufflé aérien", text: "Incorporez les blancs en 3 fois avec une spatule en soulevant du fond. Le geste est délicat mais crucial pour garder l'air emprisonné." },
-        { type: "red", title: "⚠️ Ne JAMAIS ouvrir le four", text: "Le choc thermique fait retomber le soufflé instantanément. Ne regardez qu'à travers la vitre du four." }
-    ]
-},
-{
-    id: "blanquette-veau-ancienne",
-    name: "Blanquette à l'ancienne",
-    subtitle: "Dinde fondante en sauce blanche crémeuse, carottes et champignons, riz pilaf",
-    emoji: "🍲",
-    category: "diner",
-    difficulty: "Moyen",
-    time: 50,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Équilibré"],
-    ingredients: [
-        { id: "dinde", name: "Escalope de dinde", detail: "en gros cubes", emoji: "🦃", baseQty: 150, unit: "g", scalable: true, role: "Protéine" },
-        { id: "carotte", name: "Carottes", detail: "en rondelles épaisses", emoji: "🥕", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
-        { id: "champignon", name: "Champignons de Paris", detail: "en quartiers", emoji: "🍄", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
-        { id: "riz_basmati_cuit", name: "Riz basmati", detail: "cuit, pilaf", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "Féculent", rawRatio: 2.25 },
-        { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 30, unit: "g", scalable: false, role: "Sauce" },
-        { id: "citron_jus", name: "Jus de citron", detail: "pour la sauce", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "blanc_oeuf", name: "Jaune d'œuf", detail: "pour liaison", emoji: "🥚", baseQty: 1, unit: "unité", scalable: false, role: "Liant" }
-    ],
-    options: [],
-    steps: [
-        "Mettre la dinde dans une casserole d'eau froide avec un bouquet garni. Porter à frémissement et écumer.",
-        "Ajouter les carottes, cuire à feu doux 30 minutes — la viande ne doit jamais bouillir.",
-        "Ajouter les champignons 10 minutes avant la fin de cuisson.",
-        "Retirer la viande et les légumes. Réduire le bouillon de moitié à feu vif.",
-        "Préparer la liaison : mélanger crème, jaune d'œuf et jus de citron hors du feu.",
-        "Incorporer la liaison dans le bouillon réduit, remettre à feu très doux sans bouillir pour épaissir.",
-        "Remettre la viande et les légumes dans la sauce, servir avec le riz pilaf."
-    ],
-    tips: [
-        { type: "green", title: "🍳 Liaison parfaite", text: "Mélangez la crème et le jaune d'œuf hors du feu puis incorporez au bouillon tiédi. La sauce doit napper la cuillère sans bouillir." },
-        { type: "red", title: "⚠️ Jamais d'ébullition", text: "Si la sauce bout après la liaison, le jaune d'œuf coagule et la sauce tourne en grains. Feu très doux uniquement." }
-    ]
-},
-{
-    id: "tartare-saumon-avocat-sesame",
-    name: "Tartare de saumon, avocat et sésame",
-    subtitle: "Saumon cru en tartare parfumé, crème d'avocat, tuile de sésame croustillante",
-    emoji: "🐟",
-    category: "diner",
-    difficulty: "Moyen",
-    time: 20,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Sans gluten", "Low carb", "Sans cuisson"],
-    ingredients: [
-        { id: "saumon", name: "Saumon frais", detail: "qualité sashimi, en tartare", emoji: "🐟", baseQty: 150, unit: "g", scalable: true, role: "Protéine" },
-        { id: "avocat", name: "Avocat", detail: "bien mûr, écrasé en crème", emoji: "🥑", baseQty: 70, unit: "g", scalable: true, role: "Lipide" },
-        { id: "concombre", name: "Concombre", detail: "en brunoise fine", emoji: "🥒", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
-        { id: "oignon", name: "Échalote", detail: "finement ciselée", emoji: "🧅", baseQty: 10, unit: "g", scalable: false, role: "Aromate" },
-        { id: "sauce_soja", name: "Sauce soja", detail: "allégée", emoji: "🫘", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "citron_jus", name: "Jus de citron vert", detail: "fraîchement pressé", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Couper le saumon en petits cubes réguliers de 5mm au couteau bien aiguisé.",
-        "Assaisonner le saumon avec sauce soja, citron vert, échalote et huile de sésame. Mélanger délicatement.",
-        "Écraser l'avocat à la fourchette avec un trait de citron vert, sel et poivre.",
-        "Dresser à l'emporte-pièce : étaler la crème d'avocat en base, puis le tartare de saumon par-dessus.",
-        "Ajouter la brunoise de concombre autour et sur le dessus.",
-        "Parsemer de graines de sésame torréfiées et servir immédiatement bien frais."
-    ],
-    tips: [
-        { type: "green", title: "🔪 Coupe nette", text: "Un couteau ultra-aiguisé est indispensable pour le tartare. Coupez sans écraser le saumon — des cubes nets = meilleure texture en bouche." },
-        { type: "red", title: "⚠️ Température froide", text: "Gardez le saumon au frigo jusqu'au dernier moment et servez sur une assiette froide. Le tartare se déguste glacé." }
-    ]
-},
-{
-    id: "tajine-poulet-citron-confit-olives",
-    name: "Tajine de poulet au citron confit et olives",
-    subtitle: "Poulet mijoté aux épices marocaines, citron confit fondant, olives vertes",
-    emoji: "🍲",
-    category: "diner",
-    difficulty: "Moyen",
-    time: 50,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Sans gluten", "Équilibré"],
-    ingredients: [
-        { id: "poulet_grille", name: "Hauts de cuisse de poulet", detail: "désossés", emoji: "🍗", baseQty: 150, unit: "g", scalable: true, role: "Protéine" },
-        { id: "couscous_cuit", name: "Semoule de couscous", detail: "cuite, égrainée", emoji: "🌾", baseQty: 150, unit: "g", scalable: true, role: "Féculent" },
-        { id: "oignon", name: "Oignon", detail: "émincé finement", emoji: "🧅", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
-        { id: "carotte", name: "Carottes", detail: "en rondelles", emoji: "🥕", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "citron_jus", name: "Citron confit", detail: "en quartiers (zeste uniquement)", emoji: "🍋", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" },
-        { id: "miel", name: "Miel", detail: "un filet", emoji: "🍯", baseQty: 8, unit: "g", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Faire revenir les oignons dans l'huile d'olive avec les épices (curcuma, gingembre, cannelle, safran) 3 minutes.",
-        "Ajouter le poulet et le colorer légèrement de tous côtés.",
-        "Ajouter les carottes, mouiller à hauteur avec de l'eau, ajouter le miel. Couvrir et mijoter 30 minutes.",
-        "Ajouter le citron confit (le zeste uniquement, rincé) et les olives vertes 10 minutes avant la fin.",
-        "Préparer la semoule : verser de l'eau bouillante, couvrir 5 min, égrainer à la fourchette avec un filet d'huile.",
-        "Servir le tajine dans son plat avec la semoule parfumée et de la coriandre fraîche."
-    ],
-    tips: [
-        { type: "green", title: "🍋 Citron confit", text: "N'utilisez que le zeste du citron confit, rincé. La chair est trop salée et amère. Le zeste apporte un parfum unique et inimitable." },
-        { type: "red", title: "⚠️ Épices à toaster", text: "Faites revenir les épices avec l'oignon avant le liquide — elles libèrent leurs arômes dans le gras, pas dans l'eau." }
-    ]
-},
-{
-    id: "veloute-petits-pois-menthe",
-    name: "Velouté de petits pois à la menthe",
-    subtitle: "Soupe veloutée vert printemps, chantilly de chèvre frais, huile d'olive citronnée",
-    emoji: "🟢",
-    category: "diner",
-    difficulty: "Facile",
-    time: 20,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Sans gluten", "Perte de poids"],
-    ingredients: [
-        { id: "petits_pois", name: "Petits pois", detail: "surgelés ou frais", emoji: "🟢", baseQty: 200, unit: "g", scalable: true, role: "Légume" },
-        { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 30, unit: "g", scalable: true, role: "Aromate" },
-        { id: "pomme_de_terre", name: "Pomme de terre", detail: "pour la texture", emoji: "🥔", baseQty: 60, unit: "g", scalable: true, role: "Féculent", rawRatio: 1 },
-        { id: "chevre_frais", name: "Chèvre frais", detail: "pour la chantilly salée", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "Topping" },
-        { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 15, unit: "g", scalable: false, role: "Liant" },
-        { id: "citron_jus", name: "Jus de citron", detail: "un filet en finition", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "citronnée, en finition", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Faire suer l'oignon à feu doux dans un filet d'huile d'olive.",
-        "Ajouter la pomme de terre en petits morceaux, couvrir d'eau et cuire 10 minutes.",
-        "Ajouter les petits pois et cuire seulement 3-4 minutes pour préserver la couleur verte.",
-        "Mixer finement avec la crème fraîche. Ajouter des feuilles de menthe fraîche et mixer à nouveau.",
-        "Fouetter le chèvre frais avec un trait de crème pour obtenir une chantilly salée.",
-        "Servir le velouté bien chaud, déposer une quenelle de chantilly de chèvre, un filet d'huile d'olive citronnée."
-    ],
-    tips: [
-        { type: "green", title: "🟢 Couleur verte vive", text: "Cuire les petits pois seulement 3-4 min et mixer immédiatement. Plus de cuisson = couleur terne et kaki." },
-        { type: "red", title: "⚠️ Menthe avec modération", text: "Ajoutez la menthe progressivement en mixant — elle est très puissante et peut vite dominer le goût des petits pois." }
-    ]
-},
-{
-    id: "coquilles-saint-jacques-fondue-poireaux",
-    name: "Gambas rôties, fondue de poireaux",
-    subtitle: "Gambas dorées au beurre, fondue de poireaux crémeuse, réduction au vin blanc",
-    emoji: "🦐",
-    category: "diner",
-    difficulty: "Avancé",
-    time: 25,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Sans gluten", "Perte de poids"],
-    ingredients: [
-        { id: "gambas", name: "Gambas", detail: "décortiquées, déveinées", emoji: "🦐", baseQty: 140, unit: "g", scalable: true, role: "Protéine" },
-        { id: "poireaux", name: "Poireaux", detail: "le blanc, en fines rondelles", emoji: "🥬", baseQty: 120, unit: "g", scalable: true, role: "Légume" },
-        { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 25, unit: "g", scalable: false, role: "Sauce" },
-        { id: "huile_olive", name: "Beurre", detail: "demi-sel, pour saisir", emoji: "🧈", baseQty: 12, unit: "g", scalable: false, role: "Cuisson" },
-        { id: "citron_jus", name: "Jus de citron", detail: "un filet", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "noix", name: "Noix de pécan", detail: "concassées, en finition", emoji: "🌰", baseQty: 8, unit: "g", scalable: false, role: "Topping" }
-    ],
-    options: [],
-    steps: [
-        "Émincer finement le blanc de poireau. Le faire fondre à feu doux dans du beurre pendant 15 minutes.",
-        "Ajouter la crème fraîche aux poireaux fondus, assaisonner de muscade, sel et poivre.",
-        "Sécher soigneusement les gambas avec du papier absorbant — c'est essentiel pour la caramélisation.",
-        "Saisir les gambas 1 min 30 par face dans le beurre moussant à feu vif.",
-        "Déglacer la poêle avec un filet de citron et récupérer les sucs.",
-        "Dresser la fondue de poireaux en base, disposer les gambas par-dessus, napper du jus de cuisson et parsemer de noix."
-    ],
-    tips: [
-        { type: "green", title: "🦐 Caramélisation parfaite", text: "Les gambas doivent être ultra-sèches avant cuisson. L'humidité empêche la réaction de Maillard et elles bouillent au lieu de dorer." },
-        { type: "red", title: "⚠️ Poireau sans coloration", text: "La fondue de poireaux doit suer sans colorer — feu doux et couvercle. Le poireau doré devient amer." }
-    ]
-},
-{
-    id: "poulet-basque-piment-espelette",
-    name: "Poulet basquaise au piment d'Espelette",
-    subtitle: "Poulet mijoté aux poivrons, tomates et piment d'Espelette, riz pilaf",
-    emoji: "🫑",
-    category: "diner",
-    difficulty: "Moyen",
-    time: 45,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Sans gluten", "Équilibré"],
-    ingredients: [
-        { id: "poulet_grille", name: "Hauts de cuisse de poulet", detail: "désossés", emoji: "🍗", baseQty: 150, unit: "g", scalable: true, role: "Protéine" },
-        { id: "poivron_rouge", name: "Poivrons", detail: "rouge et vert, en lanières", emoji: "🫑", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
-        { id: "tomate", name: "Tomates", detail: "concassées", emoji: "🍅", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
-        { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
-        { id: "riz_basmati_cuit", name: "Riz basmati", detail: "cuit, pilaf", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "Féculent", rawRatio: 2.25 },
-        { id: "jambon_blanc", name: "Jambon de Bayonne", detail: "en lanières fines", emoji: "🥓", baseQty: 25, unit: "g", scalable: false, role: "Garniture" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Saisir les morceaux de poulet assaisonnés de piment d'Espelette de tous côtés. Réserver.",
-        "Dans la même cocotte, faire revenir les oignons et les lanières de poivrons 5 minutes.",
-        "Ajouter les tomates concassées et les lanières de jambon de Bayonne.",
-        "Remettre le poulet, couvrir et mijoter 30 minutes à feu doux.",
-        "Le poulet est prêt quand la sauce a réduit et que les poivrons sont fondants.",
-        "Servir directement dans la cocotte avec le riz pilaf et du piment d'Espelette en finition."
-    ],
-    tips: [
-        { type: "green", title: "🫑 Poivrons fondants", text: "Les poivrons doivent être cuits longuement pour devenir fondants et sucrés. C'est la longue cuisson qui fait la magie du basquaise." },
-        { type: "red", title: "⚠️ Piment d'Espelette", text: "Le piment d'Espelette parfume sans brûler. N'en abusez pas en cuisson, ajustez en fin de cuisson selon votre tolérance." }
-    ]
-},
-{
-    id: "tofu-general-tao",
-    name: "Tofu Général Tao",
-    subtitle: "Tofu croustillant en croûte dorée, sauce sucrée-épicée laquée, brocoli sauté",
-    emoji: "🍛",
-    category: "diner",
-    difficulty: "Moyen",
-    time: 30,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Vegan", "Haute protéine", "Équilibré"],
-    ingredients: [
-        { id: "tofu", name: "Tofu ferme", detail: "pressé et coupé en cubes", emoji: "🫘", baseQty: 150, unit: "g", scalable: true, role: "Protéine" },
-        { id: "brocoli", name: "Brocoli", detail: "en fleurettes", emoji: "🥦", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
-        { id: "riz_basmati_cuit", name: "Riz basmati", detail: "cuit", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "Féculent", rawRatio: 2.25 },
-        { id: "farine_complete", name: "Fécule de maïs", detail: "pour enrober le tofu", emoji: "🌾", baseQty: 20, unit: "g", scalable: false, role: "Enrobage" },
-        { id: "sauce_soja", name: "Sauce soja", detail: "pour la sauce", emoji: "🫘", baseQty: 20, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "sauce_sriracha", name: "Sriracha", detail: "pour le piquant", emoji: "🌶️", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "sirop_erable", name: "Sirop d'érable", detail: "pour le sucré de la sauce", emoji: "🍁", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile végétale", detail: "pour frire", emoji: "🫒", baseQty: 15, unit: "ml", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Presser le tofu 15 min entre deux torchons avec un poids dessus pour extraire l'eau.",
-        "Couper en cubes de 2cm, enrober généreusement de fécule de maïs.",
-        "Frire les cubes de tofu à feu vif dans l'huile jusqu'à dorure croustillante (4-5 min). Égoutter.",
-        "Préparer la sauce Général Tao : mélanger sauce soja, sirop d'érable, sriracha et un trait de vinaigre de riz.",
-        "Chauffer la sauce dans une poêle, ajouter le tofu croustillant et enrober en remuant délicatement.",
-        "Sauter le brocoli 3 minutes à feu vif. Servir le tofu laqué sur le riz avec le brocoli."
-    ],
-    tips: [
-        { type: "green", title: "🫘 Tofu ultra-croustillant", text: "Le secret : bien presser + fécule + huile très chaude. Le tofu doit crépiter en entrant dans la poêle." },
-        { type: "red", title: "⚠️ Enrober rapidement", text: "Ajoutez le tofu frit dans la sauce au dernier moment et servez vite — il ramollit en quelques minutes dans la sauce." }
-    ]
-},
-{
-    id: "pot-pie-poulet-legumes",
-    name: "Pot-pie au poulet et légumes",
-    subtitle: "Ragoût crémeux de poulet sous un feuilleté doré et croustillant",
-    emoji: "🥧",
-    category: "diner",
-    difficulty: "Moyen",
-    time: 45,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Équilibré"],
-    ingredients: [
-        { id: "poulet_grille", name: "Poulet", detail: "en cubes", emoji: "🍗", baseQty: 140, unit: "g", scalable: true, role: "Protéine" },
-        { id: "carotte", name: "Carottes", detail: "en petits dés", emoji: "🥕", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "petits_pois", name: "Petits pois", detail: "surgelés", emoji: "🟢", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
-        { id: "champignon", name: "Champignons", detail: "émincés", emoji: "🍄", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
-        { id: "lait_demi", name: "Lait demi-écrémé", detail: "pour la béchamel", emoji: "🥛", baseQty: 100, unit: "ml", scalable: true, role: "Sauce" },
-        { id: "farine_complete", name: "Farine / Pâte feuilletée", detail: "pour le couvercle", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "Pâte" },
-        { id: "oeuf", name: "Jaune d'œuf", detail: "pour dorer le feuilleté", emoji: "🥚", baseQty: 1, unit: "unité", scalable: false, role: "Dorure" },
-        { id: "moutarde", name: "Moutarde", detail: "un trait dans la béchamel", emoji: "🟡", baseQty: 5, unit: "g", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Préchauffer le four à 200°C. Faire revenir le poulet en cubes jusqu'à coloration. Réserver.",
-        "Dans la même casserole, faire revenir carottes, champignons 5 min, ajouter les petits pois.",
-        "Saupoudrer de farine, mélanger 1 min, ajouter le lait progressivement en fouettant pour une béchamel.",
-        "Incorporer la moutarde, remettre le poulet, assaisonner. Verser dans des ramequins.",
-        "Couvrir chaque ramequin d'un disque de pâte feuilletée, pincer les bords pour sceller.",
-        "Dorer au jaune d'œuf dilué, entailler une cheminée au centre, enfourner 20-25 min jusqu'à dorure."
-    ],
-    tips: [
-        { type: "green", title: "🥧 Feuilleté doré", text: "Le jaune d'œuf dilué dans un peu d'eau donne une dorure parfaite. Appliquez deux couches pour un résultat brillant et professionnel." },
-        { type: "red", title: "⚠️ Remplissage pas trop liquide", text: "La garniture doit être épaisse (comme une béchamel) avant de couvrir. Trop liquide = le feuilleté ramollit et s'effondre." }
-    ]
-},
-{
-    id: "truite-meuniere-amandes",
-    name: "Truite meunière aux amandes",
-    subtitle: "Filet de truite dorée au beurre, amandes effilées toastées, pommes vapeur",
-    emoji: "🐟",
-    category: "diner",
-    difficulty: "Moyen",
-    time: 25,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Sans gluten", "Équilibré"],
-    ingredients: [
-        { id: "truite", name: "Filet de truite", detail: "avec peau, désarêté", emoji: "🐟", baseQty: 150, unit: "g", scalable: true, role: "Protéine" },
-        { id: "amandes", name: "Amandes effilées", detail: "pour le beurre meunière", emoji: "🌰", baseQty: 15, unit: "g", scalable: false, role: "Topping" },
-        { id: "pomme_de_terre", name: "Pommes de terre", detail: "grenaille, cuites vapeur", emoji: "🥔", baseQty: 150, unit: "g", scalable: true, role: "Féculent", rawRatio: 1 },
-        { id: "haricots_verts", name: "Haricots verts", detail: "extra-fins, blanchis", emoji: "🫘", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
-        { id: "huile_olive", name: "Beurre", detail: "pour cuisson meunière", emoji: "🧈", baseQty: 15, unit: "g", scalable: false, role: "Cuisson" },
-        { id: "citron_jus", name: "Jus de citron", detail: "fraîchement pressé", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "farine_complete", name: "Farine", detail: "pour fariner la truite", emoji: "🌾", baseQty: 10, unit: "g", scalable: false, role: "Enrobage" }
-    ],
-    options: [],
-    steps: [
-        "Cuire les pommes de terre grenaille à la vapeur 15 minutes. Blanchir les haricots verts 4 min.",
-        "Fariner légèrement les filets de truite côté chair uniquement, tapoter l'excédent.",
-        "Saisir la truite côté peau 3 minutes dans le beurre moussant, retourner 2 minutes côté chair.",
-        "Retirer la truite. Ajouter les amandes effilées dans le beurre et les toaster 1 minute.",
-        "Quand le beurre est noisette et les amandes dorées, ajouter le jus de citron (attention aux éclaboussures).",
-        "Dresser la truite sur les pommes grenaille, napper du beurre meunière aux amandes, accompagner des haricots verts."
-    ],
-    tips: [
-        { type: "green", title: "🐟 Peau croustillante", text: "Commencez toujours côté peau pour la rendre croustillante. Appuyez légèrement avec une spatule les 30 premières secondes pour éviter qu'elle ne se rétracte." },
-        { type: "red", title: "⚠️ Citron dans le beurre chaud", text: "Le citron ajouté au beurre chaud projette — reculez et versez doucement. C'est la touche finale qui fait la vraie meunière." }
-    ]
-},
-{
-    id: "curry-panang-tofu",
-    name: "Curry Panang au tofu",
-    subtitle: "Tofu doré dans une sauce curry panang onctueuse au lait de coco et basilic thaï",
-    emoji: "🍛",
-    category: "diner",
-    difficulty: "Moyen",
-    time: 30,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Vegan", "Sans gluten", "Haute protéine"],
-    ingredients: [
-        { id: "tofu", name: "Tofu ferme", detail: "pressé, en cubes", emoji: "🫘", baseQty: 140, unit: "g", scalable: true, role: "Protéine" },
-        { id: "lait_coco", name: "Lait de coco", detail: "entier, crémeux", emoji: "🥥", baseQty: 100, unit: "ml", scalable: true, role: "Sauce" },
-        { id: "poivron_rouge", name: "Poivron rouge", detail: "en lanières", emoji: "🫑", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "haricots_verts", name: "Haricots verts", detail: "coupés en tronçons", emoji: "🫘", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "riz_basmati_cuit", name: "Riz thaï", detail: "cuit, jasmin", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "Féculent", rawRatio: 2.25 },
-        { id: "pate_curry", name: "Pâte de curry panang", detail: "authentique thaï", emoji: "🟤", baseQty: 20, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "onctueux", emoji: "🥜", baseQty: 10, unit: "g", scalable: false, role: "Liant" },
-        { id: "sauce_soja", name: "Sauce soja", detail: "un trait", emoji: "🫘", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Presser et couper le tofu en cubes. Le dorer 4-5 minutes dans une poêle huilée. Réserver.",
-        "Dans la même poêle, faire revenir la pâte de curry dans un peu de crème de coco 2 minutes.",
-        "Ajouter le reste du lait de coco, le beurre de cacahuète et la sauce soja. Mélanger jusqu'à homogénéité.",
-        "Ajouter les haricots verts et le poivron, cuire 5-7 minutes dans la sauce.",
-        "Remettre le tofu doré, laisser mijoter 3 minutes pour qu'il absorbe les saveurs.",
-        "Servir sur le riz jasmin, garnir de feuilles de basilic thaï et de cacahuètes concassées."
-    ],
-    tips: [
-        { type: "green", title: "🥥 Crème de coco séparée", text: "Utilisez la couche épaisse du dessus de la boîte pour faire revenir la pâte de curry — c'est la graisse qui libère les arômes." },
-        { type: "red", title: "⚠️ Pâte de curry concentrée", text: "La pâte de curry panang est très concentrée. Commencez par 1 cuillère à soupe et ajustez — on peut toujours en rajouter." }
-    ]
-},
-{
-    id: "gratin-fruits-mer-light",
-    name: "Gratin de fruits de mer light",
-    subtitle: "Gambas, moules et cabillaud gratinés, béchamel légère, chapelure dorée",
-    emoji: "🦐",
-    category: "diner",
-    difficulty: "Moyen",
-    time: 35,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Perte de poids"],
-    ingredients: [
-        { id: "gambas", name: "Gambas", detail: "décortiquées", emoji: "🦐", baseQty: 60, unit: "g", scalable: true, role: "Protéine" },
-        { id: "moules", name: "Moules", detail: "décoquillées", emoji: "🦪", baseQty: 60, unit: "g", scalable: true, role: "Protéine" },
-        { id: "cabillaud", name: "Cabillaud", detail: "en morceaux", emoji: "🐟", baseQty: 60, unit: "g", scalable: true, role: "Protéine" },
-        { id: "poireaux", name: "Poireaux", detail: "en rondelles, fondus", emoji: "🥬", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
-        { id: "lait_demi", name: "Lait demi-écrémé", detail: "pour la béchamel", emoji: "🥛", baseQty: 100, unit: "ml", scalable: true, role: "Sauce" },
-        { id: "farine_complete", name: "Farine", detail: "pour la béchamel", emoji: "🌾", baseQty: 15, unit: "g", scalable: false, role: "Liant" },
-        { id: "fromage_rape", name: "Gruyère râpé", detail: "pour gratiner", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "Fromage" },
-        { id: "citron_jus", name: "Jus de citron", detail: "un filet", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Préchauffer le four à 200°C. Faire fondre les poireaux 10 min à feu doux dans un peu de beurre.",
-        "Préparer la béchamel légère : fondre la farine dans le beurre, ajouter le lait en fouettant. Assaisonner de muscade.",
-        "Déposer les poireaux fondus en base du plat à gratin.",
-        "Disposer les fruits de mer crus par-dessus : gambas, moules et morceaux de cabillaud.",
-        "Napper de béchamel, parsemer de fromage râpé et de chapelure.",
-        "Enfourner 15-18 minutes jusqu'à ce que le dessus soit doré et les fruits de mer cuits."
-    ],
-    tips: [
-        { type: "green", title: "🦐 Mix de textures", text: "Le mélange de 3 fruits de mer différents apporte variété de texture et de saveur — c'est ça qui rend le gratin gastronomique." },
-        { type: "red", title: "⚠️ Ne pas pré-cuire les fruits de mer", text: "Les fruits de mer sont posés crus sur les poireaux — ils cuiront parfaitement au four dans la béchamel. Pré-cuits, ils seraient caoutchouteux." }
-    ]
-},
-{
-    id: "boeuf-bourguignon-moderne",
-    name: "Bœuf bourguignon moderne",
-    subtitle: "Bœuf fondant braisé au vin, lardons croustillants, champignons et oignons grelots",
-    emoji: "🍷",
-    category: "diner",
-    difficulty: "Avancé",
-    time: 60,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Prise de masse"],
-    ingredients: [
-        { id: "boeuf_hache_5", name: "Bœuf à braiser", detail: "en gros morceaux", emoji: "🥩", baseQty: 160, unit: "g", scalable: true, role: "Protéine" },
-        { id: "champignon", name: "Champignons", detail: "en quartiers", emoji: "🍄", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
-        { id: "carotte", name: "Carottes", detail: "en tronçons", emoji: "🥕", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "oignon", name: "Oignons grelots", detail: "entiers, pelés", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
-        { id: "jambon_blanc", name: "Lardons", detail: "fumés, en allumettes", emoji: "🥓", baseQty: 25, unit: "g", scalable: false, role: "Garniture" },
-        { id: "pomme_de_terre", name: "Pommes de terre", detail: "en cubes, en accompagnement", emoji: "🥔", baseQty: 150, unit: "g", scalable: true, role: "Féculent", rawRatio: 1 },
-        { id: "concentre_tomate", name: "Concentré de tomate", detail: "double concentré", emoji: "🍅", baseQty: 10, unit: "g", scalable: false, role: "Sauce" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "pour la cuisson", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Faire rissoler les lardons dans la cocotte, réserver quand ils sont croustillants.",
-        "Saisir les morceaux de bœuf assaisonnés à feu vif pour bien les colorer. Réserver.",
-        "Faire revenir les oignons grelots et les carottes dans la même cocotte 3-4 minutes.",
-        "Ajouter le concentré de tomate, singer d'une cuillère de farine, mélanger 1 minute.",
-        "Déglacer au vin rouge (25cl), gratter les sucs, remettre le bœuf et les lardons, mouiller à hauteur.",
-        "Couvrir et mijoter 45 minutes à feu très doux. Ajouter les champignons 15 min avant la fin.",
-        "Le bourguignon est prêt quand la viande se défait à la fourchette. Servir avec les pommes de terre rissolées."
-    ],
-    tips: [
-        { type: "green", title: "🍷 Vin de qualité", text: "Utilisez un vin que vous boiriez — le bourguignon est bâti sur le vin. Un bon Pinot Noir de Bourgogne transforme le plat." },
-        { type: "red", title: "⚠️ Patience absolue", text: "Pas de raccourci : le bourguignon a besoin de temps. Le feu le plus doux possible pendant 45+ min pour une viande fondante." }
-    ]
-},
-{
-    id: "soupe-tom-kha-crevettes",
-    name: "Soupe Tom Kha aux crevettes",
-    subtitle: "Soupe thaïe crémeuse au lait de coco, galanga, citronnelle et crevettes",
-    emoji: "🍜",
-    category: "diner",
-    difficulty: "Moyen",
-    time: 25,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Sans gluten", "Perte de poids"],
-    ingredients: [
-        { id: "crevettes", name: "Crevettes", detail: "décortiquées", emoji: "🦐", baseQty: 120, unit: "g", scalable: true, role: "Protéine" },
-        { id: "lait_coco", name: "Lait de coco", detail: "entier", emoji: "🥥", baseQty: 120, unit: "ml", scalable: true, role: "Bouillon" },
-        { id: "champignon", name: "Champignons", detail: "émincés", emoji: "🍄", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "tomate", name: "Tomates cerises", detail: "coupées en deux", emoji: "🍅", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
-        { id: "oignon", name: "Échalote", detail: "émincée", emoji: "🧅", baseQty: 20, unit: "g", scalable: true, role: "Aromate" },
-        { id: "citron_jus", name: "Jus de citron vert", detail: "frais", emoji: "🍋", baseQty: 20, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "sauce_nuoc_mam", name: "Nuoc mam", detail: "pour l'umami", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "sauce_sriracha", name: "Piment", detail: "piment oiseau ou sriracha", emoji: "🌶️", baseQty: 3, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Porter de l'eau (200ml) à frémissement avec de la citronnelle écrasée et du gingembre tranché 5 minutes.",
-        "Ajouter le lait de coco, les champignons et l'échalote. Cuire 5 minutes à feu moyen.",
-        "Ajouter les crevettes et les tomates cerises, cuire 3-4 minutes jusqu'à ce que les crevettes rossissent.",
-        "Hors du feu, assaisonner avec le nuoc mam, le jus de citron vert et le piment.",
-        "Goûter et ajuster l'équilibre salé-acide-piquant-sucré (c'est la clé de la cuisine thaïe).",
-        "Servir dans un bol profond avec de la coriandre fraîche et un quartier de citron vert."
-    ],
-    tips: [
-        { type: "green", title: "🍋 Équilibre des saveurs", text: "La Tom Kha repose sur l'équilibre parfait entre salé (nuoc mam), acide (citron), piquant (piment) et crémeux (coco). Ajustez à votre goût." },
-        { type: "red", title: "⚠️ Citron vert hors du feu", text: "Ajoutez TOUJOURS le citron vert hors du feu. Chauffé, il perd sa fraîcheur et devient amer." }
-    ]
-},
-{
-    id: "aubergine-farcie-agneau-epices",
-    name: "Aubergine farcie à l'agneau et aux épices",
-    subtitle: "Aubergine rôtie farcie d'agneau épicé, grenades, yaourt à la menthe",
-    emoji: "🍆",
-    category: "diner",
-    difficulty: "Moyen",
-    time: 45,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Haute protéine", "Sans gluten", "Équilibré"],
-    ingredients: [
-        { id: "aubergine", name: "Aubergine", detail: "grosse, coupée en deux", emoji: "🍆", baseQty: 150, unit: "g", scalable: true, role: "Légume" },
-        { id: "agneau_gigot", name: "Agneau haché", detail: "ou gigot haché au couteau", emoji: "🐑", baseQty: 120, unit: "g", scalable: true, role: "Protéine" },
-        { id: "oignon", name: "Oignon", detail: "émincé finement", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "Aromate" },
-        { id: "tomate", name: "Tomate", detail: "en dés", emoji: "🍅", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
-        { id: "yaourt_grec", name: "Yaourt grec", detail: "pour la sauce menthe", emoji: "🥛", baseQty: 30, unit: "g", scalable: false, role: "Sauce" },
-        { id: "amandes", name: "Amandes effilées", detail: "toastées", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" },
-        { id: "harissa", name: "Harissa", detail: "un trait dans la farce", emoji: "🌶️", baseQty: 5, unit: "g", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Préchauffer le four à 200°C. Inciser la chair des demi-aubergines en croisillons, huiler et saler.",
-        "Rôtir les aubergines 20 minutes face chair vers le haut jusqu'à ce qu'elles soient fondantes.",
-        "Faire revenir l'agneau haché avec l'oignon et les épices (cumin, coriandre, cannelle, harissa).",
-        "Ajouter la tomate en dés, cuire 5 minutes jusqu'à ce que le jus s'évapore.",
-        "Creuser légèrement les aubergines rôties, farcir avec la préparation d'agneau.",
-        "Remettre au four 10 minutes. Préparer le yaourt menthe : mélanger yaourt, menthe hachée et citron.",
-        "Servir les aubergines farcies avec le yaourt menthe, les amandes toastées et de la grenade si disponible."
-    ],
-    tips: [
-        { type: "green", title: "🍆 Aubergine fondante", text: "Les croisillons permettent à l'huile et à la chaleur de pénétrer la chair. L'aubergine doit être très molle avant de la farcir." },
-        { type: "red", title: "⚠️ Farce pas trop humide", text: "Faites bien évaporer le jus de la tomate avant de farcir. Trop de liquide = aubergine détrempée et sans tenue." }
-    ]
-},
-{
-    id: "tataki-boeuf-bouchees",
-    name: "Bouchées de tataki de bœuf",
-    subtitle: "Fines tranches de bœuf mi-cuit, sésame torréfié, sauce ponzu",
-    emoji: "🥩",
-    category: "apero-partage",
-    difficulty: "Avancé",
-    time: 20,
-    sliderMin: 2,
-    sliderMax: 8,
-    tags: ["Haute protéine", "Sans gluten", "Low carb"],
-    ingredients: [
-        { id: "boeuf_hache_5", name: "Pièce de bœuf", detail: "filet ou rumsteak", emoji: "🥩", baseQty: 100, unit: "g", scalable: true, role: "Protéine" },
-        { id: "concombre", name: "Concombre", detail: "en fines rondelles, support", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "radis", name: "Radis", detail: "en lamelles", emoji: "🌶️", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
-        { id: "sauce_soja", name: "Sauce soja", detail: "pour sauce ponzu", emoji: "🫘", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "citron_jus", name: "Jus de citron", detail: "frais", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Assaisonner généreusement la pièce de bœuf de sel et poivre.",
-        "Saisir 30 secondes par face dans une poêle fumante pour un cœur totalement cru.",
-        "Laisser reposer 5 minutes puis envelopper de film et réfrigérer 15 minutes.",
-        "Trancher en fines lamelles de 3mm à l'aide d'un couteau bien aiguisé.",
-        "Disposer chaque lamelle sur une rondelle de concombre en bouchée.",
-        "Napper de sauce ponzu (soja + citron + sésame) et parsemer de sésame torréfié."
-    ],
-    tips: [
-        { type: "green", title: "🥶 Découpe facilitée", text: "Réfrigérer la viande 15 min après saisie permet de la trancher beaucoup plus finement et régulièrement." },
-        { type: "red", title: "⚠️ Saisie ultra-rapide", text: "30 secondes MAX par face. L'intérieur doit rester complètement cru pour un vrai tataki." }
-    ]
-},
-{
-    id: "tartare-saumon-cornets",
-    name: "Cornets de tartare de saumon",
-    subtitle: "Tartare de saumon frais en cornets croustillants, crème d'avocat citronnée",
-    emoji: "🐟",
-    category: "apero-partage",
-    difficulty: "Avancé",
-    time: 25,
-    sliderMin: 2,
-    sliderMax: 8,
-    tags: ["Haute protéine", "Sans gluten", "Low carb"],
-    ingredients: [
-        { id: "saumon", name: "Saumon frais", detail: "qualité sashimi, en brunoise", emoji: "🐟", baseQty: 100, unit: "g", scalable: true, role: "Protéine" },
-        { id: "avocat", name: "Avocat", detail: "mûr, en crème", emoji: "🥑", baseQty: 50, unit: "g", scalable: true, role: "Lipide" },
-        { id: "concombre", name: "Concombre", detail: "en brunoise fine", emoji: "🥒", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
-        { id: "sauce_soja", name: "Sauce soja", detail: "allégée", emoji: "🫘", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "citron_jus", name: "Jus de citron vert", detail: "frais", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 3, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Couper le saumon en brunoise fine (3mm) au couteau aiguisé. Garder au frais.",
-        "Assaisonner le saumon avec sauce soja, citron vert et huile de sésame.",
-        "Écraser l'avocat avec du citron vert, sel et poivre pour une crème lisse.",
-        "Former des cornets avec des feuilles de nori ou des feuilles d'endive.",
-        "Déposer une cuillère de crème d'avocat au fond, puis le tartare de saumon.",
-        "Parsemer de graines de sésame et de ciboulette ciselée. Servir immédiatement."
-    ],
-    tips: [
-        { type: "green", title: "🐟 Brunoise régulière", text: "Des cubes parfaitement réguliers donnent un rendu professionnel et une meilleure texture en bouche." },
-        { type: "red", title: "⚠️ Servir glacé", text: "Le tartare doit être servi très froid. Préparez au dernier moment et gardez les cornets au frigo jusqu'au service." }
-    ]
-},
-{
-    id: "tempura-legumes-sauce-ponzu",
-    name: "Tempura de légumes, sauce ponzu",
-    subtitle: "Beignets de légumes ultra-croustillants, pâte légère aérienne, sauce trempette",
-    emoji: "🍤",
-    category: "apero-partage",
-    difficulty: "Avancé",
-    time: 30,
-    sliderMin: 2,
-    sliderMax: 8,
-    tags: ["Végétarien", "Équilibré"],
-    ingredients: [
-        { id: "courgette", name: "Courgette", detail: "en bâtonnets", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "patate_douce_crue", name: "Patate douce", detail: "en fines rondelles", emoji: "🍠", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
-        { id: "poivron_rouge", name: "Poivron", detail: "en lanières", emoji: "🫑", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
-        { id: "farine_complete", name: "Farine", detail: "pour pâte à tempura", emoji: "🌾", baseQty: 30, unit: "g", scalable: true, role: "Pâte" },
-        { id: "oeuf", name: "Œuf", detail: "très froid", emoji: "🥚", baseQty: 1, unit: "unité", scalable: false, role: "Pâte" },
-        { id: "sauce_soja", name: "Sauce soja", detail: "pour la sauce ponzu", emoji: "🫘", baseQty: 15, unit: "ml", scalable: false, role: "Sauce" },
-        { id: "citron_jus", name: "Jus de citron", detail: "dans la sauce", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Sauce" }
-    ],
-    options: [],
-    steps: [
-        "Préparer la sauce ponzu : mélanger sauce soja, jus de citron et un trait de mirin.",
-        "Préparer la pâte : mélanger TRÈS brièvement farine, œuf et eau GLACÉE. Laisser grumeleuse.",
-        "Chauffer l'huile à 180°C. Tester avec une goutte de pâte : elle doit remonter immédiatement.",
-        "Tremper les légumes dans la pâte et frire 2-3 minutes par petites quantités.",
-        "Égoutter sur grille (pas sur papier), saler immédiatement.",
-        "Servir aussitôt avec la sauce ponzu à côté pour tremper."
-    ],
-    tips: [
-        { type: "green", title: "🧊 Pâte glacée", text: "Le contraste chaud/froid crée le croustillant. Utilisez de l'eau glacée, un œuf froid, et ne mélangez que 5 secondes." },
-        { type: "red", title: "⚠️ Petites quantités", text: "Frire trop de pièces à la fois fait chuter la température. 3-4 pièces max par fournée." }
-    ]
-},
-{
-    id: "brochettes-yakitori-maison",
-    name: "Brochettes yakitori maison",
-    subtitle: "Poulet grillé laqué sauce tare, oignons nouveaux caramélisés",
-    emoji: "🍢",
-    category: "apero-partage",
-    difficulty: "Moyen",
-    time: 25,
-    sliderMin: 2,
-    sliderMax: 8,
-    tags: ["Haute protéine", "Sans gluten", "Low carb"],
-    ingredients: [
-        { id: "poulet_grille", name: "Cuisses de poulet", detail: "désossées, en cubes de 2cm", emoji: "🍗", baseQty: 100, unit: "g", scalable: true, role: "Protéine" },
-        { id: "oignon", name: "Oignons nouveaux", detail: "en tronçons de 3cm", emoji: "🧅", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
-        { id: "sauce_soja", name: "Sauce soja", detail: "pour la sauce tare", emoji: "🫘", baseQty: 20, unit: "ml", scalable: false, role: "Sauce" },
-        { id: "miel", name: "Miel", detail: "pour la sauce tare", emoji: "🍯", baseQty: 15, unit: "g", scalable: false, role: "Sauce" },
-        { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 3, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Préparer la sauce tare : réduire sauce soja et miel à feu moyen jusqu'à consistance sirupeuse (5 min).",
-        "Enfiler les cubes de poulet et tronçons d'oignon en alternance sur des piques en bois.",
-        "Griller les brochettes à feu vif 3-4 minutes par face.",
-        "Badigeonner de sauce tare toutes les 2 minutes en retournant pour laquer progressivement.",
-        "Les brochettes sont prêtes quand elles sont bien caramélisées et brillantes.",
-        "Parsemer de graines de sésame et servir immédiatement."
-    ],
-    tips: [
-        { type: "green", title: "🍢 Laquage par couches", text: "Appliquez la sauce tare en 3-4 couches successives pendant la cuisson — chaque couche caramélise et crée un glaçage brillant." },
-        { type: "red", title: "⚠️ Piques trempées", text: "Faites tremper les piques en bois 30 min dans l'eau avant de les utiliser pour éviter qu'elles ne brûlent." }
-    ]
-},
-{
-    id: "bao-buns-poulet-croustillant",
-    name: "Bao buns au poulet croustillant",
-    subtitle: "Brioche vapeur moelleuse, poulet pané croustillant, pickles et sauce sriracha-mayo",
-    emoji: "🫓",
-    category: "apero-partage",
-    difficulty: "Avancé",
-    time: 40,
-    sliderMin: 2,
-    sliderMax: 8,
-    tags: ["Haute protéine", "Équilibré"],
-    ingredients: [
-        { id: "poulet_grille", name: "Poulet", detail: "en filets, panés", emoji: "🍗", baseQty: 80, unit: "g", scalable: true, role: "Protéine" },
-        { id: "farine_complete", name: "Farine", detail: "pour les bao et la panure", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "Pâte" },
-        { id: "concombre", name: "Concombre", detail: "en pickles express", emoji: "🥒", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
-        { id: "carotte", name: "Carotte", detail: "en julienne pickles", emoji: "🥕", baseQty: 20, unit: "g", scalable: true, role: "Légume" },
-        { id: "sauce_sriracha", name: "Sriracha", detail: "pour la sauce mayo-sriracha", emoji: "🌶️", baseQty: 5, unit: "ml", scalable: false, role: "Sauce" },
-        { id: "yaourt_grec", name: "Yaourt grec", detail: "en remplacement de mayo", emoji: "🥛", baseQty: 15, unit: "g", scalable: false, role: "Sauce" },
-        { id: "huile_olive", name: "Huile végétale", detail: "pour frire", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Préparer les bao : pétrir farine, levure, eau tiède et un peu de sucre. Laisser lever 1h.",
-        "Façonner des petites boules aplaties, plier en deux sur un papier sulfurisé. Cuire à la vapeur 12 min.",
-        "Paner le poulet : farine, œuf battu, chapelure panko. Frire 4 min jusqu'à dorure.",
-        "Préparer les pickles express : julienne de concombre et carotte dans du vinaigre de riz sucré 15 min.",
-        "Mélanger le yaourt grec et la sriracha pour la sauce.",
-        "Ouvrir les bao, garnir de poulet croustillant, pickles et sauce sriracha-mayo."
-    ],
-    tips: [
-        { type: "green", title: "🫓 Bao ultra-moelleux", text: "Le secret : cuisson vapeur uniquement. Ne soulevez jamais le couvercle pendant la cuisson, la vapeur est essentielle." },
-        { type: "red", title: "⚠️ Poulet au dernier moment", text: "Assemblez les bao juste avant de servir — le poulet perd son croustillant au contact de l'humidité des pickles." }
-    ]
-},
-{
-    id: "crostini-ricotta-truffe-miel",
-    name: "Crostini ricotta fouettée, truffe et miel",
-    subtitle: "Toasts croustillants, ricotta aérienne, huile truffée et miel doré",
-    emoji: "🍯",
-    category: "apero-partage",
-    difficulty: "Facile",
-    time: 15,
-    sliderMin: 2,
-    sliderMax: 8,
-    tags: ["Végétarien", "Express"],
-    ingredients: [
-        { id: "pain_complet", name: "Pain de campagne", detail: "tranché finement", emoji: "🍞", baseQty: 40, unit: "g", scalable: true, role: "Féculent" },
-        { id: "ricotta", name: "Ricotta", detail: "fouettée jusqu'à aérienne", emoji: "🧀", baseQty: 50, unit: "g", scalable: true, role: "Fromage" },
-        { id: "miel", name: "Miel", detail: "de lavande ou toutes fleurs", emoji: "🍯", baseQty: 8, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile d'olive truffée", detail: "quelques gouttes", emoji: "🫒", baseQty: 3, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "noix", name: "Noix", detail: "concassées", emoji: "🌰", baseQty: 8, unit: "g", scalable: false, role: "Topping" }
-    ],
-    options: [],
-    steps: [
-        "Trancher le pain finement et le toaster au four ou au grille-pain jusqu'à dorure.",
-        "Fouetter la ricotta vigoureusement 2-3 minutes pour la rendre légère et aérienne.",
-        "Tartiner généreusement chaque crostini de ricotta fouettée.",
-        "Ajouter quelques gouttes d'huile truffée et un filet de miel.",
-        "Parsemer de noix concassées et d'un tour de moulin à poivre noir.",
-        "Servir immédiatement en plateau apéritif."
-    ],
-    tips: [
-        { type: "green", title: "🧀 Ricotta fouettée", text: "Fouettez la ricotta 2-3 min au fouet électrique — elle devient mousseuse et aérienne, un résultat totalement différent." },
-        { type: "red", title: "⚠️ Huile truffée avec parcimonie", text: "2-3 gouttes maximum par crostini — l'huile truffée est très puissante et peut écraser les autres saveurs." }
-    ]
-},
-{
-    id: "tarte-fine-oignon-chevre-noix",
-    name: "Tarte fine oignon confit, chèvre et noix",
-    subtitle: "Pâte croustillante, compotée d'oignons caramélisés, chèvre fondant et noix torréfiées",
-    emoji: "🥧",
-    category: "apero-partage",
-    difficulty: "Moyen",
-    time: 40,
-    sliderMin: 2,
-    sliderMax: 8,
-    tags: ["Végétarien", "Équilibré"],
-    ingredients: [
-        { id: "farine_complete", name: "Pâte feuilletée", detail: "abaissée finement", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "Pâte" },
-        { id: "oignon", name: "Oignons", detail: "émincés finement", emoji: "🧅", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
-        { id: "chevre_frais", name: "Chèvre frais", detail: "en rondelles ou émietté", emoji: "🧀", baseQty: 40, unit: "g", scalable: true, role: "Fromage" },
-        { id: "noix", name: "Noix", detail: "concassées grossièrement", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
-        { id: "miel", name: "Miel", detail: "un filet pour caraméliser", emoji: "🍯", baseQty: 8, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Émincer finement les oignons et les confire 20-25 minutes à feu très doux avec un filet de miel.",
-        "Abaisser la pâte finement sur du papier sulfurisé, piquer à la fourchette.",
-        "Étaler la compotée d'oignons sur la pâte, répartir le chèvre.",
-        "Parsemer de noix concassées et enfourner 20 minutes à 200°C.",
-        "La tarte est prête quand les bords sont dorés et le chèvre commence à gratiner.",
-        "Couper en parts ou en rectangles pour l'apéritif. Ajouter un tour de moulin à poivre."
-    ],
-    tips: [
-        { type: "green", title: "🧅 Oignons confits", text: "La patience est la clé : 20-25 min à feu très doux. Les oignons doivent être fondants et caramélisés, presque comme une confiture." },
-        { type: "red", title: "⚠️ Pâte fine", text: "Abaissez la pâte le plus fin possible — une tarte fine doit être croustillante, pas pâteuse." }
-    ]
-},
-{
-    id: "arancini-risotto-mozzarella",
-    name: "Arancini au risotto et mozzarella",
-    subtitle: "Boulettes de risotto farcies à la mozzarella, panées et frites, sauce tomate",
-    emoji: "🧀",
-    category: "apero-partage",
-    difficulty: "Avancé",
-    time: 40,
-    sliderMin: 2,
-    sliderMax: 8,
-    tags: ["Végétarien", "Haute protéine"],
-    ingredients: [
-        { id: "riz_basmati_cuit", name: "Risotto", detail: "froid, bien compact", emoji: "🍚", baseQty: 120, unit: "g", scalable: true, role: "Féculent", rawRatio: 2.25 },
-        { id: "mozzarella", name: "Mozzarella", detail: "en petits cubes", emoji: "🧀", baseQty: 30, unit: "g", scalable: true, role: "Fromage" },
-        { id: "parmesan", name: "Parmesan", detail: "râpé dans le risotto", emoji: "🧀", baseQty: 10, unit: "g", scalable: false, role: "Fromage" },
-        { id: "farine_complete", name: "Farine + panure", detail: "pour paner", emoji: "🌾", baseQty: 25, unit: "g", scalable: true, role: "Enrobage" },
-        { id: "oeuf", name: "Œuf", detail: "battu, pour paner", emoji: "🥚", baseQty: 1, unit: "unité", scalable: false, role: "Liant" },
-        { id: "sauce_tomate", name: "Sauce tomate", detail: "pour tremper", emoji: "🍅", baseQty: 30, unit: "g", scalable: false, role: "Sauce" },
-        { id: "huile_olive", name: "Huile végétale", detail: "pour la friture", emoji: "🫒", baseQty: 15, unit: "ml", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Mélanger le risotto froid avec le parmesan râpé. Le riz doit être bien compact et collant.",
-        "Prendre une portion de risotto, creuser au centre, insérer un cube de mozzarella, refermer en boule.",
-        "Paner les arancini : farine, œuf battu, puis chapelure (idéalement panko).",
-        "Frire dans l'huile à 180°C pendant 3-4 minutes jusqu'à dorure uniforme.",
-        "Égoutter sur grille et saler immédiatement.",
-        "Servir chaud avec la sauce tomate pour tremper."
-    ],
-    tips: [
-        { type: "green", title: "🧀 Cœur filant", text: "Utilisez de la mozzarella bien froide en petits cubes — elle fondra juste assez pendant la friture pour un cœur filant." },
-        { type: "red", title: "⚠️ Risotto froid obligatoire", text: "Le risotto DOIT être complètement froid et compact pour former les boules. Chaud, il s'effondre à la manipulation." }
-    ]
-},
-{
-    id: "samosas-legumes-menthe",
-    name: "Samosas aux légumes et menthe",
-    subtitle: "Feuilletés croustillants aux légumes épicés, sauce yaourt-menthe fraîche",
-    emoji: "🥟",
-    category: "apero-partage",
-    difficulty: "Avancé",
-    time: 40,
-    sliderMin: 2,
-    sliderMax: 8,
-    tags: ["Vegan", "Équilibré"],
-    ingredients: [
-        { id: "pomme_de_terre", name: "Pomme de terre", detail: "cuite, écrasée grossièrement", emoji: "🥔", baseQty: 80, unit: "g", scalable: true, role: "Féculent", rawRatio: 1 },
-        { id: "petits_pois", name: "Petits pois", detail: "cuits", emoji: "🟢", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
-        { id: "carotte", name: "Carotte", detail: "en petits dés, cuite", emoji: "🥕", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
-        { id: "oignon", name: "Oignon", detail: "émincé, revenu", emoji: "🧅", baseQty: 20, unit: "g", scalable: true, role: "Aromate" },
-        { id: "farine_complete", name: "Feuilles de brick / Farine", detail: "pour l'enveloppe", emoji: "🌾", baseQty: 30, unit: "g", scalable: true, role: "Pâte" },
-        { id: "pate_curry", name: "Pâte de curry", detail: "ou garam masala", emoji: "🟤", baseQty: 5, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile végétale", detail: "pour frire ou badigeonner", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Faire revenir l'oignon avec les épices (cumin, coriandre, garam masala) 2 minutes.",
-        "Ajouter la pomme de terre écrasée, les petits pois et la carotte. Mélanger et laisser refroidir.",
-        "Couper les feuilles de brick en bandes, déposer une cuillère de farce et plier en triangle.",
-        "Sceller les bords avec un peu d'eau. Répéter pour tous les samosas.",
-        "Frire 3-4 minutes dans l'huile chaude jusqu'à dorure, ou badigeonner d'huile et cuire au four 20 min.",
-        "Servir avec une sauce yaourt-menthe (yaourt + menthe hachée + citron)."
-    ],
-    tips: [
-        { type: "green", title: "🥟 Pliage en triangle", text: "Le pliage en drapeau (flag fold) donne des triangles parfaits : rabattez la bande en alternant les côtés." },
-        { type: "red", title: "⚠️ Farce froide", text: "La farce DOIT être froide avant de remplir les feuilles de brick, sinon elles ramollissent et se déchirent." }
-    ]
-},
-{
-    id: "plateau-ceviche-tropical",
-    name: "Plateau de ceviche tropical",
-    subtitle: "Cabillaud et gambas marinés citron vert-coco, mangue, avocat, chips de maïs",
-    emoji: "🐠",
-    category: "apero-partage",
-    difficulty: "Avancé",
-    time: 30,
-    sliderMin: 2,
-    sliderMax: 8,
-    tags: ["Haute protéine", "Sans gluten", "Sans cuisson"],
-    ingredients: [
-        { id: "cabillaud", name: "Cabillaud", detail: "ultra frais, en cubes", emoji: "🐠", baseQty: 80, unit: "g", scalable: true, role: "Protéine" },
-        { id: "gambas", name: "Gambas", detail: "crues, décortiquées, en morceaux", emoji: "🦐", baseQty: 60, unit: "g", scalable: true, role: "Protéine" },
-        { id: "mangue", name: "Mangue", detail: "en petits dés", emoji: "🥭", baseQty: 40, unit: "g", scalable: true, role: "Fruit" },
-        { id: "avocat", name: "Avocat", detail: "en dés", emoji: "🥑", baseQty: 40, unit: "g", scalable: true, role: "Lipide" },
-        { id: "lait_coco", name: "Lait de coco", detail: "léger, froid", emoji: "🥥", baseQty: 30, unit: "ml", scalable: false, role: "Sauce" },
-        { id: "citron_jus", name: "Jus de citron vert", detail: "abondant", emoji: "🍋", baseQty: 30, unit: "ml", scalable: false, role: "Marinade" },
-        { id: "sauce_sriracha", name: "Piment", detail: "un trait", emoji: "🌶️", baseQty: 2, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Couper le cabillaud et les gambas en petits cubes réguliers.",
-        "Recouvrir de jus de citron vert et mariner 20 minutes au réfrigérateur.",
-        "Égoutter partiellement, ajouter le lait de coco froid et mélanger.",
-        "Incorporer la mangue et l'avocat en dés, un trait de piment.",
-        "Dresser sur un grand plateau ou dans des verrines individuelles.",
-        "Servir avec des chips de maïs ou des feuilles d'endive pour picorer."
-    ],
-    tips: [
-        { type: "green", title: "🍋 Marinade précise", text: "20 minutes exactement : le poisson doit blanchir en surface mais rester légèrement translucide au centre." },
-        { type: "red", title: "⚠️ Fraîcheur absolue", text: "Le ceviche est un plat CRU — poisson du jour ou surgelé 48h minimum. Ne le laissez jamais à température ambiante." }
-    ]
-},
-{
-    id: "rouleau-printemps-crevettes",
-    name: "Rouleaux de printemps aux crevettes",
-    subtitle: "Rouleaux frais translucides, crevettes roses, vermicelles, légumes croquants, sauce cacahuète",
-    emoji: "🌯",
-    category: "apero-partage",
-    difficulty: "Moyen",
-    time: 30,
-    sliderMin: 2,
-    sliderMax: 8,
-    tags: ["Haute protéine", "Sans gluten", "Perte de poids", "Sans cuisson"],
-    ingredients: [
-        { id: "crevettes", name: "Crevettes", detail: "cuites, décortiquées, coupées en deux", emoji: "🦐", baseQty: 60, unit: "g", scalable: true, role: "Protéine" },
-        { id: "vermicelles_riz", name: "Vermicelles de riz", detail: "réhydratés", emoji: "🍜", baseQty: 40, unit: "g", scalable: true, role: "Féculent" },
-        { id: "carotte", name: "Carotte", detail: "en julienne fine", emoji: "🥕", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
-        { id: "concombre", name: "Concombre", detail: "en bâtonnets fins", emoji: "🥒", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
-        { id: "salade_verte", name: "Laitue", detail: "feuilles entières", emoji: "🥬", baseQty: 20, unit: "g", scalable: true, role: "Légume" },
-        { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "pour la sauce", emoji: "🥜", baseQty: 15, unit: "g", scalable: false, role: "Sauce" },
-        { id: "sauce_soja", name: "Sauce soja", detail: "pour la sauce", emoji: "🫘", baseQty: 8, unit: "ml", scalable: false, role: "Sauce" },
-        { id: "citron_jus", name: "Citron vert", detail: "dans la sauce", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "Sauce" }
-    ],
-    options: [],
-    steps: [
-        "Préparer tous les ingrédients : julienne de carotte, bâtonnets de concombre, crevettes en deux, vermicelles.",
-        "Tremper une feuille de riz dans l'eau tiède 10 secondes — elle doit rester légèrement ferme.",
-        "Déposer la feuille sur un torchon humide. Placer la laitue, puis les légumes et vermicelles.",
-        "Disposer les crevettes côté rose contre la feuille pour qu'elles soient visibles.",
-        "Rouler en rabattant les côtés comme un burrito. Serrer fermement mais sans déchirer.",
-        "Préparer la sauce : délayer le beurre de cacahuète avec sauce soja, citron vert et eau tiède."
-    ],
-    tips: [
-        { type: "green", title: "🌯 Feuille pas trop trempée", text: "10 secondes max dans l'eau ! La feuille de riz continue de ramollir sur le torchon. Trop trempée = elle colle et se déchire." },
-        { type: "red", title: "⚠️ Rouler serré", text: "Un rouleau lâche s'effondre en mangeant. Roulez fermement en tirant doucement vers vous à chaque tour." }
-    ]
-},
-{
-    id: "focaccia-romarin-tomate-sechee",
-    name: "Focaccia au romarin et tomates séchées",
-    subtitle: "Pain italien moelleux et alvéolé, huile d'olive, romarin frais et tomates confites",
-    emoji: "🫓",
-    category: "apero-partage",
-    difficulty: "Moyen",
-    time: 50,
-    sliderMin: 2,
-    sliderMax: 8,
-    tags: ["Vegan", "Équilibré"],
-    ingredients: [
-        { id: "farine_complete", name: "Farine", detail: "T65 ou complète", emoji: "🌾", baseQty: 80, unit: "g", scalable: true, role: "Féculent" },
-        { id: "tomate", name: "Tomates séchées", detail: "coupées en morceaux", emoji: "🍅", baseQty: 20, unit: "g", scalable: true, role: "Garniture" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge, généreuse", emoji: "🫒", baseQty: 15, unit: "ml", scalable: true, role: "Assaisonnement" },
-        { id: "oignon", name: "Oignon rouge", detail: "en fines rondelles (optionnel)", emoji: "🧅", baseQty: 15, unit: "g", scalable: true, role: "Garniture" }
-    ],
-    options: [],
-    steps: [
-        "Mélanger farine, eau tiède (60%), levure, sel et un filet d'huile. Pétrir 5 minutes.",
-        "Laisser lever 1h à température ambiante jusqu'à ce que la pâte double de volume.",
-        "Étaler dans un plat huilé en pressant avec les doigts pour créer les alvéoles caractéristiques.",
-        "Enfoncer les morceaux de tomates séchées et les rondelles d'oignon dans la pâte.",
-        "Arroser généreusement d'huile d'olive, parsemer de romarin frais et de fleur de sel.",
-        "Enfourner 20-25 minutes à 220°C jusqu'à dorure. La focaccia doit être dorée et moelleuse."
-    ],
-    tips: [
-        { type: "green", title: "🫓 Alvéoles moelleuses", text: "Huilez généreusement vos doigts et enfoncez-les profondément dans la pâte — c'est ce qui crée les alvéoles et la texture." },
-        { type: "red", title: "⚠️ Huile d'olive abondante", text: "N'ayez pas peur de l'huile — c'est elle qui donne le croustillant extérieur et le moelleux intérieur typiques." }
-    ]
-},
-{
-    id: "carpaccio-betterave-chevre-noix",
-    name: "Carpaccio de betterave, chèvre et noix",
-    subtitle: "Fines tranches de betterave, chèvre frais émietté, noix torréfiées, vinaigrette au miel",
-    emoji: "🟣",
-    category: "apero-partage",
-    difficulty: "Facile",
-    time: 15,
-    sliderMin: 2,
-    sliderMax: 8,
-    tags: ["Végétarien", "Sans gluten", "Perte de poids"],
-    ingredients: [
-        { id: "betterave_cuite", name: "Betterave", detail: "cuite, en fines tranches", emoji: "🟣", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
-        { id: "chevre_frais", name: "Chèvre frais", detail: "émietté", emoji: "🧀", baseQty: 30, unit: "g", scalable: true, role: "Fromage" },
-        { id: "noix", name: "Noix", detail: "torréfiées, concassées", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
-        { id: "miel", name: "Miel", detail: "dans la vinaigrette", emoji: "🍯", baseQty: 5, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "vinaigre_balsamique", name: "Vinaigre balsamique", detail: "vieux", emoji: "🫗", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Trancher la betterave cuite en rondelles ultra-fines (mandoline idéalement).",
-        "Disposer les tranches en rosace sur une grande assiette ou un plateau.",
-        "Préparer la vinaigrette : mélanger huile d'olive, vinaigre balsamique et miel.",
-        "Émietter le chèvre frais sur les betteraves.",
-        "Parsemer de noix torréfiées concassées.",
-        "Arroser de vinaigrette miel-balsamique. Ajouter un tour de moulin à poivre."
-    ],
-    tips: [
-        { type: "green", title: "🟣 Tranches ultra-fines", text: "La mandoline est indispensable pour des tranches régulières et fines qui se mangent en une bouchée." },
-        { type: "red", title: "⚠️ Gants recommandés", text: "La betterave tache énormément. Portez des gants pour la manipuler et la trancher." }
-    ]
-},
-{
-    id: "brochettes-gambas-chorizo",
-    name: "Brochettes de gambas et chorizo",
-    subtitle: "Gambas grillées et chorizo croustillant en alternance, aïoli léger citronné",
-    emoji: "🦐",
-    category: "apero-partage",
-    difficulty: "Facile",
-    time: 20,
-    sliderMin: 2,
-    sliderMax: 8,
-    tags: ["Haute protéine", "Sans gluten", "Low carb"],
-    ingredients: [
-        { id: "gambas", name: "Gambas", detail: "décortiquées, queue intacte", emoji: "🦐", baseQty: 80, unit: "g", scalable: true, role: "Protéine" },
-        { id: "porc_filet", name: "Chorizo", detail: "en rondelles épaisses", emoji: "🌶️", baseQty: 30, unit: "g", scalable: true, role: "Charcuterie" },
-        { id: "poivron_rouge", name: "Poivron", detail: "en carrés de 2cm", emoji: "🫑", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
-        { id: "yaourt_grec", name: "Yaourt grec", detail: "pour l'aïoli léger", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "Sauce" },
-        { id: "citron_jus", name: "Jus de citron", detail: "dans l'aïoli", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "pour badigeonner", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
-    ],
-    options: [],
-    steps: [
-        "Enfiler en alternance gambas, rondelles de chorizo et carrés de poivron sur des piques.",
-        "Badigeonner d'huile d'olive, assaisonner de sel, poivre et paprika.",
-        "Griller à feu vif 2-3 minutes par face à la poêle ou au barbecue.",
-        "Préparer l'aïoli léger : yaourt grec, ail râpé, citron et un filet d'huile d'olive.",
-        "Servir les brochettes chaudes avec l'aïoli citronné à côté."
-    ],
-    tips: [
-        { type: "green", title: "🦐 Chorizo parfumeur", text: "La graisse du chorizo fond à la cuisson et parfume les gambas — l'alternance n'est pas qu'esthétique, c'est gustatif." },
-        { type: "red", title: "⚠️ Cuisson express", text: "2-3 minutes par face max pour les gambas. Le chorizo est déjà cuit, il doit juste devenir croustillant." }
-    ]
-},
-{
-    id: "endives-roquefort-noix-miel",
-    name: "Endives au chèvre, noix et miel",
-    subtitle: "Feuilles d'endive en barquettes, chèvre frais, noix caramélisées au miel",
-    emoji: "🥬",
-    category: "apero-partage",
-    difficulty: "Facile",
-    time: 10,
-    sliderMin: 2,
-    sliderMax: 8,
-    tags: ["Végétarien", "Sans gluten", "Low carb", "Express", "Sans cuisson"],
-    ingredients: [
-        { id: "salade_verte", name: "Endives", detail: "feuilles séparées", emoji: "🥬", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
-        { id: "chevre_frais", name: "Chèvre frais", detail: "ou roquefort, émietté", emoji: "🧀", baseQty: 30, unit: "g", scalable: true, role: "Fromage" },
-        { id: "noix", name: "Noix", detail: "cerneaux entiers ou concassés", emoji: "🌰", baseQty: 15, unit: "g", scalable: true, role: "Topping" },
-        { id: "miel", name: "Miel", detail: "un filet", emoji: "🍯", baseQty: 8, unit: "g", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Séparer les feuilles d'endive et les laver. Sélectionner les plus belles comme barquettes.",
-        "Émietter le chèvre frais (ou roquefort) dans chaque feuille.",
-        "Ajouter un ou deux cerneaux de noix dans chaque barquette.",
-        "Arroser d'un filet de miel.",
-        "Disposer sur un plateau et servir immédiatement."
-    ],
-    tips: [
-        { type: "green", title: "🥬 Barquettes naturelles", text: "Les feuilles d'endive forment des barquettes parfaites — croquantes et légèrement amères, elles contrastent avec le sucré du miel." },
-        { type: "red", title: "⚠️ Au dernier moment", text: "Assemblez juste avant de servir — le miel fait ramollir les endives si elles attendent trop longtemps." }
-    ]
-},
-{
-    id: "financiers-amande-matcha",
-    name: "Financiers amande-matcha",
-    subtitle: "Petits gâteaux moelleux au beurre noisette, amande et thé matcha en poudre",
-    emoji: "🍵",
-    category: "collation-emporter",
-    difficulty: "Moyen",
-    time: 25,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Batch cooking"],
-    ingredients: [
-        { id: "blanc_oeuf", name: "Blancs d'œufs", detail: "à température ambiante", emoji: "🥚", baseQty: 2, unit: "unités", scalable: true, role: "Protéine" },
-        { id: "amandes", name: "Poudre d'amandes", detail: "fine", emoji: "🌰", baseQty: 25, unit: "g", scalable: true, role: "Base" },
-        { id: "farine_complete", name: "Farine", detail: "tamisée", emoji: "🌾", baseQty: 15, unit: "g", scalable: true, role: "Structure" },
-        { id: "huile_olive", name: "Beurre", detail: "noisette", emoji: "🧈", baseQty: 15, unit: "g", scalable: true, role: "Matière grasse" },
-        { id: "miel", name: "Miel", detail: "ou sucre glace", emoji: "🍯", baseQty: 15, unit: "g", scalable: true, role: "Sucrant" },
-        { id: "lait_amande", name: "Thé matcha", detail: "en poudre (1 cc)", emoji: "🍵", baseQty: 3, unit: "g", scalable: false, role: "Arôme" }
-    ],
-    options: [],
-    steps: [
-        "Préchauffer le four à 200°C. Beurrer et fariner des moules à financier.",
-        "Faire fondre le beurre et le cuire jusqu'à coloration noisette. Laisser tiédir.",
-        "Mélanger poudre d'amandes, farine, sucre et poudre de matcha.",
-        "Incorporer les blancs d'œufs non battus, puis le beurre noisette tiédi.",
-        "Remplir les moules aux 3/4, enfourner 10-12 minutes.",
-        "Les financiers sont prêts quand les bords sont dorés et le centre encore légèrement moelleux."
-    ],
-    tips: [
-        { type: "green", title: "🧈 Beurre noisette", text: "Le beurre noisette est LA signature du financier. Son goût de noisette se marie parfaitement avec l'amande et le matcha." },
-        { type: "red", title: "⚠️ Ne pas trop cuire", text: "Les financiers doivent rester moelleux à l'intérieur. Sortez-les quand les bords sont dorés mais le centre à peine pris." }
-    ]
-},
-{
-    id: "madeleines-proteinees-citron",
-    name: "Madeleines protéinées au citron",
-    subtitle: "Madeleines bosselées classiques, parfumées au citron, enrichies en protéines",
-    emoji: "🍋",
-    category: "collation-emporter",
-    difficulty: "Moyen",
-    time: 30,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Haute protéine", "Batch cooking"],
-    ingredients: [
-        { id: "oeuf", name: "Œuf", detail: "entier, à température ambiante", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "Structure" },
-        { id: "whey_protein", name: "Whey protéine", detail: "vanille ou neutre", emoji: "💪", baseQty: 15, unit: "g", scalable: true, role: "Protéine" },
-        { id: "farine_complete", name: "Farine", detail: "tamisée", emoji: "🌾", baseQty: 20, unit: "g", scalable: true, role: "Structure" },
-        { id: "miel", name: "Miel", detail: "liquide", emoji: "🍯", baseQty: 15, unit: "g", scalable: true, role: "Sucrant" },
-        { id: "huile_olive", name: "Beurre", detail: "fondu", emoji: "🧈", baseQty: 10, unit: "g", scalable: true, role: "Matière grasse" },
-        { id: "citron_jus", name: "Citron", detail: "jus et zeste", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Arôme" }
-    ],
-    options: [],
-    steps: [
-        "Fouetter l'œuf avec le miel pendant 3 minutes jusqu'à blanchiment.",
-        "Incorporer la farine, la whey et le zeste de citron râpé.",
-        "Ajouter le beurre fondu tiédi et le jus de citron. Mélanger délicatement.",
-        "Réfrigérer la pâte minimum 1h (idéalement une nuit) — c'est le secret de la bosse.",
-        "Remplir les moules à madeleine aux 3/4, enfourner à 220°C pendant 5 min puis baisser à 180°C pour 7 min.",
-        "Démouler immédiatement sur une grille."
-    ],
-    tips: [
-        { type: "green", title: "❄️ Pâte reposée = bosse", text: "Le repos au froid est obligatoire pour créer la fameuse bosse. Le choc thermique froid→chaud crée la levée caractéristique." },
-        { type: "red", title: "⚠️ Choc thermique", text: "Démarrez à 220°C puis baissez — ce choc de chaleur initiale est essentiel pour la bosse de la madeleine." }
-    ]
-},
-{
-    id: "cookies-brookies",
-    name: "Cookies brookies",
-    subtitle: "Mi-cookie mi-brownie, croustillant dessus, fondant chocolat au centre",
-    emoji: "🍪",
-    category: "collation-emporter",
-    difficulty: "Moyen",
-    time: 25,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Batch cooking"],
-    ingredients: [
-        { id: "chocolat_noir_70", name: "Chocolat noir 70%", detail: "en pépites et fondu", emoji: "🍫", baseQty: 25, unit: "g", scalable: true, role: "Base" },
-        { id: "oeuf", name: "Œuf", detail: "entier", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "Liant" },
-        { id: "farine_complete", name: "Farine complète", detail: "tamisée", emoji: "🌾", baseQty: 25, unit: "g", scalable: true, role: "Structure" },
-        { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "crémeux", emoji: "🥜", baseQty: 15, unit: "g", scalable: true, role: "Matière grasse" },
-        { id: "cacao_poudre", name: "Cacao en poudre", detail: "non sucré, pour la couche brownie", emoji: "🤎", baseQty: 8, unit: "g", scalable: true, role: "Arôme" },
-        { id: "sirop_erable", name: "Sirop d'érable", detail: "pour sucrer", emoji: "🍁", baseQty: 15, unit: "ml", scalable: true, role: "Sucrant" }
-    ],
-    options: [],
-    steps: [
-        "Préparer la pâte brownie : mélanger chocolat fondu, cacao, moitié de la farine, moitié du sirop et moitié de l'œuf.",
-        "Préparer la pâte cookie : mélanger beurre de cacahuète, reste de farine, sirop et œuf.",
-        "Former des boules en superposant les deux pâtes : brownie à l'intérieur, cookie à l'extérieur.",
-        "Disposer sur une plaque et aplatir légèrement. Ajouter des pépites de chocolat dessus.",
-        "Enfourner 10-12 minutes à 180°C — le centre doit rester fondant.",
-        "Laisser refroidir 5 minutes sur la plaque avant de manipuler (ils se solidifient en refroidissant)."
-    ],
-    tips: [
-        { type: "green", title: "🍪 Centre fondant", text: "Les brookies semblent pas cuits en sortant du four — c'est normal ! Ils se raffermissent en refroidissant tout en gardant un cœur fondant." },
-        { type: "red", title: "⚠️ Pas de surcuisson", text: "10-12 min max. Si vous attendez qu'ils aient l'air cuits au four, ils seront trop secs une fois refroidis." }
-    ]
-},
-{
-    id: "biscotti-amande-chocolat",
-    name: "Biscotti amande-chocolat",
-    subtitle: "Biscuits italiens croquants cuits deux fois, amandes torréfiées et pépites de chocolat",
-    emoji: "🍪",
-    category: "collation-emporter",
-    difficulty: "Moyen",
-    time: 45,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Batch cooking"],
-    ingredients: [
-        { id: "farine_complete", name: "Farine complète", detail: "tamisée", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "Structure" },
-        { id: "amandes", name: "Amandes entières", detail: "torréfiées", emoji: "🌰", baseQty: 20, unit: "g", scalable: true, role: "Base" },
-        { id: "chocolat_noir_70", name: "Chocolat noir", detail: "en pépites", emoji: "🍫", baseQty: 15, unit: "g", scalable: true, role: "Garniture" },
-        { id: "oeuf", name: "Œuf", detail: "battu", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "Liant" },
-        { id: "miel", name: "Miel", detail: "liquide", emoji: "🍯", baseQty: 15, unit: "g", scalable: true, role: "Sucrant" },
-        { id: "cacao_poudre", name: "Cacao en poudre", detail: "non sucré", emoji: "🤎", baseQty: 5, unit: "g", scalable: false, role: "Arôme" }
-    ],
-    options: [],
-    steps: [
-        "Mélanger farine, cacao, miel et œuf battu pour obtenir une pâte épaisse.",
-        "Incorporer les amandes entières et les pépites de chocolat.",
-        "Former un boudin aplati (2cm d'épaisseur) sur une plaque et enfourner 25 min à 160°C.",
-        "Sortir, laisser tiédir 10 min, puis trancher en biais en biscuits de 1.5cm d'épaisseur.",
-        "Remettre les tranches au four à plat 10 minutes de chaque côté à 140°C pour les sécher.",
-        "Les biscotti sont prêts quand ils sont bien secs et croquants. Se conservent 2 semaines."
-    ],
-    tips: [
-        { type: "green", title: "🍪 Double cuisson", text: "La double cuisson est la signature du biscotti : la première forme le boudin, la seconde le rend croquant et sec pour la conservation." },
-        { type: "red", title: "⚠️ Trancher tiède", text: "Tranchez le boudin tiède (pas chaud, pas froid). Chaud il s'effrite, froid il casse. 10 minutes de repos est optimal." }
-    ]
-},
-{
-    id: "mini-canneles-vanille",
-    name: "Mini cannelés vanille",
-    subtitle: "Petits cannelés bordelais croustillants dehors, moelleux et custardy dedans",
-    emoji: "🟤",
-    category: "collation-emporter",
-    difficulty: "Avancé",
-    time: 55,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Batch cooking"],
-    ingredients: [
-        { id: "lait_demi", name: "Lait demi-écrémé", detail: "infusé à la vanille", emoji: "🥛", baseQty: 120, unit: "ml", scalable: true, role: "Base" },
-        { id: "oeuf", name: "Jaunes d'œufs", detail: "2 jaunes", emoji: "🥚", baseQty: 2, unit: "unités", scalable: true, role: "Liant" },
-        { id: "farine_complete", name: "Farine", detail: "tamisée", emoji: "🌾", baseQty: 25, unit: "g", scalable: true, role: "Structure" },
-        { id: "miel", name: "Miel", detail: "ou sucre", emoji: "🍯", baseQty: 25, unit: "g", scalable: true, role: "Sucrant" },
-        { id: "huile_olive", name: "Beurre", detail: "fondu", emoji: "🧈", baseQty: 8, unit: "g", scalable: true, role: "Matière grasse" }
-    ],
-    options: [],
-    steps: [
-        "Porter le lait à ébullition avec une gousse de vanille fendue. Laisser infuser en refroidissant.",
-        "Mélanger les jaunes d'œufs avec le miel sans trop fouetter (pas de bulles d'air).",
-        "Incorporer la farine, le beurre fondu puis le lait vanillé tiédi. Mélanger juste assez.",
-        "Réfrigérer l'appareil minimum 24h (jusqu'à 48h pour un résultat optimal).",
-        "Beurrer les moules à cannelé, remplir aux 3/4, enfourner à 250°C 10 min puis 180°C 40 min.",
-        "Démouler immédiatement et laisser refroidir sur grille."
-    ],
-    tips: [
-        { type: "green", title: "⏰ Repos 24h minimum", text: "Le repos de l'appareil au frigo est NON NÉGOCIABLE. C'est ce qui donne la texture custardy inimitable du cannelé." },
-        { type: "red", title: "⚠️ Moule en cuivre", text: "Les moules en cuivre donnent les meilleurs résultats (croûte caramélisée). En silicone, augmentez la température de 10°C." }
-    ]
-},
-{
-    id: "truffes-chocolat-cacahuete",
-    name: "Truffes chocolat-cacahuète",
-    subtitle: "Truffes fondantes au chocolat noir et beurre de cacahuète, enrobage cacao",
-    emoji: "🍫",
-    category: "collation-emporter",
-    difficulty: "Facile",
-    time: 20,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Sans gluten", "Sans cuisson", "Batch cooking"],
-    ingredients: [
-        { id: "chocolat_noir_70", name: "Chocolat noir 70%", detail: "fondu", emoji: "🍫", baseQty: 30, unit: "g", scalable: true, role: "Base" },
-        { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "crémeux", emoji: "🥜", baseQty: 20, unit: "g", scalable: true, role: "Base" },
-        { id: "creme_fraiche_legere", name: "Crème fraîche", detail: "pour la ganache", emoji: "🥛", baseQty: 15, unit: "g", scalable: true, role: "Liant" },
-        { id: "cacao_poudre", name: "Cacao en poudre", detail: "pour l'enrobage", emoji: "🤎", baseQty: 8, unit: "g", scalable: false, role: "Enrobage" },
-        { id: "flocons_avoine", name: "Flocons d'avoine", detail: "mixés en poudre, pour la texture", emoji: "🌾", baseQty: 10, unit: "g", scalable: true, role: "Structure" }
-    ],
-    options: [],
-    steps: [
-        "Faire fondre le chocolat au bain-marie avec la crème. Mélanger jusqu'à lisse.",
-        "Incorporer le beurre de cacahuète et les flocons d'avoine mixés. Bien mélanger.",
-        "Réfrigérer 1h minimum jusqu'à ce que la ganache soit assez ferme pour être formée.",
-        "Former des petites boules à la cuillère, les rouler entre les mains.",
-        "Rouler chaque truffe dans le cacao en poudre tamisé.",
-        "Conserver au frais. Sortir 10 minutes avant dégustation pour un cœur fondant."
-    ],
-    tips: [
-        { type: "green", title: "🍫 Ganache parfaite", text: "Le chocolat ne doit JAMAIS être en contact direct avec l'eau ou la vapeur. Le bain-marie doit être doux et le bol ne doit pas toucher l'eau." },
-        { type: "red", title: "⚠️ Mains froides", text: "Passez vos mains sous l'eau froide avant de rouler les truffes — la chaleur de vos mains fait fondre la ganache." }
-    ]
-},
-{
-    id: "palmiers-parmesan-herbes",
-    name: "Palmiers au parmesan et herbes",
-    subtitle: "Feuilletés en forme de cœur au parmesan et herbes de Provence croustillants",
-    emoji: "🫶",
-    category: "collation-emporter",
-    difficulty: "Facile",
-    time: 25,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Batch cooking"],
-    ingredients: [
-        { id: "farine_complete", name: "Pâte feuilletée", detail: "1 rectangle", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "Pâte" },
-        { id: "parmesan", name: "Parmesan", detail: "râpé fin", emoji: "🧀", baseQty: 15, unit: "g", scalable: true, role: "Fromage" },
-        { id: "moutarde", name: "Moutarde", detail: "badigeonnée sur la pâte", emoji: "🟡", baseQty: 5, unit: "g", scalable: false, role: "Assaisonnement" },
-        { id: "huile_olive", name: "Huile d'olive", detail: "un filet", emoji: "🫒", baseQty: 3, unit: "ml", scalable: false, role: "Assaisonnement" }
-    ],
-    options: [],
-    steps: [
-        "Étaler la pâte feuilletée et la badigeonner de moutarde.",
-        "Parsemer généreusement de parmesan râpé et d'herbes de Provence.",
-        "Rouler les deux côtés vers le centre pour former le palmier.",
-        "Réfrigérer 15 minutes pour raffermir, puis trancher en rondelles de 1cm.",
-        "Disposer sur une plaque et enfourner 12-15 minutes à 200°C.",
-        "Les palmiers sont prêts quand ils sont dorés et caramélisés."
-    ],
-    tips: [
-        { type: "green", title: "🫶 Roulage symétrique", text: "Les deux rouleaux doivent se rejoindre exactement au centre pour un cœur de palmier parfait et régulier." },
-        { type: "red", title: "⚠️ Réfrigérer avant de couper", text: "15 min au frais rendent la pâte ferme et les coupes nettes. Sans ça, les palmiers s'écrasent et perdent leur forme." }
-    ]
-},
-{
-    id: "mini-eclairs-ricotta-fruits",
-    name: "Mini éclairs ricotta et fruits",
-    subtitle: "Pâte à choux croustillante, crème de ricotta vanillée, fruits frais de saison",
-    emoji: "🫧",
-    category: "collation-emporter",
-    difficulty: "Avancé",
-    time: 40,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Équilibré"],
-    ingredients: [
-        { id: "farine_complete", name: "Farine", detail: "pour la pâte à choux", emoji: "🌾", baseQty: 25, unit: "g", scalable: true, role: "Structure" },
-        { id: "oeuf", name: "Œuf", detail: "entier", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "Liant" },
-        { id: "ricotta", name: "Ricotta", detail: "égouttée, fouettée", emoji: "🧀", baseQty: 40, unit: "g", scalable: true, role: "Crème" },
-        { id: "fraises", name: "Fraises", detail: "tranchées pour la garniture", emoji: "🍓", baseQty: 30, unit: "g", scalable: true, role: "Fruit" },
-        { id: "miel", name: "Miel", detail: "dans la crème", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "Sucrant" },
-        { id: "huile_olive", name: "Beurre", detail: "pour la pâte à choux", emoji: "🧈", baseQty: 10, unit: "g", scalable: true, role: "Matière grasse" }
-    ],
-    options: [],
-    steps: [
-        "Pâte à choux : porter eau + beurre à ébullition, ajouter la farine d'un coup, dessécher sur feu.",
-        "Incorporer les œufs un par un hors du feu. La pâte doit former un ruban.",
-        "Pocher des boudins de 6cm sur plaque et enfourner 25 min à 180°C sans ouvrir le four.",
-        "Fouetter la ricotta avec le miel et la vanille pour une crème légère.",
-        "Couper les éclairs en deux, garnir de crème ricotta et de fraises tranchées.",
-        "Refermer et servir immédiatement."
-    ],
-    tips: [
-        { type: "green", title: "🫧 Pâte à choux sèche", text: "Desséchez bien la pâte sur le feu — elle doit se détacher de la casserole. C'est ce qui donne le creux intérieur pour garnir." },
-        { type: "red", title: "⚠️ Four fermé", text: "Ne JAMAIS ouvrir le four pendant la cuisson des choux — l'humidité fait retomber la pâte instantanément." }
-    ]
-},
-{
-    id: "sables-citron-graines-chia",
-    name: "Sablés citron et graines de chia",
-    subtitle: "Petits biscuits sablés fondants, parfumés au citron, parsemés de graines de chia",
-    emoji: "🍋",
-    category: "collation-emporter",
-    difficulty: "Facile",
-    time: 25,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Batch cooking"],
-    ingredients: [
-        { id: "farine_complete", name: "Farine complète", detail: "tamisée", emoji: "🌾", baseQty: 35, unit: "g", scalable: true, role: "Structure" },
-        { id: "huile_olive", name: "Beurre", detail: "froid, en dés", emoji: "🧈", baseQty: 15, unit: "g", scalable: true, role: "Matière grasse" },
-        { id: "miel", name: "Miel", detail: "ou sucre glace", emoji: "🍯", baseQty: 10, unit: "g", scalable: true, role: "Sucrant" },
-        { id: "citron_jus", name: "Citron", detail: "jus et zeste", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Arôme" },
-        { id: "graines_chia", name: "Graines de chia", detail: "parsemées dessus", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "Topping" },
-        { id: "oeuf", name: "Jaune d'œuf", detail: "pour lier", emoji: "🥚", baseQty: 1, unit: "unité", scalable: false, role: "Liant" }
-    ],
-    options: [],
-    steps: [
-        "Sabler la farine avec le beurre froid coupé en dés du bout des doigts.",
-        "Ajouter le miel, le jaune d'œuf, le zeste et le jus de citron. Former une boule sans trop travailler.",
-        "Former un boudin, envelopper de film et réfrigérer 30 minutes minimum.",
-        "Trancher en rondelles de 5mm, parsemer de graines de chia en pressant légèrement.",
-        "Enfourner 12-14 minutes à 170°C — les sablés doivent être blonds, pas dorés.",
-        "Laisser refroidir sur la plaque 5 minutes avant de manipuler."
-    ],
-    tips: [
-        { type: "green", title: "🧈 Sablage à froid", text: "Le secret du sablé : un beurre FROID et un travail minimum de la pâte. Trop travailler développe le gluten et rend le biscuit dur." },
-        { type: "red", title: "⚠️ Blonds, pas dorés", text: "Les sablés continuent de cuire sur la plaque chaude. Sortez-les blonds — ils seront parfaits une fois refroidis." }
-    ]
-},
-{
-    id: "fondant-chocolat-courgette",
-    name: "Fondant chocolat-courgette",
-    subtitle: "Gâteau au chocolat ultra-fondant avec courgette cachée, sans beurre",
-    emoji: "🍫",
-    category: "collation-maison",
-    difficulty: "Facile",
-    time: 30,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Perte de poids"],
-    ingredients: [
-        { id: "chocolat_noir_70", name: "Chocolat noir 70%", detail: "fondu", emoji: "🍫", baseQty: 30, unit: "g", scalable: true, role: "Base" },
-        { id: "courgette", name: "Courgette", detail: "râpée finement", emoji: "🥒", baseQty: 80, unit: "g", scalable: true, role: "Humidifiant" },
-        { id: "oeuf", name: "Œuf", detail: "entier", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "Liant" },
-        { id: "cacao_poudre", name: "Cacao en poudre", detail: "non sucré", emoji: "🤎", baseQty: 10, unit: "g", scalable: true, role: "Arôme" },
-        { id: "farine_complete", name: "Farine complète", detail: "tamisée", emoji: "🌾", baseQty: 20, unit: "g", scalable: true, role: "Structure" },
-        { id: "miel", name: "Miel", detail: "ou sirop d'érable", emoji: "🍯", baseQty: 15, unit: "g", scalable: true, role: "Sucrant" }
-    ],
-    options: [],
-    steps: [
-        "Préchauffer le four à 180°C. Beurrer un moule à cake ou des ramequins.",
-        "Faire fondre le chocolat au bain-marie, laisser tiédir.",
-        "Mélanger l'œuf battu avec le miel, la farine et le cacao tamisé.",
-        "Incorporer le chocolat fondu et la courgette râpée finement.",
-        "Verser dans le moule, enfourner 20-22 minutes — le centre doit rester légèrement tremblotant.",
-        "Laisser tiédir 10 minutes avant de démouler. Servir tiède pour un maximum de fondant."
-    ],
-    tips: [
-        { type: "green", title: "🥒 Courgette invisible", text: "La courgette râpée finement disparaît totalement dans le gâteau mais apporte une texture ultra-moelleuse et remplace le beurre." },
-        { type: "red", title: "⚠️ Centre tremblotant", text: "Le fondant parfait tremble encore légèrement au centre à la sortie du four. Il se solidifie en refroidissant." }
-    ]
-},
-{
-    id: "tiramisu-proteine",
-    name: "Tiramisu protéiné",
-    subtitle: "Classique italien revisité avec skyr et whey, léger et riche en protéines",
-    emoji: "☕",
-    category: "collation-maison",
-    difficulty: "Moyen",
-    time: 20,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Haute protéine", "Sans cuisson"],
-    ingredients: [
-        { id: "skyr_0", name: "Skyr 0%", detail: "bien froid", emoji: "🥛", baseQty: 100, unit: "g", scalable: true, role: "Base" },
-        { id: "whey_protein", name: "Whey protéine", detail: "vanille", emoji: "💪", baseQty: 15, unit: "g", scalable: true, role: "Protéine" },
-        { id: "oeuf", name: "Jaune d'œuf", detail: "pasteurisé de préférence", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "Crème" },
-        { id: "galette_riz", name: "Biscuits / Galettes", detail: "type boudoir, imbibés de café", emoji: "🍪", baseQty: 20, unit: "g", scalable: true, role: "Base" },
-        { id: "cacao_poudre", name: "Cacao en poudre", detail: "pour saupoudrer", emoji: "🤎", baseQty: 5, unit: "g", scalable: false, role: "Finition" },
-        { id: "miel", name: "Miel", detail: "un filet", emoji: "🍯", baseQty: 8, unit: "g", scalable: false, role: "Sucrant" }
-    ],
-    options: [],
-    steps: [
-        "Fouetter le jaune d'œuf avec le miel jusqu'à blanchiment et texture mousseuse.",
-        "Incorporer le skyr et la whey protéine, mélanger jusqu'à consistance lisse et onctueuse.",
-        "Préparer un café espresso fort et le laisser refroidir.",
-        "Tremper rapidement les biscuits dans le café (pas trop pour qu'ils gardent de la tenue).",
-        "Alterner couches de biscuits imbibés et crème dans des verrines.",
-        "Réfrigérer minimum 4h (idéalement une nuit). Saupoudrer de cacao juste avant de servir."
-    ],
-    tips: [
-        { type: "green", title: "☕ Repos minimum 4h", text: "Le tiramisu doit reposer au frais pour que les saveurs se mêlent et que la texture devienne crémeuse. Idéalement une nuit." },
-        { type: "red", title: "⚠️ Biscuits vite trempés", text: "Trempez les biscuits 1 seconde max — ils continuent d'absorber le café dans le montage. Trop trempés = bouillie." }
-    ]
-},
-{
-    id: "cheesecake-japonais-light",
-    name: "Cheesecake japonais light",
-    subtitle: "Gâteau au fromage soufflé japonais, léger comme un nuage, texture coton",
-    emoji: "🍰",
-    category: "collation-maison",
-    difficulty: "Avancé",
-    time: 50,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Perte de poids"],
-    ingredients: [
-        { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "lisse, bien égoutté", emoji: "🧀", baseQty: 100, unit: "g", scalable: true, role: "Base" },
-        { id: "oeuf", name: "Œufs", detail: "3, blancs et jaunes séparés", emoji: "🥚", baseQty: 3, unit: "unités", scalable: true, role: "Structure" },
-        { id: "farine_complete", name: "Farine ou Maïzena", detail: "tamisée", emoji: "🌾", baseQty: 15, unit: "g", scalable: true, role: "Structure" },
-        { id: "citron_jus", name: "Jus de citron", detail: "un filet dans les blancs", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "Aide au montage" },
-        { id: "miel", name: "Miel", detail: "pour sucrer légèrement", emoji: "🍯", baseQty: 15, unit: "g", scalable: true, role: "Sucrant" }
-    ],
-    options: [],
-    steps: [
-        "Préchauffer le four à 160°C. Préparer un bain-marie dans un grand plat.",
-        "Mélanger le fromage blanc avec les jaunes d'œufs et le miel jusqu'à lisse.",
-        "Incorporer la farine tamisée délicatement.",
-        "Monter les blancs en neige ferme avec un trait de citron. Incorporer en 3 fois dans l'appareil.",
-        "Verser dans un moule beurré et fariné, déposer dans le bain-marie.",
-        "Cuire 45 minutes à 160°C. Éteindre le four et laisser refroidir dedans porte entrouverte."
-    ],
-    tips: [
-        { type: "green", title: "🍰 Texture coton", text: "Le bain-marie et la cuisson douce créent cette texture nuageuse. Les blancs montés fermes apportent le volume." },
-        { type: "red", title: "⚠️ Refroidissement lent", text: "NE JAMAIS sortir le cheesecake du four brutalement. Le choc thermique le fait s'effondrer. Refroidissez porte entrouverte." }
-    ]
-},
-{
-    id: "panna-cotta-passion-coco",
-    name: "Panna cotta passion-coco",
-    subtitle: "Panna cotta crémeuse au lait de coco, coulis de fruit de la passion acidulé",
-    emoji: "🥥",
-    category: "collation-maison",
-    difficulty: "Facile",
-    time: 15,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Sans gluten", "Sans cuisson"],
-    ingredients: [
-        { id: "lait_coco", name: "Lait de coco", detail: "entier, crémeux", emoji: "🥥", baseQty: 100, unit: "ml", scalable: true, role: "Base" },
-        { id: "yaourt_grec", name: "Yaourt grec", detail: "pour la texture", emoji: "🥛", baseQty: 50, unit: "g", scalable: true, role: "Base" },
-        { id: "mangue", name: "Fruit de la passion / Mangue", detail: "pour le coulis", emoji: "🥭", baseQty: 40, unit: "g", scalable: true, role: "Coulis" },
-        { id: "miel", name: "Miel", detail: "pour sucrer", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "Sucrant" },
-        { id: "citron_jus", name: "Jus de citron", detail: "dans le coulis", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "Acidité" }
-    ],
-    options: [],
-    steps: [
-        "Faire chauffer le lait de coco avec le miel sans bouillir. Ajouter la gélatine ramollie (2g) et mélanger.",
-        "Hors du feu, incorporer le yaourt grec en fouettant pour une texture homogène.",
-        "Verser dans des verrines et réfrigérer minimum 4h jusqu'à prise.",
-        "Préparer le coulis : mixer la mangue avec le citron et un peu d'eau.",
-        "Au moment de servir, verser le coulis sur les panna cotta prises.",
-        "Décorer de noix de coco râpée et de feuilles de menthe."
-    ],
-    tips: [
-        { type: "green", title: "🥥 Texture parfaite", text: "La panna cotta doit être prise mais tremblotante — elle fond en bouche. Trop de gélatine = texture gommeuse." },
-        { type: "red", title: "⚠️ Gélatine hors ébullition", text: "Ne faites JAMAIS bouillir la gélatine — elle perd ses propriétés gélifiantes. Ajoutez-la au liquide chaud mais non bouillant." }
-    ]
-},
-{
-    id: "crumble-pomme-speculoos-light",
-    name: "Crumble pomme-spéculoos light",
-    subtitle: "Pommes fondantes épicées, crumble croustillant aux flocons d'avoine et spéculoos",
-    emoji: "🍏",
-    category: "collation-maison",
-    difficulty: "Facile",
-    time: 35,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Équilibré"],
-    ingredients: [
-        { id: "pomme", name: "Pommes", detail: "Golden ou Granny, en cubes", emoji: "🍏", baseQty: 120, unit: "g", scalable: true, role: "Fruit" },
-        { id: "flocons_avoine", name: "Flocons d'avoine", detail: "pour le crumble", emoji: "🌾", baseQty: 25, unit: "g", scalable: true, role: "Crumble" },
-        { id: "farine_complete", name: "Farine complète", detail: "pour le crumble", emoji: "🌾", baseQty: 10, unit: "g", scalable: true, role: "Crumble" },
-        { id: "huile_olive", name: "Beurre", detail: "froid, en dés", emoji: "🧈", baseQty: 10, unit: "g", scalable: true, role: "Crumble" },
-        { id: "miel", name: "Miel", detail: "dans les pommes et le crumble", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "Sucrant" },
-        { id: "noix_coco_rapee", name: "Noix de coco râpée", detail: "dans le crumble", emoji: "🥥", baseQty: 5, unit: "g", scalable: false, role: "Crumble" }
-    ],
-    options: [],
-    steps: [
-        "Préchauffer le four à 180°C. Couper les pommes en cubes et les disposer dans un plat.",
-        "Arroser les pommes de miel, ajouter cannelle et un filet de citron. Mélanger.",
-        "Préparer le crumble : sabler flocons d'avoine, farine, coco et beurre froid du bout des doigts.",
-        "Former des grumeaux irréguliers — c'est ce qui donne le croustillant varié.",
-        "Répartir le crumble sur les pommes et enfourner 25-30 minutes.",
-        "Le crumble est prêt quand le dessus est doré et que le jus des pommes bouillonne sur les côtés."
-    ],
-    tips: [
-        { type: "green", title: "🌾 Grumeaux volontaires", text: "Ne cherchez pas une pâte homogène — les grumeaux de tailles différentes créent un croustillant varié et intéressant." },
-        { type: "red", title: "⚠️ Pommes pas trop petites", text: "Des cubes de 2cm gardent de la tenue après cuisson. Trop petits = compote sous le crumble." }
-    ]
-},
-{
-    id: "mousse-mangue-coco-chia",
-    name: "Mousse mangue-coco-chia",
-    subtitle: "Mousse légère à la mangue, base de pudding chia-coco, coulis tropical",
-    emoji: "🥭",
-    category: "collation-maison",
-    difficulty: "Facile",
-    time: 15,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Vegan", "Sans gluten", "Sans cuisson"],
-    ingredients: [
-        { id: "mangue", name: "Mangue", detail: "bien mûre, en morceaux", emoji: "🥭", baseQty: 100, unit: "g", scalable: true, role: "Fruit" },
-        { id: "lait_coco", name: "Lait de coco", detail: "bien froid", emoji: "🥥", baseQty: 80, unit: "ml", scalable: true, role: "Base" },
-        { id: "graines_chia", name: "Graines de chia", detail: "pour le pudding", emoji: "🌱", baseQty: 15, unit: "g", scalable: true, role: "Base" },
-        { id: "citron_jus", name: "Jus de citron vert", detail: "un filet", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "Acidité" },
-        { id: "sirop_erable", name: "Sirop d'érable", detail: "pour sucrer", emoji: "🍁", baseQty: 8, unit: "ml", scalable: false, role: "Sucrant" },
-        { id: "noix_coco_rapee", name: "Noix de coco râpée", detail: "pour le topping", emoji: "🥥", baseQty: 5, unit: "g", scalable: false, role: "Topping" }
-    ],
-    options: [],
-    steps: [
-        "La veille : mélanger le lait de coco avec les graines de chia et le sirop d'érable. Réfrigérer une nuit.",
-        "Le jour même : mixer la mangue avec le jus de citron vert pour un coulis lisse.",
-        "Le pudding chia doit avoir une texture épaisse type tapioca.",
-        "Dans des verrines, alterner couche de pudding chia-coco et couche de mousse de mangue.",
-        "Terminer par le coulis de mangue et de la noix de coco râpée.",
-        "Servir bien frais. Se conserve 2 jours au réfrigérateur."
-    ],
-    tips: [
-        { type: "green", title: "🌱 Repos une nuit", text: "Les graines de chia ont besoin de minimum 4h (idéalement une nuit) pour gonfler et créer cette texture pudding caractéristique." },
-        { type: "red", title: "⚠️ Bien mélanger", text: "Remuez le mélange chia-coco après 30 min de frigo pour éviter les grumeaux. Les graines ont tendance à s'agglutiner." }
-    ]
-},
-{
-    id: "bowl-nicecream-cookies",
-    name: "Bowl de nice cream cookies",
-    subtitle: "Glace crémeuse à la banane congelée, pépites de cookies et toppings",
-    emoji: "🍦",
-    category: "collation-maison",
-    difficulty: "Facile",
-    time: 10,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Vegan", "Sans gluten", "Express", "Sans cuisson"],
-    ingredients: [
-        { id: "banane", name: "Bananes", detail: "congelées en rondelles (la veille)", emoji: "🍌", baseQty: 120, unit: "g", scalable: true, role: "Base" },
-        { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "crémeux", emoji: "🥜", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
-        { id: "chocolat_noir_70", name: "Chocolat noir", detail: "en copeaux", emoji: "🍫", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
-        { id: "granola", name: "Granola", detail: "crunchy", emoji: "🌾", baseQty: 15, unit: "g", scalable: false, role: "Topping" },
-        { id: "lait_amande", name: "Lait d'amande", detail: "un trait pour mixer", emoji: "🥛", baseQty: 20, unit: "ml", scalable: false, role: "Liquidité" }
-    ],
-    options: [],
-    steps: [
-        "Sortir les bananes congelées 5 minutes avant de les mixer (elles doivent être encore dures).",
-        "Mixer les bananes avec un trait de lait d'amande jusqu'à obtenir une texture de glace crémeuse.",
-        "Transférer dans un bol, travailler rapidement car ça fond vite.",
-        "Garnir de beurre de cacahuète en filet, copeaux de chocolat et granola crunchy.",
-        "Déguster immédiatement — la nice cream fond rapidement."
-    ],
-    tips: [
-        { type: "green", title: "🍌 Bananes bien mûres", text: "Utilisez des bananes très mûres (tachetées) avant de les congeler — elles sont plus sucrées naturellement et mixent mieux." },
-        { type: "red", title: "⚠️ Servir immédiatement", text: "La nice cream fond beaucoup plus vite que la vraie glace. Préparez les toppings AVANT de mixer pour un service express." }
-    ]
-},
-{
-    id: "riz-au-lait-matcha-sesame",
-    name: "Riz au lait matcha-sésame",
-    subtitle: "Riz au lait crémeux parfumé au thé matcha, sésame noir torréfié",
-    emoji: "🍵",
-    category: "collation-maison",
-    difficulty: "Facile",
-    time: 35,
-    sliderMin: 1,
-    sliderMax: 4,
-    tags: ["Végétarien", "Sans gluten", "Équilibré"],
-    ingredients: [
-        { id: "riz_basmati_cuit", name: "Riz rond", detail: "cru, rincé", emoji: "🍚", baseQty: 40, unit: "g", scalable: true, role: "Base", rawRatio: 2.25 },
-        { id: "lait_demi", name: "Lait demi-écrémé", detail: "ou lait d'amande", emoji: "🥛", baseQty: 150, unit: "ml", scalable: true, role: "Liquide" },
-        { id: "lait_coco", name: "Lait de coco", detail: "une touche de crème", emoji: "🥥", baseQty: 30, unit: "ml", scalable: false, role: "Crème" },
-        { id: "miel", name: "Miel", detail: "pour sucrer", emoji: "🍯", baseQty: 12, unit: "g", scalable: false, role: "Sucrant" },
-        { id: "lait_amande", name: "Thé matcha", detail: "en poudre (1 cc)", emoji: "🍵", baseQty: 3, unit: "g", scalable: false, role: "Arôme" }
-    ],
-    options: [],
-    steps: [
-        "Rincer le riz rond à l'eau froide jusqu'à ce que l'eau soit claire.",
-        "Porter le lait à frémissement avec le lait de coco et le miel.",
-        "Ajouter le riz et cuire à feu très doux pendant 25-30 minutes en remuant régulièrement.",
-        "Quand le riz est crémeux et tendre, retirer du feu et incorporer le matcha tamisé.",
-        "Mélanger vigoureusement pour une couleur verte uniforme et homogène.",
-        "Servir tiède ou froid, parsemé de graines de sésame noir torréfié."
-    ],
-    tips: [
-        { type: "green", title: "🍵 Matcha en fin de cuisson", text: "Ajoutez le matcha HORS du feu pour préserver sa couleur verte vibrante et ses arômes délicats que la chaleur altère." },
-        { type: "red", title: "⚠️ Feu très doux", text: "Le riz au lait brûle facilement au fond. Remuez régulièrement et maintenez un feu le plus doux possible." }
-    ]
-}
+    {
+        id: "poulet-tandoori-riz-coco",
+        name: "Poulet Tandoori & Riz Coco",
+        subtitle: "Poulet mariné aux épices tandoori, riz basmati au lait de coco et légumes rôtis",
+        emoji: "🍗",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 40,
+        sliderMin: 40,
+        sliderMax: 280,
+        tags: ["Protéiné","Sans gluten"],
+        ingredients: [
+            { id: "poulet_grille", name: "Blanc de poulet", detail: "coupé en morceaux", emoji: "🍗", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "riz_basmati_cuit", name: "Riz basmati", detail: "cuit", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "lait_coco", name: "Lait de coco", detail: "léger", emoji: "🥥", baseQty: 50, unit: "ml", scalable: false, role: "Sauce" },
+            { id: "yaourt_grec", name: "Yaourt grec", detail: "pour la marinade", emoji: "🥛", baseQty: 40, unit: "g", scalable: false, role: "Sauce" },
+            { id: "poivron_rouge", name: "Poivron rouge", detail: "en lanières", emoji: "🫑", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
+            { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 50, unit: "g", scalable: false, role: "Légumes" },
+            { id: "citron_jus", name: "Jus de citron", detail: "frais", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Mélangez le yaourt grec avec le jus de", text: "Mélangez le yaourt grec avec le jus de citron, le curcuma, le paprika, le cumin et le gingembre en poudre pour créer la marinade tandoori." },
+            { title: "Enrobez les morceaux de poulet dans la", text: "Enrobez les morceaux de poulet dans la marinade et laissez reposer au moins 15 minutes (idéalement 30 min au frigo)." },
+            { title: "Faites cuire le riz basmati selon les", text: "Faites cuire le riz basmati selon les instructions, puis ajoutez le lait de coco en fin de cuisson et mélangez délicatement." },
+            { title: "Faites griller le poulet mariné dans une", text: "Faites griller le poulet mariné dans une poêle bien chaude avec un filet d'huile d'olive, 4-5 min de chaque côté jusqu'à coloration dorée." },
+            { title: "En parallèle, faites revenir le poivron", text: "En parallèle, faites revenir le poivron et l'oignon émincés dans une autre poêle jusqu'à ce qu'ils soient tendres et légèrement caramélisés." },
+            { title: "Dressez le riz coco dans un bol,", text: "Dressez le riz coco dans un bol, disposez le poulet tandoori et les légumes rôtis par-dessus. Servez avec un quartier de citron." }
+        ],
+        tips: [
+            { type: "green", title: "Marinade express", text: "Même 15 minutes de marinade suffisent pour donner du goût. Pour un résultat optimal, préparez la veille." },
+            { type: "red", title: "Cuisson du poulet", text: "Ne cuisez pas à feu trop fort pour éviter que le yaourt ne brûle. Un feu moyen-vif est idéal." }
+        ]
+    },
+
+    {
+        id: "bowl-poke-veggie-edamame",
+        name: "Poké Bowl Veggie Edamame",
+        subtitle: "Bowl coloré aux edamame, avocat, mangue et riz vinaigré, sauce soja-sésame",
+        emoji: "🥗",
+        category: "dejeuner",
+        difficulty: "Facile",
+        time: 20,
+        sliderMin: 40,
+        sliderMax: 250,
+        tags: ["Vegan","Sans gluten","Rapide"],
+        ingredients: [
+            { id: "edamame", name: "Edamame", detail: "décortiqués", emoji: "🫘", baseQty: 100, unit: "g", scalable: true, role: "protein" },
+            { id: "riz_complet_cuit", name: "Riz complet", detail: "cuit", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "avocat", name: "Avocat", detail: "en tranches", emoji: "🥑", baseQty: 60, unit: "g", scalable: true, role: "fat" },
+            { id: "mangue", name: "Mangue", detail: "en dés", emoji: "🥭", baseQty: 60, unit: "g", scalable: true, role: "Fruits" },
+            { id: "concombre", name: "Concombre", detail: "en rondelles", emoji: "🥒", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
+            { id: "carotte", name: "Carotte", detail: "râpée", emoji: "🥕", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
+            { id: "sauce_soja", name: "Sauce soja", detail: "allégée en sel", emoji: "🥫", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "graines_chia", name: "Graines de sésame", detail: "pour garnir", emoji: "🌰", baseQty: 5, unit: "g", scalable: false, role: "Topping" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faites cuire le riz complet et", text: "Faites cuire le riz complet et laissez-le refroidir. Assaisonnez-le avec un filet de vinaigre de riz et une pincée de sucre." },
+            { title: "Faites bouillir les edamame 3-4 minutes", text: "Faites bouillir les edamame 3-4 minutes dans l'eau salée, puis égouttez et passez-les sous l'eau froide." },
+            { title: "Préparez tous les légumes", text: "Préparez tous les légumes : tranchez l'avocat, coupez la mangue en dés, émincez le concombre et râpez la carotte." },
+            { title: "Préparez la sauce en mélangeant la sauce", text: "Préparez la sauce en mélangeant la sauce soja avec un trait de vinaigre de riz et quelques gouttes d'huile de sésame." },
+            { title: "Disposez le riz dans un bol, arrangez", text: "Disposez le riz dans un bol, arrangez harmonieusement tous les ingrédients par-dessus en sections colorées." },
+            { title: "Arrosez de sauce soja-sésame et parsemez", text: "Arrosez de sauce soja-sésame et parsemez de graines. Servez frais." }
+        ],
+        tips: [
+            { type: "green", title: "Meal prep", text: "Préparez les légumes et le riz la veille. Il suffit d'assembler le matin pour un déjeuner express." },
+            { type: "red", title: "Avocat", text: "Coupez l'avocat au dernier moment pour éviter qu'il ne s'oxyde. Un filet de citron aide à le conserver." }
+        ]
+    },
+
+    {
+        id: "gratin-pates-brocoli-poulet",
+        name: "Gratin de Pâtes Brocoli-Poulet",
+        subtitle: "Gratin crémeux de pâtes au poulet effiloché, brocoli et sauce béchamel légère",
+        emoji: "🧀",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 40,
+        sliderMin: 40,
+        sliderMax: 280,
+        tags: ["Protéiné","Cheat meal"],
+        ingredients: [
+            { id: "poulet_grille", name: "Blanc de poulet", detail: "cuit et effiloché", emoji: "🍗", baseQty: 130, unit: "g", scalable: true, role: "protein" },
+            { id: "pates_cuites", name: "Pâtes complètes", detail: "cuites al dente", emoji: "🍝", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 2.5 },
+            { id: "brocoli", name: "Brocoli", detail: "en petits fleurettes", emoji: "🥦", baseQty: 120, unit: "g", scalable: true, role: "Légumes" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 30, unit: "g", scalable: false, role: "Sauce" },
+            { id: "fromage_rape", name: "Emmental râpé", detail: "pour gratiner", emoji: "🧀", baseQty: 25, unit: "g", scalable: false, role: "Topping" },
+            { id: "lait_demi", name: "Lait demi-écrémé", detail: "pour la béchamel", emoji: "🥛", baseQty: 80, unit: "ml", scalable: false, role: "Sauce" },
+            { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "Légumes" },
+            { id: "moutarde", name: "Moutarde de Dijon", emoji: "🟡", baseQty: 5, unit: "g", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffez le four à 200°C", text: "Préchauffez le four à 200°C. Faites cuire les pâtes al dente et blanchissez le brocoli 3 minutes à la vapeur." },
+            { title: "Préparez une béchamel légère", text: "Préparez une béchamel légère : faites fondre une noisette de beurre, ajoutez une cuillère de farine, puis versez le lait progressivement en fouettant." },
+            { title: "Incorporez la crème légère et la", text: "Incorporez la crème légère et la moutarde à la béchamel. Assaisonnez de sel, poivre et muscade." },
+            { title: "Mélangez les pâtes, le brocoli, le", text: "Mélangez les pâtes, le brocoli, le poulet effiloché et l'oignon émincé dans un plat à gratin." },
+            { title: "Nappez de béchamel, mélangez bien puis", text: "Nappez de béchamel, mélangez bien puis parsemez de fromage râpé sur le dessus." },
+            { title: "Enfournez 15-20 minutes jusqu'à ce que", text: "Enfournez 15-20 minutes jusqu'à ce que le dessus soit bien doré et gratiné. Laissez reposer 5 minutes avant de servir." }
+        ],
+        tips: [
+            { type: "green", title: "Meal prep", text: "Assemblez le gratin la veille et réfrigérez. Ajoutez 5-10 min de cuisson si le plat sort du frigo." },
+            { type: "red", title: "Béchamel", text: "Versez le lait progressivement en fouettant sans cesse pour éviter les grumeaux." }
+        ]
+    },
+
+    {
+        id: "salade-quinoa-halloumi-grenade",
+        name: "Salade Quinoa, Halloumi & Grenade",
+        subtitle: "Salade fraîche et gourmande au quinoa, halloumi grillé, grenade et herbes fraîches",
+        emoji: "🥗",
+        category: "dejeuner",
+        difficulty: "Facile",
+        time: 25,
+        sliderMin: 40,
+        sliderMax: 250,
+        tags: ["Végétarien","Sans gluten"],
+        ingredients: [
+            { id: "quinoa_cuit", name: "Quinoa", detail: "cuit", emoji: "🌾", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 1.8 },
+            { id: "feta", name: "Halloumi / Feta", detail: "grillé(e) en tranches", emoji: "🧀", baseQty: 80, unit: "g", scalable: true, role: "protein" },
+            { id: "concombre", name: "Concombre", detail: "en dés", emoji: "🥒", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
+            { id: "tomate", name: "Tomates cerises", detail: "coupées en deux", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
+            { id: "epinards", name: "Pousses d'épinards", detail: "fraîches", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "Légumes" },
+            { id: "citron_jus", name: "Jus de citron", detail: "frais", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "amandes", name: "Amandes effilées", detail: "torréfiées", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faites cuire le quinoa selon les", text: "Faites cuire le quinoa selon les instructions du paquet, puis laissez-le refroidir complètement à température ambiante." },
+            { title: "Coupez la feta ou le halloumi en", text: "Coupez la feta ou le halloumi en tranches épaisses et faites-les griller à la poêle sans matière grasse, 2 min de chaque côté." },
+            { title: "Préparez les crudités", text: "Préparez les crudités : coupez le concombre en dés, les tomates cerises en deux, et lavez les pousses d'épinards." },
+            { title: "Préparez la vinaigrette en mélangeant", text: "Préparez la vinaigrette en mélangeant l'huile d'olive, le jus de citron, du sel et du poivre." },
+            { title: "Dans un grand bol, mélangez le quinoa", text: "Dans un grand bol, mélangez le quinoa refroidi avec les légumes et la vinaigrette. Disposez le fromage grillé par-dessus." },
+            { title: "Parsemez d'amandes effilées torréfiées", text: "Parsemez d'amandes effilées torréfiées et de menthe fraîche ciselée. Servez immédiatement." }
+        ],
+        tips: [
+            { type: "green", title: "Variante", text: "Remplacez le halloumi par du tofu fumé grillé pour une version vegan tout aussi gourmande." },
+            { type: "red", title: "Quinoa", text: "Rincez bien le quinoa avant cuisson pour éliminer l'amertume naturelle (saponines)." }
+        ]
+    },
+
+    {
+        id: "boeuf-stroganoff-light",
+        name: "Bœuf Stroganoff Light",
+        subtitle: "Émincé de bœuf sauce crémeuse aux champignons et paprika, servi avec des tagliatelles",
+        emoji: "🥩",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 30,
+        sliderMin: 40,
+        sliderMax: 280,
+        tags: ["Protéiné","Cheat meal"],
+        ingredients: [
+            { id: "boeuf_hache_5", name: "Émincé de bœuf", detail: "5% MG", emoji: "🥩", baseQty: 140, unit: "g", scalable: true, role: "protein" },
+            { id: "pates_cuites", name: "Tagliatelles", detail: "cuites", emoji: "🍝", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 2.5 },
+            { id: "champignon", name: "Champignons", detail: "émincés", emoji: "🍄", baseQty: 120, unit: "g", scalable: true, role: "Légumes" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 40, unit: "g", scalable: false, role: "Sauce" },
+            { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 50, unit: "g", scalable: false, role: "Légumes" },
+            { id: "moutarde", name: "Moutarde de Dijon", emoji: "🟡", baseQty: 10, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "concentre_tomate", name: "Concentré de tomate", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "Sauce" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faites cuire les tagliatelles al dente", text: "Faites cuire les tagliatelles al dente selon les instructions du paquet. Égouttez et réservez." },
+            { title: "Dans une poêle bien chaude, saisissez", text: "Dans une poêle bien chaude, saisissez l'émincé de bœuf avec un filet d'huile d'olive, 2-3 min à feu vif. Réservez." },
+            { title: "Dans la même poêle, faites revenir", text: "Dans la même poêle, faites revenir l'oignon émincé puis les champignons jusqu'à ce qu'ils aient rendu toute leur eau." },
+            { title: "Ajoutez le concentré de tomate et le", text: "Ajoutez le concentré de tomate et le paprika, mélangez bien et laissez cuire 1 minute pour développer les saveurs." },
+            { title: "Incorporez la crème fraîche légère et la", text: "Incorporez la crème fraîche légère et la moutarde, mélangez et laissez réduire 2-3 minutes à feu doux." },
+            { title: "Remettez le bœuf dans la sauce,", text: "Remettez le bœuf dans la sauce, rectifiez l'assaisonnement. Servez sur les tagliatelles avec du persil frais." }
+        ],
+        tips: [
+            { type: "green", title: "Variante champignons", text: "Utilisez un mélange de champignons (shiitake, pleurotes) pour plus de saveur et de texture." },
+            { type: "red", title: "Cuisson du bœuf", text: "Saisissez le bœuf à feu très vif sans remuer pour obtenir une belle coloration. Ne surchargez pas la poêle." }
+        ]
+    },
+
+    {
+        id: "fajitas-crevettes-poivrons",
+        name: "Fajitas Crevettes & Poivrons",
+        subtitle: "Fajitas épicées aux crevettes sautées, poivrons colorés et garniture fraîche",
+        emoji: "🌮",
+        category: "dejeuner",
+        difficulty: "Facile",
+        time: 20,
+        sliderMin: 40,
+        sliderMax: 250,
+        tags: ["Protéiné","Rapide"],
+        ingredients: [
+            { id: "crevettes", name: "Crevettes", detail: "décortiquées", emoji: "🦐", baseQty: 140, unit: "g", scalable: true, role: "protein" },
+            { id: "tortilla_ble", name: "Tortillas de blé", detail: "complètes", emoji: "🌮", baseQty: 80, unit: "g", scalable: true, role: "carb" },
+            { id: "poivron_rouge", name: "Poivron rouge", detail: "en lanières", emoji: "🫑", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
+            { id: "oignon", name: "Oignon", detail: "en lamelles", emoji: "🧅", baseQty: 50, unit: "g", scalable: false, role: "Légumes" },
+            { id: "avocat", name: "Avocat", detail: "en tranches", emoji: "🥑", baseQty: 40, unit: "g", scalable: true, role: "fat" },
+            { id: "tomate", name: "Tomate", detail: "en dés pour salsa", emoji: "🍅", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
+            { id: "citron_jus", name: "Jus de citron vert", detail: "frais", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "yaourt_grec", name: "Yaourt grec", detail: "en garniture", emoji: "🥛", baseQty: 30, unit: "g", scalable: false, role: "Sauce" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparez une salsa fraîche en mélangeant", text: "Préparez une salsa fraîche en mélangeant les dés de tomate avec un filet de citron vert, de la coriandre ciselée, sel et poivre." },
+            { title: "Assaisonnez les crevettes avec du", text: "Assaisonnez les crevettes avec du paprika fumé, du cumin, de l'ail en poudre, du sel et du poivre." },
+            { title: "Dans une poêle très chaude, faites", text: "Dans une poêle très chaude, faites sauter les crevettes 2-3 minutes de chaque côté. Réservez." },
+            { title: "Dans la même poêle, faites revenir les", text: "Dans la même poêle, faites revenir les lanières de poivron et d'oignon à feu vif 4-5 min pour qu'ils restent croquants." },
+            { title: "Réchauffez les tortillas 30 secondes de", text: "Réchauffez les tortillas 30 secondes de chaque côté à la poêle sèche ou au micro-ondes." },
+            { title: "Garnissez les tortillas de légumes", text: "Garnissez les tortillas de légumes sautés, crevettes, tranches d'avocat, salsa fraîche et une cuillère de yaourt grec." }
+        ],
+        tips: [
+            { type: "green", title: "Cuisson express", text: "Les crevettes cuisent très vite. Dès qu'elles sont roses et enroulées, c'est prêt !" },
+            { type: "red", title: "Tortillas", text: "Ne chauffez pas trop les tortillas sinon elles deviennent cassantes. 30 secondes suffisent." }
+        ]
+    },
+
+    {
+        id: "risotto-courge-parmesan",
+        name: "Risotto Butternut & Parmesan",
+        subtitle: "Risotto crémeux à la courge butternut rôtie, parmesan et sauge",
+        emoji: "🍚",
+        category: "dejeuner",
+        difficulty: "Avancé",
+        time: 45,
+        sliderMin: 40,
+        sliderMax: 280,
+        tags: ["Végétarien","Sans gluten","Cheat meal"],
+        ingredients: [
+            { id: "riz_basmati_cuit", name: "Riz arborio / basmati", detail: "cuit", emoji: "🍚", baseQty: 170, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "patate_douce_cuite", name: "Courge butternut", detail: "rôtie en dés", emoji: "🎃", baseQty: 120, unit: "g", scalable: true, role: "Légumes" },
+            { id: "parmesan", name: "Parmesan", detail: "râpé", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "protein" },
+            { id: "oignon", name: "Oignon", detail: "émincé finement", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "Légumes" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "Sauce" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" },
+            { id: "oeuf", name: "Jaune d'œuf", detail: "pour la crémosité", emoji: "🥚", baseQty: 1, unit: "pce", scalable: false, role: "Liant" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffez le four à 200°C", text: "Préchauffez le four à 200°C. Coupez la courge en dés, arrosez d'huile d'olive et enfournez 20-25 min jusqu'à tendreté." },
+            { title: "Dans une casserole, faites revenir", text: "Dans une casserole, faites revenir l'oignon émincé dans un filet d'huile d'olive jusqu'à translucidité." },
+            { title: "Ajoutez le riz et faites-le nacrer 1-2", text: "Ajoutez le riz et faites-le nacrer 1-2 minutes en remuant. Versez une louche de bouillon chaud et remuez jusqu'à absorption." },
+            { title: "Continuez à ajouter du bouillon louche", text: "Continuez à ajouter du bouillon louche par louche en remuant régulièrement pendant 18-20 minutes." },
+            { title: "Hors du feu, incorporez la crème, le", text: "Hors du feu, incorporez la crème, le parmesan râpé et le jaune d'œuf. Mélangez vigoureusement pour créer la mantecatura." },
+            { title: "Incorporez délicatement les dés de", text: "Incorporez délicatement les dés de courge rôtie, rectifiez l'assaisonnement et servez parsemé de sauge fraîche." }
+        ],
+        tips: [
+            { type: "green", title: "Mantecatura", text: "Cette étape finale hors du feu avec parmesan et crème rend le risotto onctueux. Ne la sautez pas !" },
+            { type: "red", title: "Bouillon", text: "Le bouillon doit être chaud quand vous l'ajoutez au riz. Du bouillon froid stoppe la cuisson." }
+        ]
+    },
+
+    {
+        id: "bo-bun-boeuf-herbes",
+        name: "Bo Bun au Bœuf",
+        subtitle: "Salade vietnamienne de vermicelles de riz, bœuf mariné, herbes fraîches et cacahuètes",
+        emoji: "🍜",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 30,
+        sliderMin: 40,
+        sliderMax: 260,
+        tags: ["Protéiné"],
+        ingredients: [
+            { id: "boeuf_hache_5", name: "Bœuf haché", detail: "5% MG, sauté", emoji: "🥩", baseQty: 130, unit: "g", scalable: true, role: "protein" },
+            { id: "vermicelles_riz", name: "Vermicelles de riz", detail: "cuits", emoji: "🍜", baseQty: 100, unit: "g", scalable: true, role: "carb" },
+            { id: "carotte", name: "Carotte", detail: "râpée", emoji: "🥕", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
+            { id: "concombre", name: "Concombre", detail: "en julienne", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
+            { id: "salade_verte", name: "Salade", detail: "feuilles croquantes", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "Légumes" },
+            { id: "sauce_nuoc_mam", name: "Nuoc mam", detail: "pour la sauce", emoji: "🥫", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "citron_jus", name: "Jus de citron vert", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "beurre_cacahuete", name: "Cacahuètes", detail: "concassées", emoji: "🥜", baseQty: 10, unit: "g", scalable: false, role: "Topping" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparez la sauce en mélangeant le nuoc", text: "Préparez la sauce en mélangeant le nuoc mam, le jus de citron vert, une cuillère de sucre et un peu d'eau tiède. Réservez." },
+            { title: "Faites tremper les vermicelles de riz", text: "Faites tremper les vermicelles de riz dans l'eau bouillante 3-4 minutes, égouttez et passez sous l'eau froide." },
+            { title: "Marinez le bœuf haché avec de la sauce", text: "Marinez le bœuf haché avec de la sauce soja, de l'ail haché et du gingembre râpé pendant 10 minutes." },
+            { title: "Faites sauter le bœuf à feu très vif", text: "Faites sauter le bœuf à feu très vif dans une poêle ou un wok, en le laissant bien colorer sans trop remuer." },
+            { title: "Préparez les légumes", text: "Préparez les légumes : râpez la carotte, coupez le concombre en julienne, lavez la salade." },
+            { title: "Dressez dans un bol : vermicelles,", text: "Dressez dans un bol : vermicelles, salade, crudités, bœuf chaud. Arrosez de sauce et parsemez de cacahuètes concassées et menthe fraîche." }
+        ],
+        tips: [
+            { type: "green", title: "Herbes fraîches", text: "Ajoutez menthe, coriandre et basilic thaï pour un bo bun authentique et parfumé." },
+            { type: "red", title: "Vermicelles", text: "Ne laissez pas trop tremper les vermicelles sinon ils deviennent collants. 3-4 minutes maximum." }
+        ]
+    },
+
+    {
+        id: "bowl-burrito-haricots-noirs",
+        name: "Burrito Bowl Haricots Noirs",
+        subtitle: "Bowl tex-mex aux haricots noirs épicés, riz, maïs, avocat et salsa fraîche",
+        emoji: "🌯",
+        category: "dejeuner",
+        difficulty: "Facile",
+        time: 25,
+        sliderMin: 40,
+        sliderMax: 260,
+        tags: ["Vegan","Sans gluten","Protéiné"],
+        ingredients: [
+            { id: "haricots_noirs", name: "Haricots noirs", detail: "cuits", emoji: "🫘", baseQty: 120, unit: "g", scalable: true, role: "protein" },
+            { id: "riz_complet_cuit", name: "Riz complet", detail: "cuit", emoji: "🍚", baseQty: 130, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "mais_conserve", name: "Maïs", detail: "égoutté", emoji: "🌽", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
+            { id: "avocat", name: "Avocat", detail: "en tranches", emoji: "🥑", baseQty: 50, unit: "g", scalable: true, role: "fat" },
+            { id: "tomate", name: "Tomate", detail: "en dés", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
+            { id: "poivron_rouge", name: "Poivron rouge", detail: "en dés", emoji: "🫑", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
+            { id: "citron_jus", name: "Jus de citron vert", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "sauce_sriracha", name: "Sauce piquante", detail: "facultatif", emoji: "🌶️", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faites chauffer les haricots noirs dans", text: "Faites chauffer les haricots noirs dans une petite casserole avec du cumin, du paprika fumé, de l'ail en poudre et une pincée de sel." },
+            { title: "Préparez la salsa en mélangeant les dés", text: "Préparez la salsa en mélangeant les dés de tomate, un peu d'oignon rouge finement haché, du citron vert et de la coriandre." },
+            { title: "Faites revenir les dés de poivron à la", text: "Faites revenir les dés de poivron à la poêle 3-4 minutes pour qu'ils restent légèrement croquants." },
+            { title: "Réchauffez le riz avec un filet de", text: "Réchauffez le riz avec un filet de citron vert et de la coriandre ciselée pour un riz à la mexicaine." },
+            { title: "Disposez le riz dans un bol, ajoutez les", text: "Disposez le riz dans un bol, ajoutez les haricots noirs, le maïs, le poivron sauté, la salsa et l'avocat en tranches." },
+            { title: "Ajoutez un trait de sauce piquante si", text: "Ajoutez un trait de sauce piquante si désiré et parsemez de coriandre fraîche. Servez avec un quartier de citron vert." }
+        ],
+        tips: [
+            { type: "green", title: "Protéines", text: "Ajoutez du poulet grillé ou du tofu émietté pour augmenter l'apport protéique." },
+            { type: "red", title: "Haricots", text: "Si vous utilisez des haricots en conserve, rincez-les bien pour réduire le sodium." }
+        ]
+    },
+
+    {
+        id: "poulet-miel-sesame-brocoli",
+        name: "Poulet Miel-Sésame & Brocoli",
+        subtitle: "Poulet laqué au miel et sésame, brocoli sauté et riz basmati",
+        emoji: "🍯",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 30,
+        sliderMin: 40,
+        sliderMax: 280,
+        tags: ["Protéiné"],
+        ingredients: [
+            { id: "poulet_grille", name: "Blanc de poulet", detail: "coupé en morceaux", emoji: "🍗", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "riz_basmati_cuit", name: "Riz basmati", detail: "cuit", emoji: "🍚", baseQty: 140, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "brocoli", name: "Brocoli", detail: "en fleurettes", emoji: "🥦", baseQty: 120, unit: "g", scalable: true, role: "Légumes" },
+            { id: "miel", name: "Miel", detail: "pour le laquage", emoji: "🍯", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "sauce_soja", name: "Sauce soja", emoji: "🥫", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "Légumes" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparez la sauce laquée en mélangeant", text: "Préparez la sauce laquée en mélangeant le miel, la sauce soja, une gousse d'ail hachée et du gingembre râpé." },
+            { title: "Coupez le poulet en morceaux réguliers", text: "Coupez le poulet en morceaux réguliers et faites-les saisir dans une poêle bien chaude avec un filet d'huile d'olive." },
+            { title: "Quand le poulet est doré sur tous les", text: "Quand le poulet est doré sur tous les côtés (5-6 min), versez la sauce miel-soja et laissez caraméliser 2-3 min à feu moyen." },
+            { title: "En parallèle, faites sauter le brocoli", text: "En parallèle, faites sauter le brocoli et l'oignon au wok ou à la poêle 4-5 minutes, ils doivent rester croquants." },
+            { title: "Parsemez le poulet de graines de sésame", text: "Parsemez le poulet de graines de sésame et mélangez délicatement pour bien enrober." },
+            { title: "Dressez le riz basmati dans une", text: "Dressez le riz basmati dans une assiette, disposez le brocoli sauté et le poulet laqué par-dessus." }
+        ],
+        tips: [
+            { type: "green", title: "Laquage", text: "Surveillez bien la sauce : le miel caramélise vite. Feu moyen et remuez souvent pour un laquage uniforme." },
+            { type: "red", title: "Régime", text: "Recette contenant du miel, non adaptée pour un régime vegan strict." }
+        ]
+    },
+
+    {
+        id: "salade-saumon-lentilles-betterave",
+        name: "Salade Saumon, Lentilles & Betterave",
+        subtitle: "Salade complète au saumon fumé, lentilles vertes, betterave et vinaigrette moutardée",
+        emoji: "🥗",
+        category: "dejeuner",
+        difficulty: "Facile",
+        time: 15,
+        sliderMin: 40,
+        sliderMax: 250,
+        tags: ["Protéiné","Sans gluten","Rapide"],
+        ingredients: [
+            { id: "saumon", name: "Saumon fumé", detail: "en lanières", emoji: "🐟", baseQty: 100, unit: "g", scalable: true, role: "protein" },
+            { id: "lentilles_cuites", name: "Lentilles vertes", detail: "cuites", emoji: "🫘", baseQty: 120, unit: "g", scalable: true, role: "carb", rawRatio: 2 },
+            { id: "betterave_cuite", name: "Betterave", detail: "cuite, en dés", emoji: "🟣", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
+            { id: "salade_verte", name: "Mesclun", detail: "frais", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "Légumes" },
+            { id: "chevre_frais", name: "Chèvre frais", detail: "émietté", emoji: "🧀", baseQty: 25, unit: "g", scalable: false, role: "protein" },
+            { id: "noix", name: "Noix", detail: "concassées", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
+            { id: "moutarde", name: "Moutarde à l'ancienne", emoji: "🟡", baseQty: 8, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Si les lentilles ne sont pas déjà", text: "Si les lentilles ne sont pas déjà cuites, faites-les cuire 20-25 min dans l'eau bouillante. Égouttez et laissez tiédir." },
+            { title: "Préparez la vinaigrette en fouettant la", text: "Préparez la vinaigrette en fouettant la moutarde à l'ancienne avec l'huile d'olive, un filet de vinaigre de cidre, sel et poivre." },
+            { title: "Coupez la betterave en dés réguliers et", text: "Coupez la betterave en dés réguliers et le saumon fumé en lanières." },
+            { title: "Disposez le mesclun dans un plat,", text: "Disposez le mesclun dans un plat, ajoutez les lentilles tièdes assaisonnées de vinaigrette." },
+            { title: "Répartissez les dés de betterave et les", text: "Répartissez les dés de betterave et les lanières de saumon fumé harmonieusement." },
+            { title: "Émiettez le chèvre frais par-dessus,", text: "Émiettez le chèvre frais par-dessus, parsemez de noix concassées et servez immédiatement." }
+        ],
+        tips: [
+            { type: "green", title: "Lentilles tièdes", text: "Les lentilles absorbent mieux la vinaigrette quand elles sont encore tièdes. Assaisonnez-les dès la sortie de cuisson." },
+            { type: "red", title: "Betterave", text: "Utilisez de la betterave cuite sous vide pour un gain de temps. Coupez-la en dernier pour ne pas colorer le reste." }
+        ]
+    },
+
+    {
+        id: "wok-tofu-laque-legumes",
+        name: "Wok Tofu Laqué & Légumes",
+        subtitle: "Tofu croustillant laqué sauce soja-érable, légumes croquants et nouilles soba",
+        emoji: "🥡",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 25,
+        sliderMin: 40,
+        sliderMax: 250,
+        tags: ["Vegan","Protéiné"],
+        ingredients: [
+            { id: "tofu", name: "Tofu ferme", detail: "coupé en cubes", emoji: "🧈", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "nouilles_soba_cuites", name: "Nouilles soba", detail: "cuites", emoji: "🍜", baseQty: 120, unit: "g", scalable: true, role: "carb" },
+            { id: "brocoli", name: "Brocoli", detail: "en petits bouquets", emoji: "🥦", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
+            { id: "poivron_rouge", name: "Poivron rouge", detail: "en lanières", emoji: "🫑", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
+            { id: "carotte", name: "Carotte", detail: "en julienne", emoji: "🥕", baseQty: 50, unit: "g", scalable: true, role: "Légumes" },
+            { id: "sauce_soja", name: "Sauce soja", emoji: "🥫", baseQty: 20, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "sirop_erable", name: "Sirop d'érable", emoji: "🍁", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile de sésame", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Pressez le tofu entre deux torchons", text: "Pressez le tofu entre deux torchons propres pendant 10 minutes pour en extraire l'excès d'eau, puis coupez-le en cubes." },
+            { title: "Préparez la sauce laquée en mélangeant", text: "Préparez la sauce laquée en mélangeant la sauce soja, le sirop d'érable, une gousse d'ail hachée et du gingembre râpé." },
+            { title: "Faites dorer les cubes de tofu dans une", text: "Faites dorer les cubes de tofu dans une poêle bien chaude avec un peu d'huile, en les retournant pour qu'ils soient croustillants sur tous les côtés (7-8 min)." },
+            { title: "Ajoutez la moitié de la sauce laquée sur", text: "Ajoutez la moitié de la sauce laquée sur le tofu et laissez caraméliser 2 minutes. Réservez." },
+            { title: "Dans le même wok, faites sauter le", text: "Dans le même wok, faites sauter le brocoli, le poivron et la carotte à feu vif 4-5 min. Ajoutez les nouilles soba et le reste de sauce." },
+            { title: "Dressez les nouilles et légumes dans un", text: "Dressez les nouilles et légumes dans un bol, disposez le tofu laqué par-dessus. Parsemez de graines de sésame et de ciboulette." }
+        ],
+        tips: [
+            { type: "green", title: "Tofu croustillant", text: "Le secret est de bien presser le tofu et de le saisir à feu vif sans trop le toucher pour une croûte dorée." },
+            { type: "red", title: "Sirop d'érable", text: "Le sirop d'érable brûle facilement. Ajoutez la sauce quand le tofu est déjà bien doré et réduisez le feu." }
+        ]
+    },
+
+    {
+        id: "galette-complete-jambon-chevre",
+        name: "Galette Complète Jambon-Chèvre",
+        subtitle: "Galette de sarrasin garnie de jambon, chèvre fondant, œuf et champignons",
+        emoji: "🥞",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 25,
+        sliderMin: 40,
+        sliderMax: 250,
+        tags: ["Sans gluten"],
+        ingredients: [
+            { id: "galette_sarrasin", name: "Galette de sarrasin", detail: "prête à l'emploi", emoji: "🥞", baseQty: 60, unit: "g", scalable: true, role: "carb" },
+            { id: "jambon_blanc", name: "Jambon blanc", detail: "découenné", emoji: "🥓", baseQty: 60, unit: "g", scalable: true, role: "protein" },
+            { id: "chevre_frais", name: "Chèvre frais", detail: "en rondelles", emoji: "🧀", baseQty: 40, unit: "g", scalable: true, role: "protein" },
+            { id: "oeuf", name: "Œuf", detail: "entier", emoji: "🥚", baseQty: 1, unit: "pce", scalable: true, role: "protein" },
+            { id: "champignon", name: "Champignons", detail: "émincés", emoji: "🍄", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
+            { id: "epinards", name: "Pousses d'épinards", detail: "fraîches", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "Légumes" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faites revenir les champignons émincés", text: "Faites revenir les champignons émincés dans un filet d'huile d'olive à feu vif jusqu'à évaporation de l'eau, 5-6 min." },
+            { title: "Ajoutez les pousses d'épinards dans la", text: "Ajoutez les pousses d'épinards dans la poêle avec les champignons et laissez-les tomber 1-2 minutes." },
+            { title: "Dans une grande poêle ou billig, faites", text: "Dans une grande poêle ou billig, faites chauffer la galette de sarrasin à feu moyen." },
+            { title: "Disposez le jambon, les", text: "Disposez le jambon, les champignons-épinards et les rondelles de chèvre sur la galette." },
+            { title: "Cassez l'œuf au centre de la galette,", text: "Cassez l'œuf au centre de la galette, couvrez et laissez cuire 3-4 minutes pour que le blanc soit pris mais le jaune encore coulant." },
+            { title: "Repliez les bords de la galette pour", text: "Repliez les bords de la galette pour former un carré, laissez griller 1 minute supplémentaire et servez immédiatement." }
+        ],
+        tips: [
+            { type: "green", title: "Classique breton", text: "La galette de sarrasin est naturellement sans gluten, idéale pour les intolérants." },
+            { type: "red", title: "Cuisson de l'œuf", text: "Couvrez la poêle pour cuire le blanc sans surcuire le jaune. Le jaune coulant fait tout le charme !" }
+        ]
+    },
+
+    {
+        id: "salade-thon-pois-chiches-olive",
+        name: "Salade Thon, Pois Chiches & Olives",
+        subtitle: "Salade méditerranéenne au thon, pois chiches, olives noires et herbes de Provence",
+        emoji: "🥗",
+        category: "dejeuner",
+        difficulty: "Facile",
+        time: 10,
+        sliderMin: 30,
+        sliderMax: 240,
+        tags: ["Protéiné","Sans gluten","Rapide"],
+        ingredients: [
+            { id: "thon_conserve", name: "Thon en conserve", detail: "au naturel, égoutté", emoji: "🐟", baseQty: 120, unit: "g", scalable: true, role: "protein" },
+            { id: "pois_chiches_cuits", name: "Pois chiches", detail: "cuits, rincés", emoji: "🫘", baseQty: 100, unit: "g", scalable: true, role: "protein" },
+            { id: "tomate", name: "Tomates", detail: "en quartiers", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
+            { id: "concombre", name: "Concombre", detail: "en rondelles", emoji: "🥒", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
+            { id: "oignon", name: "Oignon rouge", detail: "émincé finement", emoji: "🧅", baseQty: 30, unit: "g", scalable: false, role: "Légumes" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Égouttez soigneusement le thon et", text: "Égouttez soigneusement le thon et émiettez-le à la fourchette dans un grand saladier." },
+            { title: "Rincez et égouttez les pois chiches", text: "Rincez et égouttez les pois chiches. Ajoutez-les au thon." },
+            { title: "Coupez les tomates en quartiers, le", text: "Coupez les tomates en quartiers, le concombre en rondelles et l'oignon rouge en fines lamelles." },
+            { title: "Ajoutez tous les légumes dans le", text: "Ajoutez tous les légumes dans le saladier et mélangez délicatement." },
+            { title: "Préparez la vinaigrette avec l'huile", text: "Préparez la vinaigrette avec l'huile d'olive, le jus de citron, les herbes de Provence, sel et poivre. Versez sur la salade." },
+            { title: "Mélangez bien, laissez reposer 5 minutes", text: "Mélangez bien, laissez reposer 5 minutes pour que les saveurs se marient et servez." }
+        ],
+        tips: [
+            { type: "green", title: "Express", text: "Cette salade se prépare en 10 minutes et ne nécessite aucune cuisson. Parfaite pour les journées chargées." },
+            { type: "red", title: "Thon", text: "Choisissez du thon au naturel plutôt qu'à l'huile pour limiter les lipides ajoutés." }
+        ]
+    },
+
+    {
+        id: "dinde-farcie-epinards-ricotta",
+        name: "Escalope de Dinde Farcie Épinards-Ricotta",
+        subtitle: "Escalope de dinde roulée et farcie aux épinards, ricotta et pignons",
+        emoji: "🍗",
+        category: "dejeuner",
+        difficulty: "Avancé",
+        time: 40,
+        sliderMin: 40,
+        sliderMax: 280,
+        tags: ["Protéiné","Sans gluten"],
+        ingredients: [
+            { id: "dinde", name: "Escalope de dinde", detail: "aplatie finement", emoji: "🍗", baseQty: 160, unit: "g", scalable: true, role: "protein" },
+            { id: "epinards", name: "Épinards", detail: "frais", emoji: "🥬", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
+            { id: "ricotta", name: "Ricotta", detail: "égouttée", emoji: "🧀", baseQty: 40, unit: "g", scalable: false, role: "protein" },
+            { id: "tomate", name: "Tomates cerises", detail: "pour accompagner", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
+            { id: "patate_douce_cuite", name: "Patate douce", detail: "cuite en rondelles", emoji: "🍠", baseQty: 120, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
+            { id: "parmesan", name: "Parmesan", detail: "râpé", emoji: "🧀", baseQty: 10, unit: "g", scalable: false, role: "protein" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffez le four à 190°C", text: "Préchauffez le four à 190°C. Faites tomber les épinards frais dans une poêle avec un filet d'huile d'olive, 2-3 minutes." },
+            { title: "Mélangez les épinards égouttés et", text: "Mélangez les épinards égouttés et pressés avec la ricotta, le parmesan râpé, une pincée de muscade, sel et poivre." },
+            { title: "Aplatissez l'escalope de dinde entre", text: "Aplatissez l'escalope de dinde entre deux feuilles de film alimentaire. Étalez la farce épinards-ricotta sur toute la surface." },
+            { title: "Roulez l'escalope bien serrée et", text: "Roulez l'escalope bien serrée et fixez-la avec des cure-dents ou de la ficelle alimentaire." },
+            { title: "Saisissez la roulade 2 minutes de chaque", text: "Saisissez la roulade 2 minutes de chaque côté à la poêle, puis transférez au four avec les rondelles de patate douce pour 20-25 minutes." },
+            { title: "Coupez la roulade en tranches épaisses,", text: "Coupez la roulade en tranches épaisses, servez avec les patates douces rôties et les tomates cerises poêlées." }
+        ],
+        tips: [
+            { type: "green", title: "Présentation", text: "Coupez la roulade en tranches après 5 min de repos pour des tranches nettes avec la spirale épinards-ricotta visible." },
+            { type: "red", title: "Farce", text: "Essorez bien les épinards pour éviter qu'ils ne rendent trop d'eau à la cuisson et détrempe la farce." }
+        ]
+    },
+
+    {
+        id: "curry-rouge-tempeh-legumes",
+        name: "Curry Rouge au Tempeh & Légumes",
+        subtitle: "Curry rouge thaï au tempeh doré, légumes croquants et lait de coco",
+        emoji: "🍛",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 30,
+        sliderMin: 40,
+        sliderMax: 260,
+        tags: ["Vegan","Sans gluten","Protéiné"],
+        ingredients: [
+            { id: "tempeh", name: "Tempeh", detail: "coupé en cubes", emoji: "🧈", baseQty: 130, unit: "g", scalable: true, role: "protein" },
+            { id: "riz_basmati_cuit", name: "Riz basmati", detail: "cuit", emoji: "🍚", baseQty: 140, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "lait_coco", name: "Lait de coco", detail: "léger", emoji: "🥥", baseQty: 100, unit: "ml", scalable: false, role: "Sauce" },
+            { id: "pate_curry", name: "Pâte de curry rouge", emoji: "🌶️", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "courgette", name: "Courgette", detail: "en rondelles", emoji: "🥒", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
+            { id: "poivron_rouge", name: "Poivron rouge", detail: "en morceaux", emoji: "🫑", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
+            { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "Légumes" },
+            { id: "huile_olive", name: "Huile de coco", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Coupez le tempeh en cubes et faites-le", text: "Coupez le tempeh en cubes et faites-le dorer à la poêle avec un filet d'huile, 5-6 minutes de chaque côté. Réservez." },
+            { title: "Dans la même poêle, faites revenir", text: "Dans la même poêle, faites revenir l'oignon émincé 2-3 minutes puis ajoutez la pâte de curry rouge et faites-la torréfier 1 minute." },
+            { title: "Ajoutez les légumes (courgette, poivron)", text: "Ajoutez les légumes (courgette, poivron) et faites sauter 3-4 minutes à feu vif." },
+            { title: "Versez le lait de coco, mélangez bien et", text: "Versez le lait de coco, mélangez bien et laissez mijoter 8-10 minutes à feu doux jusqu'à épaississement." },
+            { title: "Remettez les cubes de tempeh dorés dans", text: "Remettez les cubes de tempeh dorés dans le curry et laissez chauffer 2-3 minutes pour qu'ils s'imprègnent des saveurs." },
+            { title: "Servez le curry sur le riz basmati,", text: "Servez le curry sur le riz basmati, garni de feuilles de basilic thaï et d'un quartier de citron vert." }
+        ],
+        tips: [
+            { type: "green", title: "Tempeh", text: "Le tempeh absorbe très bien les saveurs du curry. N'hésitez pas à le mariner 15 min dans de la sauce soja avant de le dorer." },
+            { type: "red", title: "Pâte de curry", text: "Les pâtes de curry varient en puissance. Goûtez d'abord, vous pourrez toujours en ajouter mais pas en retirer !" }
+        ]
+    },
+
+    {
+        id: "quiche-sans-pate-saumon-poireaux",
+        name: "Quiche Sans Pâte Saumon-Poireaux",
+        subtitle: "Quiche légère sans pâte au saumon, poireaux fondants et aneth",
+        emoji: "🥧",
+        category: "dejeuner",
+        difficulty: "Facile",
+        time: 40,
+        sliderMin: 40,
+        sliderMax: 260,
+        tags: ["Protéiné","Sans gluten"],
+        ingredients: [
+            { id: "saumon", name: "Saumon frais", detail: "en dés", emoji: "🐟", baseQty: 120, unit: "g", scalable: true, role: "protein" },
+            { id: "oeuf", name: "Œufs", detail: "entiers", emoji: "🥚", baseQty: 2, unit: "pce", scalable: true, role: "protein" },
+            { id: "poireaux", name: "Poireaux", detail: "émincés", emoji: "🥬", baseQty: 120, unit: "g", scalable: true, role: "Légumes" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 40, unit: "g", scalable: false, role: "Appareil" },
+            { id: "lait_demi", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 60, unit: "ml", scalable: false, role: "Appareil" },
+            { id: "fromage_rape", name: "Emmental râpé", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "Topping" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffez le four à 180°C", text: "Préchauffez le four à 180°C. Huilez légèrement un moule à tarte ou des ramequins individuels." },
+            { title: "Faites fondre les poireaux émincés dans", text: "Faites fondre les poireaux émincés dans une poêle avec un filet d'huile d'olive, 8-10 min à feu doux jusqu'à ce qu'ils soient bien tendres." },
+            { title: "Fouettez les œufs avec la crème légère", text: "Fouettez les œufs avec la crème légère et le lait. Assaisonnez de sel, poivre, aneth ciselé et une pincée de muscade." },
+            { title: "Répartissez les poireaux fondus et les", text: "Répartissez les poireaux fondus et les dés de saumon dans le fond du moule." },
+            { title: "Versez l'appareil aux œufs par-dessus,", text: "Versez l'appareil aux œufs par-dessus, parsemez de fromage râpé." },
+            { title: "Enfournez 25-30 minutes jusqu'à ce que", text: "Enfournez 25-30 minutes jusqu'à ce que la quiche soit dorée et prise au centre. Laissez tiédir 5 min avant de servir." }
+        ],
+        tips: [
+            { type: "green", title: "Sans pâte", text: "L'absence de pâte réduit considérablement les calories tout en gardant le moelleux grâce à l'appareil crème-œufs." },
+            { type: "red", title: "Poireaux", text: "Faites bien fondre les poireaux à feu doux. Pressés, ils peuvent rendre de l'eau et détremper la quiche." }
+        ]
+    },
+
+    {
+        id: "penne-arrabiata-seitan",
+        name: "Penne Arrabiata au Seitan",
+        subtitle: "Penne sauce tomate piquante au seitan émincé, basilic frais",
+        emoji: "🍝",
+        category: "dejeuner",
+        difficulty: "Facile",
+        time: 20,
+        sliderMin: 40,
+        sliderMax: 270,
+        tags: ["Vegan","Protéiné","Rapide"],
+        ingredients: [
+            { id: "seitan", name: "Seitan", detail: "émincé", emoji: "🌾", baseQty: 120, unit: "g", scalable: true, role: "protein" },
+            { id: "pates_cuites", name: "Penne complètes", detail: "cuites al dente", emoji: "🍝", baseQty: 160, unit: "g", scalable: true, role: "carb", rawRatio: 2.5 },
+            { id: "sauce_tomate", name: "Sauce tomate", detail: "passata", emoji: "🍅", baseQty: 120, unit: "g", scalable: false, role: "Sauce" },
+            { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "Légumes" },
+            { id: "poivron_rouge", name: "Poivron rouge", detail: "en dés", emoji: "🫑", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
+            { id: "concentre_tomate", name: "Concentré de tomate", emoji: "🍅", baseQty: 10, unit: "g", scalable: false, role: "Sauce" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faites cuire les penne al dente selon", text: "Faites cuire les penne al dente selon les instructions du paquet. Égouttez en réservant un peu d'eau de cuisson." },
+            { title: "Faites dorer le seitan émincé dans une", text: "Faites dorer le seitan émincé dans une poêle avec un filet d'huile d'olive, 3-4 minutes. Réservez." },
+            { title: "Dans la même poêle, faites revenir", text: "Dans la même poêle, faites revenir l'oignon et le poivron 3-4 minutes. Ajoutez l'ail haché et le piment." },
+            { title: "Versez la sauce tomate et le concentré,", text: "Versez la sauce tomate et le concentré, ajoutez les flocons de piment rouge et laissez mijoter 8-10 minutes." },
+            { title: "Incorporez le seitan doré dans la sauce,", text: "Incorporez le seitan doré dans la sauce, ajoutez les penne et un peu d'eau de cuisson pour lier." },
+            { title: "Mélangez bien, rectifiez l'assaisonnement", text: "Mélangez bien, rectifiez l'assaisonnement. Servez parsemé de basilic frais ciselé." }
+        ],
+        tips: [
+            { type: "green", title: "Piquant", text: "Dosez le piment selon votre tolérance. Commencez par une pincée et ajustez en fin de cuisson." },
+            { type: "red", title: "Seitan", text: "Le seitan peut devenir caoutchouteux s'il est trop cuit. Saisissez-le rapidement à feu vif." }
+        ]
+    },
+
+    {
+        id: "croque-monsieur-dinde-bechamel",
+        name: "Croque-Monsieur Dinde-Béchamel",
+        subtitle: "Croque-monsieur au four, dinde fumée, béchamel légère et emmental gratiné",
+        emoji: "🥪",
+        category: "dejeuner",
+        difficulty: "Facile",
+        time: 25,
+        sliderMin: 40,
+        sliderMax: 250,
+        tags: ["Cheat meal","Protéiné"],
+        ingredients: [
+            { id: "dinde", name: "Dinde fumée", detail: "en tranches", emoji: "🍗", baseQty: 80, unit: "g", scalable: true, role: "protein" },
+            { id: "pain_mie_complet", name: "Pain de mie complet", detail: "2 tranches", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "carb" },
+            { id: "fromage_rape", name: "Emmental râpé", emoji: "🧀", baseQty: 25, unit: "g", scalable: false, role: "protein" },
+            { id: "lait_demi", name: "Lait demi-écrémé", detail: "pour béchamel", emoji: "🥛", baseQty: 60, unit: "ml", scalable: false, role: "Sauce" },
+            { id: "moutarde", name: "Moutarde de Dijon", emoji: "🟡", baseQty: 5, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "salade_verte", name: "Salade verte", detail: "en accompagnement", emoji: "🥬", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
+            { id: "tomate", name: "Tomates cerises", detail: "en accompagnement", emoji: "🍅", baseQty: 60, unit: "g", scalable: true, role: "Légumes" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffez le four à 200°C", text: "Préchauffez le four à 200°C. Préparez une béchamel légère avec une noisette de beurre, une cuillère de farine et le lait." },
+            { title: "Tartinez une tranche de pain de mie de", text: "Tartinez une tranche de pain de mie de moutarde et l'autre d'une fine couche de béchamel." },
+            { title: "Disposez les tranches de dinde fumée sur", text: "Disposez les tranches de dinde fumée sur la moutarde, refermez le croque-monsieur." },
+            { title: "Nappez le dessus du croque avec le reste", text: "Nappez le dessus du croque avec le reste de béchamel et parsemez généreusement de fromage râpé." },
+            { title: "Enfournez sur une plaque 12-15 minutes", text: "Enfournez sur une plaque 12-15 minutes jusqu'à ce que le fromage soit bien doré et gratiné." },
+            { title: "Servez immédiatement avec la salade", text: "Servez immédiatement avec la salade verte assaisonnée et les tomates cerises." }
+        ],
+        tips: [
+            { type: "green", title: "Au four", text: "La cuisson au four plutôt qu'à la poêle permet d'éviter le beurre de cuisson et donne un résultat plus croustillant." },
+            { type: "red", title: "Béchamel", text: "Ne surchargez pas de béchamel sinon le croque sera détrempé. Une fine couche suffit pour le goût." }
+        ]
+    },
+
+    {
+        id: "buddha-bowl-patate-douce-tahini",
+        name: "Buddha Bowl Patate Douce & Tahini",
+        subtitle: "Bowl complet aux patates douces rôties, pois chiches croustillants, kale et sauce tahini-citron",
+        emoji: "🥗",
+        category: "dejeuner",
+        difficulty: "Facile",
+        time: 35,
+        sliderMin: 40,
+        sliderMax: 260,
+        tags: ["Vegan","Sans gluten","Protéiné"],
+        ingredients: [
+            { id: "patate_douce_cuite", name: "Patate douce", detail: "rôtie en cubes", emoji: "🍠", baseQty: 130, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
+            { id: "pois_chiches_cuits", name: "Pois chiches", detail: "rôtis croustillants", emoji: "🫘", baseQty: 100, unit: "g", scalable: true, role: "protein" },
+            { id: "chou_kale", name: "Chou kale", detail: "massé et assaisonné", emoji: "🥬", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
+            { id: "avocat", name: "Avocat", detail: "en tranches", emoji: "🥑", baseQty: 50, unit: "g", scalable: true, role: "fat" },
+            { id: "quinoa_cuit", name: "Quinoa", detail: "cuit", emoji: "🌾", baseQty: 80, unit: "g", scalable: true, role: "carb", rawRatio: 1.8 },
+            { id: "sauce_tahini", name: "Tahini", detail: "pour la sauce", emoji: "🥜", baseQty: 15, unit: "g", scalable: false, role: "Sauce" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffez le four à 200°C", text: "Préchauffez le four à 200°C. Coupez la patate douce en cubes, arrosez d'huile d'olive et de paprika, enfournez 25 min." },
+            { title: "Égouttez et séchez les pois chiches,", text: "Égouttez et séchez les pois chiches, assaisonnez de cumin et de paprika. Enfournez avec les patates les 15 dernières minutes." },
+            { title: "Massez le chou kale avec un filet", text: "Massez le chou kale avec un filet d'huile d'olive, du sel et du citron pour l'attendrir et le rendre plus digeste." },
+            { title: "Préparez la sauce tahini en mélangeant", text: "Préparez la sauce tahini en mélangeant le tahini, le jus de citron, de l'eau tiède, de l'ail râpé, sel et poivre." },
+            { title: "Disposez dans un bol le quinoa, le kale", text: "Disposez dans un bol le quinoa, le kale massé, les cubes de patate douce rôtie et les pois chiches croustillants." },
+            { title: "Ajoutez les tranches d'avocat, arrosez", text: "Ajoutez les tranches d'avocat, arrosez généreusement de sauce tahini-citron et parsemez de graines de sésame." }
+        ],
+        tips: [
+            { type: "green", title: "Pois chiches croustillants", text: "Le secret est de bien les sécher avant l'assaisonnement. Plus ils sont secs, plus ils seront croustillants." },
+            { type: "red", title: "Kale", text: "Massez le kale au moins 2-3 minutes avec l'huile et le citron. Sans ce massage, il reste fibreux et amer." }
+        ]
+    },
+
+    {
+        id: "souffle-pancake-japonais",
+        name: "Soufflé Pancake Japonais",
+        subtitle: "Pancakes aériens et jiggly à la japonaise, fruits frais et chantilly légère",
+        emoji: "🥞",
+        category: "petit-dej-sucre",
+        difficulty: "Avancé",
+        time: 35,
+        sliderMin: 40,
+        sliderMax: 250,
+        tags: ["Végétarien"],
+        ingredients: [
+            { id: "oeuf", name: "Œufs", detail: "blancs et jaunes séparés", emoji: "🥚", baseQty: 3, unit: "pce", scalable: true, role: "Base" },
+            { id: "farine_complete", name: "Farine complète", detail: "tamisée", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "Base" },
+            { id: "lait_demi", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 30, unit: "ml", scalable: false, role: "Base" },
+            { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "en garniture façon chantilly", emoji: "🥛", baseQty: 60, unit: "g", scalable: true, role: "Topping" },
+            { id: "fraises", name: "Fraises", detail: "fraîches, coupées", emoji: "🍓", baseQty: 80, unit: "g", scalable: true, role: "Fruits" },
+            { id: "myrtilles", name: "Myrtilles", detail: "fraîches", emoji: "🫐", baseQty: 40, unit: "g", scalable: true, role: "Fruits" },
+            { id: "sirop_erable", name: "Sirop d'érable", detail: "un filet", emoji: "🍁", baseQty: 10, unit: "ml", scalable: false, role: "Topping" }
+        ],
+        options: [],
+        steps: [
+            { title: "Séparez les blancs des jaunes d'œufs", text: "Séparez les blancs des jaunes d'œufs dans deux bols bien propres. Les blancs ne doivent contenir aucune trace de jaune pour monter correctement." },
+            { title: "Dans le bol des jaunes, fouettez avec le", text: "Dans le bol des jaunes, fouettez avec le lait, une pincée de vanille et la farine tamisée jusqu'à obtenir une pâte lisse et sans grumeaux." },
+            { title: "Montez les blancs en neige très ferme", text: "Montez les blancs en neige très ferme avec une pincée de crème de tartre ou de jus de citron. Ajoutez 1 c.à.s de sucre en fin de montage pour stabiliser." },
+            { title: "Incorporez les blancs à la pâte en 3", text: "Incorporez les blancs à la pâte en 3 fois, en soulevant délicatement la préparation avec une maryse pour ne pas casser les bulles d'air." },
+            { title: "Graissez une poêle antiadhésive à feu", text: "Graissez une poêle antiadhésive à feu très doux. Déposez de hauts cercles de pâte (à la poche ou à la cuillère) et couvrez. Cuire 6-7 min par face." },
+            { title: "Fouettez le fromage blanc avec un trait", text: "Fouettez le fromage blanc avec un trait de vanille et de sirop d'érable pour créer une chantilly légère protéinée." },
+            { title: "Empilez 2-3 pancakes par assiette,", text: "Empilez 2-3 pancakes par assiette, garnissez de chantilly légère, fraises et myrtilles, et un filet de sirop d'érable." }
+        ],
+        tips: [
+            { type: "green", title: "Technique soufflé", text: "Le secret est la cuisson à feu TRÈS doux avec couvercle. C'est la vapeur qui fait gonfler les pancakes sans les brûler." },
+            { type: "red", title: "Blancs en neige", text: "Tout doit être impeccablement propre et sans gras. La moindre trace de jaune empêche les blancs de monter." }
+        ]
+    },
+
+    {
+        id: "french-toast-brioche-caramelise",
+        name: "French Toast Briochée Caramélisé",
+        subtitle: "Brioche épaisse imbibée d'appareil vanillé, caramélisée au beurre et compotée de fruits",
+        emoji: "🍞",
+        category: "petit-dej-sucre",
+        difficulty: "Moyen",
+        time: 25,
+        sliderMin: 40,
+        sliderMax: 280,
+        tags: ["Végétarien","Cheat meal"],
+        ingredients: [
+            { id: "pain_mie_complet", name: "Brioche / Pain de mie", detail: "tranches épaisses (3cm)", emoji: "🍞", baseQty: 80, unit: "g", scalable: true, role: "Base" },
+            { id: "oeuf", name: "Œufs", detail: "entiers pour l'appareil", emoji: "🥚", baseQty: 2, unit: "pce", scalable: true, role: "Appareil" },
+            { id: "lait_demi", name: "Lait demi-écrémé", detail: "vanillé", emoji: "🥛", baseQty: 60, unit: "ml", scalable: false, role: "Appareil" },
+            { id: "ricotta", name: "Ricotta", detail: "fouettée en garniture", emoji: "🧀", baseQty: 50, unit: "g", scalable: true, role: "Topping" },
+            { id: "pomme", name: "Pomme", detail: "en compotée caramélisée", emoji: "🍎", baseQty: 100, unit: "g", scalable: true, role: "Fruits" },
+            { id: "sirop_erable", name: "Sirop d'érable", emoji: "🍁", baseQty: 10, unit: "ml", scalable: false, role: "Topping" },
+            { id: "amandes", name: "Amandes effilées", detail: "torréfiées", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
+            { id: "huile_olive", name: "Beurre / Huile", detail: "pour la poêle", emoji: "🧈", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparez la compotée", text: "Préparez la compotée : coupez la pomme en petits dés, faites-la fondre à la poêle avec un filet de sirop d'érable et une pincée de cannelle, 8-10 min à feu doux jusqu'à caramélisation." },
+            { title: "Préparez l'appareil à tremper en", text: "Préparez l'appareil à tremper en fouettant les œufs, le lait, la vanille et une pincée de cannelle dans un plat creux." },
+            { title: "Trempez chaque tranche de brioche", text: "Trempez chaque tranche de brioche épaisse dans l'appareil, 30 secondes de chaque côté. La brioche doit s'imbiber sans se déliter." },
+            { title: "Faites chauffer une poêle antiadhésive à", text: "Faites chauffer une poêle antiadhésive à feu moyen avec une noisette de beurre. Posez les tranches et cuisez 3-4 min de chaque côté jusqu'à caramélisation dorée." },
+            { title: "Pendant ce temps, fouettez la ricotta", text: "Pendant ce temps, fouettez la ricotta avec un trait de vanille et un filet de sirop d'érable pour obtenir une crème onctueuse." },
+            { title: "Dressez les French toasts caramélisés,", text: "Dressez les French toasts caramélisés, nappez de compotée de pomme, d'un nuage de ricotta fouettée, d'amandes torréfiées et d'un dernier filet de sirop." }
+        ],
+        tips: [
+            { type: "green", title: "Texture parfaite", text: "L'idéal est du pain rassis de la veille — il absorbe mieux l'appareil sans se défaire. Tranches de 3cm minimum." },
+            { type: "red", title: "Caramélisation", text: "Feu moyen impératif : trop fort brûle l'extérieur avant que l'intérieur soit cuit. Patience pour un résultat doré uniforme." }
+        ]
+    },
+
+    {
+        id: "crepes-suzette-light",
+        name: "Crêpes Suzette Light",
+        subtitle: "Crêpes fines nappées de sauce à l'orange caramélisée, façon bistrot français revisité",
+        emoji: "🍊",
+        category: "petit-dej-sucre",
+        difficulty: "Avancé",
+        time: 30,
+        sliderMin: 40,
+        sliderMax: 250,
+        tags: ["Végétarien"],
+        ingredients: [
+            { id: "farine_complete", name: "Farine complète", detail: "tamisée", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "Base" },
+            { id: "oeuf", name: "Œuf", detail: "entier", emoji: "🥚", baseQty: 1, unit: "pce", scalable: true, role: "Base" },
+            { id: "lait_demi", name: "Lait demi-écrémé", emoji: "🥛", baseQty: 100, unit: "ml", scalable: false, role: "Base" },
+            { id: "orange", name: "Orange", detail: "zeste et jus frais", emoji: "🍊", baseQty: 120, unit: "g", scalable: true, role: "Sauce" },
+            { id: "sirop_erable", name: "Sirop d'érable", detail: "pour caraméliser", emoji: "🍁", baseQty: 15, unit: "ml", scalable: false, role: "Sauce" },
+            { id: "ricotta", name: "Ricotta", detail: "en quenelle", emoji: "🧀", baseQty: 40, unit: "g", scalable: true, role: "Garniture" },
+            { id: "huile_olive", name: "Beurre léger", detail: "pour la poêle et sauce", emoji: "🧈", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparez la pâte à crêpes", text: "Préparez la pâte à crêpes : fouettez la farine, l'œuf et le lait jusqu'à obtenir une pâte fluide sans grumeaux. Laissez reposer 15 min." },
+            { title: "Prélevez le zeste de l'orange à la", text: "Prélevez le zeste de l'orange à la microplane (zeste fin, sans la partie blanche amère) et pressez le jus." },
+            { title: "Cuisez 3-4 crêpes fines dans une poêle", text: "Cuisez 3-4 crêpes fines dans une poêle antiadhésive chaude légèrement beurrée. Réservez." },
+            { title: "Préparez la sauce suzette", text: "Préparez la sauce suzette : dans une poêle large, faites chauffer le sirop d'érable avec le jus d'orange et les zestes. Laissez réduire de moitié à feu moyen (3-4 min)." },
+            { title: "Pliez chaque crêpe en quatre et", text: "Pliez chaque crêpe en quatre et disposez-les dans la sauce à l'orange. Laissez-les s'imbiber 1-2 minutes en les nappant régulièrement." },
+            { title: "Dressez les crêpes suzette nappées de", text: "Dressez les crêpes suzette nappées de sauce, avec une quenelle de ricotta vanillée et quelques zestes d'orange frais." }
+        ],
+        tips: [
+            { type: "green", title: "Classique revisité", text: "La version originale utilise du beurre et du Grand Marnier. Ici le sirop d'érable et la réduction d'orange apportent la même profondeur." },
+            { type: "red", title: "Sauce", text: "La sauce doit napper la cuillère mais rester sirupeuse. Si elle réduit trop, ajoutez un peu de jus d'orange." }
+        ]
+    },
+
+    {
+        id: "porridge-creme-brulee",
+        name: "Porridge Façon Crème Brûlée",
+        subtitle: "Porridge crémeux vanillé avec une croûte de sucre caramélisée au chalumeau",
+        emoji: "🍮",
+        category: "petit-dej-sucre",
+        difficulty: "Moyen",
+        time: 20,
+        sliderMin: 40,
+        sliderMax: 260,
+        tags: ["Végétarien","Sans gluten","Protéiné"],
+        ingredients: [
+            { id: "flocons_avoine", name: "Flocons d'avoine", detail: "fins", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "Base" },
+            { id: "lait_demi", name: "Lait demi-écrémé", detail: "vanillé", emoji: "🥛", baseQty: 150, unit: "ml", scalable: false, role: "Base" },
+            { id: "whey_protein", name: "Whey vanille", detail: "pour la crémosité", emoji: "💪", baseQty: 20, unit: "g", scalable: true, role: "protein" },
+            { id: "oeuf", name: "Jaune d'œuf", detail: "mélangé au porridge chaud", emoji: "🥚", baseQty: 1, unit: "pce", scalable: false, role: "Crémosité" },
+            { id: "banane", name: "Banane", detail: "caramélisée en rondelles", emoji: "🍌", baseQty: 80, unit: "g", scalable: true, role: "Topping" },
+            { id: "amandes", name: "Amandes effilées", detail: "torréfiées", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
+            { id: "sirop_erable", name: "Sirop d'érable", detail: "un fin filet", emoji: "🍁", baseQty: 8, unit: "ml", scalable: false, role: "Topping" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faites cuire les flocons d'avoine dans", text: "Faites cuire les flocons d'avoine dans le lait vanillé à feu doux en remuant régulièrement, 5-7 minutes, jusqu'à consistance crémeuse." },
+            { title: "Hors du feu, incorporez le jaune d'œuf", text: "Hors du feu, incorporez le jaune d'œuf en fouettant rapidement — la chaleur résiduelle le cuit doucement et crée une texture façon crème anglaise." },
+            { title: "Ajoutez la whey vanille en mélangeant", text: "Ajoutez la whey vanille en mélangeant énergiquement pour éviter les grumeaux. Le porridge doit être épais et soyeux." },
+            { title: "Transférez dans un bol résistant à la chaleur", text: "Transférez dans un bol résistant à la chaleur. Saupoudrez une fine couche de sucre de coco en surface." },
+            { title: "Caramélisez la surface au chalumeau de", text: "Caramélisez la surface au chalumeau de cuisine (ou sous le grill du four 1-2 min) pour obtenir une croûte craquante dorée." },
+            { title: "Garnissez de rondelles de banane", text: "Garnissez de rondelles de banane caramélisées à la poêle, d'amandes effilées torréfiées et d'un filet de sirop d'érable." }
+        ],
+        tips: [
+            { type: "green", title: "Sans chalumeau", text: "Passez le bol sous le grill du four (position haute) 2-3 min en surveillant. Le sucre doit brunir mais pas brûler." },
+            { type: "red", title: "Jaune d'œuf", text: "Incorporez-le hors du feu et fouettez vite. Si le porridge est trop chaud, le jaune coagulera en petits morceaux." }
+        ]
+    },
+
+    {
+        id: "granola-clusters-fleur-sel",
+        name: "Granola Clusters Chocolat & Fleur de Sel",
+        subtitle: "Granola artisanal en gros clusters croquants, chocolat noir, noisettes et fleur de sel",
+        emoji: "🍫",
+        category: "petit-dej-sucre",
+        difficulty: "Facile",
+        time: 35,
+        sliderMin: 30,
+        sliderMax: 200,
+        tags: ["Vegan","Sans gluten"],
+        ingredients: [
+            { id: "flocons_avoine", name: "Flocons d'avoine", detail: "gros flocons", emoji: "🌾", baseQty: 60, unit: "g", scalable: true, role: "Base" },
+            { id: "amandes", name: "Noisettes / Amandes", detail: "concassées grossièrement", emoji: "🌰", baseQty: 20, unit: "g", scalable: true, role: "Croquant" },
+            { id: "noix_coco_rapee", name: "Noix de coco râpée", emoji: "🥥", baseQty: 10, unit: "g", scalable: false, role: "Croquant" },
+            { id: "chocolat_noir_70", name: "Chocolat noir 70%", detail: "haché en pépites", emoji: "🍫", baseQty: 20, unit: "g", scalable: true, role: "Gourmandise" },
+            { id: "sirop_erable", name: "Sirop d'érable", detail: "comme liant", emoji: "🍁", baseQty: 20, unit: "ml", scalable: false, role: "Liant" },
+            { id: "huile_olive", name: "Huile de coco", detail: "fondue", emoji: "🥥", baseQty: 10, unit: "ml", scalable: false, role: "Liant" },
+            { id: "graines_chia", name: "Graines de chia", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "Nutrition" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffez le four à 160°C", text: "Préchauffez le four à 160°C. Mélangez les flocons d'avoine, les noisettes concassées, la noix de coco et les graines de chia." },
+            { title: "Faites tiédir le sirop d'érable avec", text: "Faites tiédir le sirop d'érable avec l'huile de coco et une pincée de fleur de sel. Versez sur le mélange sec et compactez bien." },
+            { title: "Étalez le mélange sur une plaque", text: "Étalez le mélange sur une plaque recouverte de papier cuisson en une couche compacte — NE PAS remuer pendant la cuisson, c'est le secret des clusters." },
+            { title: "Enfournez 25-30 minutes jusqu'à", text: "Enfournez 25-30 minutes jusqu'à coloration dorée profonde. Laissez refroidir COMPLÈTEMENT sur la plaque sans toucher." },
+            { title: "Une fois totalement refroidi, cassez le", text: "Une fois totalement refroidi, cassez le granola en gros morceaux irréguliers. Ajoutez les pépites de chocolat noir." },
+            { title: "Saupoudrez d'une pincée de fleur de sel", text: "Saupoudrez d'une pincée de fleur de sel. Servez avec du yaourt, du lait ou tel quel." }
+        ],
+        tips: [
+            { type: "green", title: "Secret des clusters", text: "Ne JAMAIS remuer pendant la cuisson ni casser avant refroidissement complet. Le granola durcit en refroidissant." },
+            { type: "red", title: "Chocolat", text: "Ajoutez le chocolat APRÈS refroidissement complet sinon il fond et rend le granola mou." }
+        ]
+    },
+
+    {
+        id: "bowl-smoothie-pitaya-coco",
+        name: "Smoothie Bowl Pitaya & Coco",
+        subtitle: "Bowl rose vif au fruit du dragon, lait de coco, garnitures tropicales et granola",
+        emoji: "🐉",
+        category: "petit-dej-sucre",
+        difficulty: "Facile",
+        time: 10,
+        sliderMin: 30,
+        sliderMax: 220,
+        tags: ["Vegan","Sans gluten"],
+        ingredients: [
+            { id: "fruits_rouges", name: "Pitaya / Fruits rouges", detail: "surgelés", emoji: "🐉", baseQty: 100, unit: "g", scalable: true, role: "Base" },
+            { id: "banane", name: "Banane", detail: "surgelée pour épaisseur", emoji: "🍌", baseQty: 80, unit: "g", scalable: true, role: "Base" },
+            { id: "lait_coco", name: "Lait de coco", detail: "léger", emoji: "🥥", baseQty: 80, unit: "ml", scalable: false, role: "Liquide" },
+            { id: "mangue", name: "Mangue", detail: "en dés frais", emoji: "🥭", baseQty: 50, unit: "g", scalable: true, role: "Topping" },
+            { id: "noix_coco_rapee", name: "Copeaux de coco", detail: "toastés", emoji: "🥥", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
+            { id: "granola", name: "Granola", detail: "croquant", emoji: "🥣", baseQty: 20, unit: "g", scalable: true, role: "Topping" },
+            { id: "graines_chia", name: "Graines de chia", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "Topping" }
+        ],
+        options: [],
+        steps: [
+            { title: "Sortez la banane et les fruits du", text: "Sortez la banane et les fruits du congélateur 5 minutes avant. Ils doivent être encore bien gelés mais légèrement ramollis." },
+            { title: "Mixez les fruits surgelés avec le lait", text: "Mixez les fruits surgelés avec le lait de coco à l'aide d'un blender puissant. Ajoutez le liquide par petites doses pour garder une texture ÉPAISSE (consistance sorbet)." },
+            { title: "Toastez les copeaux de coco à sec dans", text: "Toastez les copeaux de coco à sec dans une poêle 1-2 min en remuant sans cesse. Réservez dès qu'ils sont dorés." },
+            { title: "Versez le smoothie épais dans un bol", text: "Versez le smoothie épais dans un bol. La texture doit être assez ferme pour que les toppings restent en surface." },
+            { title: "Disposez artistiquement les dés de", text: "Disposez artistiquement les dés de mangue, le granola, les copeaux de coco toastés et les graines de chia en lignes parallèles." },
+            { title: "Servez immédiatement", text: "Servez immédiatement — un smoothie bowl se déguste glacé avant que la texture ne se liquéfie." }
+        ],
+        tips: [
+            { type: "green", title: "Texture épaisse", text: "Utilisez TRÈS PEU de liquide et des fruits bien surgelés. Ajoutez le lait cuillère par cuillère au blender." },
+            { type: "red", title: "Rapidité", text: "Préparez tous les toppings AVANT de mixer. Le bowl se liquéfie vite à température ambiante." }
+        ]
+    },
+
+    {
+        id: "clafoutis-cerises-amande",
+        name: "Clafoutis Cerises & Amande",
+        subtitle: "Clafoutis fondant aux cerises et poudre d'amande, version allégée du classique français",
+        emoji: "🍒",
+        category: "petit-dej-sucre",
+        difficulty: "Moyen",
+        time: 40,
+        sliderMin: 40,
+        sliderMax: 250,
+        tags: ["Végétarien","Sans gluten"],
+        ingredients: [
+            { id: "oeuf", name: "Œufs", detail: "entiers", emoji: "🥚", baseQty: 2, unit: "pce", scalable: true, role: "Base" },
+            { id: "fruits_rouges", name: "Cerises / Fruits rouges", detail: "dénoyautées", emoji: "🍒", baseQty: 120, unit: "g", scalable: true, role: "Fruits" },
+            { id: "amandes", name: "Poudre d'amande", detail: "remplace la farine", emoji: "🌰", baseQty: 30, unit: "g", scalable: true, role: "Base" },
+            { id: "lait_demi", name: "Lait demi-écrémé", detail: "vanillé", emoji: "🥛", baseQty: 80, unit: "ml", scalable: false, role: "Appareil" },
+            { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "pour l'onctuosité", emoji: "🥛", baseQty: 40, unit: "g", scalable: false, role: "Appareil" },
+            { id: "sirop_erable", name: "Sirop d'érable", emoji: "🍁", baseQty: 12, unit: "ml", scalable: false, role: "Sucrant" },
+            { id: "huile_olive", name: "Beurre", detail: "pour le moule", emoji: "🧈", baseQty: 3, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffez le four à 180°C", text: "Préchauffez le four à 180°C. Beurrez un petit plat à gratin ou des ramequins individuels." },
+            { title: "Fouettez les œufs avec le sirop d'érable", text: "Fouettez les œufs avec le sirop d'érable et la vanille en poudre jusqu'à ce que le mélange soit mousseux et pâle." },
+            { title: "Incorporez la poudre d'amande, le", text: "Incorporez la poudre d'amande, le fromage blanc et le lait progressivement en fouettant pour obtenir un appareil lisse et fluide." },
+            { title: "Disposez les cerises (ou fruits rouges)", text: "Disposez les cerises (ou fruits rouges) dans le fond du plat beurré en une seule couche régulière." },
+            { title: "Versez délicatement l'appareil sur les fruits", text: "Versez délicatement l'appareil sur les fruits. Le liquide doit à peine recouvrir les cerises." },
+            { title: "Enfournez 25-30 minutes", text: "Enfournez 25-30 minutes : le clafoutis est prêt quand le dessus est doré et gonflé mais le centre encore légèrement tremblotant. Laissez tiédir 10 min." }
+        ],
+        tips: [
+            { type: "green", title: "Tradition", text: "Les puristes gardent les noyaux dans les cerises — ils apportent un arôme d'amande amère subtil pendant la cuisson." },
+            { type: "red", title: "Cuisson", text: "Le centre doit rester légèrement tremblotant à la sortie du four. Il finit de prendre en refroidissant." }
+        ]
+    },
+
+    {
+        id: "brioche-perdue-praline",
+        name: "Brioche Perdue Pralinée",
+        subtitle: "Brioche dorée à l'appareil vanillé, crème de pralin, noisettes caramélisées et fruits",
+        emoji: "🥐",
+        category: "petit-dej-sucre",
+        difficulty: "Moyen",
+        time: 25,
+        sliderMin: 40,
+        sliderMax: 270,
+        tags: ["Végétarien","Cheat meal"],
+        ingredients: [
+            { id: "pain_mie_complet", name: "Brioche", detail: "tranches épaisses de la veille", emoji: "🥐", baseQty: 80, unit: "g", scalable: true, role: "Base" },
+            { id: "oeuf", name: "Œufs", detail: "pour l'appareil à tremper", emoji: "🥚", baseQty: 2, unit: "pce", scalable: true, role: "Appareil" },
+            { id: "lait_demi", name: "Lait vanillé", emoji: "🥛", baseQty: 60, unit: "ml", scalable: false, role: "Appareil" },
+            { id: "beurre_cacahuete", name: "Purée de noisette / Pralin", detail: "tiédi", emoji: "🌰", baseQty: 15, unit: "g", scalable: false, role: "Garniture" },
+            { id: "banane", name: "Banane", detail: "en rondelles caramélisées", emoji: "🍌", baseQty: 80, unit: "g", scalable: true, role: "Fruits" },
+            { id: "amandes", name: "Noisettes", detail: "concassées et torréfiées", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
+            { id: "yaourt_grec", name: "Yaourt grec", detail: "onctueux", emoji: "🥛", baseQty: 40, unit: "g", scalable: true, role: "Fraîcheur" },
+            { id: "sirop_erable", name: "Sirop d'érable", emoji: "🍁", baseQty: 8, unit: "ml", scalable: false, role: "Topping" }
+        ],
+        options: [],
+        steps: [
+            { title: "Fouettez les œufs avec le lait vanillé", text: "Fouettez les œufs avec le lait vanillé et une pincée de cannelle pour créer l'appareil à tremper." },
+            { title: "Trempez les tranches de brioche rassise", text: "Trempez les tranches de brioche rassise 30 secondes de chaque côté — elles doivent s'imbiber sans se défaire." },
+            { title: "Faites dorer les brioches dans une poêle", text: "Faites dorer les brioches dans une poêle à feu moyen avec une noisette de beurre, 3 min de chaque côté jusqu'à caramélisation." },
+            { title: "Dans la même poêle, faites caraméliser", text: "Dans la même poêle, faites caraméliser les rondelles de banane 1-2 min de chaque côté avec un filet de sirop d'érable." },
+            { title: "Tiédissez la purée de noisette 15", text: "Tiédissez la purée de noisette 15 secondes au micro-ondes pour la rendre coulante, ou mélangez-la avec un peu de lait chaud." },
+            { title: "Dressez les brioches perdues, nappez de", text: "Dressez les brioches perdues, nappez de pralin coulant, disposez les bananes caramélisées, une cuillère de yaourt grec et parsemez de noisettes concassées." }
+        ],
+        tips: [
+            { type: "green", title: "Pain rassis", text: "Le pain rassis est MEILLEUR que le frais — il absorbe l'appareil sans se désintégrer et donne une croûte plus croustillante." },
+            { type: "red", title: "Pralin", text: "La purée de noisette est dense. Tiédissez-la impérativement sinon elle sera impossible à napper." }
+        ]
+    },
+
+    {
+        id: "pancakes-souffle-matcha",
+        name: "Pancakes Soufflés au Matcha",
+        subtitle: "Pancakes aériens japonais au thé matcha, crème fouettée légère et haricots rouges sucrés",
+        emoji: "🍵",
+        category: "petit-dej-sucre",
+        difficulty: "Avancé",
+        time: 35,
+        sliderMin: 40,
+        sliderMax: 250,
+        tags: ["Végétarien"],
+        ingredients: [
+            { id: "oeuf", name: "Œufs", detail: "blancs et jaunes séparés", emoji: "🥚", baseQty: 3, unit: "pce", scalable: true, role: "Base" },
+            { id: "farine_complete", name: "Farine complète", detail: "tamisée avec le matcha", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "Base" },
+            { id: "lait_demi", name: "Lait", emoji: "🥛", baseQty: 30, unit: "ml", scalable: false, role: "Base" },
+            { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "fouetté en chantilly", emoji: "🥛", baseQty: 60, unit: "g", scalable: true, role: "Topping" },
+            { id: "haricots_rouges", name: "Haricots rouges", detail: "en pâte sucrée (anko)", emoji: "🫘", baseQty: 40, unit: "g", scalable: true, role: "Garniture" },
+            { id: "fraises", name: "Fraises", detail: "coupées", emoji: "🍓", baseQty: 60, unit: "g", scalable: true, role: "Fruits" },
+            { id: "sirop_erable", name: "Sirop d'érable", emoji: "🍁", baseQty: 8, unit: "ml", scalable: false, role: "Sucrant" }
+        ],
+        options: [],
+        steps: [
+            { title: "Séparez les blancs des jaunes", text: "Séparez les blancs des jaunes. Tamisez la farine avec 2 c.à.c de poudre de matcha dans le bol des jaunes avec le lait." },
+            { title: "Fouettez les jaunes avec la", text: "Fouettez les jaunes avec la farine-matcha et le lait pour obtenir une pâte verte lisse et sans grumeaux." },
+            { title: "Montez les blancs en neige très ferme", text: "Montez les blancs en neige très ferme. Incorporez-les en 3 fois dans la pâte matcha en soulevant délicatement avec une maryse." },
+            { title: "Dans une poêle antiadhésive à feu TRÈS", text: "Dans une poêle antiadhésive à feu TRÈS doux, déposez des dômes de pâte (7-8cm). Ajoutez 1 c.à.s d'eau dans la poêle, couvrez et cuisez 6-7 min." },
+            { title: "Retournez très délicatement, remettez de", text: "Retournez très délicatement, remettez de l'eau, couvrez et cuisez encore 5-6 min. Les pancakes doivent être gonflés et tremblotants." },
+            { title: "Dressez 2-3 pancakes par assiette,", text: "Dressez 2-3 pancakes par assiette, garnissez de fromage blanc fouetté vanillé, d'une quenelle de pâte de haricots rouges sucrée et de fraises." }
+        ],
+        tips: [
+            { type: "green", title: "Matcha", text: "Utilisez du matcha de qualité culinaire (pas cérémoniel). Tamisez-le impérativement avec la farine pour éviter les grumeaux." },
+            { type: "red", title: "Patience", text: "La cuisson prend 12+ minutes au total. Résistez à l'envie d'augmenter le feu, la vapeur fait tout le travail." }
+        ]
+    },
+
+    {
+        id: "bol-overnight-tiramisu",
+        name: "Overnight Oats Façon Tiramisu",
+        subtitle: "Flocons d'avoine imbibés de café, crème mascarpone légère, cacao et copeaux de chocolat",
+        emoji: "☕",
+        category: "petit-dej-sucre",
+        difficulty: "Facile",
+        time: 10,
+        sliderMin: 40,
+        sliderMax: 250,
+        tags: ["Végétarien","Protéiné"],
+        ingredients: [
+            { id: "flocons_avoine", name: "Flocons d'avoine", detail: "petits flocons", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "Base" },
+            { id: "skyr_0", name: "Skyr", detail: "façon mascarpone", emoji: "🥛", baseQty: 80, unit: "g", scalable: true, role: "Crème" },
+            { id: "lait_demi", name: "Café espresso froid", detail: "mélangé au lait", emoji: "☕", baseQty: 80, unit: "ml", scalable: false, role: "Liquide" },
+            { id: "whey_protein", name: "Whey vanille", detail: "protéine", emoji: "💪", baseQty: 15, unit: "g", scalable: true, role: "protein" },
+            { id: "cacao_poudre", name: "Cacao pur", detail: "en poudre, non sucré", emoji: "🍫", baseQty: 8, unit: "g", scalable: false, role: "Saveur" },
+            { id: "chocolat_noir_70", name: "Chocolat noir", detail: "en copeaux", emoji: "🍫", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
+            { id: "sirop_erable", name: "Sirop d'érable", emoji: "🍁", baseQty: 8, unit: "ml", scalable: false, role: "Sucrant" }
+        ],
+        options: [],
+        steps: [
+            { title: "Mélangez les flocons d'avoine avec le", text: "Mélangez les flocons d'avoine avec le café espresso froid (ou café soluble dissous dans de l'eau froide), le lait et la whey vanille." },
+            { title: "Ajoutez la moitié du cacao en poudre et", text: "Ajoutez la moitié du cacao en poudre et le sirop d'érable. Mélangez bien pour que tout soit homogène." },
+            { title: "Préparez la crème", text: "Préparez la crème : fouettez le skyr avec une pointe de vanille et un filet de sirop d'érable pour obtenir une texture façon mascarpone." },
+            { title: "Dans un verre ou bocal, alternez les couches", text: "Dans un verre ou bocal, alternez les couches : overnight oats au café, crème de skyr, overnight oats, crème de skyr." },
+            { title: "Couvrez et placez au réfrigérateur", text: "Couvrez et placez au réfrigérateur minimum 6 heures (idéalement toute la nuit) pour que les flocons absorbent le café." },
+            { title: "Au moment de servir, saupoudrez de cacao", text: "Au moment de servir, saupoudrez de cacao tamisé, de copeaux de chocolat noir et dégustez bien frais." }
+        ],
+        tips: [
+            { type: "green", title: "Couches", text: "Plus vous faites de couches fines, plus l'effet tiramisu est réussi. Un verre transparent met en valeur le résultat." },
+            { type: "red", title: "Café", text: "Utilisez du café froid, pas chaud ! Le café chaud cuirait partiellement les flocons et altérerait la texture overnight." }
+        ]
+    },
+
+    {
+        id: "tartine-ricotta-fouettee-pistache",
+        name: "Tartine Ricotta Fouettée & Pistache",
+        subtitle: "Pain complet toasté, ricotta fouettée aérienne, figues, miel de lavande et éclats de pistache",
+        emoji: "🍯",
+        category: "petit-dej-sucre",
+        difficulty: "Facile",
+        time: 10,
+        sliderMin: 30,
+        sliderMax: 220,
+        tags: ["Végétarien"],
+        ingredients: [
+            { id: "pain_complet", name: "Pain complet", detail: "tranches épaisses, toastées", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "Base" },
+            { id: "ricotta", name: "Ricotta", detail: "fouettée au batteur", emoji: "🧀", baseQty: 80, unit: "g", scalable: true, role: "Garniture" },
+            { id: "fraises", name: "Figues / Fraises", detail: "fraîches, coupées", emoji: "🍓", baseQty: 60, unit: "g", scalable: true, role: "Fruits" },
+            { id: "miel", name: "Miel de lavande", detail: "filet généreux", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "Sucrant" },
+            { id: "amandes", name: "Pistaches / Amandes", detail: "concassées", emoji: "💚", baseQty: 10, unit: "g", scalable: false, role: "Croquant" },
+            { id: "citron_jus", name: "Zeste de citron", detail: "râpé finement", emoji: "🍋", baseQty: 3, unit: "ml", scalable: false, role: "Fraîcheur" }
+        ],
+        options: [],
+        steps: [
+            { title: "Fouettez la ricotta énergiquement au", text: "Fouettez la ricotta énergiquement au batteur électrique pendant 2-3 minutes jusqu'à obtenir une texture aérienne, presque mousseuse." },
+            { title: "Incorporez le zeste de citron finement", text: "Incorporez le zeste de citron finement râpé et une pointe de vanille dans la ricotta fouettée. Mélangez délicatement." },
+            { title: "Toastez les tranches de pain complet", text: "Toastez les tranches de pain complet jusqu'à ce qu'elles soient dorées et croustillantes." },
+            { title: "Concassez grossièrement les pistaches", text: "Concassez grossièrement les pistaches dans un mortier ou sous un couteau large — des morceaux irréguliers sont plus jolis." },
+            { title: "Étalez généreusement la ricotta fouettée", text: "Étalez généreusement la ricotta fouettée sur les tartines toastées chaudes." },
+            { title: "Disposez les fruits tranchés, parsemez", text: "Disposez les fruits tranchés, parsemez d'éclats de pistache, terminez par un filet de miel de lavande et quelques feuilles de menthe." }
+        ],
+        tips: [
+            { type: "green", title: "Ricotta fouettée", text: "Le batteur électrique est la clé — 3 minutes de fouet transforment la ricotta granuleuse en mousse aérienne." },
+            { type: "red", title: "Miel", text: "Recette contenant du miel, non adaptée pour un régime vegan. Remplacez par du sirop d'érable si besoin." }
+        ]
+    },
+
+    {
+        id: "gateau-mug-fondant-chocolat",
+        name: "Gâteau Mug Fondant Chocolat",
+        subtitle: "Mug cake au chocolat noir au cœur coulant, enrichi en protéines, prêt en 5 minutes",
+        emoji: "🍫",
+        category: "petit-dej-sucre",
+        difficulty: "Facile",
+        time: 5,
+        sliderMin: 30,
+        sliderMax: 230,
+        tags: ["Végétarien","Cheat meal","Protéiné"],
+        ingredients: [
+            { id: "oeuf", name: "Œuf", detail: "entier", emoji: "🥚", baseQty: 1, unit: "pce", scalable: true, role: "Base" },
+            { id: "chocolat_noir_70", name: "Chocolat noir 70%", detail: "fondu (cœur coulant + pâte)", emoji: "🍫", baseQty: 25, unit: "g", scalable: true, role: "Chocolat" },
+            { id: "whey_protein", name: "Whey chocolat", detail: "protéine en poudre", emoji: "💪", baseQty: 20, unit: "g", scalable: true, role: "protein" },
+            { id: "cacao_poudre", name: "Cacao pur", detail: "non sucré", emoji: "🍫", baseQty: 8, unit: "g", scalable: false, role: "Saveur" },
+            { id: "banane", name: "Banane", detail: "mûre, écrasée", emoji: "🍌", baseQty: 50, unit: "g", scalable: true, role: "Sucrant naturel" },
+            { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "1 cuillère au centre", emoji: "🥜", baseQty: 10, unit: "g", scalable: false, role: "Cœur coulant" },
+            { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "en garniture", emoji: "🥛", baseQty: 30, unit: "g", scalable: true, role: "Topping" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faites fondre 15g de chocolat noir au", text: "Faites fondre 15g de chocolat noir au micro-ondes par intervalles de 15 secondes en mélangeant à chaque fois. Réservez les 10g restants." },
+            { title: "Dans un mug graissé, mélangez l'œuf, la", text: "Dans un mug graissé, mélangez l'œuf, la banane écrasée, le cacao, la whey et le chocolat fondu. La pâte doit être homogène." },
+            { title: "Créez un puits au centre de la pâte et", text: "Créez un puits au centre de la pâte et enfoncez-y le beurre de cacahuète et un carré de chocolat noir pour le cœur coulant." },
+            { title: "Refermez légèrement la pâte sur le centre", text: "Refermez légèrement la pâte sur le centre. Micro-ondes 90 secondes à puissance maximum (ajustez selon votre micro-ondes)." },
+            { title: "Laissez reposer 30 secondes dans le mug", text: "Laissez reposer 30 secondes dans le mug — le gâteau continue de cuire. Le centre doit être encore tremblotant." },
+            { title: "Garnissez d'une cuillère de fromage", text: "Garnissez d'une cuillère de fromage blanc frais et de quelques éclats de chocolat noir. Dégustez immédiatement à la cuillère." }
+        ],
+        tips: [
+            { type: "green", title: "Cœur coulant", text: "Le secret est de SOUS-cuire légèrement. 90 sec est un point de départ, ajustez de 10 sec selon votre micro-ondes." },
+            { type: "red", title: "Timing", text: "Ne laissez pas trop reposer — le cœur coulant se solidifie en 2-3 minutes. Mangez immédiatement pour l'effet fondant." }
+        ]
+    },
+
+    {
+        id: "oeuf-royale-hollandaise-yuzu",
+        name: "Œuf Royale, Hollandaise au Yuzu",
+        subtitle: "Œuf poché sur blini de sarrasin, saumon fumé et hollandaise légère au citron yuzu",
+        emoji: "🥚",
+        category: "petit-dej-sale",
+        difficulty: "Avancé",
+        time: 30,
+        sliderMin: 40,
+        sliderMax: 270,
+        tags: ["Protéiné"],
+        ingredients: [
+            { id: "oeuf", name: "Œufs", detail: "ultra-frais pour le pochage", emoji: "🥚", baseQty: 2, unit: "pce", scalable: true, role: "protein" },
+            { id: "saumon", name: "Saumon fumé", detail: "en tranches fines", emoji: "🐟", baseQty: 60, unit: "g", scalable: true, role: "protein" },
+            { id: "galette_sarrasin", name: "Blinis de sarrasin", detail: "ou galette découpée", emoji: "🥞", baseQty: 50, unit: "g", scalable: true, role: "Base" },
+            { id: "yaourt_grec", name: "Yaourt grec", detail: "base de la hollandaise légère", emoji: "🥛", baseQty: 40, unit: "g", scalable: false, role: "Sauce" },
+            { id: "citron_jus", name: "Jus de citron / yuzu", detail: "frais pressé", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Sauce" },
+            { id: "epinards", name: "Pousses d'épinards", detail: "fraîches, wilted", emoji: "🥬", baseQty: 50, unit: "g", scalable: true, role: "Légumes" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" },
+            { id: "vinaigre_balsamique", name: "Vinaigre blanc", detail: "pour le pochage", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "Technique" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparez la hollandaise légère", text: "Préparez la hollandaise légère : fouettez le yaourt grec avec le jus de citron/yuzu, une pincée de curcuma pour la couleur, sel et poivre blanc. Réservez à température ambiante." },
+            { title: "Faites tomber les pousses d'épinards", text: "Faites tomber les pousses d'épinards dans une poêle chaude avec un filet d'huile d'olive, 1-2 minutes. Assaisonnez et réservez." },
+            { title: "Portez une casserole d'eau à", text: "Portez une casserole d'eau à frémissement doux (bulles à peine visibles). Ajoutez le vinaigre blanc. Créez un tourbillon avec une cuillère." },
+            { title: "Cassez chaque œuf dans un ramequin, puis", text: "Cassez chaque œuf dans un ramequin, puis glissez-le délicatement au centre du tourbillon. Pochez 3 minutes pour un jaune coulant." },
+            { title: "Pendant le pochage, réchauffez les", text: "Pendant le pochage, réchauffez les blinis de sarrasin à la poêle sèche ou au toaster." },
+            { title: "Dressez : blini, lit d'épinards, tranche", text: "Dressez : blini, lit d'épinards, tranche de saumon fumé, œuf poché. Nappez de hollandaise au yuzu et parsemez de ciboulette ciselée." }
+        ],
+        tips: [
+            { type: "green", title: "Œuf poché parfait", text: "L'eau doit FRÉMIR, pas bouillir. Le tourbillon aide le blanc à enrober le jaune. Utilisez des œufs ultra-frais." },
+            { type: "red", title: "Timing", text: "3 minutes exactement pour un jaune coulant. Sortez avec une écumoire et posez sur du papier absorbant pour égoutter." }
+        ]
+    },
+
+    {
+        id: "avocado-toast-oeuf-poche-truffe",
+        name: "Avocado Toast Œuf Poché & Truffe",
+        subtitle: "Pain au levain toasté, avocat écrasé au citron vert, œuf poché parfait et huile de truffe",
+        emoji: "🥑",
+        category: "petit-dej-sale",
+        difficulty: "Moyen",
+        time: 15,
+        sliderMin: 40,
+        sliderMax: 260,
+        tags: ["Végétarien","Protéiné"],
+        ingredients: [
+            { id: "pain_complet", name: "Pain au levain", detail: "tranche épaisse, toastée", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "Base" },
+            { id: "avocat", name: "Avocat", detail: "bien mûr, écrasé", emoji: "🥑", baseQty: 80, unit: "g", scalable: true, role: "Garniture" },
+            { id: "oeuf", name: "Œuf", detail: "poché, jaune coulant", emoji: "🥚", baseQty: 1, unit: "pce", scalable: true, role: "protein" },
+            { id: "citron_jus", name: "Jus de citron vert", detail: "frais", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "radis", name: "Radis", detail: "en fines rondelles", emoji: "🔴", baseQty: 30, unit: "g", scalable: false, role: "Croquant" },
+            { id: "graines_chia", name: "Graines mix", detail: "sésame, chia, lin", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "Topping" },
+            { id: "huile_olive", name: "Huile de truffe", detail: "quelques gouttes", emoji: "🫒", baseQty: 3, unit: "ml", scalable: false, role: "Finition" }
+        ],
+        options: [],
+        steps: [
+            { title: "Écrasez l'avocat à la fourchette avec le", text: "Écrasez l'avocat à la fourchette avec le jus de citron vert, du piment d'Espelette, du sel et du poivre. La texture doit rester rustique, pas lisse." },
+            { title: "Toastez la tranche de pain au levain", text: "Toastez la tranche de pain au levain jusqu'à ce qu'elle soit croustillante et dorée — la croûte doit craquer." },
+            { title: "Pochez l'œuf : eau frémissante +", text: "Pochez l'œuf : eau frémissante + vinaigre, tourbillon, 3 minutes. Égouttez sur papier absorbant." },
+            { title: "Tartinez généreusement l'avocat écrasé", text: "Tartinez généreusement l'avocat écrasé sur le toast chaud. La chaleur du pain fait légèrement fondre l'avocat." },
+            { title: "Déposez l'œuf poché, les fines rondelles", text: "Déposez l'œuf poché, les fines rondelles de radis pour le croquant et parsemez du mélange de graines." },
+            { title: "Terminez par quelques gouttes d'huile de", text: "Terminez par quelques gouttes d'huile de truffe et de la fleur de sel. L'huile de truffe s'ajoute TOUJOURS à froid, en finition." }
+        ],
+        tips: [
+            { type: "green", title: "Huile de truffe", text: "Quelques gouttes suffisent — l'arôme est puissant. Ajoutez-la au dernier moment, la chaleur dissipe le parfum." },
+            { type: "red", title: "Avocat", text: "L'avocat s'oxyde vite. Préparez-le au dernier moment et le citron vert ralentit le brunissement." }
+        ]
+    },
+
+    {
+        id: "hash-brown-patate-douce-oeuf-mollet",
+        name: "Hash Browns Patate Douce & Œuf Mollet",
+        subtitle: "Galettes croustillantes de patate douce râpée, œuf mollet coulant et crème d'avocat",
+        emoji: "🍠",
+        category: "petit-dej-sale",
+        difficulty: "Moyen",
+        time: 25,
+        sliderMin: 40,
+        sliderMax: 260,
+        tags: ["Sans gluten","Végétarien","Protéiné"],
+        ingredients: [
+            { id: "patate_douce_crue", name: "Patate douce", detail: "râpée grossièrement", emoji: "🍠", baseQty: 150, unit: "g", scalable: true, role: "Base" },
+            { id: "oeuf", name: "Œufs", detail: "mollets (6 min)", emoji: "🥚", baseQty: 2, unit: "pce", scalable: true, role: "protein" },
+            { id: "avocat", name: "Avocat", detail: "en crème lisse", emoji: "🥑", baseQty: 50, unit: "g", scalable: true, role: "Sauce" },
+            { id: "oignon", name: "Oignon", detail: "râpé finement", emoji: "🧅", baseQty: 30, unit: "g", scalable: false, role: "Saveur" },
+            { id: "farine_complete", name: "Farine", detail: "1 c.à.s comme liant", emoji: "🌾", baseQty: 10, unit: "g", scalable: false, role: "Liant" },
+            { id: "salade_verte", name: "Roquette", detail: "poignée", emoji: "🥬", baseQty: 20, unit: "g", scalable: false, role: "Fraîcheur" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Râpez la patate douce et l'oignon", text: "Râpez la patate douce et l'oignon grossièrement. Pressez bien le mélange dans un torchon propre pour extraire un maximum d'eau — c'est la clé du croustillant." },
+            { title: "Mélangez les légumes pressés avec la", text: "Mélangez les légumes pressés avec la farine, du sel, du poivre et du paprika fumé. Formez des galettes compactes de 8cm de diamètre." },
+            { title: "Faites cuire les hash browns dans une", text: "Faites cuire les hash browns dans une poêle avec l'huile d'olive, 4-5 min de chaque côté à feu moyen-vif. Ne les touchez pas pendant la cuisson pour qu'une croûte se forme." },
+            { title: "Plongez les œufs dans l'eau bouillante", text: "Plongez les œufs dans l'eau bouillante exactement 6 minutes pour des œufs mollets au jaune crémeux. Transférez immédiatement dans l'eau glacée." },
+            { title: "Préparez la crème d'avocat en mixant", text: "Préparez la crème d'avocat en mixant l'avocat avec le jus de citron, du sel et une pointe de piment. Texture lisse comme un guacamole." },
+            { title: "Dressez les hash browns croustillants,", text: "Dressez les hash browns croustillants, une cuillère de crème d'avocat, les œufs mollets coupés en deux (jaune visible) et une poignée de roquette." }
+        ],
+        tips: [
+            { type: "green", title: "Croustillant garanti", text: "Essorer la patate douce est l'étape la plus importante. Plus elle est sèche, plus les hash browns seront croustillants." },
+            { type: "red", title: "Œuf mollet", text: "6 minutes EXACTEMENT dans l'eau bouillante, puis eau glacée immédiatement pour stopper la cuisson. Pas 7 minutes !" }
+        ]
+    },
+
+    {
+        id: "galette-complete-forestiere",
+        name: "Galette Complète Forestière",
+        subtitle: "Galette de sarrasin aux champignons sauvages sautés, œuf, comté affiné et crème de cèpes",
+        emoji: "🍄",
+        category: "petit-dej-sale",
+        difficulty: "Moyen",
+        time: 25,
+        sliderMin: 40,
+        sliderMax: 260,
+        tags: ["Sans gluten","Végétarien"],
+        ingredients: [
+            { id: "galette_sarrasin", name: "Galette de sarrasin", detail: "prête à l'emploi", emoji: "🥞", baseQty: 60, unit: "g", scalable: true, role: "Base" },
+            { id: "champignon", name: "Champignons variés", detail: "shiitake, pleurotes, de Paris", emoji: "🍄", baseQty: 120, unit: "g", scalable: true, role: "Garniture" },
+            { id: "oeuf", name: "Œuf", detail: "au plat ou poché", emoji: "🥚", baseQty: 1, unit: "pce", scalable: true, role: "protein" },
+            { id: "fromage_rape", name: "Comté / Emmental", detail: "affiné, râpé", emoji: "🧀", baseQty: 25, unit: "g", scalable: false, role: "protein" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "pour la sauce aux cèpes", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "Sauce" },
+            { id: "oignon", name: "Échalote", detail: "émincée finement", emoji: "🧅", baseQty: 20, unit: "g", scalable: false, role: "Saveur" },
+            { id: "epinards", name: "Pousses d'épinards", detail: "fraîches", emoji: "🥬", baseQty: 30, unit: "g", scalable: true, role: "Légumes" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Nettoyez les champignons au pinceau", text: "Nettoyez les champignons au pinceau (jamais sous l'eau) et émincez-les en tranches irrégulières pour varier les textures." },
+            { title: "Faites chauffer une poêle à feu vif avec", text: "Faites chauffer une poêle à feu vif avec l'huile d'olive. Saisissez les champignons SANS LES REMUER pendant 3 min pour obtenir une coloration dorée." },
+            { title: "Ajoutez l'échalote, poursuivez 2 min", text: "Ajoutez l'échalote, poursuivez 2 min. Déglacez avec un filet de crème légère, assaisonnez de thym frais, sel et poivre noir." },
+            { title: "Dans une grande poêle ou billig,", text: "Dans une grande poêle ou billig, réchauffez la galette de sarrasin. Parsemez de fromage râpé pour qu'il fonde." },
+            { title: "Disposez les épinards frais, les", text: "Disposez les épinards frais, les champignons sautés et cassez l'œuf au centre. Couvrez 3-4 min pour un blanc pris et un jaune coulant." },
+            { title: "Pliez la galette en carré, laissez", text: "Pliez la galette en carré, laissez griller 1 min de plus. Servez avec une pincée de fleur de sel et du persil plat." }
+        ],
+        tips: [
+            { type: "green", title: "Champignons dorés", text: "Le secret est de NE PAS remuer les champignons pendant les 3 premières minutes. Le contact continu avec la poêle crée la caramélisation." },
+            { type: "red", title: "Eau des champignons", text: "Ne surchargez pas la poêle — les champignons rendront de l'eau s'ils sont trop serrés, et bouilliront au lieu de dorer." }
+        ]
+    },
+
+    {
+        id: "shakshuka-merguez-feta-herbes",
+        name: "Shakshuka Merguez & Feta aux Herbes",
+        subtitle: "Œufs pochés dans une sauce tomate épicée aux merguez, feta émiettée et herbes fraîches",
+        emoji: "🍳",
+        category: "petit-dej-sale",
+        difficulty: "Moyen",
+        time: 30,
+        sliderMin: 40,
+        sliderMax: 280,
+        tags: ["Protéiné","Sans gluten"],
+        ingredients: [
+            { id: "oeuf", name: "Œufs", detail: "pochés dans la sauce", emoji: "🥚", baseQty: 2, unit: "pce", scalable: true, role: "protein" },
+            { id: "boeuf_hache_5", name: "Viande façon merguez", detail: "5% MG, épicée au cumin-harissa", emoji: "🥩", baseQty: 80, unit: "g", scalable: true, role: "protein" },
+            { id: "sauce_tomate", name: "Sauce tomate", detail: "concassée", emoji: "🍅", baseQty: 150, unit: "g", scalable: false, role: "Sauce" },
+            { id: "feta", name: "Feta", detail: "émiettée", emoji: "🧀", baseQty: 30, unit: "g", scalable: false, role: "protein" },
+            { id: "poivron_rouge", name: "Poivron rouge", detail: "en dés", emoji: "🫑", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
+            { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "Légumes" },
+            { id: "harissa", name: "Harissa", detail: "1 c.à.c", emoji: "🌶️", baseQty: 5, unit: "g", scalable: false, role: "Épice" },
+            { id: "pain_pita", name: "Pain pita", detail: "chaud, pour tremper", emoji: "🫓", baseQty: 40, unit: "g", scalable: true, role: "Accompagnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Émiettez la viande hachée et", text: "Émiettez la viande hachée et assaisonnez-la avec du cumin, du paprika fumé, de la harissa et de l'ail en poudre pour recréer le goût merguez." },
+            { title: "Dans une poêle en fonte, faites revenir", text: "Dans une poêle en fonte, faites revenir l'oignon et le poivron 4-5 min. Ajoutez la viande épicée et faites dorer 3-4 min en émiettant." },
+            { title: "Versez la sauce tomate, ajoutez la", text: "Versez la sauce tomate, ajoutez la harissa, du cumin supplémentaire et une pincée de sucre. Laissez mijoter 10 min jusqu'à épaississement." },
+            { title: "Creusez 2 puits dans la sauce avec le", text: "Creusez 2 puits dans la sauce avec le dos d'une cuillère. Cassez un œuf dans chaque puits. Couvrez et cuisez 4-5 min à feu doux." },
+            { title: "Les blancs doivent être pris mais les", text: "Les blancs doivent être pris mais les jaunes encore tremblotants et coulants. Retirez du feu." },
+            { title: "Émiettez la feta par-dessus, parsemez de", text: "Émiettez la feta par-dessus, parsemez de coriandre et persil frais. Servez brûlant dans la poêle avec le pain pita chaud pour tremper." }
+        ],
+        tips: [
+            { type: "green", title: "Présentation", text: "Servez directement dans la poêle en fonte — c'est plus authentique et la fonte garde le plat chaud pendant tout le repas." },
+            { type: "red", title: "Cuisson des œufs", text: "Couvrez la poêle et cuisez à feu DOUX. Les œufs doivent pocher doucement dans la vapeur, pas frire dans la sauce." }
+        ]
+    },
+
+    {
+        id: "croque-truffe-jambon-bechamel",
+        name: "Croque-Monsieur Truffe & Jambon",
+        subtitle: "Croque-monsieur au four, jambon de qualité, béchamel truffée et comté gratiné",
+        emoji: "🥪",
+        category: "petit-dej-sale",
+        difficulty: "Moyen",
+        time: 25,
+        sliderMin: 40,
+        sliderMax: 260,
+        tags: ["Cheat meal","Protéiné"],
+        ingredients: [
+            { id: "pain_mie_complet", name: "Pain de mie complet", detail: "tranches épaisses", emoji: "🍞", baseQty: 70, unit: "g", scalable: true, role: "Base" },
+            { id: "jambon_blanc", name: "Jambon blanc", detail: "qualité supérieure", emoji: "🥓", baseQty: 60, unit: "g", scalable: true, role: "protein" },
+            { id: "fromage_rape", name: "Comté / Emmental", detail: "râpé pour gratiner", emoji: "🧀", baseQty: 30, unit: "g", scalable: false, role: "protein" },
+            { id: "lait_demi", name: "Lait demi-écrémé", detail: "pour la béchamel", emoji: "🥛", baseQty: 60, unit: "ml", scalable: false, role: "Béchamel" },
+            { id: "moutarde", name: "Moutarde de Dijon", detail: "fine couche intérieure", emoji: "🟡", baseQty: 5, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile de truffe", detail: "quelques gouttes dans la béchamel", emoji: "🫒", baseQty: 3, unit: "ml", scalable: false, role: "Finition" },
+            { id: "salade_verte", name: "Mesclun", detail: "en accompagnement", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "Fraîcheur" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparez la béchamel truffée", text: "Préparez la béchamel truffée : faites fondre une noisette de beurre, ajoutez 1 c.à.s de farine, puis versez le lait en fouettant. Hors du feu, ajoutez l'huile de truffe." },
+            { title: "Tartinez l'intérieur d'une tranche de", text: "Tartinez l'intérieur d'une tranche de moutarde de Dijon. Sur l'autre tranche, étalez une couche de béchamel truffée." },
+            { title: "Disposez le jambon sur la moutarde,", text: "Disposez le jambon sur la moutarde, refermez le croque. Nappez le dessus de béchamel et parsemez généreusement de fromage râpé." },
+            { title: "Préchauffez le four à 200°C (ou grill)", text: "Préchauffez le four à 200°C (ou grill). Enfournez le croque sur une plaque 12-15 minutes jusqu'à gratinage doré et bouillonnant." },
+            { title: "Préparez une petite salade de mesclun", text: "Préparez une petite salade de mesclun assaisonnée d'une vinaigrette légère au vinaigre balsamique." },
+            { title: "Sortez le croque doré et croustillant,", text: "Sortez le croque doré et croustillant, servez immédiatement avec la salade fraîche en contraste." }
+        ],
+        tips: [
+            { type: "green", title: "Truffe", text: "L'huile de truffe s'ajoute HORS du feu dans la béchamel. La chaleur excessive détruit l'arôme délicat." },
+            { type: "red", title: "Béchamel", text: "La béchamel doit être épaisse, pas liquide. Si elle est trop fluide, le croque sera détrempé. Réduisez 1-2 min de plus." }
+        ]
+    },
+
+    {
+        id: "oeufs-en-meurette-light",
+        name: "Œufs en Meurette Light",
+        subtitle: "Œufs pochés en sauce bourguignonne au vin rouge, lardons de dinde et croûtons dorés",
+        emoji: "🍷",
+        category: "petit-dej-sale",
+        difficulty: "Avancé",
+        time: 35,
+        sliderMin: 40,
+        sliderMax: 270,
+        tags: ["Protéiné"],
+        ingredients: [
+            { id: "oeuf", name: "Œufs", detail: "pochés dans la sauce", emoji: "🥚", baseQty: 2, unit: "pce", scalable: true, role: "protein" },
+            { id: "dinde", name: "Lardons de dinde", detail: "ou allumettes", emoji: "🥓", baseQty: 40, unit: "g", scalable: true, role: "protein" },
+            { id: "champignon", name: "Champignons de Paris", detail: "émincés", emoji: "🍄", baseQty: 80, unit: "g", scalable: true, role: "Légumes" },
+            { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 40, unit: "g", scalable: false, role: "Légumes" },
+            { id: "concentre_tomate", name: "Concentré de tomate", detail: "1 c.à.s", emoji: "🍅", baseQty: 10, unit: "g", scalable: false, role: "Sauce" },
+            { id: "pain_complet", name: "Pain complet", detail: "en croûtons grillés", emoji: "🍞", baseQty: 40, unit: "g", scalable: true, role: "Accompagnement" },
+            { id: "huile_olive", name: "Huile d'olive", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" },
+            { id: "vinaigre_balsamique", name: "Vinaigre balsamique", detail: "pour déglacer", emoji: "🫗", baseQty: 15, unit: "ml", scalable: false, role: "Sauce" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faites revenir les lardons de dinde à", text: "Faites revenir les lardons de dinde à sec dans une cocotte jusqu'à coloration dorée. Ajoutez l'oignon émincé et les champignons, cuisez 5 min." },
+            { title: "Ajoutez le concentré de tomate, mélangez", text: "Ajoutez le concentré de tomate, mélangez 1 minute, puis déglacez avec le vinaigre balsamique et 200ml d'eau ou bouillon. Laissez réduire 15 min à feu doux." },
+            { title: "Préparez les croûtons", text: "Préparez les croûtons : coupez le pain en cubes, frottez d'ail et faites-les dorer dans une poêle avec un filet d'huile jusqu'à ce qu'ils soient croustillants." },
+            { title: "Quand la sauce est réduite et nappante,", text: "Quand la sauce est réduite et nappante, baissez à frémissement. Creusez des puits et cassez-y les œufs. Couvrez et pochez 4-5 min." },
+            { title: "Les œufs sont prêts quand les blancs", text: "Les œufs sont prêts quand les blancs sont pris mais les jaunes encore tremblotants sous la surface de la sauce." },
+            { title: "Dressez dans des assiettes creuses :", text: "Dressez dans des assiettes creuses : sauce, œufs pochés, croûtons dorés aillés. Parsemez de persil plat et de poivre noir concassé." }
+        ],
+        tips: [
+            { type: "green", title: "Classique bourguignon", text: "L'original se fait au vin rouge. Le vinaigre balsamique et le bouillon donnent une profondeur similaire sans alcool." },
+            { type: "red", title: "Sauce nappante", text: "La sauce doit napper la cuillère avant d'y pocher les œufs. Si elle est trop liquide, les œufs se disperseront." }
+        ]
+    },
+
+    {
+        id: "bruschetta-tomate-burrata-basilic",
+        name: "Bruschetta Tomate Confite & Burrata",
+        subtitle: "Pain ciabatta grillé, tomates cerises rôties au four, mozzarella crémeuse et basilic frais",
+        emoji: "🍅",
+        category: "petit-dej-sale",
+        difficulty: "Facile",
+        time: 25,
+        sliderMin: 30,
+        sliderMax: 240,
+        tags: ["Végétarien"],
+        ingredients: [
+            { id: "pain_complet", name: "Pain ciabatta / complet", detail: "tranches épaisses", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "Base" },
+            { id: "tomate", name: "Tomates cerises", detail: "coupées en deux pour confites", emoji: "🍅", baseQty: 120, unit: "g", scalable: true, role: "Garniture" },
+            { id: "mozzarella", name: "Mozzarella / Burrata", detail: "déchirée à la main", emoji: "🧀", baseQty: 60, unit: "g", scalable: true, role: "protein" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge de qualité", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "vinaigre_balsamique", name: "Vinaigre balsamique", detail: "réduction ou classique", emoji: "🫗", baseQty: 8, unit: "ml", scalable: false, role: "Finition" },
+            { id: "oignon", name: "Ail", detail: "gousse coupée pour frotter", emoji: "🧄", baseQty: 5, unit: "g", scalable: false, role: "Saveur" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffez le four à 160°C", text: "Préchauffez le four à 160°C. Disposez les tomates cerises coupées en deux sur une plaque, arrosez d'huile d'olive, sel, poivre et une pincée de sucre." },
+            { title: "Enfournez les tomates 15-20 minutes", text: "Enfournez les tomates 15-20 minutes jusqu'à ce qu'elles soient confites, ridées et caramélisées. Elles doivent avoir réduit d'un tiers." },
+            { title: "Toastez les tranches de pain au grill ou", text: "Toastez les tranches de pain au grill ou au four les dernières minutes. Frottez chaque tranche chaude avec la gousse d'ail coupée." },
+            { title: "Déchirez la mozzarella en morceaux", text: "Déchirez la mozzarella en morceaux irréguliers à la main — jamais au couteau, la texture est plus belle et crémeuse." },
+            { title: "Disposez les tomates confites tièdes sur", text: "Disposez les tomates confites tièdes sur le pain frotté d'ail, puis la mozzarella déchirée." },
+            { title: "Terminez par un généreux filet d'huile", text: "Terminez par un généreux filet d'huile d'olive extra vierge, du vinaigre balsamique, des feuilles de basilic et de la fleur de sel." }
+        ],
+        tips: [
+            { type: "green", title: "Tomates confites", text: "La cuisson lente concentre les sucres et transforme des tomates banales en bouchées incroyables. Ne sautez pas cette étape." },
+            { type: "red", title: "Température", text: "Pain chaud + tomates tièdes + mozzarella froide = le contraste thermique idéal. Ne réchauffez pas la mozzarella." }
+        ]
+    },
+
+    {
+        id: "bowl-japonais-saumon-miso",
+        name: "Bowl Japonais Saumon & Miso",
+        subtitle: "Bol petit-déjeuner japonais : riz, saumon grillé, soupe miso, pickles et œuf onsen",
+        emoji: "🍱",
+        category: "petit-dej-sale",
+        difficulty: "Avancé",
+        time: 30,
+        sliderMin: 40,
+        sliderMax: 280,
+        tags: ["Protéiné","Sans gluten"],
+        ingredients: [
+            { id: "saumon", name: "Pavé de saumon", detail: "grillé au miso", emoji: "🐟", baseQty: 100, unit: "g", scalable: true, role: "protein" },
+            { id: "riz_complet_cuit", name: "Riz japonais", detail: "cuit et chaud", emoji: "🍚", baseQty: 120, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "oeuf", name: "Œuf onsen", detail: "cuit 13 min à 75°C", emoji: "🥚", baseQty: 1, unit: "pce", scalable: true, role: "protein" },
+            { id: "edamame", name: "Edamame", detail: "décortiqués", emoji: "🫘", baseQty: 40, unit: "g", scalable: true, role: "Légumes" },
+            { id: "concombre", name: "Concombre", detail: "en pickles express", emoji: "🥒", baseQty: 40, unit: "g", scalable: false, role: "Pickles" },
+            { id: "sauce_soja", name: "Sauce soja", emoji: "🥫", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "graines_chia", name: "Graines de sésame", detail: "toastées", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "Topping" }
+        ],
+        options: [],
+        steps: [
+            { title: "Marinez le saumon 10 min dans un mélange", text: "Marinez le saumon 10 min dans un mélange sauce soja + un soupçon de miso dilué + gingembre râpé. Égouttez." },
+            { title: "Faites griller le saumon mariné à la", text: "Faites griller le saumon mariné à la poêle très chaude, 3 min peau en bas puis 2 min côté chair. La peau doit être croustillante." },
+            { title: "Pour l'œuf onsen", text: "Pour l'œuf onsen : plongez l'œuf dans l'eau à 75°C pendant 13 min (ou 6 min 30 dans l'eau bouillante pour un œuf mollet classique)." },
+            { title: "Préparez des pickles express", text: "Préparez des pickles express : tranchez le concombre finement, marinezle 10 min dans du vinaigre de riz + sucre + sel." },
+            { title: "Disposez le riz chaud dans un bol,", text: "Disposez le riz chaud dans un bol, ajoutez le saumon grillé émietté, l'œuf onsen, les edamame et les pickles de concombre." },
+            { title: "Arrosez d'un filet de sauce soja,", text: "Arrosez d'un filet de sauce soja, parsemez de graines de sésame toastées et de nori émietté. Servez avec un thé vert." }
+        ],
+        tips: [
+            { type: "green", title: "Petit-déjeuner japonais", text: "Au Japon, le petit-déjeuner est un vrai repas complet et salé. Ce bowl en est la version simplifiée mais authentique." },
+            { type: "red", title: "Saumon miso", text: "Ne laissez pas mariner plus de 15 min dans le miso — le sel cuit la chair et la rend sèche." }
+        ]
+    },
+
+    {
+        id: "toast-champignon-truffe-oeuf-poche",
+        name: "Toast Champignons Truffés & Œuf Poché",
+        subtitle: "Toast de pain au levain, duxelles de champignons au thym, œuf poché et copeaux de parmesan",
+        emoji: "🍄",
+        category: "petit-dej-sale",
+        difficulty: "Moyen",
+        time: 20,
+        sliderMin: 40,
+        sliderMax: 250,
+        tags: ["Végétarien","Protéiné"],
+        ingredients: [
+            { id: "pain_complet", name: "Pain au levain", detail: "tranche épaisse, toastée", emoji: "🍞", baseQty: 60, unit: "g", scalable: true, role: "Base" },
+            { id: "champignon", name: "Champignons", detail: "mélange shiitake, pleurotes, Paris", emoji: "🍄", baseQty: 120, unit: "g", scalable: true, role: "Garniture" },
+            { id: "oeuf", name: "Œuf", detail: "poché", emoji: "🥚", baseQty: 1, unit: "pce", scalable: true, role: "protein" },
+            { id: "parmesan", name: "Parmesan", detail: "en copeaux à la mandoline", emoji: "🧀", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
+            { id: "oignon", name: "Échalote", detail: "ciselée finement", emoji: "🧅", baseQty: 20, unit: "g", scalable: false, role: "Saveur" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "un filet", emoji: "🥛", baseQty: 15, unit: "g", scalable: false, role: "Onctuosité" },
+            { id: "huile_olive", name: "Huile d'olive / truffe", detail: "pour la finition", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Hachez finement les champignons au", text: "Hachez finement les champignons au couteau pour obtenir une duxelles (texture hachée grossière, pas en purée)." },
+            { title: "Saisissez la duxelles à feu vif dans", text: "Saisissez la duxelles à feu vif dans l'huile d'olive avec l'échalote ciselée. Ne remuez pas les premières 2 min pour colorer." },
+            { title: "Ajoutez le thym frais, du sel, du poivre", text: "Ajoutez le thym frais, du sel, du poivre noir et un filet de crème. Cuisez 3-4 min jusqu'à évaporation complète. La duxelles doit être sèche et intense." },
+            { title: "Pochez l'œuf dans l'eau frémissante vinaigrée", text: "Pochez l'œuf dans l'eau frémissante vinaigrée. 3 minutes pour un jaune coulant." },
+            { title: "Toastez le pain, frottez-le avec une", text: "Toastez le pain, frottez-le avec une demi-gousse d'ail. Tartinez généreusement de duxelles de champignons." },
+            { title: "Déposez l'œuf poché, les copeaux de", text: "Déposez l'œuf poché, les copeaux de parmesan à la mandoline, quelques gouttes d'huile de truffe et du persil plat." }
+        ],
+        tips: [
+            { type: "green", title: "Duxelles", text: "La duxelles est une technique de base de la cuisine française. Le hachage fin et la cuisson à sec concentrent tous les arômes." },
+            { type: "red", title: "Eau des champignons", text: "Les champignons rendent beaucoup d'eau. Cuisez à feu vif sans couvrir pour évaporer — la duxelles doit être SÈCHE." }
+        ]
+    },
+
+    {
+        id: "socca-nicoise-legumes",
+        name: "Socca Niçoise aux Légumes Grillés",
+        subtitle: "Galette croustillante de pois chiches façon Nice, légumes méditerranéens grillés et herbes",
+        emoji: "🫓",
+        category: "petit-dej-sale",
+        difficulty: "Moyen",
+        time: 30,
+        sliderMin: 40,
+        sliderMax: 240,
+        tags: ["Vegan","Sans gluten"],
+        ingredients: [
+            { id: "pois_chiches_cuits", name: "Farine de pois chiches", detail: "mélangée à l'eau (socca)", emoji: "🫘", baseQty: 60, unit: "g", scalable: true, role: "Base" },
+            { id: "courgette", name: "Courgette", detail: "en rubans grillés", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
+            { id: "poivron_rouge", name: "Poivron rouge", detail: "grillé en lanières", emoji: "🫑", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
+            { id: "tomate", name: "Tomates cerises", detail: "rôties", emoji: "🍅", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
+            { id: "oignon", name: "Oignon rouge", detail: "en rondelles grillées", emoji: "🧅", baseQty: 30, unit: "g", scalable: false, role: "Légumes" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "généreuse", emoji: "🫒", baseQty: 12, unit: "ml", scalable: false, role: "Cuisson" },
+            { id: "citron_jus", name: "Jus de citron", emoji: "🍋", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparez la pâte à socca", text: "Préparez la pâte à socca : mélangez la farine de pois chiches avec 120ml d'eau tiède, l'huile d'olive, du sel et du poivre. Laissez reposer 30 min minimum." },
+            { title: "Préchauffez le grill du four au maximum", text: "Préchauffez le grill du four au maximum. Huilez généreusement une poêle en fonte allant au four." },
+            { title: "Faites griller les légumes (courgette en", text: "Faites griller les légumes (courgette en rubans, poivron en lanières, oignon en rondelles) au grill ou à la poêle très chaude. Réservez." },
+            { title: "Versez la pâte à socca dans la poêle en", text: "Versez la pâte à socca dans la poêle en fonte huilée (couche fine de 3-4mm). Enfournez sous le grill 8-10 min jusqu'à surface dorée et cloquée." },
+            { title: "La socca est prête quand le dessus est", text: "La socca est prête quand le dessus est croustillant et doré avec des cloques — l'intérieur reste moelleux." },
+            { title: "Servez la socca chaude directement", text: "Servez la socca chaude directement coupée en parts, garnie des légumes grillés, un filet de citron, de l'huile d'olive et du basilic frais." }
+        ],
+        tips: [
+            { type: "green", title: "Spécialité niçoise", text: "La socca se mange traditionnellement brûlante, sortie du four, avec juste du poivre noir. Les légumes en font un repas complet." },
+            { type: "red", title: "Repos de la pâte", text: "30 minutes de repos minimum sont nécessaires pour que la farine de pois chiches s'hydrate. Sinon la socca sera granuleuse." }
+        ]
+    },
+
+    {
+        id: "tortilla-espagnole-chorizo-poivron",
+        name: "Tortilla Espagnole au Chorizo & Poivron",
+        subtitle: "Tortilla épaisse et fondante aux pommes de terre, chorizo de dinde, poivron et oignon confit",
+        emoji: "🥘",
+        category: "petit-dej-sale",
+        difficulty: "Moyen",
+        time: 35,
+        sliderMin: 40,
+        sliderMax: 280,
+        tags: ["Sans gluten","Protéiné"],
+        ingredients: [
+            { id: "oeuf", name: "Œufs", detail: "battus", emoji: "🥚", baseQty: 3, unit: "pce", scalable: true, role: "Base" },
+            { id: "pomme_de_terre", name: "Pommes de terre", detail: "en fines rondelles", emoji: "🥔", baseQty: 120, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
+            { id: "dinde", name: "Chorizo de dinde", detail: "en rondelles fines", emoji: "🌶️", baseQty: 40, unit: "g", scalable: true, role: "protein" },
+            { id: "poivron_rouge", name: "Poivron rouge", detail: "en lanières", emoji: "🫑", baseQty: 60, unit: "g", scalable: true, role: "Légumes" },
+            { id: "oignon", name: "Oignon", detail: "émincé, confit lentement", emoji: "🧅", baseQty: 50, unit: "g", scalable: false, role: "Légumes" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "généreuse comme en Espagne", emoji: "🫒", baseQty: 15, unit: "ml", scalable: false, role: "Cuisson" },
+            { id: "salade_verte", name: "Mesclun", detail: "en accompagnement", emoji: "🥬", baseQty: 30, unit: "g", scalable: true, role: "Fraîcheur" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faites confire les rondelles de pomme de", text: "Faites confire les rondelles de pomme de terre et l'oignon émincé dans l'huile d'olive à feu doux pendant 15 min. Ils doivent être fondants, PAS dorés." },
+            { title: "Ajoutez les rondelles de chorizo de", text: "Ajoutez les rondelles de chorizo de dinde et le poivron en lanières. Poursuivez 3-4 min pour que le chorizo rende ses saveurs épicées." },
+            { title: "Battez les œufs vigoureusement avec du", text: "Battez les œufs vigoureusement avec du sel, du poivre et du piment d'Espelette. Incorporez tous les légumes confits dans les œufs." },
+            { title: "Versez le mélange dans une petite poêle", text: "Versez le mélange dans une petite poêle antiadhésive (20cm max). Cuisez à feu TRÈS doux pendant 10-12 min avec couvercle." },
+            { title: "Le retournement", text: "Le retournement : placez une assiette plate sur la poêle, retournez d'un geste vif, glissez la tortilla côté cru dans la poêle. Cuisez 4-5 min." },
+            { title: "La tortilla est prête quand elle est", text: "La tortilla est prête quand elle est ferme à l'extérieur mais encore légèrement crémeuse au centre. Servez tiède avec du mesclun." }
+        ],
+        tips: [
+            { type: "green", title: "Confit, pas frit", text: "La vraie tortilla espagnole CONFIT les pommes de terre à l'huile d'olive douce, elle ne les fait pas frire. Feu doux impératif." },
+            { type: "red", title: "Le retournement", text: "Le moment le plus stressant ! Utilisez une assiette plus grande que la poêle et un geste rapide et assuré. En cas de doute, finissez sous le grill." }
+        ]
+    },
+
+    {
+        id: "tataki-thon-sesame-wasabi",
+        name: "Tataki de thon au sésame et wasabi",
+        subtitle: "Thon mi-cuit en croûte de sésame, sauce ponzu maison, radis croquants",
+        emoji: "🐟",
+        category: "dejeuner",
+        difficulty: "Avancé",
+        time: 25,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Low carb"],
+        ingredients: [
+            { id: "thon_conserve", name: "Pavé de thon", detail: "frais, qualité sashimi", emoji: "🐟", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "concombre", name: "Concombre", detail: "en fines rondelles", emoji: "🥒", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
+            { id: "radis", name: "Radis", detail: "en fines lamelles", emoji: "🌶️", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
+            { id: "avocat", name: "Avocat", detail: "en éventail", emoji: "🥑", baseQty: 60, unit: "g", scalable: true, role: "fat" },
+            { id: "sauce_soja", name: "Sauce soja", detail: "allégée en sel", emoji: "🫘", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "citron_jus", name: "Jus de citron vert", detail: "fraîchement pressé", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Mélanger sauce soja, jus de citron vert", text: "Mélanger sauce soja, jus de citron vert et huile de sésame pour préparer la sauce ponzu maison." },
+            { title: "Enrober généreusement le pavé de thon de", text: "Enrober généreusement le pavé de thon de graines de sésame (noir et blanc) en pressant bien." },
+            { title: "Saisir le thon 30 secondes de chaque", text: "Saisir le thon 30 secondes de chaque côté dans une poêle fumante huilée — l'intérieur doit rester cru." },
+            { title: "Laisser reposer 2 minutes puis trancher", text: "Laisser reposer 2 minutes puis trancher en fines lamelles à l'aide d'un couteau bien aiguisé." },
+            { title: "Disposer les tranches en éventail sur", text: "Disposer les tranches en éventail sur l'assiette avec le concombre, les radis et l'avocat." },
+            { title: "Napper délicatement de sauce ponzu et", text: "Napper délicatement de sauce ponzu et servir immédiatement." }
+        ],
+        tips: [
+            { type: "green", title: "🔥 Saisie parfaite", text: "La poêle doit être fumante pour une croûte dorée. 30 secondes max par face pour garder le cœur cru et fondant." },
+            { type: "red", title: "⚠️ Qualité du thon", text: "Utilisez impérativement du thon qualité sashimi (surgelé à -20°C minimum 24h) pour une dégustation mi-cuit en toute sécurité." }
+        ]
+    },
+
+    {
+        id: "risotto-gambas-citron-safran",
+        name: "Risotto crémeux aux gambas, citron et safran",
+        subtitle: "Riz nacré au safran, gambas snackées, zeste de citron et parmesan",
+        emoji: "🦐",
+        category: "dejeuner",
+        difficulty: "Avancé",
+        time: 40,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Équilibré","Sans gluten"],
+        ingredients: [
+            { id: "gambas", name: "Gambas", detail: "décortiquées, déveinées", emoji: "🦐", baseQty: 120, unit: "g", scalable: true, role: "protein" },
+            { id: "riz_basmati_cuit", name: "Riz arborio", detail: "cuit façon risotto", emoji: "🍚", baseQty: 180, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "oignon", name: "Échalote", detail: "finement ciselée", emoji: "🧅", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
+            { id: "parmesan", name: "Parmesan", detail: "Parmigiano Reggiano, râpé fin", emoji: "🧀", baseQty: 15, unit: "g", scalable: false, role: "protein" },
+            { id: "citron_jus", name: "Jus de citron", detail: "et zeste râpé", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "Liant" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faire revenir l'échalote ciselée dans", text: "Faire revenir l'échalote ciselée dans l'huile d'olive à feu doux jusqu'à translucidité." },
+            { title: "Ajouter le riz et le nacrer 2 minutes en", text: "Ajouter le riz et le nacrer 2 minutes en remuant jusqu'à ce qu'il devienne translucide sur les bords." },
+            { title: "Mouiller louche par louche avec du", text: "Mouiller louche par louche avec du bouillon chaud safrané, en remuant constamment pendant 18-20 minutes." },
+            { title: "Pendant ce temps, saisir les gambas 1", text: "Pendant ce temps, saisir les gambas 1 min 30 de chaque côté à feu vif dans une poêle séparée." },
+            { title: "Hors du feu, incorporer le parmesan, la", text: "Hors du feu, incorporer le parmesan, la crème, le jus et le zeste de citron — remuer vigoureusement pour l'onctuosité." },
+            { title: "Dresser le risotto en formant une vague", text: "Dresser le risotto en formant une vague dans l'assiette, disposer les gambas par-dessus." },
+            { title: "Finaliser avec un filet d'huile d'olive", text: "Finaliser avec un filet d'huile d'olive crue et quelques zestes de citron." }
+        ],
+        tips: [
+            { type: "green", title: "🍚 Onctuosité parfaite", text: "Le secret du risotto : toujours ajouter le bouillon chaud et remuer sans cesse. Le résultat doit couler lentement quand on incline l'assiette." },
+            { type: "red", title: "⚠️ Cuisson des gambas", text: "Ne pas surcuire les gambas — elles deviennent caoutchouteuses. 1 min 30 par face suffit, elles continuent de cuire hors du feu." }
+        ]
+    },
+
+    {
+        id: "canard-laque-asiatique",
+        name: "Canard laqué à l'asiatique",
+        subtitle: "Filet de canard caramélisé miel-soja, pak choï sautés, riz parfumé",
+        emoji: "🦆",
+        category: "dejeuner",
+        difficulty: "Avancé",
+        time: 45,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Prise de masse"],
+        ingredients: [
+            { id: "canard_filet", name: "Filet de canard", detail: "avec peau, entaillé en croisillons", emoji: "🦆", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "riz_basmati_cuit", name: "Riz basmati", detail: "cuit, parfumé", emoji: "🍚", baseQty: 180, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "brocoli", name: "Pak choï / Brocoli", detail: "coupé en deux", emoji: "🥦", baseQty: 120, unit: "g", scalable: true, role: "Légume" },
+            { id: "miel", name: "Miel", detail: "toutes fleurs", emoji: "🍯", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "sauce_soja", name: "Sauce soja", detail: "allégée", emoji: "🫘", baseQty: 20, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "oignon", name: "Gingembre frais", detail: "râpé finement", emoji: "🧅", baseQty: 10, unit: "g", scalable: false, role: "Aromate" },
+            { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Entailler la peau du canard en", text: "Entailler la peau du canard en croisillons sans percer la chair, assaisonner généreusement." },
+            { title: "Déposer le filet côté peau dans une", text: "Déposer le filet côté peau dans une poêle froide puis monter progressivement à feu moyen pour rendre la graisse." },
+            { title: "Cuire 8-10 minutes côté peau jusqu'à ce", text: "Cuire 8-10 minutes côté peau jusqu'à ce qu'elle soit dorée et croustillante, puis retourner 4 minutes côté chair." },
+            { title: "Mélanger miel, sauce soja et gingembre râpé", text: "Mélanger miel, sauce soja et gingembre râpé. Badigeonner le canard et passer 2 minutes sous le gril pour laquer." },
+            { title: "Laisser reposer le canard 5 minutes sous", text: "Laisser reposer le canard 5 minutes sous aluminium, puis trancher en fines lamelles." },
+            { title: "Faire sauter le brocoli/pak choï 3", text: "Faire sauter le brocoli/pak choï 3 minutes à feu vif avec un filet d'huile de sésame." },
+            { title: "Dresser le riz en dôme, disposer les", text: "Dresser le riz en dôme, disposer les lamelles de canard laqué et les légumes sautés autour." }
+        ],
+        tips: [
+            { type: "green", title: "🦆 Peau croustillante", text: "Démarrer la cuisson à froid permet de rendre la graisse progressivement et d'obtenir une peau ultra-croustillante sans brûler." },
+            { type: "red", title: "⚠️ Repos obligatoire", text: "Laisser reposer le canard 5 min permet aux jus de se redistribuer. Trancher trop tôt = viande sèche et jus perdu." }
+        ]
+    },
+
+    {
+        id: "tagliata-boeuf-roquette-parmesan",
+        name: "Tagliata di manzo, roquette et parmesan",
+        subtitle: "Bavette de bœuf grillée, copeaux de parmesan, roquette citronnée et balsamique",
+        emoji: "🥩",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 20,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Low carb","Sans gluten"],
+        ingredients: [
+            { id: "boeuf_hache_5", name: "Bavette de bœuf", detail: "épaisse, à température ambiante", emoji: "🥩", baseQty: 160, unit: "g", scalable: true, role: "protein" },
+            { id: "salade_verte", name: "Roquette", detail: "fraîche, lavée", emoji: "🥬", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "tomate", name: "Tomates cerises", detail: "coupées en deux", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
+            { id: "parmesan", name: "Parmesan", detail: "en copeaux (économe)", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "protein" },
+            { id: "vinaigre_balsamique", name: "Vinaigre balsamique", detail: "réduit en crème", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "citron_jus", name: "Jus de citron", detail: "fraîchement pressé", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge premium", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Sortir la viande 30 minutes avant cuisson", text: "Sortir la viande 30 minutes avant cuisson. Assaisonner généreusement de sel et poivre." },
+            { title: "Saisir la bavette 3-4 minutes par face à", text: "Saisir la bavette 3-4 minutes par face à feu très vif pour une cuisson saignante à rosée." },
+            { title: "Laisser reposer 5 minutes sous", text: "Laisser reposer 5 minutes sous aluminium, puis trancher en biais en fines lamelles." },
+            { title: "Assaisonner la roquette avec le jus de", text: "Assaisonner la roquette avec le jus de citron et l'huile d'olive." },
+            { title: "Dresser la roquette en lit, disposer les", text: "Dresser la roquette en lit, disposer les lamelles de bœuf par-dessus, ajouter les tomates cerises." },
+            { title: "Terminer avec les copeaux de parmesan et", text: "Terminer avec les copeaux de parmesan et un filet de crème de balsamique." }
+        ],
+        tips: [
+            { type: "green", title: "🥩 Température clé", text: "Sortir la viande 30 min avant et utiliser une poêle fumante : c'est le secret d'une saisie parfaite avec un cœur rosé uniforme." },
+            { type: "red", title: "⚠️ Sens de la coupe", text: "Toujours trancher perpendiculairement aux fibres de la viande pour une tendreté maximale." }
+        ]
+    },
+
+    {
+        id: "poulet-croute-herbes-gratin",
+        name: "Poulet en croûte d'herbes et gratin dauphinois light",
+        subtitle: "Suprême de poulet pané aux herbes fraîches, gratin de pommes de terre crémeux allégé",
+        emoji: "🍗",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 50,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Équilibré","Prise de masse"],
+        ingredients: [
+            { id: "poulet_grille", name: "Suprême de poulet", detail: "aplati légèrement", emoji: "🍗", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "pomme_de_terre", name: "Pommes de terre", detail: "en fines rondelles (mandoline)", emoji: "🥔", baseQty: 180, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
+            { id: "fromage_rape", name: "Fromage râpé", detail: "gruyère ou emmental", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "protein" },
+            { id: "lait_demi", name: "Lait demi-écrémé", detail: "pour le gratin", emoji: "🥛", baseQty: 80, unit: "ml", scalable: true, role: "Liant" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "Liant" },
+            { id: "moutarde", name: "Moutarde de Dijon", detail: "pour le poulet", emoji: "🟡", baseQty: 10, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "haricots_verts", name: "Haricots verts", detail: "extra-fins", emoji: "🫘", baseQty: 100, unit: "g", scalable: true, role: "Légume" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffer le four à 180°C", text: "Préchauffer le four à 180°C. Badigeonner le poulet de moutarde sur toute la surface." },
+            { title: "Presser les herbes fraîches hachées", text: "Presser les herbes fraîches hachées (persil, thym, romarin) sur le poulet moutardé." },
+            { title: "Disposer les rondelles de pommes de", text: "Disposer les rondelles de pommes de terre en couches dans un plat, intercaler crème et lait assaisonné de muscade." },
+            { title: "Enfourner le gratin 30 minutes, puis", text: "Enfourner le gratin 30 minutes, puis ajouter le fromage râpé et poursuivre 10 minutes." },
+            { title: "Saisir le poulet en croûte d'herbes 5", text: "Saisir le poulet en croûte d'herbes 5 min par face à la poêle, puis enfourner 10 min." },
+            { title: "Blanchir les haricots verts 4 minutes à", text: "Blanchir les haricots verts 4 minutes à l'eau bouillante salée, rafraîchir à l'eau glacée." },
+            { title: "Dresser le poulet tranché en biais sur", text: "Dresser le poulet tranché en biais sur le gratin doré, accompagner des haricots verts." }
+        ],
+        tips: [
+            { type: "green", title: "🌿 Croûte d'herbes", text: "La moutarde sert de colle naturelle pour les herbes et ajoute de la saveur. Presser fermement pour que la croûte tienne à la cuisson." },
+            { type: "red", title: "⚠️ Épaisseur des rondelles", text: "Les rondelles de pommes de terre doivent être ultra-fines (2mm max) pour un gratin fondant. Utilisez une mandoline." }
+        ]
+    },
+
+    {
+        id: "soba-froides-dashi-tempura",
+        name: "Soba froides au dashi, légumes tempura",
+        subtitle: "Nouilles soba glacées, bouillon dashi parfumé, beignets de légumes croustillants",
+        emoji: "🍜",
+        category: "dejeuner",
+        difficulty: "Avancé",
+        time: 35,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Équilibré"],
+        ingredients: [
+            { id: "nouilles_soba_cuites", name: "Nouilles soba", detail: "cuites et refroidies", emoji: "🍜", baseQty: 180, unit: "g", scalable: true, role: "carb" },
+            { id: "courgette", name: "Courgette", detail: "en bâtonnets pour tempura", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "patate_douce_crue", name: "Patate douce", detail: "en fines rondelles pour tempura", emoji: "🍠", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "champignon", name: "Champignons shiitake", detail: "entiers", emoji: "🍄", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
+            { id: "farine_complete", name: "Farine", detail: "pour pâte à tempura (eau glacée)", emoji: "🌾", baseQty: 30, unit: "g", scalable: false, role: "Liant" },
+            { id: "oeuf", name: "Œuf", detail: "pour pâte à tempura", emoji: "🥚", baseQty: 1, unit: "unité", scalable: false, role: "Liant" },
+            { id: "sauce_soja", name: "Sauce soja", detail: "pour le bouillon dashi", emoji: "🫘", baseQty: 20, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "citron_jus", name: "Jus de citron", detail: "dans le dashi", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparer le dashi", text: "Préparer le dashi : porter à frémissement de l'eau avec sauce soja et un trait de citron, puis refroidir au frigo." },
+            { title: "Cuire les soba selon le paquet, rincer", text: "Cuire les soba selon le paquet, rincer abondamment à l'eau froide jusqu'à ce qu'elles soient bien froides et non collantes." },
+            { title: "Préparer la pâte à tempura", text: "Préparer la pâte à tempura : mélanger très brièvement farine, œuf et eau glacée — la pâte doit rester grumeleuse." },
+            { title: "Tremper les légumes dans la pâte et", text: "Tremper les légumes dans la pâte et frire par petites quantités dans de l'huile à 180°C jusqu'à dorure (2-3 min)." },
+            { title: "Égoutter les tempura sur papier", text: "Égoutter les tempura sur papier absorbant et saler immédiatement." },
+            { title: "Disposer les soba froides dans un bol,", text: "Disposer les soba froides dans un bol, verser le dashi froid à côté, et dresser les tempura croustillants." }
+        ],
+        tips: [
+            { type: "green", title: "🧊 Tempura croustillant", text: "Le secret : eau glacée + mélange minimum. Les grumeaux dans la pâte créent le croustillant caractéristique. Ne pas trop mélanger !" },
+            { type: "red", title: "⚠️ Température de l'huile", text: "Trop froide = gras et mou. Trop chaude = brûlé. Testez avec une goutte de pâte : elle doit remonter immédiatement." }
+        ]
+    },
+
+    {
+        id: "ceviche-bar-lait-coco",
+        name: "Ceviche de cabillaud au lait de coco",
+        subtitle: "Poisson cru mariné au citron vert, lait de coco, mangue et piment doux",
+        emoji: "🐠",
+        category: "dejeuner",
+        difficulty: "Avancé",
+        time: 30,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Perte de poids","Sans cuisson"],
+        ingredients: [
+            { id: "cabillaud", name: "Cabillaud", detail: "ultra frais, en cubes de 2cm", emoji: "🐠", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "mangue", name: "Mangue", detail: "en petits dés", emoji: "🥭", baseQty: 60, unit: "g", scalable: true, role: "Fruit" },
+            { id: "concombre", name: "Concombre", detail: "en brunoise", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "oignon", name: "Oignon rouge", detail: "finement émincé", emoji: "🧅", baseQty: 20, unit: "g", scalable: true, role: "Aromate" },
+            { id: "lait_coco", name: "Lait de coco", detail: "léger, bien froid", emoji: "🥥", baseQty: 40, unit: "ml", scalable: false, role: "Sauce" },
+            { id: "citron_jus", name: "Jus de citron vert", detail: "4-5 citrons verts pressés", emoji: "🍋", baseQty: 40, unit: "ml", scalable: false, role: "Marinade" },
+            { id: "sauce_sriracha", name: "Piment", detail: "un trait de sriracha", emoji: "🌶️", baseQty: 3, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Couper le cabillaud en cubes réguliers", text: "Couper le cabillaud en cubes réguliers de 2 cm, les disposer dans un plat creux en verre." },
+            { title: "Recouvrir entièrement de jus de citron", text: "Recouvrir entièrement de jus de citron vert et laisser mariner 20 minutes au réfrigérateur jusqu'à ce que le poisson blanchisse." },
+            { title: "Égoutter une partie du jus de citron,", text: "Égoutter une partie du jus de citron, ajouter le lait de coco froid et mélanger délicatement." },
+            { title: "Ajouter la mangue en dés, la brunoise de", text: "Ajouter la mangue en dés, la brunoise de concombre et l'oignon rouge émincé." },
+            { title: "Assaisonner avec un trait de sriracha,", text: "Assaisonner avec un trait de sriracha, du sel et du poivre. Mélanger avec précaution." },
+            { title: "Servir immédiatement dans des bols", text: "Servir immédiatement dans des bols frais, garni de coriandre fraîche et d'un zeste de citron vert." }
+        ],
+        tips: [
+            { type: "green", title: "🍋 Marinade au citron", text: "Le citron vert 'cuit' le poisson par dénaturation acide. 20 min = texture idéale, mi-ferme mi-fondante. Au-delà, le poisson devient caoutchouteux." },
+            { type: "red", title: "⚠️ Fraîcheur impérative", text: "Le ceviche se déguste cru : utilisez du poisson extra-frais du jour ou préalablement surgelé 48h minimum à -20°C." }
+        ]
+    },
+
+    {
+        id: "curry-massaman-boeuf",
+        name: "Curry Massaman de bœuf",
+        subtitle: "Bœuf braisé fondant, sauce curry cacahuète coco, pommes de terre confites",
+        emoji: "🍛",
+        category: "dejeuner",
+        difficulty: "Avancé",
+        time: 55,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Prise de masse"],
+        ingredients: [
+            { id: "boeuf_hache_5", name: "Bœuf à braiser", detail: "en morceaux de 3cm", emoji: "🥩", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "pomme_de_terre", name: "Pommes de terre", detail: "en cubes moyens", emoji: "🥔", baseQty: 120, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
+            { id: "lait_coco", name: "Lait de coco", detail: "entier", emoji: "🥥", baseQty: 100, unit: "ml", scalable: true, role: "Sauce" },
+            { id: "pate_curry", name: "Pâte de curry", detail: "massaman ou rouge", emoji: "🟤", baseQty: 20, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "100% cacahuètes", emoji: "🥜", baseQty: 15, unit: "g", scalable: false, role: "Liant" },
+            { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
+            { id: "sauce_nuoc_mam", name: "Nuoc mam", detail: "un filet", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Saisir les morceaux de bœuf à feu vif", text: "Saisir les morceaux de bœuf à feu vif dans une cocotte pour les colorer sur toutes les faces. Réserver." },
+            { title: "Dans la même cocotte, faire revenir", text: "Dans la même cocotte, faire revenir l'oignon et la pâte de curry 2 minutes jusqu'aux arômes." },
+            { title: "Remettre le bœuf, ajouter le lait de", text: "Remettre le bœuf, ajouter le lait de coco et couvrir. Laisser mijoter 35 minutes à feu doux." },
+            { title: "Ajouter les pommes de terre en cubes et", text: "Ajouter les pommes de terre en cubes et poursuivre la cuisson 15 minutes jusqu'à tendreté." },
+            { title: "Incorporer le beurre de cacahuète et le", text: "Incorporer le beurre de cacahuète et le nuoc mam, mélanger jusqu'à obtenir une sauce onctueuse." },
+            { title: "Rectifier l'assaisonnement", text: "Rectifier l'assaisonnement. Servir dans un bol profond avec du riz parfumé et des cacahuètes concassées." }
+        ],
+        tips: [
+            { type: "green", title: "🥜 Onctuosité du massaman", text: "Le beurre de cacahuète ajouté en fin de cuisson épaissit la sauce et apporte une richesse inégalée. Mélangez bien pour l'homogénéiser." },
+            { type: "red", title: "⚠️ Cuisson basse température", text: "Le bœuf doit mijoter doucement (frémissement, pas ébullition) pour devenir fondant. Trop de chaleur = viande sèche et dure." }
+        ]
+    },
+
+    {
+        id: "filet-mignon-porc-pommes-fondantes",
+        name: "Filet mignon de porc, pommes fondantes",
+        subtitle: "Filet mignon rôti doré, pommes de terre fondantes au thym, jus de cuisson réduit",
+        emoji: "🐷",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 45,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Équilibré","Sans gluten"],
+        ingredients: [
+            { id: "porc_filet", name: "Filet mignon de porc", detail: "paré, à température ambiante", emoji: "🐷", baseQty: 160, unit: "g", scalable: true, role: "protein" },
+            { id: "pomme_de_terre", name: "Pommes de terre", detail: "en cylindres de 4cm de haut", emoji: "🥔", baseQty: 180, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
+            { id: "champignon", name: "Champignons de Paris", detail: "émincés", emoji: "🍄", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
+            { id: "haricots_verts", name: "Haricots verts", detail: "extra-fins", emoji: "🫘", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
+            { id: "moutarde", name: "Moutarde à l'ancienne", detail: "en grains", emoji: "🟡", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "pour la sauce", emoji: "🥛", baseQty: 25, unit: "g", scalable: false, role: "Sauce" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffer le four à 180°C", text: "Préchauffer le four à 180°C. Saisir le filet mignon de tous côtés dans une poêle chaude huilée." },
+            { title: "Enrober le filet de moutarde à", text: "Enrober le filet de moutarde à l'ancienne, puis enfourner 20-25 minutes jusqu'à 63°C à cœur." },
+            { title: "Saisir les pommes de terre (cylindres) à", text: "Saisir les pommes de terre (cylindres) à la poêle côté plat, ajouter un fond de bouillon et cuire à couvert 20 min." },
+            { title: "Retourner les pommes pour dorer l'autre face", text: "Retourner les pommes pour dorer l'autre face — dorées à l'extérieur et fondantes à l'intérieur." },
+            { title: "Faire sauter les champignons à feu vif,", text: "Faire sauter les champignons à feu vif, déglacer avec la crème et le jus de cuisson du porc." },
+            { title: "Blanchir les haricots verts 4 minutes,", text: "Blanchir les haricots verts 4 minutes, les rafraîchir à l'eau glacée pour garder le croquant." },
+            { title: "Trancher le filet mignon en médaillons", text: "Trancher le filet mignon en médaillons épais, napper de sauce aux champignons, accompagner des pommes fondantes." }
+        ],
+        tips: [
+            { type: "green", title: "🌡️ Cuisson au thermomètre", text: "Le filet mignon est parfait à 63°C à cœur — rosé et juteux. Investissez dans un thermomètre de cuisson pour un résultat garanti." },
+            { type: "red", title: "⚠️ Repos de la viande", text: "Laissez reposer le filet mignon 5-8 min après le four, couvert d'aluminium. Cela peut augmenter la température interne de 3-5°C." }
+        ]
+    },
+
+    {
+        id: "ravioles-ricotta-epinards-beurre-sauge",
+        name: "Ravioles ricotta-épinards, beurre de sauge",
+        subtitle: "Pâtes farcies ricotta-épinards, beurre noisette à la sauge croustillante",
+        emoji: "🥟",
+        category: "dejeuner",
+        difficulty: "Avancé",
+        time: 50,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Équilibré"],
+        ingredients: [
+            { id: "pates_cuites", name: "Ravioles / Pâtes fraîches", detail: "du commerce ou maison", emoji: "🍝", baseQty: 200, unit: "g", scalable: true, role: "carb", rawRatio: 2.5 },
+            { id: "ricotta", name: "Ricotta", detail: "bien égouttée", emoji: "🧀", baseQty: 80, unit: "g", scalable: true, role: "protein" },
+            { id: "epinards", name: "Épinards frais", detail: "tombés et essorés", emoji: "🥬", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
+            { id: "parmesan", name: "Parmesan", detail: "râpé fin + copeaux pour finition", emoji: "🧀", baseQty: 15, unit: "g", scalable: false, role: "protein" },
+            { id: "oeuf", name: "Jaune d'œuf", detail: "pour lier la farce", emoji: "🥚", baseQty: 1, unit: "unité", scalable: false, role: "Liant" },
+            { id: "huile_olive", name: "Beurre", detail: "pour beurre noisette", emoji: "🧈", baseQty: 15, unit: "g", scalable: false, role: "Sauce" },
+            { id: "noix", name: "Noix", detail: "concassées grossièrement", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faire tomber les épinards 2 minutes à la", text: "Faire tomber les épinards 2 minutes à la poêle, les essorer soigneusement en pressant dans un torchon." },
+            { title: "Mélanger la ricotta égouttée, les", text: "Mélanger la ricotta égouttée, les épinards hachés, le jaune d'œuf, le parmesan, sel, poivre et muscade." },
+            { title: "Si ravioles maison", text: "Si ravioles maison : étaler la pâte finement, déposer des petites boules de farce, refermer et sceller." },
+            { title: "Cuire les ravioles 3-4 minutes dans une", text: "Cuire les ravioles 3-4 minutes dans une grande casserole d'eau bouillante salée (elles remontent quand elles sont prêtes)." },
+            { title: "Faire chauffer le beurre dans une poêle", text: "Faire chauffer le beurre dans une poêle jusqu'à coloration noisette et parfum de noisette." },
+            { title: "Ajouter les feuilles de sauge dans le", text: "Ajouter les feuilles de sauge dans le beurre noisette et les faire croustiller 30 secondes." },
+            { title: "Égoutter les ravioles, les napper de", text: "Égoutter les ravioles, les napper de beurre de sauge, parsemer de noix concassées et copeaux de parmesan." }
+        ],
+        tips: [
+            { type: "green", title: "🧈 Beurre noisette parfait", text: "Surveillez le beurre attentivement : il passe de doré à brûlé en quelques secondes. Retirez du feu dès que les arômes de noisette se développent." },
+            { type: "red", title: "⚠️ Épinards bien essorés", text: "Des épinards trop humides diluent la farce et font éclater les ravioles à la cuisson. Pressez-les fermement dans un torchon." }
+        ]
+    },
+
+    {
+        id: "poke-bowl-thon-tartare",
+        name: "Poké bowl au thon en tartare",
+        subtitle: "Thon cru mariné soja-sésame, riz vinaigré, avocat, mangue et edamame",
+        emoji: "🍣",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 20,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Équilibré","Sans cuisson"],
+        ingredients: [
+            { id: "thon_conserve", name: "Thon frais", detail: "en cubes de 1.5cm, qualité sashimi", emoji: "🐟", baseQty: 130, unit: "g", scalable: true, role: "protein" },
+            { id: "riz_basmati_cuit", name: "Riz à sushi", detail: "vinaigré, tiède", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "avocat", name: "Avocat", detail: "en tranches", emoji: "🥑", baseQty: 60, unit: "g", scalable: true, role: "fat" },
+            { id: "mangue", name: "Mangue", detail: "en cubes", emoji: "🥭", baseQty: 50, unit: "g", scalable: true, role: "Fruit" },
+            { id: "edamame", name: "Edamame", detail: "décortiqués, cuits", emoji: "🫛", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
+            { id: "concombre", name: "Concombre", detail: "en rondelles fines", emoji: "🥒", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
+            { id: "sauce_soja", name: "Sauce soja", detail: "marinade pour le thon", emoji: "🫘", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Couper le thon en cubes réguliers de 1.5", text: "Couper le thon en cubes réguliers de 1.5 cm, mariner 10 minutes dans la sauce soja et l'huile de sésame." },
+            { title: "Préparer le riz vinaigré", text: "Préparer le riz vinaigré : mélanger le riz chaud avec un filet de vinaigre de riz et un soupçon de sucre." },
+            { title: "Disposer le riz tiède en base du bowl,", text: "Disposer le riz tiède en base du bowl, créer des sections pour chaque garniture." },
+            { title: "Répartir harmonieusement l'avocat, la", text: "Répartir harmonieusement l'avocat, la mangue, les edamame et le concombre en quartiers." },
+            { title: "Déposer le thon mariné au centre du bowl.", text: "Déposer le thon mariné au centre du bowl." },
+            { title: "Parsemer de graines de sésame torréfiées", text: "Parsemer de graines de sésame torréfiées et de ciboulette ciselée. Servir immédiatement." }
+        ],
+        tips: [
+            { type: "green", title: "🍣 Marinade express", text: "10 minutes de marinade suffisent pour parfumer le thon sans le 'cuire' dans la sauce soja. Au-delà, la texture change et le goût devient trop salé." },
+            { type: "red", title: "⚠️ Riz tiède, pas chaud", text: "Le riz doit être tiède pour le poké (pas brûlant, pas froid). Le riz chaud commence à cuire le poisson cru au contact." }
+        ]
+    },
+
+    {
+        id: "coq-au-vin-light",
+        name: "Coq au vin allégé",
+        subtitle: "Poulet braisé au vin rouge, lardons, champignons et petits oignons caramélisés",
+        emoji: "🍷",
+        category: "dejeuner",
+        difficulty: "Avancé",
+        time: 55,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Équilibré"],
+        ingredients: [
+            { id: "poulet_grille", name: "Hauts de cuisse de poulet", detail: "désossés, sans peau", emoji: "🍗", baseQty: 160, unit: "g", scalable: true, role: "protein" },
+            { id: "champignon", name: "Champignons de Paris", detail: "en quartiers", emoji: "🍄", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
+            { id: "carotte", name: "Carottes", detail: "en rondelles épaisses", emoji: "🥕", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
+            { id: "oignon", name: "Petits oignons grelots", detail: "entiers, pelés", emoji: "🧅", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
+            { id: "jambon_blanc", name: "Lardons", detail: "allumettes, dégraissés", emoji: "🥓", baseQty: 30, unit: "g", scalable: false, role: "Garniture" },
+            { id: "concentre_tomate", name: "Concentré de tomate", detail: "double concentré", emoji: "🍅", baseQty: 10, unit: "g", scalable: false, role: "Sauce" },
+            { id: "farine_complete", name: "Farine", detail: "pour singer", emoji: "🌾", baseQty: 10, unit: "g", scalable: false, role: "Liant" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "pour la cuisson", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faire rissoler les lardons et les petits", text: "Faire rissoler les lardons et les petits oignons dans une cocotte. Réserver quand ils sont dorés." },
+            { title: "Saisir les morceaux de poulet", text: "Saisir les morceaux de poulet assaisonnés de tous côtés jusqu'à coloration dorée. Réserver." },
+            { title: "Singer", text: "Singer : saupoudrer de farine, mélanger, ajouter le concentré de tomate et cuire 1 minute." },
+            { title: "Déglacer avec du vin rouge (25cl),", text: "Déglacer avec du vin rouge (25cl), gratter les sucs de cuisson et porter à ébullition." },
+            { title: "Remettre le poulet, les lardons, les", text: "Remettre le poulet, les lardons, les oignons et les carottes. Couvrir et mijoter 35 minutes à feu doux." },
+            { title: "Ajouter les champignons 10 minutes avant", text: "Ajouter les champignons 10 minutes avant la fin de cuisson." },
+            { title: "Rectifier l'assaisonnement, servir dans", text: "Rectifier l'assaisonnement, servir dans la cocotte avec du persil frais ciselé." }
+        ],
+        tips: [
+            { type: "green", title: "🍷 Réduction du vin", text: "Faites réduire le vin de moitié avant d'ajouter les autres ingrédients pour concentrer les saveurs et éliminer l'acidité." },
+            { type: "red", title: "⚠️ Cuisson lente", text: "Le coq au vin ne se presse pas. Un mijotage doux (pas d'ébullition) pendant 35+ min est essentiel pour une viande fondante." }
+        ]
+    },
+
+    {
+        id: "linguine-vongole-light",
+        name: "Linguine alle vongole light",
+        subtitle: "Pâtes aux moules, vin blanc, ail rôti et persil, façon napolitaine",
+        emoji: "🍝",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 25,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Équilibré"],
+        ingredients: [
+            { id: "pates_cuites", name: "Linguine", detail: "cuites al dente", emoji: "🍝", baseQty: 200, unit: "g", scalable: true, role: "carb", rawRatio: 2.5 },
+            { id: "moules", name: "Moules", detail: "nettoyées, grattées", emoji: "🦪", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "oignon", name: "Ail", detail: "3-4 gousses, finement émincées", emoji: "🧄", baseQty: 10, unit: "g", scalable: false, role: "Aromate" },
+            { id: "tomate", name: "Tomates cerises", detail: "coupées en deux", emoji: "🍅", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "citron_jus", name: "Jus de citron", detail: "un filet", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge de qualité", emoji: "🫒", baseQty: 12, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faire chauffer l'huile d'olive à feu", text: "Faire chauffer l'huile d'olive à feu moyen, ajouter l'ail émincé et le faire dorer sans le brûler (1-2 min)." },
+            { title: "Ajouter les moules nettoyées et les", text: "Ajouter les moules nettoyées et les tomates cerises. Couvrir et cuire 4-5 minutes jusqu'à ouverture." },
+            { title: "Retirer les moules ouvertes, jeter", text: "Retirer les moules ouvertes, jeter celles qui restent fermées. Décoquiller la moitié, garder l'autre en coquille." },
+            { title: "Cuire les linguine 1 minute de moins que", text: "Cuire les linguine 1 minute de moins que le temps indiqué (elles finiront de cuire dans la sauce)." },
+            { title: "Transférer les pâtes dans la poêle avec", text: "Transférer les pâtes dans la poêle avec le jus des moules, ajouter un peu d'eau de cuisson et mélanger vigoureusement." },
+            { title: "Remettre les moules, ajouter le jus de", text: "Remettre les moules, ajouter le jus de citron et le persil. Mélanger et servir immédiatement." }
+        ],
+        tips: [
+            { type: "green", title: "🍝 Eau de cuisson magique", text: "Gardez toujours un verre d'eau de cuisson des pâtes : l'amidon qu'elle contient lie la sauce et la rend soyeuse." },
+            { type: "red", title: "⚠️ Ail doré, jamais brûlé", text: "L'ail brûlé devient amer et gâche tout le plat. Feu moyen, surveillance constante, et retirer dès qu'il est blond doré." }
+        ]
+    },
+
+    {
+        id: "agneau-confit-legumes-printaniers",
+        name: "Épaule d'agneau confite, légumes printaniers",
+        subtitle: "Agneau fondant longuement rôti, carottes glacées, petits pois et asperges",
+        emoji: "🐑",
+        category: "dejeuner",
+        difficulty: "Avancé",
+        time: 60,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Prise de masse"],
+        ingredients: [
+            { id: "agneau_gigot", name: "Épaule d'agneau", detail: "désossée, en morceaux", emoji: "🐑", baseQty: 160, unit: "g", scalable: true, role: "protein" },
+            { id: "carotte", name: "Carottes nouvelles", detail: "avec fanes, entières", emoji: "🥕", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
+            { id: "petits_pois", name: "Petits pois", detail: "frais ou surgelés", emoji: "🟢", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "asperges", name: "Asperges vertes", detail: "parées, coupées en tronçons", emoji: "🌿", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "oignon", name: "Oignon", detail: "en quartiers", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "Aromate" },
+            { id: "miel", name: "Miel", detail: "pour le glaçage", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "concentre_tomate", name: "Concentré de tomate", detail: "pour le jus", emoji: "🍅", baseQty: 10, unit: "g", scalable: false, role: "Sauce" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffer le four à 150°C", text: "Préchauffer le four à 150°C. Saisir les morceaux d'agneau dans une cocotte allant au four." },
+            { title: "Ajouter l'oignon et le concentré de", text: "Ajouter l'oignon et le concentré de tomate, mélanger, puis mouiller à hauteur avec de l'eau chaude." },
+            { title: "Couvrir et enfourner 45 minutes jusqu'à", text: "Couvrir et enfourner 45 minutes jusqu'à ce que la viande se défasse à la fourchette." },
+            { title: "Glacer les carottes", text: "Glacer les carottes : les cuire dans un fond d'eau avec le miel jusqu'à évaporation et brillance." },
+            { title: "Blanchir les petits pois et asperges 3-4", text: "Blanchir les petits pois et asperges 3-4 minutes à l'eau bouillante, rafraîchir à l'eau glacée." },
+            { title: "Sortir l'agneau, réduire le jus de", text: "Sortir l'agneau, réduire le jus de cuisson à feu vif jusqu'à consistance nappante." },
+            { title: "Dresser l'agneau effiloché, napper du", text: "Dresser l'agneau effiloché, napper du jus réduit, disposer les légumes printaniers autour." }
+        ],
+        tips: [
+            { type: "green", title: "🐑 Cuisson basse température", text: "À 150°C, le collagène de l'épaule se transforme en gélatine — c'est ce qui rend la viande fondante. Ne pas monter la température." },
+            { type: "red", title: "⚠️ Carottes glacées", text: "Les carottes sont prêtes quand le liquide s'est complètement évaporé et qu'elles brillent. Attention à ne pas les laisser brûler." }
+        ]
+    },
+
+    {
+        id: "pad-thai-gambas-elabore",
+        name: "Pad Thaï élaboré aux gambas",
+        subtitle: "Nouilles de riz sautées au wok, gambas flambées, sauce tamarin-cacahuète",
+        emoji: "🍜",
+        category: "dejeuner",
+        difficulty: "Avancé",
+        time: 30,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Équilibré"],
+        ingredients: [
+            { id: "gambas", name: "Gambas", detail: "décortiquées, queue intacte", emoji: "🦐", baseQty: 120, unit: "g", scalable: true, role: "protein" },
+            { id: "vermicelles_riz", name: "Nouilles de riz", detail: "larges, réhydratées", emoji: "🍜", baseQty: 150, unit: "g", scalable: true, role: "carb" },
+            { id: "oeuf", name: "Œuf", detail: "battu en omelette fine", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "protein" },
+            { id: "carotte", name: "Carotte", detail: "en julienne fine", emoji: "🥕", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
+            { id: "oignon", name: "Échalote", detail: "émincée", emoji: "🧅", baseQty: 20, unit: "g", scalable: true, role: "Aromate" },
+            { id: "beurre_cacahuete", name: "Cacahuètes", detail: "concassées pour le topping", emoji: "🥜", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
+            { id: "sauce_nuoc_mam", name: "Nuoc mam", detail: "pour la sauce pad thaï", emoji: "🫗", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "citron_jus", name: "Jus de citron vert", detail: "pressé", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparer la sauce pad thaï", text: "Préparer la sauce pad thaï : mélanger nuoc mam, jus de citron vert, un peu de sucre et de la sauce tamarin." },
+            { title: "Saisir les gambas 1 minute de chaque", text: "Saisir les gambas 1 minute de chaque côté dans un wok fumant huilé. Réserver." },
+            { title: "Dans le même wok, verser l'œuf battu et", text: "Dans le même wok, verser l'œuf battu et le brouiller rapidement en fines lanières." },
+            { title: "Ajouter l'échalote et la carotte en", text: "Ajouter l'échalote et la carotte en julienne, sauter 2 minutes à feu très vif." },
+            { title: "Incorporer les nouilles de riz", text: "Incorporer les nouilles de riz réhydratées et la sauce pad thaï, mélanger vigoureusement au wok." },
+            { title: "Remettre les gambas et mélanger 1 minute", text: "Remettre les gambas et mélanger 1 minute supplémentaire." },
+            { title: "Dresser dans un bol, parsemer de", text: "Dresser dans un bol, parsemer de cacahuètes concassées, servir avec un quartier de citron vert." }
+        ],
+        tips: [
+            { type: "green", title: "🔥 Wok fumant (wok hei)", text: "Le secret d'un vrai pad thaï : un wok ultra-chaud pour le goût fumé caractéristique. Travaillez par petites quantités." },
+            { type: "red", title: "⚠️ Nouilles pas trop cuites", text: "Réhydratez les nouilles à l'eau tiède (pas bouillante) 8-10 min avant de les sauter. Trop molles, elles casseront au wok." }
+        ]
+    },
+
+    {
+        id: "poulet-miso-aubergine-laquee",
+        name: "Poulet au miso, aubergine laquée",
+        subtitle: "Suprême de poulet glacé miso-miel, aubergine rôtie laquée au sésame",
+        emoji: "🍗",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 35,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Équilibré"],
+        ingredients: [
+            { id: "poulet_grille", name: "Suprême de poulet", detail: "entaillé pour la marinade", emoji: "🍗", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "aubergine", name: "Aubergine", detail: "coupée en deux dans la longueur", emoji: "🍆", baseQty: 120, unit: "g", scalable: true, role: "Légume" },
+            { id: "riz_basmati_cuit", name: "Riz japonais", detail: "cuit, collant", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "miel", name: "Miel", detail: "pour le glaçage miso-miel", emoji: "🍯", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "sauce_soja", name: "Pâte miso / Sauce soja", detail: "miso blanc de préférence", emoji: "🫘", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "concombre", name: "Concombre", detail: "en pickles express (vinaigre de riz)", emoji: "🥒", baseQty: 50, unit: "g", scalable: true, role: "Accompagnement" },
+            { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Mélanger la pâte miso, le miel et un", text: "Mélanger la pâte miso, le miel et un trait de sauce soja pour obtenir un glaçage onctueux." },
+            { title: "Entailler le poulet en croisillons,", text: "Entailler le poulet en croisillons, badigeonner de glaçage miso-miel et mariner 15 minutes minimum." },
+            { title: "Entailler la chair de l'aubergine en", text: "Entailler la chair de l'aubergine en croisillons, badigeonner du même glaçage." },
+            { title: "Cuire le poulet à la poêle 6-7 min par", text: "Cuire le poulet à la poêle 6-7 min par face à feu moyen, en badigeonnant régulièrement." },
+            { title: "Rôtir l'aubergine au four à 200°C", text: "Rôtir l'aubergine au four à 200°C pendant 20 minutes face chair vers le haut." },
+            { title: "Préparer les pickles express", text: "Préparer les pickles express : trancher finement le concombre, mariner dans du vinaigre de riz, sel et sucre." },
+            { title: "Dresser le poulet tranché sur le riz,", text: "Dresser le poulet tranché sur le riz, l'aubergine laquée à côté, et les pickles de concombre." }
+        ],
+        tips: [
+            { type: "green", title: "🍯 Glaçage miso", text: "Le miso + miel caramélise magnifiquement. Appliquez plusieurs couches pendant la cuisson pour un effet laqué brillant et savoureux." },
+            { type: "red", title: "⚠️ Feu modéré", text: "Le miel et le miso brûlent facilement à haute température. Cuisez à feu moyen et surveillez la coloration." }
+        ]
+    },
+
+    {
+        id: "salade-nicoise-gastronomique",
+        name: "Salade niçoise gastronomique",
+        subtitle: "Thon mi-cuit, œuf mollet, haricots verts croquants, vinaigrette provençale",
+        emoji: "🥗",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 25,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Perte de poids"],
+        ingredients: [
+            { id: "thon_conserve", name: "Thon", detail: "pavé mi-cuit ou conserve premium", emoji: "🐟", baseQty: 120, unit: "g", scalable: true, role: "protein" },
+            { id: "oeuf", name: "Œuf", detail: "mollet (6 min)", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "protein" },
+            { id: "haricots_verts", name: "Haricots verts", detail: "extra-fins, blanchis", emoji: "🫘", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
+            { id: "tomate", name: "Tomates", detail: "en quartiers", emoji: "🍅", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
+            { id: "poivron_rouge", name: "Poivron rouge", detail: "en lanières fines", emoji: "🫑", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
+            { id: "radis", name: "Radis", detail: "en rondelles fines", emoji: "🌶️", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "de Nice de préférence", emoji: "🫒", baseQty: 12, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "vinaigre_balsamique", name: "Vinaigre de vin", detail: "vieux, pour la vinaigrette", emoji: "🫗", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Cuire l'œuf 6 minutes dans l'eau", text: "Cuire l'œuf 6 minutes dans l'eau bouillante pour un cœur mollet crémeux, refroidir immédiatement à l'eau glacée." },
+            { title: "Blanchir les haricots verts 4 minutes à", text: "Blanchir les haricots verts 4 minutes à l'eau bouillante salée, puis les plonger dans l'eau glacée." },
+            { title: "Préparer la vinaigrette provençale", text: "Préparer la vinaigrette provençale : huile d'olive, vinaigre de vin, herbes de Provence, sel et poivre." },
+            { title: "Si thon frais : saisir le pavé 1 min par", text: "Si thon frais : saisir le pavé 1 min par face pour un mi-cuit. Trancher en lamelles épaisses." },
+            { title: "Dresser la salade en composée", text: "Dresser la salade en composée — disposer chaque élément séparément pour un rendu graphique." },
+            { title: "Écaler l'œuf mollet et le couper en deux", text: "Écaler l'œuf mollet et le couper en deux pour révéler le cœur coulant. Arroser de vinaigrette." }
+        ],
+        tips: [
+            { type: "green", title: "🥚 Œuf mollet parfait", text: "6 minutes dans l'eau bouillante puis immédiatement à l'eau glacée. Le blanc est pris, le jaune reste crémeux et coulant au centre." },
+            { type: "red", title: "⚠️ Dresser en composée", text: "Une vraie niçoise se dresse en composée (ingrédients séparés), jamais mélangée. Chaque élément se déguste individuellement." }
+        ]
+    },
+
+    {
+        id: "tian-legumes-provencal",
+        name: "Tian de légumes provençal",
+        subtitle: "Fines rondelles de courgette, tomate et aubergine, parmesan gratiné",
+        emoji: "🌿",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 50,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Sans gluten","Perte de poids","Low carb"],
+        ingredients: [
+            { id: "courgette", name: "Courgette", detail: "en rondelles fines (3mm)", emoji: "🥒", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
+            { id: "tomate", name: "Tomates", detail: "en rondelles fines", emoji: "🍅", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
+            { id: "aubergine", name: "Aubergine", detail: "en rondelles fines", emoji: "🍆", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
+            { id: "oignon", name: "Oignon", detail: "en rondelles fines", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
+            { id: "parmesan", name: "Parmesan", detail: "râpé pour gratiner", emoji: "🧀", baseQty: 15, unit: "g", scalable: false, role: "protein" },
+            { id: "chevre_frais", name: "Chèvre frais", detail: "émietté entre les rangées", emoji: "🧀", baseQty: 30, unit: "g", scalable: true, role: "protein" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "parfumée au thym et romarin", emoji: "🫒", baseQty: 12, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "sauce_tomate", name: "Coulis de tomate", detail: "en fond de plat", emoji: "🍅", baseQty: 40, unit: "g", scalable: false, role: "Sauce" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffer le four à 180°C", text: "Préchauffer le four à 180°C. Étaler le coulis de tomate en fond d'un plat à gratin." },
+            { title: "Trancher tous les légumes à 3mm", text: "Trancher tous les légumes à 3mm d'épaisseur (mandoline recommandée)." },
+            { title: "Alterner les rondelles debout dans le plat", text: "Alterner les rondelles debout dans le plat : courgette, tomate, aubergine, oignon. Intercaler des miettes de chèvre." },
+            { title: "Arroser d'huile d'olive parfumée aux", text: "Arroser d'huile d'olive parfumée aux herbes de Provence, saler et poivrer." },
+            { title: "Couvrir d'aluminium et enfourner 35", text: "Couvrir d'aluminium et enfourner 35 minutes, puis retirer l'aluminium." },
+            { title: "Parsemer de parmesan râpé et gratiner 10", text: "Parsemer de parmesan râpé et gratiner 10 minutes à 200°C jusqu'à dorure." },
+            { title: "Laisser reposer 5 minutes avant de servir", text: "Laisser reposer 5 minutes avant de servir — le tian est meilleur tiède." }
+        ],
+        tips: [
+            { type: "green", title: "🔪 Régularité des tranches", text: "La clé d'un beau tian : des tranches parfaitement régulières. La mandoline est indispensable pour un résultat visuellement parfait." },
+            { type: "red", title: "⚠️ Excès d'eau", text: "Les légumes rendent beaucoup d'eau. Ne couvrez pas les 10 dernières minutes pour que l'eau s'évapore et que le dessus gratine." }
+        ]
+    },
+
+    {
+        id: "chirashi-saumon-bowl",
+        name: "Chirashi au saumon frais",
+        subtitle: "Riz vinaigré parfumé, saumon cru en tranches, avocat, concombre",
+        emoji: "🍣",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 20,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Équilibré","Sans cuisson"],
+        ingredients: [
+            { id: "saumon", name: "Saumon frais", detail: "qualité sashimi, tranché finement", emoji: "🐟", baseQty: 130, unit: "g", scalable: true, role: "protein" },
+            { id: "riz_basmati_cuit", name: "Riz à sushi", detail: "vinaigré, tiède", emoji: "🍚", baseQty: 180, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "avocat", name: "Avocat", detail: "en lamelles fines", emoji: "🥑", baseQty: 50, unit: "g", scalable: true, role: "fat" },
+            { id: "concombre", name: "Concombre", detail: "en demi-lunes fines", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "carotte", name: "Carotte", detail: "râpée ou en julienne", emoji: "🥕", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
+            { id: "edamame", name: "Edamame", detail: "décortiqués", emoji: "🫛", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
+            { id: "sauce_soja", name: "Sauce soja", detail: "pour tremper", emoji: "🫘", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile de sésame", detail: "torréfié, un filet", emoji: "🫒", baseQty: 3, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparer le riz vinaigré", text: "Préparer le riz vinaigré : mélanger le riz chaud avec du vinaigre de riz, du sel et un peu de sucre. Éventer pour refroidir." },
+            { title: "Trancher le saumon en fines lamelles", text: "Trancher le saumon en fines lamelles régulières à l'aide d'un couteau aiguisé mouillé." },
+            { title: "Disposer le riz en base du bol de", text: "Disposer le riz en base du bol de manière lisse et légèrement bombée." },
+            { title: "Répartir les tranches de saumon en", text: "Répartir les tranches de saumon en éventail sur une moitié du riz." },
+            { title: "Dresser les garnitures (avocat,", text: "Dresser les garnitures (avocat, concombre, carotte, edamame) de manière ordonnée." },
+            { title: "Parsemer de graines de sésame, un filet", text: "Parsemer de graines de sésame, un filet d'huile de sésame, et servir avec la sauce soja à part." }
+        ],
+        tips: [
+            { type: "green", title: "🔪 Coupe du saumon", text: "Coupez en tirant le couteau vers vous en un seul geste fluide. Un couteau mouillé évite que le poisson ne colle à la lame." },
+            { type: "red", title: "⚠️ Température du riz", text: "Le riz doit être tiède ou à température ambiante, jamais froid (trop dur) ni chaud (cuit le poisson)." }
+        ]
+    },
+
+    {
+        id: "osso-buco-legumes-gremolata",
+        name: "Osso buco milanaise, gremolata",
+        subtitle: "Jarret braisé à la tomate, gremolata citron-persil-ail, risotto",
+        emoji: "🍖",
+        category: "dejeuner",
+        difficulty: "Avancé",
+        time: 60,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Prise de masse"],
+        ingredients: [
+            { id: "porc_filet", name: "Jarret / Filet de porc", detail: "en tranches épaisses", emoji: "🐷", baseQty: 170, unit: "g", scalable: true, role: "protein" },
+            { id: "riz_basmati_cuit", name: "Risotto", detail: "cuit, crémeux", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "carotte", name: "Carotte", detail: "en mirepoix", emoji: "🥕", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
+            { id: "celeri_branche", name: "Céleri", detail: "en mirepoix", emoji: "🥬", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
+            { id: "oignon", name: "Oignon", detail: "en mirepoix", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
+            { id: "sauce_tomate", name: "Sauce tomate", detail: "concassée", emoji: "🍅", baseQty: 60, unit: "g", scalable: false, role: "Sauce" },
+            { id: "citron_jus", name: "Citron", detail: "zeste et jus pour gremolata", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Fariner et saisir les morceaux de porc", text: "Fariner et saisir les morceaux de porc de chaque côté dans une cocotte chaude huilée. Réserver." },
+            { title: "Faire suer la mirepoix (carotte, céleri,", text: "Faire suer la mirepoix (carotte, céleri, oignon) 5 minutes à feu doux dans la même cocotte." },
+            { title: "Remettre la viande, ajouter la sauce", text: "Remettre la viande, ajouter la sauce tomate et mouiller avec du bouillon. Porter à frémissement." },
+            { title: "Couvrir et cuire 45 minutes à feu très", text: "Couvrir et cuire 45 minutes à feu très doux jusqu'à ce que la viande soit fondante." },
+            { title: "Préparer la gremolata", text: "Préparer la gremolata : mélanger zeste de citron finement râpé, persil haché menu et ail haché." },
+            { title: "Servir le braisé avec son jus de cuisson", text: "Servir le braisé avec son jus de cuisson réduit, parsemé généreusement de gremolata fraîche." },
+            { title: "Accompagner d'un risotto milanaise crémeux.", text: "Accompagner d'un risotto milanaise crémeux." }
+        ],
+        tips: [
+            { type: "green", title: "🌿 Gremolata fraîcheur", text: "La gremolata s'ajoute TOUJOURS au dernier moment pour préserver sa fraîcheur et son parfum. C'est elle qui fait la signature du plat." },
+            { type: "red", title: "⚠️ Cuisson couverte", text: "Le couvercle est essentiel : il emprisonne la vapeur et empêche la viande de sécher pendant le braisage." }
+        ]
+    },
+
+    {
+        id: "tempeh-katsu-curry",
+        name: "Tempeh katsu curry",
+        subtitle: "Tempeh pané croustillant, sauce curry japonaise onctueuse, riz japonais",
+        emoji: "🍛",
+        category: "dejeuner",
+        difficulty: "Moyen",
+        time: 35,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Vegan","Haute protéine","Équilibré"],
+        ingredients: [
+            { id: "tempeh", name: "Tempeh", detail: "en tranches de 1cm d'épaisseur", emoji: "🫘", baseQty: 120, unit: "g", scalable: true, role: "protein" },
+            { id: "riz_basmati_cuit", name: "Riz japonais", detail: "cuit, collant", emoji: "🍚", baseQty: 180, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "carotte", name: "Carotte", detail: "râpée pour la sauce curry", emoji: "🥕", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
+            { id: "oignon", name: "Oignon", detail: "émincé pour la sauce", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
+            { id: "farine_complete", name: "Farine + panure", detail: "pour paner le tempeh", emoji: "🌾", baseQty: 25, unit: "g", scalable: false, role: "Enrobage" },
+            { id: "pate_curry", name: "Pâte de curry", detail: "japonais ou poudre de curry", emoji: "🟤", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "sauce_soja", name: "Sauce soja", detail: "pour la sauce curry", emoji: "🫘", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile végétale", detail: "pour la friture", emoji: "🫒", baseQty: 15, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparer la sauce curry", text: "Préparer la sauce curry : faire revenir oignon et carotte râpée, ajouter la pâte de curry et de l'eau, mijoter 15 min puis mixer." },
+            { title: "Couper le tempeh en tranches épaisses,", text: "Couper le tempeh en tranches épaisses, le mariner 5 min dans la sauce soja." },
+            { title: "Paner le tempeh", text: "Paner le tempeh : farine, puis lait végétal, puis chapelure panko en pressant bien." },
+            { title: "Frire les tranches de tempeh panées 3", text: "Frire les tranches de tempeh panées 3 minutes de chaque côté à feu moyen-vif jusqu'à dorure." },
+            { title: "Égoutter sur papier absorbant et", text: "Égoutter sur papier absorbant et trancher en lamelles comme un tonkatsu." },
+            { title: "Dresser le riz en dôme, disposer le", text: "Dresser le riz en dôme, disposer le tempeh katsu tranché à côté, napper de sauce curry onctueuse." }
+        ],
+        tips: [
+            { type: "green", title: "🍛 Sauce curry japonaise", text: "Pour une sauce ultra-lisse, mixez après cuisson. Le curry japonais doit être épais et onctueux, presque comme une béchamel." },
+            { type: "red", title: "⚠️ Panure panko", text: "Pressez bien la panure panko sur le tempeh pour qu'elle adhère. Si elle tombe, ajoutez une fine couche de fécule avant le lait." }
+        ]
+    },
+
+    {
+        id: "souris-agneau-confite-patate-douce",
+        name: "Souris d'agneau confite, purée de patate douce",
+        subtitle: "Agneau fondant après cuisson lente, purée veloutée patate douce-vanille",
+        emoji: "🐑",
+        category: "dejeuner",
+        difficulty: "Avancé",
+        time: 60,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Prise de masse"],
+        ingredients: [
+            { id: "agneau_gigot", name: "Souris d'agneau", detail: "entière, avec os", emoji: "🐑", baseQty: 200, unit: "g", scalable: true, role: "protein" },
+            { id: "patate_douce_cuite", name: "Patate douce", detail: "pour la purée", emoji: "🍠", baseQty: 180, unit: "g", scalable: true, role: "carb" },
+            { id: "carotte", name: "Carottes", detail: "en tronçons", emoji: "🥕", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "oignon", name: "Oignon", detail: "en quartiers", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "Aromate" },
+            { id: "concentre_tomate", name: "Concentré de tomate", detail: "pour le fond de braisage", emoji: "🍅", baseQty: 15, unit: "g", scalable: false, role: "Sauce" },
+            { id: "miel", name: "Miel", detail: "un filet pour laquer", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "pour la purée", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "Liant" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffer le four à 150°C", text: "Préchauffer le four à 150°C. Saisir la souris d'agneau de tous côtés dans une cocotte allant au four." },
+            { title: "Ajouter l'oignon, les carottes et le", text: "Ajouter l'oignon, les carottes et le concentré de tomate. Faire revenir 2 minutes." },
+            { title: "Mouiller à mi-hauteur avec de l'eau", text: "Mouiller à mi-hauteur avec de l'eau chaude, ajouter le miel. Couvrir et enfourner 2h30 à 3h." },
+            { title: "Cuire la patate douce à l'eau ou à la", text: "Cuire la patate douce à l'eau ou à la vapeur 20 minutes, écraser en purée avec la crème." },
+            { title: "L'agneau est prêt quand la viande se", text: "L'agneau est prêt quand la viande se détache de l'os au toucher — elle doit être fondante." },
+            { title: "Filtrer et réduire le jus de cuisson à", text: "Filtrer et réduire le jus de cuisson à feu vif jusqu'à consistance sirupeuse." },
+            { title: "Dresser la purée de patate douce en", text: "Dresser la purée de patate douce en quenelle, poser la souris d'agneau dessus, napper du jus réduit." }
+        ],
+        tips: [
+            { type: "green", title: "⏰ Patience récompensée", text: "Plus la cuisson est longue à basse température, plus le collagène se transforme en gélatine et la viande fond en bouche." },
+            { type: "red", title: "⚠️ Jus de cuisson", text: "Le jus réduit est concentré — goûtez avant d'assaisonner. L'assaisonnement s'intensifie avec la réduction." }
+        ]
+    },
+
+    {
+        id: "saumon-croute-nori-sesame",
+        name: "Saumon en croûte de nori et sésame",
+        subtitle: "Pavé de saumon croustillant sous sa croûte d'algue nori, sauce teriyaki légère",
+        emoji: "🍣",
+        category: "diner",
+        difficulty: "Avancé",
+        time: 30,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Low carb","Sans gluten"],
+        ingredients: [
+            { id: "saumon", name: "Pavé de saumon", detail: "frais, avec peau", emoji: "🐟", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "brocoli", name: "Brocoli", detail: "en fleurettes", emoji: "🥦", baseQty: 120, unit: "g", scalable: true, role: "Légume" },
+            { id: "riz_basmati_cuit", name: "Riz basmati", detail: "cuit, parfumé", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "sauce_soja", name: "Sauce soja", detail: "pour la sauce teriyaki", emoji: "🫘", baseQty: 20, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "miel", name: "Miel", detail: "pour la sauce teriyaki", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "citron_jus", name: "Jus de citron", detail: "un filet", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffer le four à 200°C", text: "Préchauffer le four à 200°C. Préparer la sauce teriyaki : réduire sauce soja et miel à feu doux jusqu'à consistance sirupeuse." },
+            { title: "Émietter une feuille de nori et la", text: "Émietter une feuille de nori et la mélanger avec des graines de sésame pour créer la croûte." },
+            { title: "Badigeonner le dessus du saumon de sauce", text: "Badigeonner le dessus du saumon de sauce teriyaki, puis presser le mélange nori-sésame." },
+            { title: "Saisir le saumon côté peau 3 minutes à", text: "Saisir le saumon côté peau 3 minutes à la poêle, puis enfourner côté croûte vers le haut 8-10 minutes." },
+            { title: "Cuire le brocoli à la vapeur 4 minutes", text: "Cuire le brocoli à la vapeur 4 minutes pour qu'il reste croquant et vert vif." },
+            { title: "Dresser le saumon sur le riz, disposer", text: "Dresser le saumon sur le riz, disposer le brocoli à côté et napper d'un filet de sauce teriyaki." }
+        ],
+        tips: [
+            { type: "green", title: "🍣 Croûte nori parfaite", text: "La nori émiettée avec du sésame crée une croûte croustillante et umami. Pressez fermement pour qu'elle adhère bien." },
+            { type: "red", title: "⚠️ Cuisson du saumon", text: "Le saumon doit rester rosé à cœur. Vérifiez à la pointe d'un couteau : l'intérieur doit être à peine translucide." }
+        ]
+    },
+
+    {
+        id: "veloute-topinambour-truffe",
+        name: "Velouté de topinambour à la truffe",
+        subtitle: "Crème veloutée de pomme de terre et chou-fleur, huile de truffe, chips de légumes",
+        emoji: "🍄",
+        category: "diner",
+        difficulty: "Moyen",
+        time: 35,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Sans gluten","Perte de poids"],
+        ingredients: [
+            { id: "pomme_de_terre", name: "Pomme de terre", detail: "pelée, en morceaux", emoji: "🥔", baseQty: 120, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
+            { id: "chou_fleur", name: "Chou-fleur", detail: "en fleurettes", emoji: "🥦", baseQty: 120, unit: "g", scalable: true, role: "Légume" },
+            { id: "poireaux", name: "Poireaux", detail: "le blanc, émincé", emoji: "🥬", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 30, unit: "g", scalable: true, role: "Aromate" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 25, unit: "g", scalable: false, role: "Liant" },
+            { id: "huile_olive", name: "Huile d'olive truffée", detail: "quelques gouttes en finition", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "noix", name: "Noix", detail: "concassées pour le topping", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faire suer l'oignon et le blanc de", text: "Faire suer l'oignon et le blanc de poireau dans un filet d'huile d'olive à feu doux 5 minutes." },
+            { title: "Ajouter la pomme de terre et le", text: "Ajouter la pomme de terre et le chou-fleur, couvrir d'eau à hauteur, saler et porter à ébullition." },
+            { title: "Cuire 20 minutes à couvert jusqu'à ce", text: "Cuire 20 minutes à couvert jusqu'à ce que les légumes soient très tendres." },
+            { title: "Mixer finement au blender en ajoutant la", text: "Mixer finement au blender en ajoutant la crème fraîche pour obtenir une texture veloutée." },
+            { title: "Passer au chinois pour un velouté", text: "Passer au chinois pour un velouté ultra-lisse (facultatif mais recommandé pour le côté gastronomique)." },
+            { title: "Servir dans des bols chauds, ajouter", text: "Servir dans des bols chauds, ajouter quelques gouttes d'huile truffée et les noix concassées." }
+        ],
+        tips: [
+            { type: "green", title: "🍄 Huile truffée", text: "Quelques gouttes suffisent — l'huile truffée est très puissante. Ajoutez-la au dernier moment, la chaleur altère son arôme." },
+            { type: "red", title: "⚠️ Mixer chaud avec précaution", text: "Ne remplissez jamais le blender à plus de la moitié avec du liquide chaud. La vapeur peut faire sauter le couvercle." }
+        ]
+    },
+
+    {
+        id: "magret-canard-miel-epices",
+        name: "Magret de canard au miel et aux épices",
+        subtitle: "Magret rosé à la peau croustillante, glaçage miel-épices douces, purée de céleri",
+        emoji: "🦆",
+        category: "diner",
+        difficulty: "Avancé",
+        time: 35,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten"],
+        ingredients: [
+            { id: "canard_filet", name: "Magret de canard", detail: "peau entaillée en croisillons", emoji: "🦆", baseQty: 160, unit: "g", scalable: true, role: "protein" },
+            { id: "celeri_branche", name: "Céleri-rave / Céleri", detail: "en morceaux pour purée", emoji: "🥬", baseQty: 120, unit: "g", scalable: true, role: "Légume" },
+            { id: "pomme", name: "Pomme", detail: "Granny Smith, en quartiers", emoji: "🍏", baseQty: 60, unit: "g", scalable: true, role: "Accompagnement" },
+            { id: "miel", name: "Miel", detail: "pour le glaçage", emoji: "🍯", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "pour la purée", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "Liant" },
+            { id: "vinaigre_balsamique", name: "Vinaigre balsamique", detail: "pour déglacer", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "Sauce" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "un filet", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Entailler la peau du magret en", text: "Entailler la peau du magret en croisillons sans percer la chair. Assaisonner sel, poivre, cannelle et muscade." },
+            { title: "Déposer le magret côté peau dans une", text: "Déposer le magret côté peau dans une poêle froide, monter à feu moyen pour rendre la graisse (8-10 min)." },
+            { title: "Retourner côté chair 3-4 minutes selon", text: "Retourner côté chair 3-4 minutes selon l'épaisseur pour un magret rosé." },
+            { title: "Badigeonner de miel mélangé aux épices,", text: "Badigeonner de miel mélangé aux épices, passer 1 minute sous le gril pour caraméliser." },
+            { title: "Préparer la purée de céleri", text: "Préparer la purée de céleri : cuire les morceaux 15 min à l'eau, mixer avec la crème." },
+            { title: "Poêler les quartiers de pomme dans la", text: "Poêler les quartiers de pomme dans la graisse de canard 2 minutes pour les caraméliser." },
+            { title: "Laisser reposer le magret 5 min,", text: "Laisser reposer le magret 5 min, trancher en fines lamelles, dresser sur la purée avec les pommes et un filet de balsamique." }
+        ],
+        tips: [
+            { type: "green", title: "🦆 Peau croustillante", text: "Départ à froid obligatoire pour rendre la graisse progressivement. La peau doit être dorée et craquante comme un cracker." },
+            { type: "red", title: "⚠️ Repos crucial", text: "5 minutes de repos minimum sous aluminium. Le magret continue de cuire et les jus se redistribuent uniformément." }
+        ]
+    },
+
+    {
+        id: "cabillaud-beurre-noisette-capres",
+        name: "Cabillaud au beurre noisette et câpres",
+        subtitle: "Dos de cabillaud nacré, beurre noisette mousseux, câpres croustillantes et citron",
+        emoji: "🐟",
+        category: "diner",
+        difficulty: "Moyen",
+        time: 20,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Perte de poids"],
+        ingredients: [
+            { id: "cabillaud", name: "Dos de cabillaud", detail: "épais, peau retirée", emoji: "🐟", baseQty: 160, unit: "g", scalable: true, role: "protein" },
+            { id: "epinards", name: "Épinards frais", detail: "en accompagnement", emoji: "🥬", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
+            { id: "pomme_de_terre", name: "Pommes de terre grenaille", detail: "coupées en deux", emoji: "🥔", baseQty: 120, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
+            { id: "huile_olive", name: "Beurre", detail: "pour beurre noisette", emoji: "🧈", baseQty: 15, unit: "g", scalable: false, role: "Sauce" },
+            { id: "citron_jus", name: "Jus de citron", detail: "fraîchement pressé", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "moutarde", name: "Câpres / Moutarde", detail: "égouttées", emoji: "🟢", baseQty: 10, unit: "g", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Cuire les pommes de terre grenaille 15", text: "Cuire les pommes de terre grenaille 15 minutes à l'eau bouillante salée, puis les dorer à la poêle." },
+            { title: "Assaisonner le cabillaud", text: "Assaisonner le cabillaud. Le saisir 4 minutes côté chair dans une poêle chaude, retourner 2 minutes." },
+            { title: "Retirer le poisson", text: "Retirer le poisson. Dans la même poêle, faire chauffer le beurre jusqu'à coloration noisette." },
+            { title: "Ajouter les câpres dans le beurre noisette", text: "Ajouter les câpres dans le beurre noisette — elles vont crépiter et devenir croustillantes (30 sec)." },
+            { title: "Faire tomber les épinards 2 minutes dans", text: "Faire tomber les épinards 2 minutes dans une poêle avec un filet d'huile." },
+            { title: "Dresser le cabillaud sur les épinards,", text: "Dresser le cabillaud sur les épinards, napper de beurre noisette aux câpres, ajouter un filet de citron." }
+        ],
+        tips: [
+            { type: "green", title: "🧈 Beurre noisette", text: "Le beurre doit mousser puis brunir avec un parfum de noisette. Retirez-le du feu à cet instant précis — quelques secondes de trop et il brûle." },
+            { type: "red", title: "⚠️ Cabillaud nacré", text: "Le cabillaud est cuit quand il s'effeuille facilement mais reste nacré au centre. Surcuit, il devient sec et sans saveur." }
+        ]
+    },
+
+    {
+        id: "risotto-asperges-citron-parmesan",
+        name: "Risotto aux asperges, citron et parmesan",
+        subtitle: "Risotto crémeux aux asperges vertes, zeste de citron, parmesan affiné",
+        emoji: "🌿",
+        category: "diner",
+        difficulty: "Moyen",
+        time: 35,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Sans gluten","Équilibré"],
+        ingredients: [
+            { id: "riz_basmati_cuit", name: "Riz arborio", detail: "cuit façon risotto", emoji: "🍚", baseQty: 180, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "asperges", name: "Asperges vertes", detail: "parées, coupées en tronçons", emoji: "🌿", baseQty: 120, unit: "g", scalable: true, role: "Légume" },
+            { id: "oignon", name: "Échalote", detail: "finement ciselée", emoji: "🧅", baseQty: 30, unit: "g", scalable: true, role: "Aromate" },
+            { id: "parmesan", name: "Parmesan", detail: "Reggiano, râpé fin", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "protein" },
+            { id: "citron_jus", name: "Citron", detail: "jus et zeste", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "pour la mantecatura", emoji: "🥛", baseQty: 15, unit: "g", scalable: false, role: "Liant" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Blanchir les pointes d'asperges 2", text: "Blanchir les pointes d'asperges 2 minutes, réserver. Couper les tiges en rondelles fines." },
+            { title: "Faire suer l'échalote dans l'huile", text: "Faire suer l'échalote dans l'huile d'olive, ajouter les tiges d'asperges et le riz, nacrer 2 minutes." },
+            { title: "Mouiller louche par louche avec du", text: "Mouiller louche par louche avec du bouillon de légumes chaud, en remuant constamment 18-20 min." },
+            { title: "À mi-cuisson, ajouter les tronçons de", text: "À mi-cuisson, ajouter les tronçons de tiges d'asperges pour qu'ils fondent dans le risotto." },
+            { title: "Hors du feu", text: "Hors du feu : mantecatura — incorporer parmesan, crème, zeste et jus de citron en remuant vigoureusement." },
+            { title: "Dresser le risotto en vague, disposer", text: "Dresser le risotto en vague, disposer les pointes d'asperges blanchies par-dessus, quelques copeaux de parmesan." }
+        ],
+        tips: [
+            { type: "green", title: "🌿 Deux textures d'asperges", text: "Les tiges fondent dans le risotto pour parfumer, les pointes blanchies gardent leur croquant en garniture — deux textures pour un même légume." },
+            { type: "red", title: "⚠️ Mantecatura hors du feu", text: "Ajoutez le parmesan et la crème HORS du feu. La chaleur résiduelle suffit, sinon le fromage file et le risotto devient collant." }
+        ]
+    },
+
+    {
+        id: "gyozas-maison-poulet-gingembre",
+        name: "Gyozas maison poulet-gingembre",
+        subtitle: "Raviolis japonais croustillants dessous, fondants dessus, sauce soja-vinaigre",
+        emoji: "🥟",
+        category: "diner",
+        difficulty: "Avancé",
+        time: 45,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Équilibré"],
+        ingredients: [
+            { id: "poulet_grille", name: "Poulet", detail: "haché finement au couteau", emoji: "🍗", baseQty: 130, unit: "g", scalable: true, role: "protein" },
+            { id: "chou_rouge", name: "Chou", detail: "finement émincé, pressé", emoji: "🥬", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "oignon", name: "Gingembre et ciboule", detail: "râpés finement", emoji: "🧅", baseQty: 15, unit: "g", scalable: false, role: "Aromate" },
+            { id: "farine_complete", name: "Pâte à gyoza / Farine", detail: "feuilles rondes du commerce", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "carb" },
+            { id: "sauce_soja", name: "Sauce soja", detail: "pour la sauce et la farce", emoji: "🫘", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile de sésame", detail: "torréfié, dans la farce", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "vinaigre_balsamique", name: "Vinaigre de riz", detail: "pour la sauce trempage", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "Sauce" },
+            { id: "salade_verte", name: "Salade", detail: "en accompagnement", emoji: "🥬", baseQty: 40, unit: "g", scalable: true, role: "Légume" }
+        ],
+        options: [],
+        steps: [
+            { title: "Mélanger le poulet haché, le chou", text: "Mélanger le poulet haché, le chou pressé, le gingembre râpé, un trait de sauce soja et d'huile de sésame." },
+            { title: "Déposer une cuillère de farce au centre", text: "Déposer une cuillère de farce au centre de chaque feuille de gyoza. Humidifier les bords à l'eau." },
+            { title: "Plier en demi-lune en formant de jolis", text: "Plier en demi-lune en formant de jolis plis sur un côté pour sceller hermétiquement." },
+            { title: "Chauffer un filet d'huile dans une poêle", text: "Chauffer un filet d'huile dans une poêle antiadhésive, disposer les gyozas côté plat vers le bas." },
+            { title: "Dorer 2-3 minutes à feu moyen, puis", text: "Dorer 2-3 minutes à feu moyen, puis ajouter 3 cuillères d'eau et couvrir pour cuire à la vapeur 5 min." },
+            { title: "Retirer le couvercle, laisser l'eau", text: "Retirer le couvercle, laisser l'eau s'évaporer pour re-croustiller le dessous." },
+            { title: "Préparer la sauce", text: "Préparer la sauce : mélanger sauce soja, vinaigre de riz et un trait de sriracha. Servir avec la salade." }
+        ],
+        tips: [
+            { type: "green", title: "🥟 Technique poêle-vapeur", text: "Le secret des gyozas parfaits : dorer d'abord, puis cuire à la vapeur, puis re-croustiller. C'est la technique 'yaki' traditionnelle." },
+            { type: "red", title: "⚠️ Chou bien pressé", text: "Le chou contient beaucoup d'eau — pressez-le dans un torchon après l'avoir salé 10 min. Sinon les gyozas seront détrempés." }
+        ]
+    },
+
+    {
+        id: "ramen-tonkotsu-light",
+        name: "Ramen tonkotsu light",
+        subtitle: "Bouillon crémeux au lait de coco, nouilles, œuf mollet, porc effiloché",
+        emoji: "🍜",
+        category: "diner",
+        difficulty: "Avancé",
+        time: 45,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Équilibré"],
+        ingredients: [
+            { id: "porc_filet", name: "Filet de porc", detail: "pour chashu, en tranche épaisse", emoji: "🐷", baseQty: 100, unit: "g", scalable: true, role: "protein" },
+            { id: "nouilles_soba_cuites", name: "Nouilles ramen", detail: "cuites al dente", emoji: "🍜", baseQty: 180, unit: "g", scalable: true, role: "carb" },
+            { id: "oeuf", name: "Œuf", detail: "mollet mariné (ajitama)", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "protein" },
+            { id: "lait_coco", name: "Lait de coco", detail: "pour crémer le bouillon", emoji: "🥥", baseQty: 50, unit: "ml", scalable: false, role: "Bouillon" },
+            { id: "champignon", name: "Champignons", detail: "émincés", emoji: "🍄", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
+            { id: "mais_conserve", name: "Maïs", detail: "en garniture", emoji: "🌽", baseQty: 30, unit: "g", scalable: true, role: "Garniture" },
+            { id: "sauce_soja", name: "Sauce soja", detail: "tare (sauce de base)", emoji: "🫘", baseQty: 20, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "oignon", name: "Ciboule", detail: "émincée en garniture", emoji: "🧅", baseQty: 10, unit: "g", scalable: false, role: "Garniture" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparer l'œuf ajitama", text: "Préparer l'œuf ajitama : cuire 6 min 30, refroidir, écaler et mariner 2h dans sauce soja + mirin." },
+            { title: "Saisir le filet de porc, puis le braiser", text: "Saisir le filet de porc, puis le braiser 25 min dans un mélange sauce soja, eau et gingembre." },
+            { title: "Préparer le bouillon", text: "Préparer le bouillon : chauffer du bouillon de poulet avec le lait de coco, sauce soja et un trait de sésame." },
+            { title: "Faire sauter les champignons à feu vif", text: "Faire sauter les champignons à feu vif pour les colorer." },
+            { title: "Cuire les nouilles al dente, les", text: "Cuire les nouilles al dente, les égoutter et les disposer dans le bol." },
+            { title: "Verser le bouillon crémeux chaud,", text: "Verser le bouillon crémeux chaud, disposer le porc tranché, l'œuf coupé en deux, le maïs et les champignons." },
+            { title: "Garnir de ciboule émincée, de graines de", text: "Garnir de ciboule émincée, de graines de sésame et d'un filet d'huile de sésame." }
+        ],
+        tips: [
+            { type: "green", title: "🥚 Œuf ajitama parfait", text: "6 min 30 de cuisson + marinade 2h minimum dans soja-mirin. Le jaune doit être crémeux et orangé, jamais dur ni liquide." },
+            { type: "red", title: "⚠️ Bouillon pas bouillant", text: "Servez le bouillon chaud mais pas bouillant — un bouillon qui bout casse l'émulsion crémeuse et le rend huileux." }
+        ]
+    },
+
+    {
+        id: "souffle-fromage-courgette",
+        name: "Soufflé au fromage et courgette",
+        subtitle: "Soufflé aérien au gruyère et courgette fondante, salade d'accompagnement",
+        emoji: "🧀",
+        category: "diner",
+        difficulty: "Avancé",
+        time: 40,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Perte de poids","Low carb"],
+        ingredients: [
+            { id: "oeuf", name: "Œufs", detail: "blancs et jaunes séparés", emoji: "🥚", baseQty: 2, unit: "unités", scalable: true, role: "protein" },
+            { id: "courgette", name: "Courgette", detail: "râpée et essorée", emoji: "🥒", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
+            { id: "fromage_rape", name: "Gruyère râpé", detail: "finement râpé", emoji: "🧀", baseQty: 30, unit: "g", scalable: true, role: "protein" },
+            { id: "lait_demi", name: "Lait demi-écrémé", detail: "pour la béchamel", emoji: "🥛", baseQty: 80, unit: "ml", scalable: true, role: "Liant" },
+            { id: "farine_complete", name: "Farine", detail: "pour la béchamel", emoji: "🌾", baseQty: 15, unit: "g", scalable: false, role: "Liant" },
+            { id: "salade_verte", name: "Salade verte", detail: "assaisonnée", emoji: "🥬", baseQty: 50, unit: "g", scalable: true, role: "Accompagnement" },
+            { id: "huile_olive", name: "Beurre", detail: "pour le moule et la béchamel", emoji: "🧈", baseQty: 10, unit: "g", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffer le four à 200°C", text: "Préchauffer le four à 200°C. Beurrer et fariner les ramequins à soufflé." },
+            { title: "Préparer une béchamel", text: "Préparer une béchamel : fondre le beurre, ajouter la farine, cuire 1 min puis ajouter le lait en fouettant." },
+            { title: "Hors du feu, incorporer les jaunes", text: "Hors du feu, incorporer les jaunes d'œufs un par un, le fromage râpé et la courgette essorée." },
+            { title: "Monter les blancs en neige très ferme", text: "Monter les blancs en neige très ferme avec une pincée de sel." },
+            { title: "Incorporer délicatement les blancs à", text: "Incorporer délicatement les blancs à l'appareil en 3 fois, en soulevant la masse sans casser." },
+            { title: "Remplir les ramequins aux 3/4, enfourner", text: "Remplir les ramequins aux 3/4, enfourner 20-25 min sans ouvrir le four." },
+            { title: "Servir immédiatement à la sortie du four", text: "Servir immédiatement à la sortie du four — le soufflé n'attend pas — avec la salade assaisonnée." }
+        ],
+        tips: [
+            { type: "green", title: "🎈 Soufflé aérien", text: "Incorporez les blancs en 3 fois avec une spatule en soulevant du fond. Le geste est délicat mais crucial pour garder l'air emprisonné." },
+            { type: "red", title: "⚠️ Ne JAMAIS ouvrir le four", text: "Le choc thermique fait retomber le soufflé instantanément. Ne regardez qu'à travers la vitre du four." }
+        ]
+    },
+
+    {
+        id: "blanquette-veau-ancienne",
+        name: "Blanquette à l'ancienne",
+        subtitle: "Dinde fondante en sauce blanche crémeuse, carottes et champignons, riz pilaf",
+        emoji: "🍲",
+        category: "diner",
+        difficulty: "Moyen",
+        time: 50,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Équilibré"],
+        ingredients: [
+            { id: "dinde", name: "Escalope de dinde", detail: "en gros cubes", emoji: "🦃", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "carotte", name: "Carottes", detail: "en rondelles épaisses", emoji: "🥕", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
+            { id: "champignon", name: "Champignons de Paris", detail: "en quartiers", emoji: "🍄", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
+            { id: "riz_basmati_cuit", name: "Riz basmati", detail: "cuit, pilaf", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 30, unit: "g", scalable: false, role: "Sauce" },
+            { id: "citron_jus", name: "Jus de citron", detail: "pour la sauce", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "blanc_oeuf", name: "Jaune d'œuf", detail: "pour liaison", emoji: "🥚", baseQty: 1, unit: "unité", scalable: false, role: "Liant" }
+        ],
+        options: [],
+        steps: [
+            { title: "Mettre la dinde dans une casserole d'eau", text: "Mettre la dinde dans une casserole d'eau froide avec un bouquet garni. Porter à frémissement et écumer." },
+            { title: "Ajouter les carottes, cuire à feu doux", text: "Ajouter les carottes, cuire à feu doux 30 minutes — la viande ne doit jamais bouillir." },
+            { title: "Ajouter les champignons 10 minutes avant", text: "Ajouter les champignons 10 minutes avant la fin de cuisson." },
+            { title: "Retirer la viande et les légumes", text: "Retirer la viande et les légumes. Réduire le bouillon de moitié à feu vif." },
+            { title: "Préparer la liaison", text: "Préparer la liaison : mélanger crème, jaune d'œuf et jus de citron hors du feu." },
+            { title: "Incorporer la liaison dans le bouillon", text: "Incorporer la liaison dans le bouillon réduit, remettre à feu très doux sans bouillir pour épaissir." },
+            { title: "Remettre la viande et les légumes dans", text: "Remettre la viande et les légumes dans la sauce, servir avec le riz pilaf." }
+        ],
+        tips: [
+            { type: "green", title: "🍳 Liaison parfaite", text: "Mélangez la crème et le jaune d'œuf hors du feu puis incorporez au bouillon tiédi. La sauce doit napper la cuillère sans bouillir." },
+            { type: "red", title: "⚠️ Jamais d'ébullition", text: "Si la sauce bout après la liaison, le jaune d'œuf coagule et la sauce tourne en grains. Feu très doux uniquement." }
+        ]
+    },
+
+    {
+        id: "tartare-saumon-avocat-sesame",
+        name: "Tartare de saumon, avocat et sésame",
+        subtitle: "Saumon cru en tartare parfumé, crème d'avocat, tuile de sésame croustillante",
+        emoji: "🐟",
+        category: "diner",
+        difficulty: "Moyen",
+        time: 20,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Low carb","Sans cuisson"],
+        ingredients: [
+            { id: "saumon", name: "Saumon frais", detail: "qualité sashimi, en tartare", emoji: "🐟", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "avocat", name: "Avocat", detail: "bien mûr, écrasé en crème", emoji: "🥑", baseQty: 70, unit: "g", scalable: true, role: "fat" },
+            { id: "concombre", name: "Concombre", detail: "en brunoise fine", emoji: "🥒", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
+            { id: "oignon", name: "Échalote", detail: "finement ciselée", emoji: "🧅", baseQty: 10, unit: "g", scalable: false, role: "Aromate" },
+            { id: "sauce_soja", name: "Sauce soja", detail: "allégée", emoji: "🫘", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "citron_jus", name: "Jus de citron vert", detail: "fraîchement pressé", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Couper le saumon en petits cubes", text: "Couper le saumon en petits cubes réguliers de 5mm au couteau bien aiguisé." },
+            { title: "Assaisonner le saumon avec sauce soja,", text: "Assaisonner le saumon avec sauce soja, citron vert, échalote et huile de sésame. Mélanger délicatement." },
+            { title: "Écraser l'avocat à la fourchette avec un", text: "Écraser l'avocat à la fourchette avec un trait de citron vert, sel et poivre." },
+            { title: "Dresser à l'emporte-pièce", text: "Dresser à l'emporte-pièce : étaler la crème d'avocat en base, puis le tartare de saumon par-dessus." },
+            { title: "Ajouter la brunoise de concombre autour", text: "Ajouter la brunoise de concombre autour et sur le dessus." },
+            { title: "Parsemer de graines de sésame torréfiées", text: "Parsemer de graines de sésame torréfiées et servir immédiatement bien frais." }
+        ],
+        tips: [
+            { type: "green", title: "🔪 Coupe nette", text: "Un couteau ultra-aiguisé est indispensable pour le tartare. Coupez sans écraser le saumon — des cubes nets = meilleure texture en bouche." },
+            { type: "red", title: "⚠️ Température froide", text: "Gardez le saumon au frigo jusqu'au dernier moment et servez sur une assiette froide. Le tartare se déguste glacé." }
+        ]
+    },
+
+    {
+        id: "tajine-poulet-citron-confit-olives",
+        name: "Tajine de poulet au citron confit et olives",
+        subtitle: "Poulet mijoté aux épices marocaines, citron confit fondant, olives vertes",
+        emoji: "🍲",
+        category: "diner",
+        difficulty: "Moyen",
+        time: 50,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Équilibré"],
+        ingredients: [
+            { id: "poulet_grille", name: "Hauts de cuisse de poulet", detail: "désossés", emoji: "🍗", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "couscous_cuit", name: "Semoule de couscous", detail: "cuite, égrainée", emoji: "🌾", baseQty: 150, unit: "g", scalable: true, role: "carb" },
+            { id: "oignon", name: "Oignon", detail: "émincé finement", emoji: "🧅", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
+            { id: "carotte", name: "Carottes", detail: "en rondelles", emoji: "🥕", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "citron_jus", name: "Citron confit", detail: "en quartiers (zeste uniquement)", emoji: "🍋", baseQty: 15, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" },
+            { id: "miel", name: "Miel", detail: "un filet", emoji: "🍯", baseQty: 8, unit: "g", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faire revenir les oignons dans l'huile", text: "Faire revenir les oignons dans l'huile d'olive avec les épices (curcuma, gingembre, cannelle, safran) 3 minutes." },
+            { title: "Ajouter le poulet et le colorer", text: "Ajouter le poulet et le colorer légèrement de tous côtés." },
+            { title: "Ajouter les carottes, mouiller à hauteur", text: "Ajouter les carottes, mouiller à hauteur avec de l'eau, ajouter le miel. Couvrir et mijoter 30 minutes." },
+            { title: "Ajouter le citron confit (le zeste", text: "Ajouter le citron confit (le zeste uniquement, rincé) et les olives vertes 10 minutes avant la fin." },
+            { title: "Préparer la semoule", text: "Préparer la semoule : verser de l'eau bouillante, couvrir 5 min, égrainer à la fourchette avec un filet d'huile." },
+            { title: "Servir le tajine dans son plat avec la", text: "Servir le tajine dans son plat avec la semoule parfumée et de la coriandre fraîche." }
+        ],
+        tips: [
+            { type: "green", title: "🍋 Citron confit", text: "N'utilisez que le zeste du citron confit, rincé. La chair est trop salée et amère. Le zeste apporte un parfum unique et inimitable." },
+            { type: "red", title: "⚠️ Épices à toaster", text: "Faites revenir les épices avec l'oignon avant le liquide — elles libèrent leurs arômes dans le gras, pas dans l'eau." }
+        ]
+    },
+
+    {
+        id: "veloute-petits-pois-menthe",
+        name: "Velouté de petits pois à la menthe",
+        subtitle: "Soupe veloutée vert printemps, chantilly de chèvre frais, huile d'olive citronnée",
+        emoji: "🟢",
+        category: "diner",
+        difficulty: "Facile",
+        time: 20,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Sans gluten","Perte de poids"],
+        ingredients: [
+            { id: "petits_pois", name: "Petits pois", detail: "surgelés ou frais", emoji: "🟢", baseQty: 200, unit: "g", scalable: true, role: "Légume" },
+            { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 30, unit: "g", scalable: true, role: "Aromate" },
+            { id: "pomme_de_terre", name: "Pomme de terre", detail: "pour la texture", emoji: "🥔", baseQty: 60, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
+            { id: "chevre_frais", name: "Chèvre frais", detail: "pour la chantilly salée", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "Topping" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 15, unit: "g", scalable: false, role: "Liant" },
+            { id: "citron_jus", name: "Jus de citron", detail: "un filet en finition", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "citronnée, en finition", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faire suer l'oignon à feu doux dans un", text: "Faire suer l'oignon à feu doux dans un filet d'huile d'olive." },
+            { title: "Ajouter la pomme de terre en petits", text: "Ajouter la pomme de terre en petits morceaux, couvrir d'eau et cuire 10 minutes." },
+            { title: "Ajouter les petits pois et cuire", text: "Ajouter les petits pois et cuire seulement 3-4 minutes pour préserver la couleur verte." },
+            { title: "Mixer finement avec la crème fraîche", text: "Mixer finement avec la crème fraîche. Ajouter des feuilles de menthe fraîche et mixer à nouveau." },
+            { title: "Fouetter le chèvre frais avec un trait", text: "Fouetter le chèvre frais avec un trait de crème pour obtenir une chantilly salée." },
+            { title: "Servir le velouté bien chaud, déposer", text: "Servir le velouté bien chaud, déposer une quenelle de chantilly de chèvre, un filet d'huile d'olive citronnée." }
+        ],
+        tips: [
+            { type: "green", title: "🟢 Couleur verte vive", text: "Cuire les petits pois seulement 3-4 min et mixer immédiatement. Plus de cuisson = couleur terne et kaki." },
+            { type: "red", title: "⚠️ Menthe avec modération", text: "Ajoutez la menthe progressivement en mixant — elle est très puissante et peut vite dominer le goût des petits pois." }
+        ]
+    },
+
+    {
+        id: "coquilles-saint-jacques-fondue-poireaux",
+        name: "Gambas rôties, fondue de poireaux",
+        subtitle: "Gambas dorées au beurre, fondue de poireaux crémeuse, réduction au vin blanc",
+        emoji: "🦐",
+        category: "diner",
+        difficulty: "Avancé",
+        time: 25,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Perte de poids"],
+        ingredients: [
+            { id: "gambas", name: "Gambas", detail: "décortiquées, déveinées", emoji: "🦐", baseQty: 140, unit: "g", scalable: true, role: "protein" },
+            { id: "poireaux", name: "Poireaux", detail: "le blanc, en fines rondelles", emoji: "🥬", baseQty: 120, unit: "g", scalable: true, role: "Légume" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche légère", detail: "15% MG", emoji: "🥛", baseQty: 25, unit: "g", scalable: false, role: "Sauce" },
+            { id: "huile_olive", name: "Beurre", detail: "demi-sel, pour saisir", emoji: "🧈", baseQty: 12, unit: "g", scalable: false, role: "Cuisson" },
+            { id: "citron_jus", name: "Jus de citron", detail: "un filet", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "noix", name: "Noix de pécan", detail: "concassées, en finition", emoji: "🌰", baseQty: 8, unit: "g", scalable: false, role: "Topping" }
+        ],
+        options: [],
+        steps: [
+            { title: "Émincer finement le blanc de poireau", text: "Émincer finement le blanc de poireau. Le faire fondre à feu doux dans du beurre pendant 15 minutes." },
+            { title: "Ajouter la crème fraîche aux poireaux", text: "Ajouter la crème fraîche aux poireaux fondus, assaisonner de muscade, sel et poivre." },
+            { title: "Sécher soigneusement les gambas avec du", text: "Sécher soigneusement les gambas avec du papier absorbant — c'est essentiel pour la caramélisation." },
+            { title: "Saisir les gambas 1 min 30 par face dans", text: "Saisir les gambas 1 min 30 par face dans le beurre moussant à feu vif." },
+            { title: "Déglacer la poêle avec un filet de", text: "Déglacer la poêle avec un filet de citron et récupérer les sucs." },
+            { title: "Dresser la fondue de poireaux en base,", text: "Dresser la fondue de poireaux en base, disposer les gambas par-dessus, napper du jus de cuisson et parsemer de noix." }
+        ],
+        tips: [
+            { type: "green", title: "🦐 Caramélisation parfaite", text: "Les gambas doivent être ultra-sèches avant cuisson. L'humidité empêche la réaction de Maillard et elles bouillent au lieu de dorer." },
+            { type: "red", title: "⚠️ Poireau sans coloration", text: "La fondue de poireaux doit suer sans colorer — feu doux et couvercle. Le poireau doré devient amer." }
+        ]
+    },
+
+    {
+        id: "poulet-basque-piment-espelette",
+        name: "Poulet basquaise au piment d'Espelette",
+        subtitle: "Poulet mijoté aux poivrons, tomates et piment d'Espelette, riz pilaf",
+        emoji: "🫑",
+        category: "diner",
+        difficulty: "Moyen",
+        time: 45,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Équilibré"],
+        ingredients: [
+            { id: "poulet_grille", name: "Hauts de cuisse de poulet", detail: "désossés", emoji: "🍗", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "poivron_rouge", name: "Poivrons", detail: "rouge et vert, en lanières", emoji: "🫑", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
+            { id: "tomate", name: "Tomates", detail: "concassées", emoji: "🍅", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
+            { id: "oignon", name: "Oignon", detail: "émincé", emoji: "🧅", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
+            { id: "riz_basmati_cuit", name: "Riz basmati", detail: "cuit, pilaf", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "jambon_blanc", name: "Jambon de Bayonne", detail: "en lanières fines", emoji: "🥓", baseQty: 25, unit: "g", scalable: false, role: "Garniture" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Saisir les morceaux de poulet", text: "Saisir les morceaux de poulet assaisonnés de piment d'Espelette de tous côtés. Réserver." },
+            { title: "Dans la même cocotte, faire revenir les", text: "Dans la même cocotte, faire revenir les oignons et les lanières de poivrons 5 minutes." },
+            { title: "Ajouter les tomates concassées et les", text: "Ajouter les tomates concassées et les lanières de jambon de Bayonne." },
+            { title: "Remettre le poulet, couvrir et mijoter", text: "Remettre le poulet, couvrir et mijoter 30 minutes à feu doux." },
+            { title: "Le poulet est prêt quand la sauce a", text: "Le poulet est prêt quand la sauce a réduit et que les poivrons sont fondants." },
+            { title: "Servir directement dans la cocotte avec", text: "Servir directement dans la cocotte avec le riz pilaf et du piment d'Espelette en finition." }
+        ],
+        tips: [
+            { type: "green", title: "🫑 Poivrons fondants", text: "Les poivrons doivent être cuits longuement pour devenir fondants et sucrés. C'est la longue cuisson qui fait la magie du basquaise." },
+            { type: "red", title: "⚠️ Piment d'Espelette", text: "Le piment d'Espelette parfume sans brûler. N'en abusez pas en cuisson, ajustez en fin de cuisson selon votre tolérance." }
+        ]
+    },
+
+    {
+        id: "tofu-general-tao",
+        name: "Tofu Général Tao",
+        subtitle: "Tofu croustillant en croûte dorée, sauce sucrée-épicée laquée, brocoli sauté",
+        emoji: "🍛",
+        category: "diner",
+        difficulty: "Moyen",
+        time: 30,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Vegan","Haute protéine","Équilibré"],
+        ingredients: [
+            { id: "tofu", name: "Tofu ferme", detail: "pressé et coupé en cubes", emoji: "🫘", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "brocoli", name: "Brocoli", detail: "en fleurettes", emoji: "🥦", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
+            { id: "riz_basmati_cuit", name: "Riz basmati", detail: "cuit", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "farine_complete", name: "Fécule de maïs", detail: "pour enrober le tofu", emoji: "🌾", baseQty: 20, unit: "g", scalable: false, role: "Enrobage" },
+            { id: "sauce_soja", name: "Sauce soja", detail: "pour la sauce", emoji: "🫘", baseQty: 20, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "sauce_sriracha", name: "Sriracha", detail: "pour le piquant", emoji: "🌶️", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "sirop_erable", name: "Sirop d'érable", detail: "pour le sucré de la sauce", emoji: "🍁", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile végétale", detail: "pour frire", emoji: "🫒", baseQty: 15, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Presser le tofu 15 min entre deux", text: "Presser le tofu 15 min entre deux torchons avec un poids dessus pour extraire l'eau." },
+            { title: "Couper en cubes de 2cm, enrober", text: "Couper en cubes de 2cm, enrober généreusement de fécule de maïs." },
+            { title: "Frire les cubes de tofu à feu vif dans", text: "Frire les cubes de tofu à feu vif dans l'huile jusqu'à dorure croustillante (4-5 min). Égoutter." },
+            { title: "Préparer la sauce Général Tao", text: "Préparer la sauce Général Tao : mélanger sauce soja, sirop d'érable, sriracha et un trait de vinaigre de riz." },
+            { title: "Chauffer la sauce dans une poêle,", text: "Chauffer la sauce dans une poêle, ajouter le tofu croustillant et enrober en remuant délicatement." },
+            { title: "Sauter le brocoli 3 minutes à feu vif", text: "Sauter le brocoli 3 minutes à feu vif. Servir le tofu laqué sur le riz avec le brocoli." }
+        ],
+        tips: [
+            { type: "green", title: "🫘 Tofu ultra-croustillant", text: "Le secret : bien presser + fécule + huile très chaude. Le tofu doit crépiter en entrant dans la poêle." },
+            { type: "red", title: "⚠️ Enrober rapidement", text: "Ajoutez le tofu frit dans la sauce au dernier moment et servez vite — il ramollit en quelques minutes dans la sauce." }
+        ]
+    },
+
+    {
+        id: "pot-pie-poulet-legumes",
+        name: "Pot-pie au poulet et légumes",
+        subtitle: "Ragoût crémeux de poulet sous un feuilleté doré et croustillant",
+        emoji: "🥧",
+        category: "diner",
+        difficulty: "Moyen",
+        time: 45,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Équilibré"],
+        ingredients: [
+            { id: "poulet_grille", name: "Poulet", detail: "en cubes", emoji: "🍗", baseQty: 140, unit: "g", scalable: true, role: "protein" },
+            { id: "carotte", name: "Carottes", detail: "en petits dés", emoji: "🥕", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "petits_pois", name: "Petits pois", detail: "surgelés", emoji: "🟢", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
+            { id: "champignon", name: "Champignons", detail: "émincés", emoji: "🍄", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
+            { id: "lait_demi", name: "Lait demi-écrémé", detail: "pour la béchamel", emoji: "🥛", baseQty: 100, unit: "ml", scalable: true, role: "Sauce" },
+            { id: "farine_complete", name: "Farine / Pâte feuilletée", detail: "pour le couvercle", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "carb" },
+            { id: "oeuf", name: "Jaune d'œuf", detail: "pour dorer le feuilleté", emoji: "🥚", baseQty: 1, unit: "unité", scalable: false, role: "Dorure" },
+            { id: "moutarde", name: "Moutarde", detail: "un trait dans la béchamel", emoji: "🟡", baseQty: 5, unit: "g", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffer le four à 200°C", text: "Préchauffer le four à 200°C. Faire revenir le poulet en cubes jusqu'à coloration. Réserver." },
+            { title: "Dans la même casserole, faire revenir", text: "Dans la même casserole, faire revenir carottes, champignons 5 min, ajouter les petits pois." },
+            { title: "Saupoudrer de farine, mélanger 1 min,", text: "Saupoudrer de farine, mélanger 1 min, ajouter le lait progressivement en fouettant pour une béchamel." },
+            { title: "Incorporer la moutarde, remettre le", text: "Incorporer la moutarde, remettre le poulet, assaisonner. Verser dans des ramequins." },
+            { title: "Couvrir chaque ramequin d'un disque de", text: "Couvrir chaque ramequin d'un disque de pâte feuilletée, pincer les bords pour sceller." },
+            { title: "Dorer au jaune d'œuf dilué, entailler", text: "Dorer au jaune d'œuf dilué, entailler une cheminée au centre, enfourner 20-25 min jusqu'à dorure." }
+        ],
+        tips: [
+            { type: "green", title: "🥧 Feuilleté doré", text: "Le jaune d'œuf dilué dans un peu d'eau donne une dorure parfaite. Appliquez deux couches pour un résultat brillant et professionnel." },
+            { type: "red", title: "⚠️ Remplissage pas trop liquide", text: "La garniture doit être épaisse (comme une béchamel) avant de couvrir. Trop liquide = le feuilleté ramollit et s'effondre." }
+        ]
+    },
+
+    {
+        id: "truite-meuniere-amandes",
+        name: "Truite meunière aux amandes",
+        subtitle: "Filet de truite dorée au beurre, amandes effilées toastées, pommes vapeur",
+        emoji: "🐟",
+        category: "diner",
+        difficulty: "Moyen",
+        time: 25,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Équilibré"],
+        ingredients: [
+            { id: "truite", name: "Filet de truite", detail: "avec peau, désarêté", emoji: "🐟", baseQty: 150, unit: "g", scalable: true, role: "protein" },
+            { id: "amandes", name: "Amandes effilées", detail: "pour le beurre meunière", emoji: "🌰", baseQty: 15, unit: "g", scalable: false, role: "Topping" },
+            { id: "pomme_de_terre", name: "Pommes de terre", detail: "grenaille, cuites vapeur", emoji: "🥔", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
+            { id: "haricots_verts", name: "Haricots verts", detail: "extra-fins, blanchis", emoji: "🫘", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
+            { id: "huile_olive", name: "Beurre", detail: "pour cuisson meunière", emoji: "🧈", baseQty: 15, unit: "g", scalable: false, role: "Cuisson" },
+            { id: "citron_jus", name: "Jus de citron", detail: "fraîchement pressé", emoji: "🍋", baseQty: 15, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "farine_complete", name: "Farine", detail: "pour fariner la truite", emoji: "🌾", baseQty: 10, unit: "g", scalable: false, role: "Enrobage" }
+        ],
+        options: [],
+        steps: [
+            { title: "Cuire les pommes de terre grenaille à la", text: "Cuire les pommes de terre grenaille à la vapeur 15 minutes. Blanchir les haricots verts 4 min." },
+            { title: "Fariner légèrement les filets de truite", text: "Fariner légèrement les filets de truite côté chair uniquement, tapoter l'excédent." },
+            { title: "Saisir la truite côté peau 3 minutes", text: "Saisir la truite côté peau 3 minutes dans le beurre moussant, retourner 2 minutes côté chair." },
+            { title: "Retirer la truite", text: "Retirer la truite. Ajouter les amandes effilées dans le beurre et les toaster 1 minute." },
+            { title: "Quand le beurre est noisette et les", text: "Quand le beurre est noisette et les amandes dorées, ajouter le jus de citron (attention aux éclaboussures)." },
+            { title: "Dresser la truite sur les pommes", text: "Dresser la truite sur les pommes grenaille, napper du beurre meunière aux amandes, accompagner des haricots verts." }
+        ],
+        tips: [
+            { type: "green", title: "🐟 Peau croustillante", text: "Commencez toujours côté peau pour la rendre croustillante. Appuyez légèrement avec une spatule les 30 premières secondes pour éviter qu'elle ne se rétracte." },
+            { type: "red", title: "⚠️ Citron dans le beurre chaud", text: "Le citron ajouté au beurre chaud projette — reculez et versez doucement. C'est la touche finale qui fait la vraie meunière." }
+        ]
+    },
+
+    {
+        id: "curry-panang-tofu",
+        name: "Curry Panang au tofu",
+        subtitle: "Tofu doré dans une sauce curry panang onctueuse au lait de coco et basilic thaï",
+        emoji: "🍛",
+        category: "diner",
+        difficulty: "Moyen",
+        time: 30,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Vegan","Sans gluten","Haute protéine"],
+        ingredients: [
+            { id: "tofu", name: "Tofu ferme", detail: "pressé, en cubes", emoji: "🫘", baseQty: 140, unit: "g", scalable: true, role: "protein" },
+            { id: "lait_coco", name: "Lait de coco", detail: "entier, crémeux", emoji: "🥥", baseQty: 100, unit: "ml", scalable: true, role: "Sauce" },
+            { id: "poivron_rouge", name: "Poivron rouge", detail: "en lanières", emoji: "🫑", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "haricots_verts", name: "Haricots verts", detail: "coupés en tronçons", emoji: "🫘", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "riz_basmati_cuit", name: "Riz thaï", detail: "cuit, jasmin", emoji: "🍚", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "pate_curry", name: "Pâte de curry panang", detail: "authentique thaï", emoji: "🟤", baseQty: 20, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "onctueux", emoji: "🥜", baseQty: 10, unit: "g", scalable: false, role: "Liant" },
+            { id: "sauce_soja", name: "Sauce soja", detail: "un trait", emoji: "🫘", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Presser et couper le tofu en cubes", text: "Presser et couper le tofu en cubes. Le dorer 4-5 minutes dans une poêle huilée. Réserver." },
+            { title: "Dans la même poêle, faire revenir la", text: "Dans la même poêle, faire revenir la pâte de curry dans un peu de crème de coco 2 minutes." },
+            { title: "Ajouter le reste du lait de coco, le", text: "Ajouter le reste du lait de coco, le beurre de cacahuète et la sauce soja. Mélanger jusqu'à homogénéité." },
+            { title: "Ajouter les haricots verts et le", text: "Ajouter les haricots verts et le poivron, cuire 5-7 minutes dans la sauce." },
+            { title: "Remettre le tofu doré, laisser mijoter 3", text: "Remettre le tofu doré, laisser mijoter 3 minutes pour qu'il absorbe les saveurs." },
+            { title: "Servir sur le riz jasmin, garnir de", text: "Servir sur le riz jasmin, garnir de feuilles de basilic thaï et de cacahuètes concassées." }
+        ],
+        tips: [
+            { type: "green", title: "🥥 Crème de coco séparée", text: "Utilisez la couche épaisse du dessus de la boîte pour faire revenir la pâte de curry — c'est la graisse qui libère les arômes." },
+            { type: "red", title: "⚠️ Pâte de curry concentrée", text: "La pâte de curry panang est très concentrée. Commencez par 1 cuillère à soupe et ajustez — on peut toujours en rajouter." }
+        ]
+    },
+
+    {
+        id: "gratin-fruits-mer-light",
+        name: "Gratin de fruits de mer light",
+        subtitle: "Gambas, moules et cabillaud gratinés, béchamel légère, chapelure dorée",
+        emoji: "🦐",
+        category: "diner",
+        difficulty: "Moyen",
+        time: 35,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Perte de poids"],
+        ingredients: [
+            { id: "gambas", name: "Gambas", detail: "décortiquées", emoji: "🦐", baseQty: 60, unit: "g", scalable: true, role: "protein" },
+            { id: "moules", name: "Moules", detail: "décoquillées", emoji: "🦪", baseQty: 60, unit: "g", scalable: true, role: "protein" },
+            { id: "cabillaud", name: "Cabillaud", detail: "en morceaux", emoji: "🐟", baseQty: 60, unit: "g", scalable: true, role: "protein" },
+            { id: "poireaux", name: "Poireaux", detail: "en rondelles, fondus", emoji: "🥬", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
+            { id: "lait_demi", name: "Lait demi-écrémé", detail: "pour la béchamel", emoji: "🥛", baseQty: 100, unit: "ml", scalable: true, role: "Sauce" },
+            { id: "farine_complete", name: "Farine", detail: "pour la béchamel", emoji: "🌾", baseQty: 15, unit: "g", scalable: false, role: "Liant" },
+            { id: "fromage_rape", name: "Gruyère râpé", detail: "pour gratiner", emoji: "🧀", baseQty: 20, unit: "g", scalable: false, role: "protein" },
+            { id: "citron_jus", name: "Jus de citron", detail: "un filet", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffer le four à 200°C", text: "Préchauffer le four à 200°C. Faire fondre les poireaux 10 min à feu doux dans un peu de beurre." },
+            { title: "Préparer la béchamel légère", text: "Préparer la béchamel légère : fondre la farine dans le beurre, ajouter le lait en fouettant. Assaisonner de muscade." },
+            { title: "Déposer les poireaux fondus en base du", text: "Déposer les poireaux fondus en base du plat à gratin." },
+            { title: "Disposer les fruits de mer crus par-dessus", text: "Disposer les fruits de mer crus par-dessus : gambas, moules et morceaux de cabillaud." },
+            { title: "Napper de béchamel, parsemer de fromage", text: "Napper de béchamel, parsemer de fromage râpé et de chapelure." },
+            { title: "Enfourner 15-18 minutes jusqu'à ce que", text: "Enfourner 15-18 minutes jusqu'à ce que le dessus soit doré et les fruits de mer cuits." }
+        ],
+        tips: [
+            { type: "green", title: "🦐 Mix de textures", text: "Le mélange de 3 fruits de mer différents apporte variété de texture et de saveur — c'est ça qui rend le gratin gastronomique." },
+            { type: "red", title: "⚠️ Ne pas pré-cuire les fruits de mer", text: "Les fruits de mer sont posés crus sur les poireaux — ils cuiront parfaitement au four dans la béchamel. Pré-cuits, ils seraient caoutchouteux." }
+        ]
+    },
+
+    {
+        id: "boeuf-bourguignon-moderne",
+        name: "Bœuf bourguignon moderne",
+        subtitle: "Bœuf fondant braisé au vin, lardons croustillants, champignons et oignons grelots",
+        emoji: "🍷",
+        category: "diner",
+        difficulty: "Avancé",
+        time: 60,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Prise de masse"],
+        ingredients: [
+            { id: "boeuf_hache_5", name: "Bœuf à braiser", detail: "en gros morceaux", emoji: "🥩", baseQty: 160, unit: "g", scalable: true, role: "protein" },
+            { id: "champignon", name: "Champignons", detail: "en quartiers", emoji: "🍄", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
+            { id: "carotte", name: "Carottes", detail: "en tronçons", emoji: "🥕", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "oignon", name: "Oignons grelots", detail: "entiers, pelés", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
+            { id: "jambon_blanc", name: "Lardons", detail: "fumés, en allumettes", emoji: "🥓", baseQty: 25, unit: "g", scalable: false, role: "Garniture" },
+            { id: "pomme_de_terre", name: "Pommes de terre", detail: "en cubes, en accompagnement", emoji: "🥔", baseQty: 150, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
+            { id: "concentre_tomate", name: "Concentré de tomate", detail: "double concentré", emoji: "🍅", baseQty: 10, unit: "g", scalable: false, role: "Sauce" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "pour la cuisson", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faire rissoler les lardons dans la", text: "Faire rissoler les lardons dans la cocotte, réserver quand ils sont croustillants." },
+            { title: "Saisir les morceaux de bœuf assaisonnés", text: "Saisir les morceaux de bœuf assaisonnés à feu vif pour bien les colorer. Réserver." },
+            { title: "Faire revenir les oignons grelots et les", text: "Faire revenir les oignons grelots et les carottes dans la même cocotte 3-4 minutes." },
+            { title: "Ajouter le concentré de tomate, singer", text: "Ajouter le concentré de tomate, singer d'une cuillère de farine, mélanger 1 minute." },
+            { title: "Déglacer au vin rouge (25cl), gratter", text: "Déglacer au vin rouge (25cl), gratter les sucs, remettre le bœuf et les lardons, mouiller à hauteur." },
+            { title: "Couvrir et mijoter 45 minutes à feu très doux", text: "Couvrir et mijoter 45 minutes à feu très doux. Ajouter les champignons 15 min avant la fin." },
+            { title: "Le bourguignon est prêt quand la viande", text: "Le bourguignon est prêt quand la viande se défait à la fourchette. Servir avec les pommes de terre rissolées." }
+        ],
+        tips: [
+            { type: "green", title: "🍷 Vin de qualité", text: "Utilisez un vin que vous boiriez — le bourguignon est bâti sur le vin. Un bon Pinot Noir de Bourgogne transforme le plat." },
+            { type: "red", title: "⚠️ Patience absolue", text: "Pas de raccourci : le bourguignon a besoin de temps. Le feu le plus doux possible pendant 45+ min pour une viande fondante." }
+        ]
+    },
+
+    {
+        id: "soupe-tom-kha-crevettes",
+        name: "Soupe Tom Kha aux crevettes",
+        subtitle: "Soupe thaïe crémeuse au lait de coco, galanga, citronnelle et crevettes",
+        emoji: "🍜",
+        category: "diner",
+        difficulty: "Moyen",
+        time: 25,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Perte de poids"],
+        ingredients: [
+            { id: "crevettes", name: "Crevettes", detail: "décortiquées", emoji: "🦐", baseQty: 120, unit: "g", scalable: true, role: "protein" },
+            { id: "lait_coco", name: "Lait de coco", detail: "entier", emoji: "🥥", baseQty: 120, unit: "ml", scalable: true, role: "Bouillon" },
+            { id: "champignon", name: "Champignons", detail: "émincés", emoji: "🍄", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "tomate", name: "Tomates cerises", detail: "coupées en deux", emoji: "🍅", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
+            { id: "oignon", name: "Échalote", detail: "émincée", emoji: "🧅", baseQty: 20, unit: "g", scalable: true, role: "Aromate" },
+            { id: "citron_jus", name: "Jus de citron vert", detail: "frais", emoji: "🍋", baseQty: 20, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "sauce_nuoc_mam", name: "Nuoc mam", detail: "pour l'umami", emoji: "🫗", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "sauce_sriracha", name: "Piment", detail: "piment oiseau ou sriracha", emoji: "🌶️", baseQty: 3, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Porter de l'eau (200ml) à frémissement", text: "Porter de l'eau (200ml) à frémissement avec de la citronnelle écrasée et du gingembre tranché 5 minutes." },
+            { title: "Ajouter le lait de coco, les champignons", text: "Ajouter le lait de coco, les champignons et l'échalote. Cuire 5 minutes à feu moyen." },
+            { title: "Ajouter les crevettes et les tomates", text: "Ajouter les crevettes et les tomates cerises, cuire 3-4 minutes jusqu'à ce que les crevettes rossissent." },
+            { title: "Hors du feu, assaisonner avec le nuoc", text: "Hors du feu, assaisonner avec le nuoc mam, le jus de citron vert et le piment." },
+            { title: "Goûter et ajuster l'équilibre", text: "Goûter et ajuster l'équilibre salé-acide-piquant-sucré (c'est la clé de la cuisine thaïe)." },
+            { title: "Servir dans un bol profond avec de la", text: "Servir dans un bol profond avec de la coriandre fraîche et un quartier de citron vert." }
+        ],
+        tips: [
+            { type: "green", title: "🍋 Équilibre des saveurs", text: "La Tom Kha repose sur l'équilibre parfait entre salé (nuoc mam), acide (citron), piquant (piment) et crémeux (coco). Ajustez à votre goût." },
+            { type: "red", title: "⚠️ Citron vert hors du feu", text: "Ajoutez TOUJOURS le citron vert hors du feu. Chauffé, il perd sa fraîcheur et devient amer." }
+        ]
+    },
+
+    {
+        id: "aubergine-farcie-agneau-epices",
+        name: "Aubergine farcie à l'agneau et aux épices",
+        subtitle: "Aubergine rôtie farcie d'agneau épicé, grenades, yaourt à la menthe",
+        emoji: "🍆",
+        category: "diner",
+        difficulty: "Moyen",
+        time: 45,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Équilibré"],
+        ingredients: [
+            { id: "aubergine", name: "Aubergine", detail: "grosse, coupée en deux", emoji: "🍆", baseQty: 150, unit: "g", scalable: true, role: "Légume" },
+            { id: "agneau_gigot", name: "Agneau haché", detail: "ou gigot haché au couteau", emoji: "🐑", baseQty: 120, unit: "g", scalable: true, role: "protein" },
+            { id: "oignon", name: "Oignon", detail: "émincé finement", emoji: "🧅", baseQty: 40, unit: "g", scalable: true, role: "Aromate" },
+            { id: "tomate", name: "Tomate", detail: "en dés", emoji: "🍅", baseQty: 50, unit: "g", scalable: true, role: "Légume" },
+            { id: "yaourt_grec", name: "Yaourt grec", detail: "pour la sauce menthe", emoji: "🥛", baseQty: 30, unit: "g", scalable: false, role: "Sauce" },
+            { id: "amandes", name: "Amandes effilées", detail: "toastées", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" },
+            { id: "harissa", name: "Harissa", detail: "un trait dans la farce", emoji: "🌶️", baseQty: 5, unit: "g", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffer le four à 200°C", text: "Préchauffer le four à 200°C. Inciser la chair des demi-aubergines en croisillons, huiler et saler." },
+            { title: "Rôtir les aubergines 20 minutes face", text: "Rôtir les aubergines 20 minutes face chair vers le haut jusqu'à ce qu'elles soient fondantes." },
+            { title: "Faire revenir l'agneau haché avec", text: "Faire revenir l'agneau haché avec l'oignon et les épices (cumin, coriandre, cannelle, harissa)." },
+            { title: "Ajouter la tomate en dés, cuire 5", text: "Ajouter la tomate en dés, cuire 5 minutes jusqu'à ce que le jus s'évapore." },
+            { title: "Creuser légèrement les aubergines", text: "Creuser légèrement les aubergines rôties, farcir avec la préparation d'agneau." },
+            { title: "Remettre au four 10 minutes", text: "Remettre au four 10 minutes. Préparer le yaourt menthe : mélanger yaourt, menthe hachée et citron." },
+            { title: "Servir les aubergines farcies avec le", text: "Servir les aubergines farcies avec le yaourt menthe, les amandes toastées et de la grenade si disponible." }
+        ],
+        tips: [
+            { type: "green", title: "🍆 Aubergine fondante", text: "Les croisillons permettent à l'huile et à la chaleur de pénétrer la chair. L'aubergine doit être très molle avant de la farcir." },
+            { type: "red", title: "⚠️ Farce pas trop humide", text: "Faites bien évaporer le jus de la tomate avant de farcir. Trop de liquide = aubergine détrempée et sans tenue." }
+        ]
+    },
+
+    {
+        id: "tataki-boeuf-bouchees",
+        name: "Bouchées de tataki de bœuf",
+        subtitle: "Fines tranches de bœuf mi-cuit, sésame torréfié, sauce ponzu",
+        emoji: "🥩",
+        category: "apero-partage",
+        difficulty: "Avancé",
+        time: 20,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Low carb"],
+        ingredients: [
+            { id: "boeuf_hache_5", name: "Pièce de bœuf", detail: "filet ou rumsteak", emoji: "🥩", baseQty: 100, unit: "g", scalable: true, role: "protein" },
+            { id: "concombre", name: "Concombre", detail: "en fines rondelles, support", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "radis", name: "Radis", detail: "en lamelles", emoji: "🌶️", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
+            { id: "sauce_soja", name: "Sauce soja", detail: "pour sauce ponzu", emoji: "🫘", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "citron_jus", name: "Jus de citron", detail: "frais", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Assaisonner généreusement la pièce de", text: "Assaisonner généreusement la pièce de bœuf de sel et poivre." },
+            { title: "Saisir 30 secondes par face dans une", text: "Saisir 30 secondes par face dans une poêle fumante pour un cœur totalement cru." },
+            { title: "Laisser reposer 5 minutes puis", text: "Laisser reposer 5 minutes puis envelopper de film et réfrigérer 15 minutes." },
+            { title: "Trancher en fines lamelles de 3mm à", text: "Trancher en fines lamelles de 3mm à l'aide d'un couteau bien aiguisé." },
+            { title: "Disposer chaque lamelle sur une rondelle", text: "Disposer chaque lamelle sur une rondelle de concombre en bouchée." },
+            { title: "Napper de sauce ponzu (soja + citron +", text: "Napper de sauce ponzu (soja + citron + sésame) et parsemer de sésame torréfié." }
+        ],
+        tips: [
+            { type: "green", title: "🥶 Découpe facilitée", text: "Réfrigérer la viande 15 min après saisie permet de la trancher beaucoup plus finement et régulièrement." },
+            { type: "red", title: "⚠️ Saisie ultra-rapide", text: "30 secondes MAX par face. L'intérieur doit rester complètement cru pour un vrai tataki." }
+        ]
+    },
+
+    {
+        id: "tartare-saumon-cornets",
+        name: "Cornets de tartare de saumon",
+        subtitle: "Tartare de saumon frais en cornets croustillants, crème d'avocat citronnée",
+        emoji: "🐟",
+        category: "apero-partage",
+        difficulty: "Avancé",
+        time: 25,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Low carb"],
+        ingredients: [
+            { id: "saumon", name: "Saumon frais", detail: "qualité sashimi, en brunoise", emoji: "🐟", baseQty: 100, unit: "g", scalable: true, role: "protein" },
+            { id: "avocat", name: "Avocat", detail: "mûr, en crème", emoji: "🥑", baseQty: 50, unit: "g", scalable: true, role: "fat" },
+            { id: "concombre", name: "Concombre", detail: "en brunoise fine", emoji: "🥒", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
+            { id: "sauce_soja", name: "Sauce soja", detail: "allégée", emoji: "🫘", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "citron_jus", name: "Jus de citron vert", detail: "frais", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 3, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Couper le saumon en brunoise fine (3mm)", text: "Couper le saumon en brunoise fine (3mm) au couteau aiguisé. Garder au frais." },
+            { title: "Assaisonner le saumon avec sauce soja,", text: "Assaisonner le saumon avec sauce soja, citron vert et huile de sésame." },
+            { title: "Écraser l'avocat avec du citron vert,", text: "Écraser l'avocat avec du citron vert, sel et poivre pour une crème lisse." },
+            { title: "Former des cornets avec des feuilles de", text: "Former des cornets avec des feuilles de nori ou des feuilles d'endive." },
+            { title: "Déposer une cuillère de crème d'avocat", text: "Déposer une cuillère de crème d'avocat au fond, puis le tartare de saumon." },
+            { title: "Parsemer de graines de sésame et de", text: "Parsemer de graines de sésame et de ciboulette ciselée. Servir immédiatement." }
+        ],
+        tips: [
+            { type: "green", title: "🐟 Brunoise régulière", text: "Des cubes parfaitement réguliers donnent un rendu professionnel et une meilleure texture en bouche." },
+            { type: "red", title: "⚠️ Servir glacé", text: "Le tartare doit être servi très froid. Préparez au dernier moment et gardez les cornets au frigo jusqu'au service." }
+        ]
+    },
+
+    {
+        id: "tempura-legumes-sauce-ponzu",
+        name: "Tempura de légumes, sauce ponzu",
+        subtitle: "Beignets de légumes ultra-croustillants, pâte légère aérienne, sauce trempette",
+        emoji: "🍤",
+        category: "apero-partage",
+        difficulty: "Avancé",
+        time: 30,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Équilibré"],
+        ingredients: [
+            { id: "courgette", name: "Courgette", detail: "en bâtonnets", emoji: "🥒", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "patate_douce_crue", name: "Patate douce", detail: "en fines rondelles", emoji: "🍠", baseQty: 60, unit: "g", scalable: true, role: "Légume" },
+            { id: "poivron_rouge", name: "Poivron", detail: "en lanières", emoji: "🫑", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
+            { id: "farine_complete", name: "Farine", detail: "pour pâte à tempura", emoji: "🌾", baseQty: 30, unit: "g", scalable: true, role: "carb" },
+            { id: "oeuf", name: "Œuf", detail: "très froid", emoji: "🥚", baseQty: 1, unit: "unité", scalable: false, role: "carb" },
+            { id: "sauce_soja", name: "Sauce soja", detail: "pour la sauce ponzu", emoji: "🫘", baseQty: 15, unit: "ml", scalable: false, role: "Sauce" },
+            { id: "citron_jus", name: "Jus de citron", detail: "dans la sauce", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Sauce" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparer la sauce ponzu", text: "Préparer la sauce ponzu : mélanger sauce soja, jus de citron et un trait de mirin." },
+            { title: "Préparer la pâte : mélanger TRÈS", text: "Préparer la pâte : mélanger TRÈS brièvement farine, œuf et eau GLACÉE. Laisser grumeleuse." },
+            { title: "Chauffer l'huile à 180°C", text: "Chauffer l'huile à 180°C. Tester avec une goutte de pâte : elle doit remonter immédiatement." },
+            { title: "Tremper les légumes dans la pâte et", text: "Tremper les légumes dans la pâte et frire 2-3 minutes par petites quantités." },
+            { title: "Égoutter sur grille (pas sur papier),", text: "Égoutter sur grille (pas sur papier), saler immédiatement." },
+            { title: "Servir aussitôt avec la sauce ponzu à", text: "Servir aussitôt avec la sauce ponzu à côté pour tremper." }
+        ],
+        tips: [
+            { type: "green", title: "🧊 Pâte glacée", text: "Le contraste chaud/froid crée le croustillant. Utilisez de l'eau glacée, un œuf froid, et ne mélangez que 5 secondes." },
+            { type: "red", title: "⚠️ Petites quantités", text: "Frire trop de pièces à la fois fait chuter la température. 3-4 pièces max par fournée." }
+        ]
+    },
+
+    {
+        id: "brochettes-yakitori-maison",
+        name: "Brochettes yakitori maison",
+        subtitle: "Poulet grillé laqué sauce tare, oignons nouveaux caramélisés",
+        emoji: "🍢",
+        category: "apero-partage",
+        difficulty: "Moyen",
+        time: 25,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Low carb"],
+        ingredients: [
+            { id: "poulet_grille", name: "Cuisses de poulet", detail: "désossées, en cubes de 2cm", emoji: "🍗", baseQty: 100, unit: "g", scalable: true, role: "protein" },
+            { id: "oignon", name: "Oignons nouveaux", detail: "en tronçons de 3cm", emoji: "🧅", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
+            { id: "sauce_soja", name: "Sauce soja", detail: "pour la sauce tare", emoji: "🫘", baseQty: 20, unit: "ml", scalable: false, role: "Sauce" },
+            { id: "miel", name: "Miel", detail: "pour la sauce tare", emoji: "🍯", baseQty: 15, unit: "g", scalable: false, role: "Sauce" },
+            { id: "huile_olive", name: "Huile de sésame", detail: "torréfié", emoji: "🫒", baseQty: 3, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparer la sauce tare", text: "Préparer la sauce tare : réduire sauce soja et miel à feu moyen jusqu'à consistance sirupeuse (5 min)." },
+            { title: "Enfiler les cubes de poulet et tronçons", text: "Enfiler les cubes de poulet et tronçons d'oignon en alternance sur des piques en bois." },
+            { title: "Griller les brochettes à feu vif 3-4", text: "Griller les brochettes à feu vif 3-4 minutes par face." },
+            { title: "Badigeonner de sauce tare toutes les 2", text: "Badigeonner de sauce tare toutes les 2 minutes en retournant pour laquer progressivement." },
+            { title: "Les brochettes sont prêtes quand elles", text: "Les brochettes sont prêtes quand elles sont bien caramélisées et brillantes." },
+            { title: "Parsemer de graines de sésame et servir", text: "Parsemer de graines de sésame et servir immédiatement." }
+        ],
+        tips: [
+            { type: "green", title: "🍢 Laquage par couches", text: "Appliquez la sauce tare en 3-4 couches successives pendant la cuisson — chaque couche caramélise et crée un glaçage brillant." },
+            { type: "red", title: "⚠️ Piques trempées", text: "Faites tremper les piques en bois 30 min dans l'eau avant de les utiliser pour éviter qu'elles ne brûlent." }
+        ]
+    },
+
+    {
+        id: "bao-buns-poulet-croustillant",
+        name: "Bao buns au poulet croustillant",
+        subtitle: "Brioche vapeur moelleuse, poulet pané croustillant, pickles et sauce sriracha-mayo",
+        emoji: "🫓",
+        category: "apero-partage",
+        difficulty: "Avancé",
+        time: 40,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Équilibré"],
+        ingredients: [
+            { id: "poulet_grille", name: "Poulet", detail: "en filets, panés", emoji: "🍗", baseQty: 80, unit: "g", scalable: true, role: "protein" },
+            { id: "farine_complete", name: "Farine", detail: "pour les bao et la panure", emoji: "🌾", baseQty: 50, unit: "g", scalable: true, role: "carb" },
+            { id: "concombre", name: "Concombre", detail: "en pickles express", emoji: "🥒", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
+            { id: "carotte", name: "Carotte", detail: "en julienne pickles", emoji: "🥕", baseQty: 20, unit: "g", scalable: true, role: "Légume" },
+            { id: "sauce_sriracha", name: "Sriracha", detail: "pour la sauce mayo-sriracha", emoji: "🌶️", baseQty: 5, unit: "ml", scalable: false, role: "Sauce" },
+            { id: "yaourt_grec", name: "Yaourt grec", detail: "en remplacement de mayo", emoji: "🥛", baseQty: 15, unit: "g", scalable: false, role: "Sauce" },
+            { id: "huile_olive", name: "Huile végétale", detail: "pour frire", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparer les bao : pétrir farine,", text: "Préparer les bao : pétrir farine, levure, eau tiède et un peu de sucre. Laisser lever 1h." },
+            { title: "Façonner des petites boules aplaties,", text: "Façonner des petites boules aplaties, plier en deux sur un papier sulfurisé. Cuire à la vapeur 12 min." },
+            { title: "Paner le poulet : farine, œuf battu,", text: "Paner le poulet : farine, œuf battu, chapelure panko. Frire 4 min jusqu'à dorure." },
+            { title: "Préparer les pickles express", text: "Préparer les pickles express : julienne de concombre et carotte dans du vinaigre de riz sucré 15 min." },
+            { title: "Mélanger le yaourt grec et la sriracha", text: "Mélanger le yaourt grec et la sriracha pour la sauce." },
+            { title: "Ouvrir les bao, garnir de poulet", text: "Ouvrir les bao, garnir de poulet croustillant, pickles et sauce sriracha-mayo." }
+        ],
+        tips: [
+            { type: "green", title: "🫓 Bao ultra-moelleux", text: "Le secret : cuisson vapeur uniquement. Ne soulevez jamais le couvercle pendant la cuisson, la vapeur est essentielle." },
+            { type: "red", title: "⚠️ Poulet au dernier moment", text: "Assemblez les bao juste avant de servir — le poulet perd son croustillant au contact de l'humidité des pickles." }
+        ]
+    },
+
+    {
+        id: "crostini-ricotta-truffe-miel",
+        name: "Crostini ricotta fouettée, truffe et miel",
+        subtitle: "Toasts croustillants, ricotta aérienne, huile truffée et miel doré",
+        emoji: "🍯",
+        category: "apero-partage",
+        difficulty: "Facile",
+        time: 15,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Express"],
+        ingredients: [
+            { id: "pain_complet", name: "Pain de campagne", detail: "tranché finement", emoji: "🍞", baseQty: 40, unit: "g", scalable: true, role: "carb" },
+            { id: "ricotta", name: "Ricotta", detail: "fouettée jusqu'à aérienne", emoji: "🧀", baseQty: 50, unit: "g", scalable: true, role: "protein" },
+            { id: "miel", name: "Miel", detail: "de lavande ou toutes fleurs", emoji: "🍯", baseQty: 8, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile d'olive truffée", detail: "quelques gouttes", emoji: "🫒", baseQty: 3, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "noix", name: "Noix", detail: "concassées", emoji: "🌰", baseQty: 8, unit: "g", scalable: false, role: "Topping" }
+        ],
+        options: [],
+        steps: [
+            { title: "Trancher le pain finement et le toaster", text: "Trancher le pain finement et le toaster au four ou au grille-pain jusqu'à dorure." },
+            { title: "Fouetter la ricotta vigoureusement 2-3", text: "Fouetter la ricotta vigoureusement 2-3 minutes pour la rendre légère et aérienne." },
+            { title: "Tartiner généreusement chaque crostini", text: "Tartiner généreusement chaque crostini de ricotta fouettée." },
+            { title: "Ajouter quelques gouttes d'huile truffée", text: "Ajouter quelques gouttes d'huile truffée et un filet de miel." },
+            { title: "Parsemer de noix concassées et d'un tour", text: "Parsemer de noix concassées et d'un tour de moulin à poivre noir." },
+            { title: "Servir immédiatement en plateau apéritif.", text: "Servir immédiatement en plateau apéritif." }
+        ],
+        tips: [
+            { type: "green", title: "🧀 Ricotta fouettée", text: "Fouettez la ricotta 2-3 min au fouet électrique — elle devient mousseuse et aérienne, un résultat totalement différent." },
+            { type: "red", title: "⚠️ Huile truffée avec parcimonie", text: "2-3 gouttes maximum par crostini — l'huile truffée est très puissante et peut écraser les autres saveurs." }
+        ]
+    },
+
+    {
+        id: "tarte-fine-oignon-chevre-noix",
+        name: "Tarte fine oignon confit, chèvre et noix",
+        subtitle: "Pâte croustillante, compotée d'oignons caramélisés, chèvre fondant et noix torréfiées",
+        emoji: "🥧",
+        category: "apero-partage",
+        difficulty: "Moyen",
+        time: 40,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Équilibré"],
+        ingredients: [
+            { id: "farine_complete", name: "Pâte feuilletée", detail: "abaissée finement", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "carb" },
+            { id: "oignon", name: "Oignons", detail: "émincés finement", emoji: "🧅", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
+            { id: "chevre_frais", name: "Chèvre frais", detail: "en rondelles ou émietté", emoji: "🧀", baseQty: 40, unit: "g", scalable: true, role: "protein" },
+            { id: "noix", name: "Noix", detail: "concassées grossièrement", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
+            { id: "miel", name: "Miel", detail: "un filet pour caraméliser", emoji: "🍯", baseQty: 8, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Émincer finement les oignons et les", text: "Émincer finement les oignons et les confire 20-25 minutes à feu très doux avec un filet de miel." },
+            { title: "Abaisser la pâte finement sur du papier", text: "Abaisser la pâte finement sur du papier sulfurisé, piquer à la fourchette." },
+            { title: "Étaler la compotée d'oignons sur la", text: "Étaler la compotée d'oignons sur la pâte, répartir le chèvre." },
+            { title: "Parsemer de noix concassées et enfourner", text: "Parsemer de noix concassées et enfourner 20 minutes à 200°C." },
+            { title: "La tarte est prête quand les bords sont", text: "La tarte est prête quand les bords sont dorés et le chèvre commence à gratiner." },
+            { title: "Couper en parts ou en rectangles pour", text: "Couper en parts ou en rectangles pour l'apéritif. Ajouter un tour de moulin à poivre." }
+        ],
+        tips: [
+            { type: "green", title: "🧅 Oignons confits", text: "La patience est la clé : 20-25 min à feu très doux. Les oignons doivent être fondants et caramélisés, presque comme une confiture." },
+            { type: "red", title: "⚠️ Pâte fine", text: "Abaissez la pâte le plus fin possible — une tarte fine doit être croustillante, pas pâteuse." }
+        ]
+    },
+
+    {
+        id: "arancini-risotto-mozzarella",
+        name: "Arancini au risotto et mozzarella",
+        subtitle: "Boulettes de risotto farcies à la mozzarella, panées et frites, sauce tomate",
+        emoji: "🧀",
+        category: "apero-partage",
+        difficulty: "Avancé",
+        time: 40,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Haute protéine"],
+        ingredients: [
+            { id: "riz_basmati_cuit", name: "Risotto", detail: "froid, bien compact", emoji: "🍚", baseQty: 120, unit: "g", scalable: true, role: "carb", rawRatio: 2.25 },
+            { id: "mozzarella", name: "Mozzarella", detail: "en petits cubes", emoji: "🧀", baseQty: 30, unit: "g", scalable: true, role: "protein" },
+            { id: "parmesan", name: "Parmesan", detail: "râpé dans le risotto", emoji: "🧀", baseQty: 10, unit: "g", scalable: false, role: "protein" },
+            { id: "farine_complete", name: "Farine + panure", detail: "pour paner", emoji: "🌾", baseQty: 25, unit: "g", scalable: true, role: "Enrobage" },
+            { id: "oeuf", name: "Œuf", detail: "battu, pour paner", emoji: "🥚", baseQty: 1, unit: "unité", scalable: false, role: "Liant" },
+            { id: "sauce_tomate", name: "Sauce tomate", detail: "pour tremper", emoji: "🍅", baseQty: 30, unit: "g", scalable: false, role: "Sauce" },
+            { id: "huile_olive", name: "Huile végétale", detail: "pour la friture", emoji: "🫒", baseQty: 15, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Mélanger le risotto froid avec le", text: "Mélanger le risotto froid avec le parmesan râpé. Le riz doit être bien compact et collant." },
+            { title: "Prendre une portion de risotto, creuser", text: "Prendre une portion de risotto, creuser au centre, insérer un cube de mozzarella, refermer en boule." },
+            { title: "Paner les arancini", text: "Paner les arancini : farine, œuf battu, puis chapelure (idéalement panko)." },
+            { title: "Frire dans l'huile à 180°C pendant 3-4", text: "Frire dans l'huile à 180°C pendant 3-4 minutes jusqu'à dorure uniforme." },
+            { title: "Égoutter sur grille et saler immédiatement.", text: "Égoutter sur grille et saler immédiatement." },
+            { title: "Servir chaud avec la sauce tomate pour", text: "Servir chaud avec la sauce tomate pour tremper." }
+        ],
+        tips: [
+            { type: "green", title: "🧀 Cœur filant", text: "Utilisez de la mozzarella bien froide en petits cubes — elle fondra juste assez pendant la friture pour un cœur filant." },
+            { type: "red", title: "⚠️ Risotto froid obligatoire", text: "Le risotto DOIT être complètement froid et compact pour former les boules. Chaud, il s'effondre à la manipulation." }
+        ]
+    },
+
+    {
+        id: "samosas-legumes-menthe",
+        name: "Samosas aux légumes et menthe",
+        subtitle: "Feuilletés croustillants aux légumes épicés, sauce yaourt-menthe fraîche",
+        emoji: "🥟",
+        category: "apero-partage",
+        difficulty: "Avancé",
+        time: 40,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Vegan","Équilibré"],
+        ingredients: [
+            { id: "pomme_de_terre", name: "Pomme de terre", detail: "cuite, écrasée grossièrement", emoji: "🥔", baseQty: 80, unit: "g", scalable: true, role: "carb", rawRatio: 1 },
+            { id: "petits_pois", name: "Petits pois", detail: "cuits", emoji: "🟢", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
+            { id: "carotte", name: "Carotte", detail: "en petits dés, cuite", emoji: "🥕", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
+            { id: "oignon", name: "Oignon", detail: "émincé, revenu", emoji: "🧅", baseQty: 20, unit: "g", scalable: true, role: "Aromate" },
+            { id: "farine_complete", name: "Feuilles de brick / Farine", detail: "pour l'enveloppe", emoji: "🌾", baseQty: 30, unit: "g", scalable: true, role: "carb" },
+            { id: "pate_curry", name: "Pâte de curry", detail: "ou garam masala", emoji: "🟤", baseQty: 5, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile végétale", detail: "pour frire ou badigeonner", emoji: "🫒", baseQty: 10, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faire revenir l'oignon avec les épices", text: "Faire revenir l'oignon avec les épices (cumin, coriandre, garam masala) 2 minutes." },
+            { title: "Ajouter la pomme de terre écrasée, les", text: "Ajouter la pomme de terre écrasée, les petits pois et la carotte. Mélanger et laisser refroidir." },
+            { title: "Couper les feuilles de brick en bandes,", text: "Couper les feuilles de brick en bandes, déposer une cuillère de farce et plier en triangle." },
+            { title: "Sceller les bords avec un peu d'eau", text: "Sceller les bords avec un peu d'eau. Répéter pour tous les samosas." },
+            { title: "Frire 3-4 minutes dans l'huile chaude", text: "Frire 3-4 minutes dans l'huile chaude jusqu'à dorure, ou badigeonner d'huile et cuire au four 20 min." },
+            { title: "Servir avec une sauce yaourt-menthe", text: "Servir avec une sauce yaourt-menthe (yaourt + menthe hachée + citron)." }
+        ],
+        tips: [
+            { type: "green", title: "🥟 Pliage en triangle", text: "Le pliage en drapeau (flag fold) donne des triangles parfaits : rabattez la bande en alternant les côtés." },
+            { type: "red", title: "⚠️ Farce froide", text: "La farce DOIT être froide avant de remplir les feuilles de brick, sinon elles ramollissent et se déchirent." }
+        ]
+    },
+
+    {
+        id: "plateau-ceviche-tropical",
+        name: "Plateau de ceviche tropical",
+        subtitle: "Cabillaud et gambas marinés citron vert-coco, mangue, avocat, chips de maïs",
+        emoji: "🐠",
+        category: "apero-partage",
+        difficulty: "Avancé",
+        time: 30,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Sans cuisson"],
+        ingredients: [
+            { id: "cabillaud", name: "Cabillaud", detail: "ultra frais, en cubes", emoji: "🐠", baseQty: 80, unit: "g", scalable: true, role: "protein" },
+            { id: "gambas", name: "Gambas", detail: "crues, décortiquées, en morceaux", emoji: "🦐", baseQty: 60, unit: "g", scalable: true, role: "protein" },
+            { id: "mangue", name: "Mangue", detail: "en petits dés", emoji: "🥭", baseQty: 40, unit: "g", scalable: true, role: "Fruit" },
+            { id: "avocat", name: "Avocat", detail: "en dés", emoji: "🥑", baseQty: 40, unit: "g", scalable: true, role: "fat" },
+            { id: "lait_coco", name: "Lait de coco", detail: "léger, froid", emoji: "🥥", baseQty: 30, unit: "ml", scalable: false, role: "Sauce" },
+            { id: "citron_jus", name: "Jus de citron vert", detail: "abondant", emoji: "🍋", baseQty: 30, unit: "ml", scalable: false, role: "Marinade" },
+            { id: "sauce_sriracha", name: "Piment", detail: "un trait", emoji: "🌶️", baseQty: 2, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Couper le cabillaud et les gambas en", text: "Couper le cabillaud et les gambas en petits cubes réguliers." },
+            { title: "Recouvrir de jus de citron vert et", text: "Recouvrir de jus de citron vert et mariner 20 minutes au réfrigérateur." },
+            { title: "Égoutter partiellement, ajouter le lait", text: "Égoutter partiellement, ajouter le lait de coco froid et mélanger." },
+            { title: "Incorporer la mangue et l'avocat en dés,", text: "Incorporer la mangue et l'avocat en dés, un trait de piment." },
+            { title: "Dresser sur un grand plateau ou dans des", text: "Dresser sur un grand plateau ou dans des verrines individuelles." },
+            { title: "Servir avec des chips de maïs ou des", text: "Servir avec des chips de maïs ou des feuilles d'endive pour picorer." }
+        ],
+        tips: [
+            { type: "green", title: "🍋 Marinade précise", text: "20 minutes exactement : le poisson doit blanchir en surface mais rester légèrement translucide au centre." },
+            { type: "red", title: "⚠️ Fraîcheur absolue", text: "Le ceviche est un plat CRU — poisson du jour ou surgelé 48h minimum. Ne le laissez jamais à température ambiante." }
+        ]
+    },
+
+    {
+        id: "rouleau-printemps-crevettes",
+        name: "Rouleaux de printemps aux crevettes",
+        subtitle: "Rouleaux frais translucides, crevettes roses, vermicelles, légumes croquants, sauce cacahuète",
+        emoji: "🌯",
+        category: "apero-partage",
+        difficulty: "Moyen",
+        time: 30,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Perte de poids","Sans cuisson"],
+        ingredients: [
+            { id: "crevettes", name: "Crevettes", detail: "cuites, décortiquées, coupées en deux", emoji: "🦐", baseQty: 60, unit: "g", scalable: true, role: "protein" },
+            { id: "vermicelles_riz", name: "Vermicelles de riz", detail: "réhydratés", emoji: "🍜", baseQty: 40, unit: "g", scalable: true, role: "carb" },
+            { id: "carotte", name: "Carotte", detail: "en julienne fine", emoji: "🥕", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
+            { id: "concombre", name: "Concombre", detail: "en bâtonnets fins", emoji: "🥒", baseQty: 30, unit: "g", scalable: true, role: "Légume" },
+            { id: "salade_verte", name: "Laitue", detail: "feuilles entières", emoji: "🥬", baseQty: 20, unit: "g", scalable: true, role: "Légume" },
+            { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "pour la sauce", emoji: "🥜", baseQty: 15, unit: "g", scalable: false, role: "Sauce" },
+            { id: "sauce_soja", name: "Sauce soja", detail: "pour la sauce", emoji: "🫘", baseQty: 8, unit: "ml", scalable: false, role: "Sauce" },
+            { id: "citron_jus", name: "Citron vert", detail: "dans la sauce", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "Sauce" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparer tous les ingrédients", text: "Préparer tous les ingrédients : julienne de carotte, bâtonnets de concombre, crevettes en deux, vermicelles." },
+            { title: "Tremper une feuille de riz dans l'eau", text: "Tremper une feuille de riz dans l'eau tiède 10 secondes — elle doit rester légèrement ferme." },
+            { title: "Déposer la feuille sur un torchon humide", text: "Déposer la feuille sur un torchon humide. Placer la laitue, puis les légumes et vermicelles." },
+            { title: "Disposer les crevettes côté rose contre", text: "Disposer les crevettes côté rose contre la feuille pour qu'elles soient visibles." },
+            { title: "Rouler en rabattant les côtés comme un", text: "Rouler en rabattant les côtés comme un burrito. Serrer fermement mais sans déchirer." },
+            { title: "Préparer la sauce", text: "Préparer la sauce : délayer le beurre de cacahuète avec sauce soja, citron vert et eau tiède." }
+        ],
+        tips: [
+            { type: "green", title: "🌯 Feuille pas trop trempée", text: "10 secondes max dans l'eau ! La feuille de riz continue de ramollir sur le torchon. Trop trempée = elle colle et se déchire." },
+            { type: "red", title: "⚠️ Rouler serré", text: "Un rouleau lâche s'effondre en mangeant. Roulez fermement en tirant doucement vers vous à chaque tour." }
+        ]
+    },
+
+    {
+        id: "focaccia-romarin-tomate-sechee",
+        name: "Focaccia au romarin et tomates séchées",
+        subtitle: "Pain italien moelleux et alvéolé, huile d'olive, romarin frais et tomates confites",
+        emoji: "🫓",
+        category: "apero-partage",
+        difficulty: "Moyen",
+        time: 50,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Vegan","Équilibré"],
+        ingredients: [
+            { id: "farine_complete", name: "Farine", detail: "T65 ou complète", emoji: "🌾", baseQty: 80, unit: "g", scalable: true, role: "carb" },
+            { id: "tomate", name: "Tomates séchées", detail: "coupées en morceaux", emoji: "🍅", baseQty: 20, unit: "g", scalable: true, role: "Garniture" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge, généreuse", emoji: "🫒", baseQty: 15, unit: "ml", scalable: true, role: "Assaisonnement" },
+            { id: "oignon", name: "Oignon rouge", detail: "en fines rondelles (optionnel)", emoji: "🧅", baseQty: 15, unit: "g", scalable: true, role: "Garniture" }
+        ],
+        options: [],
+        steps: [
+            { title: "Mélanger farine, eau tiède (60%),", text: "Mélanger farine, eau tiède (60%), levure, sel et un filet d'huile. Pétrir 5 minutes." },
+            { title: "Laisser lever 1h à température ambiante", text: "Laisser lever 1h à température ambiante jusqu'à ce que la pâte double de volume." },
+            { title: "Étaler dans un plat huilé en pressant", text: "Étaler dans un plat huilé en pressant avec les doigts pour créer les alvéoles caractéristiques." },
+            { title: "Enfoncer les morceaux de tomates séchées", text: "Enfoncer les morceaux de tomates séchées et les rondelles d'oignon dans la pâte." },
+            { title: "Arroser généreusement d'huile d'olive,", text: "Arroser généreusement d'huile d'olive, parsemer de romarin frais et de fleur de sel." },
+            { title: "Enfourner 20-25 minutes à 220°C jusqu'à", text: "Enfourner 20-25 minutes à 220°C jusqu'à dorure. La focaccia doit être dorée et moelleuse." }
+        ],
+        tips: [
+            { type: "green", title: "🫓 Alvéoles moelleuses", text: "Huilez généreusement vos doigts et enfoncez-les profondément dans la pâte — c'est ce qui crée les alvéoles et la texture." },
+            { type: "red", title: "⚠️ Huile d'olive abondante", text: "N'ayez pas peur de l'huile — c'est elle qui donne le croustillant extérieur et le moelleux intérieur typiques." }
+        ]
+    },
+
+    {
+        id: "carpaccio-betterave-chevre-noix",
+        name: "Carpaccio de betterave, chèvre et noix",
+        subtitle: "Fines tranches de betterave, chèvre frais émietté, noix torréfiées, vinaigrette au miel",
+        emoji: "🟣",
+        category: "apero-partage",
+        difficulty: "Facile",
+        time: 15,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Sans gluten","Perte de poids"],
+        ingredients: [
+            { id: "betterave_cuite", name: "Betterave", detail: "cuite, en fines tranches", emoji: "🟣", baseQty: 100, unit: "g", scalable: true, role: "Légume" },
+            { id: "chevre_frais", name: "Chèvre frais", detail: "émietté", emoji: "🧀", baseQty: 30, unit: "g", scalable: true, role: "protein" },
+            { id: "noix", name: "Noix", detail: "torréfiées, concassées", emoji: "🌰", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
+            { id: "miel", name: "Miel", detail: "dans la vinaigrette", emoji: "🍯", baseQty: 5, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "vinaigre_balsamique", name: "Vinaigre balsamique", detail: "vieux", emoji: "🫗", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "extra vierge", emoji: "🫒", baseQty: 8, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Trancher la betterave cuite en rondelles", text: "Trancher la betterave cuite en rondelles ultra-fines (mandoline idéalement)." },
+            { title: "Disposer les tranches en rosace sur une", text: "Disposer les tranches en rosace sur une grande assiette ou un plateau." },
+            { title: "Préparer la vinaigrette", text: "Préparer la vinaigrette : mélanger huile d'olive, vinaigre balsamique et miel." },
+            { title: "Émietter le chèvre frais sur les betteraves.", text: "Émietter le chèvre frais sur les betteraves." },
+            { title: "Parsemer de noix torréfiées concassées.", text: "Parsemer de noix torréfiées concassées." },
+            { title: "Arroser de vinaigrette miel-balsamique", text: "Arroser de vinaigrette miel-balsamique. Ajouter un tour de moulin à poivre." }
+        ],
+        tips: [
+            { type: "green", title: "🟣 Tranches ultra-fines", text: "La mandoline est indispensable pour des tranches régulières et fines qui se mangent en une bouchée." },
+            { type: "red", title: "⚠️ Gants recommandés", text: "La betterave tache énormément. Portez des gants pour la manipuler et la trancher." }
+        ]
+    },
+
+    {
+        id: "brochettes-gambas-chorizo",
+        name: "Brochettes de gambas et chorizo",
+        subtitle: "Gambas grillées et chorizo croustillant en alternance, aïoli léger citronné",
+        emoji: "🦐",
+        category: "apero-partage",
+        difficulty: "Facile",
+        time: 20,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Haute protéine","Sans gluten","Low carb"],
+        ingredients: [
+            { id: "gambas", name: "Gambas", detail: "décortiquées, queue intacte", emoji: "🦐", baseQty: 80, unit: "g", scalable: true, role: "protein" },
+            { id: "porc_filet", name: "Chorizo", detail: "en rondelles épaisses", emoji: "🌶️", baseQty: 30, unit: "g", scalable: true, role: "Charcuterie" },
+            { id: "poivron_rouge", name: "Poivron", detail: "en carrés de 2cm", emoji: "🫑", baseQty: 40, unit: "g", scalable: true, role: "Légume" },
+            { id: "yaourt_grec", name: "Yaourt grec", detail: "pour l'aïoli léger", emoji: "🥛", baseQty: 20, unit: "g", scalable: false, role: "Sauce" },
+            { id: "citron_jus", name: "Jus de citron", detail: "dans l'aïoli", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "pour badigeonner", emoji: "🫒", baseQty: 5, unit: "ml", scalable: false, role: "Cuisson" }
+        ],
+        options: [],
+        steps: [
+            { title: "Enfiler en alternance gambas, rondelles", text: "Enfiler en alternance gambas, rondelles de chorizo et carrés de poivron sur des piques." },
+            { title: "Badigeonner d'huile d'olive, assaisonner", text: "Badigeonner d'huile d'olive, assaisonner de sel, poivre et paprika." },
+            { title: "Griller à feu vif 2-3 minutes par face à", text: "Griller à feu vif 2-3 minutes par face à la poêle ou au barbecue." },
+            { title: "Préparer l'aïoli léger", text: "Préparer l'aïoli léger : yaourt grec, ail râpé, citron et un filet d'huile d'olive." },
+            { title: "Servir les brochettes chaudes avec", text: "Servir les brochettes chaudes avec l'aïoli citronné à côté." }
+        ],
+        tips: [
+            { type: "green", title: "🦐 Chorizo parfumeur", text: "La graisse du chorizo fond à la cuisson et parfume les gambas — l'alternance n'est pas qu'esthétique, c'est gustatif." },
+            { type: "red", title: "⚠️ Cuisson express", text: "2-3 minutes par face max pour les gambas. Le chorizo est déjà cuit, il doit juste devenir croustillant." }
+        ]
+    },
+
+    {
+        id: "endives-roquefort-noix-miel",
+        name: "Endives au chèvre, noix et miel",
+        subtitle: "Feuilles d'endive en barquettes, chèvre frais, noix caramélisées au miel",
+        emoji: "🥬",
+        category: "apero-partage",
+        difficulty: "Facile",
+        time: 10,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Sans gluten","Low carb","Express","Sans cuisson"],
+        ingredients: [
+            { id: "salade_verte", name: "Endives", detail: "feuilles séparées", emoji: "🥬", baseQty: 80, unit: "g", scalable: true, role: "Légume" },
+            { id: "chevre_frais", name: "Chèvre frais", detail: "ou roquefort, émietté", emoji: "🧀", baseQty: 30, unit: "g", scalable: true, role: "protein" },
+            { id: "noix", name: "Noix", detail: "cerneaux entiers ou concassés", emoji: "🌰", baseQty: 15, unit: "g", scalable: true, role: "Topping" },
+            { id: "miel", name: "Miel", detail: "un filet", emoji: "🍯", baseQty: 8, unit: "g", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Séparer les feuilles d'endive et les laver", text: "Séparer les feuilles d'endive et les laver. Sélectionner les plus belles comme barquettes." },
+            { title: "Émietter le chèvre frais (ou roquefort)", text: "Émietter le chèvre frais (ou roquefort) dans chaque feuille." },
+            { title: "Ajouter un ou deux cerneaux de noix dans", text: "Ajouter un ou deux cerneaux de noix dans chaque barquette." },
+            { title: "Arroser d'un filet de miel.", text: "Arroser d'un filet de miel." },
+            { title: "Disposer sur un plateau et servir", text: "Disposer sur un plateau et servir immédiatement." }
+        ],
+        tips: [
+            { type: "green", title: "🥬 Barquettes naturelles", text: "Les feuilles d'endive forment des barquettes parfaites — croquantes et légèrement amères, elles contrastent avec le sucré du miel." },
+            { type: "red", title: "⚠️ Au dernier moment", text: "Assemblez juste avant de servir — le miel fait ramollir les endives si elles attendent trop longtemps." }
+        ]
+    },
+
+    {
+        id: "financiers-amande-matcha",
+        name: "Financiers amande-matcha",
+        subtitle: "Petits gâteaux moelleux au beurre noisette, amande et thé matcha en poudre",
+        emoji: "🍵",
+        category: "collation-emporter",
+        difficulty: "Moyen",
+        time: 25,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Batch cooking"],
+        ingredients: [
+            { id: "blanc_oeuf", name: "Blancs d'œufs", detail: "à température ambiante", emoji: "🥚", baseQty: 2, unit: "unités", scalable: true, role: "protein" },
+            { id: "amandes", name: "Poudre d'amandes", detail: "fine", emoji: "🌰", baseQty: 25, unit: "g", scalable: true, role: "Base" },
+            { id: "farine_complete", name: "Farine", detail: "tamisée", emoji: "🌾", baseQty: 15, unit: "g", scalable: true, role: "carb" },
+            { id: "huile_olive", name: "Beurre", detail: "noisette", emoji: "🧈", baseQty: 15, unit: "g", scalable: true, role: "fat" },
+            { id: "miel", name: "Miel", detail: "ou sucre glace", emoji: "🍯", baseQty: 15, unit: "g", scalable: true, role: "Sucrant" },
+            { id: "lait_amande", name: "Thé matcha", detail: "en poudre (1 cc)", emoji: "🍵", baseQty: 3, unit: "g", scalable: false, role: "Arôme" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffer le four à 200°C", text: "Préchauffer le four à 200°C. Beurrer et fariner des moules à financier." },
+            { title: "Faire fondre le beurre et le cuire", text: "Faire fondre le beurre et le cuire jusqu'à coloration noisette. Laisser tiédir." },
+            { title: "Mélanger poudre d'amandes, farine, sucre", text: "Mélanger poudre d'amandes, farine, sucre et poudre de matcha." },
+            { title: "Incorporer les blancs d'œufs non battus,", text: "Incorporer les blancs d'œufs non battus, puis le beurre noisette tiédi." },
+            { title: "Remplir les moules aux 3/4, enfourner", text: "Remplir les moules aux 3/4, enfourner 10-12 minutes." },
+            { title: "Les financiers sont prêts quand les", text: "Les financiers sont prêts quand les bords sont dorés et le centre encore légèrement moelleux." }
+        ],
+        tips: [
+            { type: "green", title: "🧈 Beurre noisette", text: "Le beurre noisette est LA signature du financier. Son goût de noisette se marie parfaitement avec l'amande et le matcha." },
+            { type: "red", title: "⚠️ Ne pas trop cuire", text: "Les financiers doivent rester moelleux à l'intérieur. Sortez-les quand les bords sont dorés mais le centre à peine pris." }
+        ]
+    },
+
+    {
+        id: "madeleines-proteinees-citron",
+        name: "Madeleines protéinées au citron",
+        subtitle: "Madeleines bosselées classiques, parfumées au citron, enrichies en protéines",
+        emoji: "🍋",
+        category: "collation-emporter",
+        difficulty: "Moyen",
+        time: 30,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Haute protéine","Batch cooking"],
+        ingredients: [
+            { id: "oeuf", name: "Œuf", detail: "entier, à température ambiante", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "carb" },
+            { id: "whey_protein", name: "Whey protéine", detail: "vanille ou neutre", emoji: "💪", baseQty: 15, unit: "g", scalable: true, role: "protein" },
+            { id: "farine_complete", name: "Farine", detail: "tamisée", emoji: "🌾", baseQty: 20, unit: "g", scalable: true, role: "carb" },
+            { id: "miel", name: "Miel", detail: "liquide", emoji: "🍯", baseQty: 15, unit: "g", scalable: true, role: "Sucrant" },
+            { id: "huile_olive", name: "Beurre", detail: "fondu", emoji: "🧈", baseQty: 10, unit: "g", scalable: true, role: "fat" },
+            { id: "citron_jus", name: "Citron", detail: "jus et zeste", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Arôme" }
+        ],
+        options: [],
+        steps: [
+            { title: "Fouetter l'œuf avec le miel pendant 3", text: "Fouetter l'œuf avec le miel pendant 3 minutes jusqu'à blanchiment." },
+            { title: "Incorporer la farine, la whey et le", text: "Incorporer la farine, la whey et le zeste de citron râpé." },
+            { title: "Ajouter le beurre fondu tiédi et le jus", text: "Ajouter le beurre fondu tiédi et le jus de citron. Mélanger délicatement." },
+            { title: "Réfrigérer la pâte minimum 1h", text: "Réfrigérer la pâte minimum 1h (idéalement une nuit) — c'est le secret de la bosse." },
+            { title: "Remplir les moules à madeleine aux 3/4,", text: "Remplir les moules à madeleine aux 3/4, enfourner à 220°C pendant 5 min puis baisser à 180°C pour 7 min." },
+            { title: "Démouler immédiatement sur une grille.", text: "Démouler immédiatement sur une grille." }
+        ],
+        tips: [
+            { type: "green", title: "❄️ Pâte reposée = bosse", text: "Le repos au froid est obligatoire pour créer la fameuse bosse. Le choc thermique froid→chaud crée la levée caractéristique." },
+            { type: "red", title: "⚠️ Choc thermique", text: "Démarrez à 220°C puis baissez — ce choc de chaleur initiale est essentiel pour la bosse de la madeleine." }
+        ]
+    },
+
+    {
+        id: "cookies-brookies",
+        name: "Cookies brookies",
+        subtitle: "Mi-cookie mi-brownie, croustillant dessus, fondant chocolat au centre",
+        emoji: "🍪",
+        category: "collation-emporter",
+        difficulty: "Moyen",
+        time: 25,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Batch cooking"],
+        ingredients: [
+            { id: "chocolat_noir_70", name: "Chocolat noir 70%", detail: "en pépites et fondu", emoji: "🍫", baseQty: 25, unit: "g", scalable: true, role: "Base" },
+            { id: "oeuf", name: "Œuf", detail: "entier", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "Liant" },
+            { id: "farine_complete", name: "Farine complète", detail: "tamisée", emoji: "🌾", baseQty: 25, unit: "g", scalable: true, role: "carb" },
+            { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "crémeux", emoji: "🥜", baseQty: 15, unit: "g", scalable: true, role: "fat" },
+            { id: "cacao_poudre", name: "Cacao en poudre", detail: "non sucré, pour la couche brownie", emoji: "🤎", baseQty: 8, unit: "g", scalable: true, role: "Arôme" },
+            { id: "sirop_erable", name: "Sirop d'érable", detail: "pour sucrer", emoji: "🍁", baseQty: 15, unit: "ml", scalable: true, role: "Sucrant" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préparer la pâte brownie", text: "Préparer la pâte brownie : mélanger chocolat fondu, cacao, moitié de la farine, moitié du sirop et moitié de l'œuf." },
+            { title: "Préparer la pâte cookie", text: "Préparer la pâte cookie : mélanger beurre de cacahuète, reste de farine, sirop et œuf." },
+            { title: "Former des boules en superposant les", text: "Former des boules en superposant les deux pâtes : brownie à l'intérieur, cookie à l'extérieur." },
+            { title: "Disposer sur une plaque et aplatir légèrement", text: "Disposer sur une plaque et aplatir légèrement. Ajouter des pépites de chocolat dessus." },
+            { title: "Enfourner 10-12 minutes à 180°C", text: "Enfourner 10-12 minutes à 180°C — le centre doit rester fondant." },
+            { title: "Laisser refroidir 5 minutes sur la", text: "Laisser refroidir 5 minutes sur la plaque avant de manipuler (ils se solidifient en refroidissant)." }
+        ],
+        tips: [
+            { type: "green", title: "🍪 Centre fondant", text: "Les brookies semblent pas cuits en sortant du four — c'est normal ! Ils se raffermissent en refroidissant tout en gardant un cœur fondant." },
+            { type: "red", title: "⚠️ Pas de surcuisson", text: "10-12 min max. Si vous attendez qu'ils aient l'air cuits au four, ils seront trop secs une fois refroidis." }
+        ]
+    },
+
+    {
+        id: "biscotti-amande-chocolat",
+        name: "Biscotti amande-chocolat",
+        subtitle: "Biscuits italiens croquants cuits deux fois, amandes torréfiées et pépites de chocolat",
+        emoji: "🍪",
+        category: "collation-emporter",
+        difficulty: "Moyen",
+        time: 45,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Batch cooking"],
+        ingredients: [
+            { id: "farine_complete", name: "Farine complète", detail: "tamisée", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "carb" },
+            { id: "amandes", name: "Amandes entières", detail: "torréfiées", emoji: "🌰", baseQty: 20, unit: "g", scalable: true, role: "Base" },
+            { id: "chocolat_noir_70", name: "Chocolat noir", detail: "en pépites", emoji: "🍫", baseQty: 15, unit: "g", scalable: true, role: "Garniture" },
+            { id: "oeuf", name: "Œuf", detail: "battu", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "Liant" },
+            { id: "miel", name: "Miel", detail: "liquide", emoji: "🍯", baseQty: 15, unit: "g", scalable: true, role: "Sucrant" },
+            { id: "cacao_poudre", name: "Cacao en poudre", detail: "non sucré", emoji: "🤎", baseQty: 5, unit: "g", scalable: false, role: "Arôme" }
+        ],
+        options: [],
+        steps: [
+            { title: "Mélanger farine, cacao, miel et œuf", text: "Mélanger farine, cacao, miel et œuf battu pour obtenir une pâte épaisse." },
+            { title: "Incorporer les amandes entières et les", text: "Incorporer les amandes entières et les pépites de chocolat." },
+            { title: "Former un boudin aplati (2cm", text: "Former un boudin aplati (2cm d'épaisseur) sur une plaque et enfourner 25 min à 160°C." },
+            { title: "Sortir, laisser tiédir 10 min, puis", text: "Sortir, laisser tiédir 10 min, puis trancher en biais en biscuits de 1.5cm d'épaisseur." },
+            { title: "Remettre les tranches au four à plat 10", text: "Remettre les tranches au four à plat 10 minutes de chaque côté à 140°C pour les sécher." },
+            { title: "Les biscotti sont prêts quand ils sont", text: "Les biscotti sont prêts quand ils sont bien secs et croquants. Se conservent 2 semaines." }
+        ],
+        tips: [
+            { type: "green", title: "🍪 Double cuisson", text: "La double cuisson est la signature du biscotti : la première forme le boudin, la seconde le rend croquant et sec pour la conservation." },
+            { type: "red", title: "⚠️ Trancher tiède", text: "Tranchez le boudin tiède (pas chaud, pas froid). Chaud il s'effrite, froid il casse. 10 minutes de repos est optimal." }
+        ]
+    },
+
+    {
+        id: "mini-canneles-vanille",
+        name: "Mini cannelés vanille",
+        subtitle: "Petits cannelés bordelais croustillants dehors, moelleux et custardy dedans",
+        emoji: "🟤",
+        category: "collation-emporter",
+        difficulty: "Avancé",
+        time: 55,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Batch cooking"],
+        ingredients: [
+            { id: "lait_demi", name: "Lait demi-écrémé", detail: "infusé à la vanille", emoji: "🥛", baseQty: 120, unit: "ml", scalable: true, role: "Base" },
+            { id: "oeuf", name: "Jaunes d'œufs", detail: "2 jaunes", emoji: "🥚", baseQty: 2, unit: "unités", scalable: true, role: "Liant" },
+            { id: "farine_complete", name: "Farine", detail: "tamisée", emoji: "🌾", baseQty: 25, unit: "g", scalable: true, role: "carb" },
+            { id: "miel", name: "Miel", detail: "ou sucre", emoji: "🍯", baseQty: 25, unit: "g", scalable: true, role: "Sucrant" },
+            { id: "huile_olive", name: "Beurre", detail: "fondu", emoji: "🧈", baseQty: 8, unit: "g", scalable: true, role: "fat" }
+        ],
+        options: [],
+        steps: [
+            { title: "Porter le lait à ébullition avec une", text: "Porter le lait à ébullition avec une gousse de vanille fendue. Laisser infuser en refroidissant." },
+            { title: "Mélanger les jaunes d'œufs avec le miel", text: "Mélanger les jaunes d'œufs avec le miel sans trop fouetter (pas de bulles d'air)." },
+            { title: "Incorporer la farine, le beurre fondu", text: "Incorporer la farine, le beurre fondu puis le lait vanillé tiédi. Mélanger juste assez." },
+            { title: "Réfrigérer l'appareil minimum 24h", text: "Réfrigérer l'appareil minimum 24h (jusqu'à 48h pour un résultat optimal)." },
+            { title: "Beurrer les moules à cannelé, remplir", text: "Beurrer les moules à cannelé, remplir aux 3/4, enfourner à 250°C 10 min puis 180°C 40 min." },
+            { title: "Démouler immédiatement et laisser", text: "Démouler immédiatement et laisser refroidir sur grille." }
+        ],
+        tips: [
+            { type: "green", title: "⏰ Repos 24h minimum", text: "Le repos de l'appareil au frigo est NON NÉGOCIABLE. C'est ce qui donne la texture custardy inimitable du cannelé." },
+            { type: "red", title: "⚠️ Moule en cuivre", text: "Les moules en cuivre donnent les meilleurs résultats (croûte caramélisée). En silicone, augmentez la température de 10°C." }
+        ]
+    },
+
+    {
+        id: "truffes-chocolat-cacahuete",
+        name: "Truffes chocolat-cacahuète",
+        subtitle: "Truffes fondantes au chocolat noir et beurre de cacahuète, enrobage cacao",
+        emoji: "🍫",
+        category: "collation-emporter",
+        difficulty: "Facile",
+        time: 20,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Sans gluten","Sans cuisson","Batch cooking"],
+        ingredients: [
+            { id: "chocolat_noir_70", name: "Chocolat noir 70%", detail: "fondu", emoji: "🍫", baseQty: 30, unit: "g", scalable: true, role: "Base" },
+            { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "crémeux", emoji: "🥜", baseQty: 20, unit: "g", scalable: true, role: "Base" },
+            { id: "creme_fraiche_legere", name: "Crème fraîche", detail: "pour la ganache", emoji: "🥛", baseQty: 15, unit: "g", scalable: true, role: "Liant" },
+            { id: "cacao_poudre", name: "Cacao en poudre", detail: "pour l'enrobage", emoji: "🤎", baseQty: 8, unit: "g", scalable: false, role: "Enrobage" },
+            { id: "flocons_avoine", name: "Flocons d'avoine", detail: "mixés en poudre, pour la texture", emoji: "🌾", baseQty: 10, unit: "g", scalable: true, role: "carb" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faire fondre le chocolat au bain-marie", text: "Faire fondre le chocolat au bain-marie avec la crème. Mélanger jusqu'à lisse." },
+            { title: "Incorporer le beurre de cacahuète et les", text: "Incorporer le beurre de cacahuète et les flocons d'avoine mixés. Bien mélanger." },
+            { title: "Réfrigérer 1h minimum jusqu'à ce que la", text: "Réfrigérer 1h minimum jusqu'à ce que la ganache soit assez ferme pour être formée." },
+            { title: "Former des petites boules à la cuillère,", text: "Former des petites boules à la cuillère, les rouler entre les mains." },
+            { title: "Rouler chaque truffe dans le cacao en", text: "Rouler chaque truffe dans le cacao en poudre tamisé." },
+            { title: "Conserver au frais", text: "Conserver au frais. Sortir 10 minutes avant dégustation pour un cœur fondant." }
+        ],
+        tips: [
+            { type: "green", title: "🍫 Ganache parfaite", text: "Le chocolat ne doit JAMAIS être en contact direct avec l'eau ou la vapeur. Le bain-marie doit être doux et le bol ne doit pas toucher l'eau." },
+            { type: "red", title: "⚠️ Mains froides", text: "Passez vos mains sous l'eau froide avant de rouler les truffes — la chaleur de vos mains fait fondre la ganache." }
+        ]
+    },
+
+    {
+        id: "palmiers-parmesan-herbes",
+        name: "Palmiers au parmesan et herbes",
+        subtitle: "Feuilletés en forme de cœur au parmesan et herbes de Provence croustillants",
+        emoji: "🫶",
+        category: "collation-emporter",
+        difficulty: "Facile",
+        time: 25,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Batch cooking"],
+        ingredients: [
+            { id: "farine_complete", name: "Pâte feuilletée", detail: "1 rectangle", emoji: "🌾", baseQty: 40, unit: "g", scalable: true, role: "carb" },
+            { id: "parmesan", name: "Parmesan", detail: "râpé fin", emoji: "🧀", baseQty: 15, unit: "g", scalable: true, role: "protein" },
+            { id: "moutarde", name: "Moutarde", detail: "badigeonnée sur la pâte", emoji: "🟡", baseQty: 5, unit: "g", scalable: false, role: "Assaisonnement" },
+            { id: "huile_olive", name: "Huile d'olive", detail: "un filet", emoji: "🫒", baseQty: 3, unit: "ml", scalable: false, role: "Assaisonnement" }
+        ],
+        options: [],
+        steps: [
+            { title: "Étaler la pâte feuilletée et la", text: "Étaler la pâte feuilletée et la badigeonner de moutarde." },
+            { title: "Parsemer généreusement de parmesan râpé", text: "Parsemer généreusement de parmesan râpé et d'herbes de Provence." },
+            { title: "Rouler les deux côtés vers le centre", text: "Rouler les deux côtés vers le centre pour former le palmier." },
+            { title: "Réfrigérer 15 minutes pour raffermir,", text: "Réfrigérer 15 minutes pour raffermir, puis trancher en rondelles de 1cm." },
+            { title: "Disposer sur une plaque et enfourner", text: "Disposer sur une plaque et enfourner 12-15 minutes à 200°C." },
+            { title: "Les palmiers sont prêts quand ils sont", text: "Les palmiers sont prêts quand ils sont dorés et caramélisés." }
+        ],
+        tips: [
+            { type: "green", title: "🫶 Roulage symétrique", text: "Les deux rouleaux doivent se rejoindre exactement au centre pour un cœur de palmier parfait et régulier." },
+            { type: "red", title: "⚠️ Réfrigérer avant de couper", text: "15 min au frais rendent la pâte ferme et les coupes nettes. Sans ça, les palmiers s'écrasent et perdent leur forme." }
+        ]
+    },
+
+    {
+        id: "mini-eclairs-ricotta-fruits",
+        name: "Mini éclairs ricotta et fruits",
+        subtitle: "Pâte à choux croustillante, crème de ricotta vanillée, fruits frais de saison",
+        emoji: "🫧",
+        category: "collation-emporter",
+        difficulty: "Avancé",
+        time: 40,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Équilibré"],
+        ingredients: [
+            { id: "farine_complete", name: "Farine", detail: "pour la pâte à choux", emoji: "🌾", baseQty: 25, unit: "g", scalable: true, role: "carb" },
+            { id: "oeuf", name: "Œuf", detail: "entier", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "Liant" },
+            { id: "ricotta", name: "Ricotta", detail: "égouttée, fouettée", emoji: "🧀", baseQty: 40, unit: "g", scalable: true, role: "Crème" },
+            { id: "fraises", name: "Fraises", detail: "tranchées pour la garniture", emoji: "🍓", baseQty: 30, unit: "g", scalable: true, role: "Fruit" },
+            { id: "miel", name: "Miel", detail: "dans la crème", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "Sucrant" },
+            { id: "huile_olive", name: "Beurre", detail: "pour la pâte à choux", emoji: "🧈", baseQty: 10, unit: "g", scalable: true, role: "fat" }
+        ],
+        options: [],
+        steps: [
+            { title: "Pâte à choux", text: "Pâte à choux : porter eau + beurre à ébullition, ajouter la farine d'un coup, dessécher sur feu." },
+            { title: "Incorporer les œufs un par un hors du feu", text: "Incorporer les œufs un par un hors du feu. La pâte doit former un ruban." },
+            { title: "Pocher des boudins de 6cm sur plaque et", text: "Pocher des boudins de 6cm sur plaque et enfourner 25 min à 180°C sans ouvrir le four." },
+            { title: "Fouetter la ricotta avec le miel et la", text: "Fouetter la ricotta avec le miel et la vanille pour une crème légère." },
+            { title: "Couper les éclairs en deux, garnir de", text: "Couper les éclairs en deux, garnir de crème ricotta et de fraises tranchées." },
+            { title: "Refermer et servir immédiatement.", text: "Refermer et servir immédiatement." }
+        ],
+        tips: [
+            { type: "green", title: "🫧 Pâte à choux sèche", text: "Desséchez bien la pâte sur le feu — elle doit se détacher de la casserole. C'est ce qui donne le creux intérieur pour garnir." },
+            { type: "red", title: "⚠️ Four fermé", text: "Ne JAMAIS ouvrir le four pendant la cuisson des choux — l'humidité fait retomber la pâte instantanément." }
+        ]
+    },
+
+    {
+        id: "sables-citron-graines-chia",
+        name: "Sablés citron et graines de chia",
+        subtitle: "Petits biscuits sablés fondants, parfumés au citron, parsemés de graines de chia",
+        emoji: "🍋",
+        category: "collation-emporter",
+        difficulty: "Facile",
+        time: 25,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Batch cooking"],
+        ingredients: [
+            { id: "farine_complete", name: "Farine complète", detail: "tamisée", emoji: "🌾", baseQty: 35, unit: "g", scalable: true, role: "carb" },
+            { id: "huile_olive", name: "Beurre", detail: "froid, en dés", emoji: "🧈", baseQty: 15, unit: "g", scalable: true, role: "fat" },
+            { id: "miel", name: "Miel", detail: "ou sucre glace", emoji: "🍯", baseQty: 10, unit: "g", scalable: true, role: "Sucrant" },
+            { id: "citron_jus", name: "Citron", detail: "jus et zeste", emoji: "🍋", baseQty: 10, unit: "ml", scalable: false, role: "Arôme" },
+            { id: "graines_chia", name: "Graines de chia", detail: "parsemées dessus", emoji: "🌱", baseQty: 5, unit: "g", scalable: false, role: "Topping" },
+            { id: "oeuf", name: "Jaune d'œuf", detail: "pour lier", emoji: "🥚", baseQty: 1, unit: "unité", scalable: false, role: "Liant" }
+        ],
+        options: [],
+        steps: [
+            { title: "Sabler la farine avec le beurre froid", text: "Sabler la farine avec le beurre froid coupé en dés du bout des doigts." },
+            { title: "Ajouter le miel, le jaune d'œuf, le", text: "Ajouter le miel, le jaune d'œuf, le zeste et le jus de citron. Former une boule sans trop travailler." },
+            { title: "Former un boudin, envelopper de film et", text: "Former un boudin, envelopper de film et réfrigérer 30 minutes minimum." },
+            { title: "Trancher en rondelles de 5mm, parsemer", text: "Trancher en rondelles de 5mm, parsemer de graines de chia en pressant légèrement." },
+            { title: "Enfourner 12-14 minutes à 170°C", text: "Enfourner 12-14 minutes à 170°C — les sablés doivent être blonds, pas dorés." },
+            { title: "Laisser refroidir sur la plaque 5", text: "Laisser refroidir sur la plaque 5 minutes avant de manipuler." }
+        ],
+        tips: [
+            { type: "green", title: "🧈 Sablage à froid", text: "Le secret du sablé : un beurre FROID et un travail minimum de la pâte. Trop travailler développe le gluten et rend le biscuit dur." },
+            { type: "red", title: "⚠️ Blonds, pas dorés", text: "Les sablés continuent de cuire sur la plaque chaude. Sortez-les blonds — ils seront parfaits une fois refroidis." }
+        ]
+    },
+
+    {
+        id: "fondant-chocolat-courgette",
+        name: "Fondant chocolat-courgette",
+        subtitle: "Gâteau au chocolat ultra-fondant avec courgette cachée, sans beurre",
+        emoji: "🍫",
+        category: "collation-maison",
+        difficulty: "Facile",
+        time: 30,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Perte de poids"],
+        ingredients: [
+            { id: "chocolat_noir_70", name: "Chocolat noir 70%", detail: "fondu", emoji: "🍫", baseQty: 30, unit: "g", scalable: true, role: "Base" },
+            { id: "courgette", name: "Courgette", detail: "râpée finement", emoji: "🥒", baseQty: 80, unit: "g", scalable: true, role: "Humidifiant" },
+            { id: "oeuf", name: "Œuf", detail: "entier", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "Liant" },
+            { id: "cacao_poudre", name: "Cacao en poudre", detail: "non sucré", emoji: "🤎", baseQty: 10, unit: "g", scalable: true, role: "Arôme" },
+            { id: "farine_complete", name: "Farine complète", detail: "tamisée", emoji: "🌾", baseQty: 20, unit: "g", scalable: true, role: "carb" },
+            { id: "miel", name: "Miel", detail: "ou sirop d'érable", emoji: "🍯", baseQty: 15, unit: "g", scalable: true, role: "Sucrant" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffer le four à 180°C", text: "Préchauffer le four à 180°C. Beurrer un moule à cake ou des ramequins." },
+            { title: "Faire fondre le chocolat au bain-marie,", text: "Faire fondre le chocolat au bain-marie, laisser tiédir." },
+            { title: "Mélanger l'œuf battu avec le miel, la", text: "Mélanger l'œuf battu avec le miel, la farine et le cacao tamisé." },
+            { title: "Incorporer le chocolat fondu et la", text: "Incorporer le chocolat fondu et la courgette râpée finement." },
+            { title: "Verser dans le moule, enfourner 20-22 minutes", text: "Verser dans le moule, enfourner 20-22 minutes — le centre doit rester légèrement tremblotant." },
+            { title: "Laisser tiédir 10 minutes avant de démouler", text: "Laisser tiédir 10 minutes avant de démouler. Servir tiède pour un maximum de fondant." }
+        ],
+        tips: [
+            { type: "green", title: "🥒 Courgette invisible", text: "La courgette râpée finement disparaît totalement dans le gâteau mais apporte une texture ultra-moelleuse et remplace le beurre." },
+            { type: "red", title: "⚠️ Centre tremblotant", text: "Le fondant parfait tremble encore légèrement au centre à la sortie du four. Il se solidifie en refroidissant." }
+        ]
+    },
+
+    {
+        id: "tiramisu-proteine",
+        name: "Tiramisu protéiné",
+        subtitle: "Classique italien revisité avec skyr et whey, léger et riche en protéines",
+        emoji: "☕",
+        category: "collation-maison",
+        difficulty: "Moyen",
+        time: 20,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Haute protéine","Sans cuisson"],
+        ingredients: [
+            { id: "skyr_0", name: "Skyr 0%", detail: "bien froid", emoji: "🥛", baseQty: 100, unit: "g", scalable: true, role: "Base" },
+            { id: "whey_protein", name: "Whey protéine", detail: "vanille", emoji: "💪", baseQty: 15, unit: "g", scalable: true, role: "protein" },
+            { id: "oeuf", name: "Jaune d'œuf", detail: "pasteurisé de préférence", emoji: "🥚", baseQty: 1, unit: "unité", scalable: true, role: "Crème" },
+            { id: "galette_riz", name: "Biscuits / Galettes", detail: "type boudoir, imbibés de café", emoji: "🍪", baseQty: 20, unit: "g", scalable: true, role: "Base" },
+            { id: "cacao_poudre", name: "Cacao en poudre", detail: "pour saupoudrer", emoji: "🤎", baseQty: 5, unit: "g", scalable: false, role: "Finition" },
+            { id: "miel", name: "Miel", detail: "un filet", emoji: "🍯", baseQty: 8, unit: "g", scalable: false, role: "Sucrant" }
+        ],
+        options: [],
+        steps: [
+            { title: "Fouetter le jaune d'œuf avec le miel", text: "Fouetter le jaune d'œuf avec le miel jusqu'à blanchiment et texture mousseuse." },
+            { title: "Incorporer le skyr et la whey protéine,", text: "Incorporer le skyr et la whey protéine, mélanger jusqu'à consistance lisse et onctueuse." },
+            { title: "Préparer un café espresso fort et le", text: "Préparer un café espresso fort et le laisser refroidir." },
+            { title: "Tremper rapidement les biscuits dans le", text: "Tremper rapidement les biscuits dans le café (pas trop pour qu'ils gardent de la tenue)." },
+            { title: "Alterner couches de biscuits imbibés et", text: "Alterner couches de biscuits imbibés et crème dans des verrines." },
+            { title: "Réfrigérer minimum 4h (idéalement une nuit)", text: "Réfrigérer minimum 4h (idéalement une nuit). Saupoudrer de cacao juste avant de servir." }
+        ],
+        tips: [
+            { type: "green", title: "☕ Repos minimum 4h", text: "Le tiramisu doit reposer au frais pour que les saveurs se mêlent et que la texture devienne crémeuse. Idéalement une nuit." },
+            { type: "red", title: "⚠️ Biscuits vite trempés", text: "Trempez les biscuits 1 seconde max — ils continuent d'absorber le café dans le montage. Trop trempés = bouillie." }
+        ]
+    },
+
+    {
+        id: "cheesecake-japonais-light",
+        name: "Cheesecake japonais light",
+        subtitle: "Gâteau au fromage soufflé japonais, léger comme un nuage, texture coton",
+        emoji: "🍰",
+        category: "collation-maison",
+        difficulty: "Avancé",
+        time: 50,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Perte de poids"],
+        ingredients: [
+            { id: "fromage_blanc_0", name: "Fromage blanc 0%", detail: "lisse, bien égoutté", emoji: "🧀", baseQty: 100, unit: "g", scalable: true, role: "Base" },
+            { id: "oeuf", name: "Œufs", detail: "3, blancs et jaunes séparés", emoji: "🥚", baseQty: 3, unit: "unités", scalable: true, role: "carb" },
+            { id: "farine_complete", name: "Farine ou Maïzena", detail: "tamisée", emoji: "🌾", baseQty: 15, unit: "g", scalable: true, role: "carb" },
+            { id: "citron_jus", name: "Jus de citron", detail: "un filet dans les blancs", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "Aide au montage" },
+            { id: "miel", name: "Miel", detail: "pour sucrer légèrement", emoji: "🍯", baseQty: 15, unit: "g", scalable: true, role: "Sucrant" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffer le four à 160°C", text: "Préchauffer le four à 160°C. Préparer un bain-marie dans un grand plat." },
+            { title: "Mélanger le fromage blanc avec les", text: "Mélanger le fromage blanc avec les jaunes d'œufs et le miel jusqu'à lisse." },
+            { title: "Incorporer la farine tamisée délicatement.", text: "Incorporer la farine tamisée délicatement." },
+            { title: "Monter les blancs en neige ferme avec un", text: "Monter les blancs en neige ferme avec un trait de citron. Incorporer en 3 fois dans l'appareil." },
+            { title: "Verser dans un moule beurré et fariné,", text: "Verser dans un moule beurré et fariné, déposer dans le bain-marie." },
+            { title: "Cuire 45 minutes à 160°C", text: "Cuire 45 minutes à 160°C. Éteindre le four et laisser refroidir dedans porte entrouverte." }
+        ],
+        tips: [
+            { type: "green", title: "🍰 Texture coton", text: "Le bain-marie et la cuisson douce créent cette texture nuageuse. Les blancs montés fermes apportent le volume." },
+            { type: "red", title: "⚠️ Refroidissement lent", text: "NE JAMAIS sortir le cheesecake du four brutalement. Le choc thermique le fait s'effondrer. Refroidissez porte entrouverte." }
+        ]
+    },
+
+    {
+        id: "panna-cotta-passion-coco",
+        name: "Panna cotta passion-coco",
+        subtitle: "Panna cotta crémeuse au lait de coco, coulis de fruit de la passion acidulé",
+        emoji: "🥥",
+        category: "collation-maison",
+        difficulty: "Facile",
+        time: 15,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Sans gluten","Sans cuisson"],
+        ingredients: [
+            { id: "lait_coco", name: "Lait de coco", detail: "entier, crémeux", emoji: "🥥", baseQty: 100, unit: "ml", scalable: true, role: "Base" },
+            { id: "yaourt_grec", name: "Yaourt grec", detail: "pour la texture", emoji: "🥛", baseQty: 50, unit: "g", scalable: true, role: "Base" },
+            { id: "mangue", name: "Fruit de la passion / Mangue", detail: "pour le coulis", emoji: "🥭", baseQty: 40, unit: "g", scalable: true, role: "Coulis" },
+            { id: "miel", name: "Miel", detail: "pour sucrer", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "Sucrant" },
+            { id: "citron_jus", name: "Jus de citron", detail: "dans le coulis", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "Acidité" }
+        ],
+        options: [],
+        steps: [
+            { title: "Faire chauffer le lait de coco avec le", text: "Faire chauffer le lait de coco avec le miel sans bouillir. Ajouter la gélatine ramollie (2g) et mélanger." },
+            { title: "Hors du feu, incorporer le yaourt grec", text: "Hors du feu, incorporer le yaourt grec en fouettant pour une texture homogène." },
+            { title: "Verser dans des verrines et réfrigérer", text: "Verser dans des verrines et réfrigérer minimum 4h jusqu'à prise." },
+            { title: "Préparer le coulis", text: "Préparer le coulis : mixer la mangue avec le citron et un peu d'eau." },
+            { title: "Au moment de servir, verser le coulis", text: "Au moment de servir, verser le coulis sur les panna cotta prises." },
+            { title: "Décorer de noix de coco râpée et de", text: "Décorer de noix de coco râpée et de feuilles de menthe." }
+        ],
+        tips: [
+            { type: "green", title: "🥥 Texture parfaite", text: "La panna cotta doit être prise mais tremblotante — elle fond en bouche. Trop de gélatine = texture gommeuse." },
+            { type: "red", title: "⚠️ Gélatine hors ébullition", text: "Ne faites JAMAIS bouillir la gélatine — elle perd ses propriétés gélifiantes. Ajoutez-la au liquide chaud mais non bouillant." }
+        ]
+    },
+
+    {
+        id: "crumble-pomme-speculoos-light",
+        name: "Crumble pomme-spéculoos light",
+        subtitle: "Pommes fondantes épicées, crumble croustillant aux flocons d'avoine et spéculoos",
+        emoji: "🍏",
+        category: "collation-maison",
+        difficulty: "Facile",
+        time: 35,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Équilibré"],
+        ingredients: [
+            { id: "pomme", name: "Pommes", detail: "Golden ou Granny, en cubes", emoji: "🍏", baseQty: 120, unit: "g", scalable: true, role: "Fruit" },
+            { id: "flocons_avoine", name: "Flocons d'avoine", detail: "pour le crumble", emoji: "🌾", baseQty: 25, unit: "g", scalable: true, role: "Crumble" },
+            { id: "farine_complete", name: "Farine complète", detail: "pour le crumble", emoji: "🌾", baseQty: 10, unit: "g", scalable: true, role: "Crumble" },
+            { id: "huile_olive", name: "Beurre", detail: "froid, en dés", emoji: "🧈", baseQty: 10, unit: "g", scalable: true, role: "Crumble" },
+            { id: "miel", name: "Miel", detail: "dans les pommes et le crumble", emoji: "🍯", baseQty: 10, unit: "g", scalable: false, role: "Sucrant" },
+            { id: "noix_coco_rapee", name: "Noix de coco râpée", detail: "dans le crumble", emoji: "🥥", baseQty: 5, unit: "g", scalable: false, role: "Crumble" }
+        ],
+        options: [],
+        steps: [
+            { title: "Préchauffer le four à 180°C", text: "Préchauffer le four à 180°C. Couper les pommes en cubes et les disposer dans un plat." },
+            { title: "Arroser les pommes de miel, ajouter", text: "Arroser les pommes de miel, ajouter cannelle et un filet de citron. Mélanger." },
+            { title: "Préparer le crumble", text: "Préparer le crumble : sabler flocons d'avoine, farine, coco et beurre froid du bout des doigts." },
+            { title: "Former des grumeaux irréguliers", text: "Former des grumeaux irréguliers — c'est ce qui donne le croustillant varié." },
+            { title: "Répartir le crumble sur les pommes et", text: "Répartir le crumble sur les pommes et enfourner 25-30 minutes." },
+            { title: "Le crumble est prêt quand le dessus est", text: "Le crumble est prêt quand le dessus est doré et que le jus des pommes bouillonne sur les côtés." }
+        ],
+        tips: [
+            { type: "green", title: "🌾 Grumeaux volontaires", text: "Ne cherchez pas une pâte homogène — les grumeaux de tailles différentes créent un croustillant varié et intéressant." },
+            { type: "red", title: "⚠️ Pommes pas trop petites", text: "Des cubes de 2cm gardent de la tenue après cuisson. Trop petits = compote sous le crumble." }
+        ]
+    },
+
+    {
+        id: "mousse-mangue-coco-chia",
+        name: "Mousse mangue-coco-chia",
+        subtitle: "Mousse légère à la mangue, base de pudding chia-coco, coulis tropical",
+        emoji: "🥭",
+        category: "collation-maison",
+        difficulty: "Facile",
+        time: 15,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Vegan","Sans gluten","Sans cuisson"],
+        ingredients: [
+            { id: "mangue", name: "Mangue", detail: "bien mûre, en morceaux", emoji: "🥭", baseQty: 100, unit: "g", scalable: true, role: "Fruit" },
+            { id: "lait_coco", name: "Lait de coco", detail: "bien froid", emoji: "🥥", baseQty: 80, unit: "ml", scalable: true, role: "Base" },
+            { id: "graines_chia", name: "Graines de chia", detail: "pour le pudding", emoji: "🌱", baseQty: 15, unit: "g", scalable: true, role: "Base" },
+            { id: "citron_jus", name: "Jus de citron vert", detail: "un filet", emoji: "🍋", baseQty: 5, unit: "ml", scalable: false, role: "Acidité" },
+            { id: "sirop_erable", name: "Sirop d'érable", detail: "pour sucrer", emoji: "🍁", baseQty: 8, unit: "ml", scalable: false, role: "Sucrant" },
+            { id: "noix_coco_rapee", name: "Noix de coco râpée", detail: "pour le topping", emoji: "🥥", baseQty: 5, unit: "g", scalable: false, role: "Topping" }
+        ],
+        options: [],
+        steps: [
+            { title: "La veille", text: "La veille : mélanger le lait de coco avec les graines de chia et le sirop d'érable. Réfrigérer une nuit." },
+            { title: "Le jour même", text: "Le jour même : mixer la mangue avec le jus de citron vert pour un coulis lisse." },
+            { title: "Le pudding chia doit avoir une texture", text: "Le pudding chia doit avoir une texture épaisse type tapioca." },
+            { title: "Dans des verrines, alterner couche de", text: "Dans des verrines, alterner couche de pudding chia-coco et couche de mousse de mangue." },
+            { title: "Terminer par le coulis de mangue et de", text: "Terminer par le coulis de mangue et de la noix de coco râpée." },
+            { title: "Servir bien frais", text: "Servir bien frais. Se conserve 2 jours au réfrigérateur." }
+        ],
+        tips: [
+            { type: "green", title: "🌱 Repos une nuit", text: "Les graines de chia ont besoin de minimum 4h (idéalement une nuit) pour gonfler et créer cette texture pudding caractéristique." },
+            { type: "red", title: "⚠️ Bien mélanger", text: "Remuez le mélange chia-coco après 30 min de frigo pour éviter les grumeaux. Les graines ont tendance à s'agglutiner." }
+        ]
+    },
+
+    {
+        id: "bowl-nicecream-cookies",
+        name: "Bowl de nice cream cookies",
+        subtitle: "Glace crémeuse à la banane congelée, pépites de cookies et toppings",
+        emoji: "🍦",
+        category: "collation-maison",
+        difficulty: "Facile",
+        time: 10,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Vegan","Sans gluten","Express","Sans cuisson"],
+        ingredients: [
+            { id: "banane", name: "Bananes", detail: "congelées en rondelles (la veille)", emoji: "🍌", baseQty: 120, unit: "g", scalable: true, role: "Base" },
+            { id: "beurre_cacahuete", name: "Beurre de cacahuète", detail: "crémeux", emoji: "🥜", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
+            { id: "chocolat_noir_70", name: "Chocolat noir", detail: "en copeaux", emoji: "🍫", baseQty: 10, unit: "g", scalable: false, role: "Topping" },
+            { id: "granola", name: "Granola", detail: "crunchy", emoji: "🌾", baseQty: 15, unit: "g", scalable: false, role: "Topping" },
+            { id: "lait_amande", name: "Lait d'amande", detail: "un trait pour mixer", emoji: "🥛", baseQty: 20, unit: "ml", scalable: false, role: "Liquidité" }
+        ],
+        options: [],
+        steps: [
+            { title: "Sortir les bananes congelées 5 minutes", text: "Sortir les bananes congelées 5 minutes avant de les mixer (elles doivent être encore dures)." },
+            { title: "Mixer les bananes avec un trait de lait", text: "Mixer les bananes avec un trait de lait d'amande jusqu'à obtenir une texture de glace crémeuse." },
+            { title: "Transférer dans un bol, travailler", text: "Transférer dans un bol, travailler rapidement car ça fond vite." },
+            { title: "Garnir de beurre de cacahuète en filet,", text: "Garnir de beurre de cacahuète en filet, copeaux de chocolat et granola crunchy." },
+            { title: "Déguster immédiatement", text: "Déguster immédiatement — la nice cream fond rapidement." }
+        ],
+        tips: [
+            { type: "green", title: "🍌 Bananes bien mûres", text: "Utilisez des bananes très mûres (tachetées) avant de les congeler — elles sont plus sucrées naturellement et mixent mieux." },
+            { type: "red", title: "⚠️ Servir immédiatement", text: "La nice cream fond beaucoup plus vite que la vraie glace. Préparez les toppings AVANT de mixer pour un service express." }
+        ]
+    },
+
+    {
+        id: "riz-au-lait-matcha-sesame",
+        name: "Riz au lait matcha-sésame",
+        subtitle: "Riz au lait crémeux parfumé au thé matcha, sésame noir torréfié",
+        emoji: "🍵",
+        category: "collation-maison",
+        difficulty: "Facile",
+        time: 35,
+        sliderMin: 50,
+        sliderMax: 200,
+        tags: ["Végétarien","Sans gluten","Équilibré"],
+        ingredients: [
+            { id: "riz_basmati_cuit", name: "Riz rond", detail: "cru, rincé", emoji: "🍚", baseQty: 40, unit: "g", scalable: true, role: "Base", rawRatio: 2.25 },
+            { id: "lait_demi", name: "Lait demi-écrémé", detail: "ou lait d'amande", emoji: "🥛", baseQty: 150, unit: "ml", scalable: true, role: "Liquide" },
+            { id: "lait_coco", name: "Lait de coco", detail: "une touche de crème", emoji: "🥥", baseQty: 30, unit: "ml", scalable: false, role: "Crème" },
+            { id: "miel", name: "Miel", detail: "pour sucrer", emoji: "🍯", baseQty: 12, unit: "g", scalable: false, role: "Sucrant" },
+            { id: "lait_amande", name: "Thé matcha", detail: "en poudre (1 cc)", emoji: "🍵", baseQty: 3, unit: "g", scalable: false, role: "Arôme" }
+        ],
+        options: [],
+        steps: [
+            { title: "Rincer le riz rond à l'eau froide", text: "Rincer le riz rond à l'eau froide jusqu'à ce que l'eau soit claire." },
+            { title: "Porter le lait à frémissement avec le", text: "Porter le lait à frémissement avec le lait de coco et le miel." },
+            { title: "Ajouter le riz et cuire à feu très doux", text: "Ajouter le riz et cuire à feu très doux pendant 25-30 minutes en remuant régulièrement." },
+            { title: "Quand le riz est crémeux et tendre,", text: "Quand le riz est crémeux et tendre, retirer du feu et incorporer le matcha tamisé." },
+            { title: "Mélanger vigoureusement pour une couleur", text: "Mélanger vigoureusement pour une couleur verte uniforme et homogène." },
+            { title: "Servir tiède ou froid, parsemé de", text: "Servir tiède ou froid, parsemé de graines de sésame noir torréfié." }
+        ],
+        tips: [
+            { type: "green", title: "🍵 Matcha en fin de cuisson", text: "Ajoutez le matcha HORS du feu pour préserver sa couleur verte vibrante et ses arômes délicats que la chaleur altère." },
+            { type: "red", title: "⚠️ Feu très doux", text: "Le riz au lait brûle facilement au fond. Remuez régulièrement et maintenez un feu le plus doux possible." }
+        ]
+    }
+
 ];
