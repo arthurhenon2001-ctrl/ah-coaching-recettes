@@ -654,9 +654,11 @@ h1, h2, h3 {
     flex-direction: column;
 }
 
-.recipe-card:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-hover);
+@media (hover: hover) {
+    .recipe-card:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-hover);
+    }
 }
 
 .card-header {
