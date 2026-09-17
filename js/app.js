@@ -350,10 +350,27 @@
         '</a>';
     }
 
-    function renderRecipes() {
+    // ============================================
+    // PAGINATION
+    // ============================================
+    // Avant : les 610 cartes etaient injectees d'un seul coup. Le document faisait
+    // plus de 200 000 px de haut, et dans l'iframe de l'app (modale en position
+    // fixed) iOS perdait la correspondance entre l'endroit touche et l'element
+    // vise : les boutons de filtre et le champ de recherche ne repondaient plus.
+    // Effet de bord supprime au passage : l'animation d'apparition appliquait un
+    // delai de 0,05 s par carte, soit 30 s sur la derniere.
+    var PAGE_SIZE = 48;
+    var shownCount = PAGE_SIZE;
+
+    function renderRecipes(keepPage) {
         var grid = document.getElementById('recipes-grid');
         var countEl = document.getElementById('results-count');
+        var wrap = document.getElementById('load-more-wrap');
+        var moreBtn = document.getElementById('load-more');
         var filtered = getFilteredAndSortedRecipes();
+
+        // Tout changement de filtre, de tri ou de recherche repart de la page 1.
+        if (!keepPage) shownCount = PAGE_SIZE;
 
         if (filtered.length === 0) {
             grid.innerHTML = '<div class="empty-state">' +
@@ -362,15 +379,27 @@
                 '<p>Essaye de modifier tes filtres ou ta recherche.</p>' +
             '</div>';
         } else {
-            grid.innerHTML = filtered.map(renderCard).join('');
+            grid.innerHTML = filtered.slice(0, shownCount).map(renderCard).join('');
         }
 
         countEl.textContent = filtered.length;
 
-        // Re-trigger animations
+        if (wrap && moreBtn) {
+            var reste = filtered.length - shownCount;
+            if (reste > 0) {
+                var lot = Math.min(reste, PAGE_SIZE);
+                moreBtn.textContent = 'Charger ' + lot + ' recettes de plus (' + reste + ' restantes)';
+                wrap.hidden = false;
+            } else {
+                wrap.hidden = true;
+            }
+        }
+
+        // Animation limitee aux premieres cartes : au-dela le decalage cumule
+        // rendait les dernieres invisibles pendant de longues secondes.
         var cards = grid.querySelectorAll('.recipe-card');
         cards.forEach(function(card, i) {
-            card.style.animationDelay = (i * 0.05) + 's';
+            card.style.animationDelay = (i < 12 ? i * 0.05 : 0) + 's';
         });
 
         // Update active chips
@@ -378,6 +407,19 @@
 
         // Update toggle button badge
         updateToggleBadge();
+    }
+
+    function setupLoadMore() {
+        var moreBtn = document.getElementById('load-more');
+        if (!moreBtn) return;
+        moreBtn.addEventListener('click', function() {
+            var avant = document.querySelectorAll('.recipe-card').length;
+            shownCount += PAGE_SIZE;
+            renderRecipes(true);
+            // On replace la vue sur la premiere carte nouvellement ajoutee.
+            var cards = document.querySelectorAll('.recipe-card');
+            if (cards[avant]) cards[avant].scrollIntoView({ block: 'start' });
+        });
     }
 
     // ============================================
@@ -594,6 +636,7 @@
     // ============================================
 
     function init() {
+        setupLoadMore();
         // Build caches
         buildMacroCache();
         buildIngredientMasterList();

@@ -1642,3 +1642,35 @@ input[type="range"]::-moz-range-thumb {
         font-size: 18px;
     }
 }
+
+
+/* ============================================
+   PAGINATION (« Charger plus »)
+   ============================================
+   610 cartes rendues d'un coup produisaient un document de plus de 200 000 px de
+   haut. Dans l'iframe de l'app (modale en position fixed), iOS perdait alors la
+   correspondance entre l'endroit touche et l'element reellement cible : les filtres
+   et le champ de recherche ne repondaient plus. On rend par paquets. */
+.load-more-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 8px 0 40px;
+}
+.load-more-btn {
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary, #2d2a26);
+    background: var(--surface, #fff);
+    border: 1px solid var(--border, #e6e0d6);
+    border-radius: 999px;
+    padding: 13px 28px;
+    cursor: pointer;
+    min-height: 48px;
+    transition: background-color .15s ease, border-color .15s ease;
+    -webkit-tap-highlight-color: transparent;
+}
+.load-more-btn:active { background: var(--bg-soft, #f5f1ea); }
+@media (hover: hover) {
+    .load-more-btn:hover { border-color: var(--accent, #b08d57); }
+}
