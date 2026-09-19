@@ -1,19 +1,39 @@
 // ============================================================================
-// BATCH COOKING — bibliotheque de gros plats
+// BATCH COOKING : bibliotheque de gros plats
 // ============================================================================
 // Chaque plat est concu pour etre cuisine UNE fois et manger plusieurs repas.
 // Le classement se fait sur le ratio activeTime / portions : les minutes de
 // cuisine reellement passees pour chaque repas produit.
 //
-// Ces recettes ont ete produites puis passees par trois controles adversariaux
-// (calcul des macros, faisabilite en cuisine, securite de conservation). Huit
-// autres ont ete ecartees : doublons, volumes physiquement impossibles dans le
-// materiel annonce, ou ratio reel superieur a 6 min par repas une fois le temps
-// de decoupe honnetement compte.
+// Ces recettes ont ete produites puis passees par deux vagues de controles
+// adversariaux (macros, faisabilite en cuisine, securite de conservation,
+// coherence nutritionnelle, experience). Huit autres ont ete ecartees en
+// premiere vague : doublons ou volumes physiquement impossibles dans le
+// materiel annonce.
 //
-// ⚠️ Les identifiants d'ingredient DOIVENT exister dans NUTRITION_DB : le
-// moteur de macros ignore silencieusement un ingredient inconnu, ce qui
-// sous-evaluerait les calories affichees. batch.js le verifie au chargement.
+// ⚠️ CONVENTIONS, a tenir pour toute recette ajoutee ici :
+//   - la viande se pese CRUE et pointe sur une entree crue de NUTRITION_DB
+//     (poulet_blanc_cru, porc_filet_cru, agneau_gigot_cru, boeuf_hache_5) ;
+//     poulet_grille porte les valeurs du poulet DEJA CUIT, il gonfle un poids
+//     cru d'un tiers.
+//   - les feculents se pesent CUITS et portent l'equivalent cru dans detail.
+//   - activeTime contient le temps de decoupe, et une etape le chiffre.
+//   - multipliable: false des que le materiel est une contenance ou une
+//     surface fixe (plat, plaque, bocaux) : doubler les quantites ne double
+//     pas le plat.
+//   - les identifiants d'ingredient DOIVENT exister dans NUTRITION_DB, le
+//     moteur ignore silencieusement un inconnu. batch.js le verifie au
+//     chargement, et controle aussi l'ecart entre champs annonces et calcul.
+//   - les tags d'objectif suivent une regle, pas une impression :
+//       Perte de poids = 450 kcal max par portion ET 110 kcal/100 g max
+//                        (c'est le volume par calorie qui rassasie) ;
+//       Prise de masse = 540 kcal minimum par portion.
+//     Entre les deux, aucun tag d'objectif. Sans regle, les deux tags se
+//     recouvraient et un plat vendu "perte de poids" etait plus calorique
+//     qu'un plat vendu "prise de masse".
+//   - conservationCourte est ce qui s'affiche sur la carte de la liste : il
+//     doit porter la duree ET la reserve de congelation, sinon la carte
+//     promet un flocon que la fiche restreint.
 // ============================================================================
 
 const BATCH_RECIPES = [
@@ -22,7 +42,7 @@ const BATCH_RECIPES = [
         "name": "Porridge protéiné au four",
         "subtitle": "Petit-déjeuner, 8 parts dans un seul plat, 18 min de travail",
         "emoji": "🥣",
-        "category": "dejeuner",
+        "category": "petit-dejeuner",
         "portions": 8,
         "activeTime": 18,
         "totalTime": 60,
@@ -34,11 +54,9 @@ const BATCH_RECIPES = [
             "Batch cooking",
             "Meal prep",
             "Haute protéine",
-            "Prise de masse",
-            "Congelable",
-            "Économique"
+            "Congelable"
         ],
-        "kcalParPortion": 494,
+        "kcalParPortion": 498,
         "proteinesParPortion": 33.2,
         "minutesParPortion": 2.3,
         "ingredients": [
@@ -150,7 +168,7 @@ const BATCH_RECIPES = [
             "Incorpore les flocons d'avoine, la whey et les graines de chia, mélange sans insister.",
             "Verse dans le plat (environ 3 cm d'épaisseur), égalise et parsème les myrtilles sur toute la surface.",
             "Enfourne 40 à 45 minutes : la lame doit ressortir propre au centre et le plat ne plus trembler.",
-            "Laisse refroidir complètement à découvert, découpe 8 parts et range-les dans des boîtes individuelles au frigo dans les 2 heures."
+            "Découpe les 8 parts tout de suite, sors-les du plat et étale-les sur une grille : un bloc de 2,8 kg entier ne refroidit pas en 2 heures, des parts séparées si. Dès qu'elles sont tièdes, direction le frigo."
         ],
         "tips": [
             "Incorpore la whey en dernier et ne prolonge jamais la cuisson au delà du moment où la lame ressort propre : c'est elle qui assèche le plat si elle chauffe trop longtemps.",
@@ -160,14 +178,16 @@ const BATCH_RECIPES = [
         "variantes": [
             "Version pomme cannelle : remplace les myrtilles par 300 g de pomme en dés et ajoute une bonne cuillère de cannelle dans l'appareil.",
             "Version cacao : retire le miel, ajoute 30 g de cacao en poudre et 40 g de chocolat noir 70% concassé sur le dessus."
-        ]
+        ],
+        "multipliable": false,
+        "conservationCourte": "4 j frigo, se congèle"
     },
     {
         "id": "pots-skyr-proteines-semaine",
         "name": "Pots de skyr protéinés",
         "subtitle": "Petit-déjeuner, 6 pots montés en 15 minutes, zéro cuisson",
         "emoji": "🫙",
-        "category": "dejeuner",
+        "category": "petit-dejeuner",
         "portions": 6,
         "activeTime": 15,
         "totalTime": 15,
@@ -179,7 +199,6 @@ const BATCH_RECIPES = [
             "Batch cooking",
             "Meal prep",
             "Haute protéine",
-            "Perte de poids",
             "Végétarien"
         ],
         "kcalParPortion": 474,
@@ -283,14 +302,15 @@ const BATCH_RECIPES = [
         "variantes": [
             "Version cacao banane : remplace les fruits rouges par de la banane en rondelles et ajoute 20 g de cacao en poudre dans la base.",
             "Version tropicale : mangue en dés, noix de coco râpée sur le dessus et un trait de jus de citron vert dans la base."
-        ]
+        ],
+        "conservationCourte": "5 j frigo max, jamais après la DLC du skyr"
     },
     {
         "id": "bowl-cake-plaque-cacao-banane",
         "name": "Bowl cake en plaque cacao banane",
         "subtitle": "Petit-déjeuner, une plaque découpée en 8 parts, 20 min de travail",
         "emoji": "🍫",
-        "category": "dejeuner",
+        "category": "petit-dejeuner",
         "portions": 8,
         "activeTime": 20,
         "totalTime": 48,
@@ -302,11 +322,10 @@ const BATCH_RECIPES = [
             "Batch cooking",
             "Meal prep",
             "Haute protéine",
-            "Prise de masse",
             "Congelable",
             "Végétarien"
         ],
-        "kcalParPortion": 502,
+        "kcalParPortion": 507,
         "proteinesParPortion": 36.4,
         "minutesParPortion": 2.5,
         "ingredients": [
@@ -423,13 +442,15 @@ const BATCH_RECIPES = [
         ],
         "tips": [
             "Arrête la cuisson quand la lame ressort encore un peu humide. Avec de la whey dans la pâte, cinq minutes de trop transforment le moelleux en éponge sèche.",
-            "Le plat de 35 x 25 donne 2,5 cm d'épaisseur, c'est la hauteur qui cuit à coeur. Dans un 30 x 20 tu montes à 3,6 cm et le centre reste cru.",
+            "Le plat de 35 x 25 donne 2,5 cm d'épaisseur, c'est la hauteur qui cuit à cœur. Dans un 30 x 20 tu montes à 3,6 cm et le centre reste cru.",
             "Congèle les parts emballées séparément et sors-en une la veille au soir. Le matin elle est prête, sans micro-ondes."
         ],
         "variantes": [
             "Version noisette caramel : remplace le cacao par 40 g de farine complète et double le beurre de cacahuète marbré sur le dessus.",
             "Version fruits rouges : retire le cacao et le chocolat, ajoute 250 g de fruits rouges enfoncés dans la pâte avant d'enfourner."
-        ]
+        ],
+        "multipliable": false,
+        "conservationCourte": "4 j frigo, se congèle"
     },
     {
         "id": "frittata-jambon-emmental-plaque",
@@ -441,18 +462,17 @@ const BATCH_RECIPES = [
         "activeTime": 22,
         "totalTime": 60,
         "difficulty": "Facile",
-        "conservation": "4 jours au frigo dans une boîte hermétique, 2 mois au congélateur",
-        "rechauffage": "1 min 30 au micro-ondes par part, ou 10 min à 150 degrés au four. Sortie du congélateur, laisse-la une nuit au frigo avant.",
-        "materiel": "1 plat à four de 30 x 20 cm, 1 poêle, 1 grand saladier",
+        "conservation": "3 jours au frigo en parts individuelles filmées, une fois la part complètement froide. 2 mois au congélateur, décongélation une nuit au frigo.",
+        "rechauffage": "Une part de 300 g et près de 3 cm d'épaisseur : 2 min 30 au micro-ondes à couvert, puis 1 min de repos pour que la chaleur gagne le centre, et vérifie que le cœur est brûlant avant de manger, relance 30 secondes sinon. Ou 15 min à 150 degrés au four. Sortie du congélateur, laisse-la une nuit au frigo avant.",
+        "materiel": "1 plat à four de 35 x 25 cm, 1 poêle, 1 grand saladier",
         "tags": [
             "Batch cooking",
             "Meal prep",
             "Haute protéine",
-            "Perte de poids",
             "Congelable",
             "Sans gluten"
         ],
-        "kcalParPortion": 356,
+        "kcalParPortion": 371,
         "proteinesParPortion": 33.3,
         "minutesParPortion": 2.8,
         "ingredients": [
@@ -548,12 +568,12 @@ const BATCH_RECIPES = [
             }
         ],
         "steps": [
-            "Préchauffe le four à 180 degrés chaleur tournante et huile le plat de 30 x 20.",
+            "Préchauffe le four à 180 degrés chaleur tournante et huile le plat de 35 x 25.",
             "Émince l'oignon, taille le poivron en petits dés et hache les épinards.",
             "Fais revenir oignon et poivron 5 minutes à la poêle pour leur faire rendre leur eau, ajoute les épinards 1 minute puis coupe le feu.",
             "Bats les oeufs entiers avec les blancs et la crème dans un grand saladier, sale et poivre généreusement.",
             "Ajoute les légumes tiédis, le jambon en dés et les trois quarts de l'emmental, mélange.",
-            "Verse dans le plat et parsème le reste d'emmental.",
+            "Verse dans le plat et parsème le reste d'emmental. Dans un 35 x 25 l'appareil fait 2,7 cm, l'épaisseur pour laquelle les temps de cuisson ci-dessous sont écrits. Dans un plat plus petit il monte à 4 cm et le centre reste liquide.",
             "Enfourne 40 à 45 minutes : le centre doit être ferme au toucher et la lame ressortir propre.",
             "Laisse refroidir à découvert, découpe 8 parts et range-les au frigo dans les 2 heures."
         ],
@@ -565,7 +585,9 @@ const BATCH_RECIPES = [
         "variantes": [
             "Version méditerranéenne : remplace le jambon et l'emmental par 200 g de feta émiettée et 200 g de tomates coupées et bien égouttées.",
             "Version relevée : ajoute 20 g de harissa dans l'appareil et remplace le poivron par du chou kale finement haché."
-        ]
+        ],
+        "multipliable": false,
+        "conservationCourte": "3 j frigo, se congèle 2 mois"
     },
     {
         "id": "dahl-lentilles-tofu-lait-coco",
@@ -588,7 +610,8 @@ const BATCH_RECIPES = [
             "Sans gluten",
             "Haute protéine",
             "Économique",
-            "Congelable"
+            "Congelable",
+            "Prise de masse"
         ],
         "kcalParPortion": 548,
         "proteinesParPortion": 33.7,
@@ -742,17 +765,18 @@ const BATCH_RECIPES = [
         ],
         "variantes": [
             "Jour 2, en version soupe épaisse : allonge 250 g de dahl avec 15 cl d'eau chaude et un trait de jus de citron, et le plat devient un déjeuner léger.",
-            "Jour 4, en version protéinée : ajoute 120 g de blanc de poulet grillé ou 2 oeufs durs sur la portion, pour ceux qui mangent avec toi et veulent de la viande."
-        ]
+            "Jour 4, en version protéinée : ajoute 120 g de blanc de poulet grillé ou 2 œufs durs sur la portion, pour ceux qui mangent avec toi et veulent de la viande."
+        ],
+        "conservationCourte": "4 j frigo, se congèle"
     },
     {
         "id": "veloute-lentilles-poulet-effiloche",
         "name": "Velouté de lentilles au poulet effiloché",
-        "subtitle": "8 bols à 45 g de protéines, 25 min de vrai travail",
+        "subtitle": "8 bols à 37 g de protéines, 33 min de vrai travail",
         "emoji": "🍲",
         "category": "dejeuner",
         "portions": 8,
-        "activeTime": 25,
+        "activeTime": 33,
         "totalTime": 65,
         "difficulty": "Facile",
         "conservation": "4 jours au frigo dans des boîtes hermétiques, 3 mois au congélateur en portions individuelles",
@@ -767,12 +791,12 @@ const BATCH_RECIPES = [
             "Congelable",
             "Sans gluten"
         ],
-        "kcalParPortion": 406,
-        "proteinesParPortion": 45.4,
-        "minutesParPortion": 3.1,
+        "kcalParPortion": 351,
+        "proteinesParPortion": 37.4,
+        "minutesParPortion": 4.1,
         "ingredients": [
             {
-                "id": "poulet_grille",
+                "id": "poulet_blanc_cru",
                 "name": "Blancs de poulet",
                 "detail": "entiers, ils cuisent dans le bouillon puis s'effilochent",
                 "emoji": "🍗",
@@ -873,6 +897,7 @@ const BATCH_RECIPES = [
             }
         ],
         "steps": [
+            "Épluche et coupe les carottes en rondelles épaisses, émince les oignons et taille le céleri en tronçons. Compte 8 minutes, c'est la seule découpe du plat.",
             "Chauffe l'huile d'olive dans la cocotte à feu moyen. Jette dedans oignons, carottes et céleri et laisse revenir 6 min en remuant de temps en temps.",
             "Ajoute l'ail et le concentré de tomate, remue 1 min pour torréfier le concentré.",
             "Verse les lentilles et 1,7 litre d'eau ou de bouillon, sale, poivre, puis pose les blancs de poulet entiers sur le dessus.",
@@ -883,14 +908,15 @@ const BATCH_RECIPES = [
             "Répartis tout de suite en 8 boîtes, couvercles ouverts, et mets au frigo dès qu'elles sont tièdes, moins de 2 heures après la cuisson."
         ],
         "tips": [
-            "Le rapport qui compte : 25 min de travail pour 8 repas, soit 3 minutes par assiette. C'est un des meilleurs ratios de toute la bibliothèque.",
+            "Le rapport qui compte : 33 min de travail pour 8 repas, soit un peu plus de 4 minutes par assiette. Le couteau est le seul vrai poste de travail, le reste mijote sans toi.",
             "Pocher les blancs entiers sur le dessus du bouillon puis les effilocher, c'est la seule façon de garder du blanc de poulet moelleux au jour 4.",
             "Congèle 4 portions le jour même. Une soupe qui reste 4 jours au frigo finit toujours par être mangée en retard ou jetée."
         ],
         "variantes": [
             "Version marocaine : ajoute 2 cuillères à café de cumin et 1 de cannelle avec le concentré de tomate, et remplace le citron par de la coriandre fraîche.",
             "Version plus riche en fin de semaine : écrase 200 g de pois chiches cuits dans les 2 dernières portions, ça change complètement la texture."
-        ]
+        ],
+        "conservationCourte": "4 j frigo, se congèle"
     },
     {
         "id": "chili-con-carne-xxl-cocotte",
@@ -903,13 +929,12 @@ const BATCH_RECIPES = [
         "totalTime": 85,
         "difficulty": "Facile",
         "conservation": "4 jours au frigo dans des boîtes hermétiques, 3 mois au congélateur en portions individuelles",
-        "rechauffage": "À la casserole 8 min à feu doux avec 2 cuillères à soupe d'eau jusqu'à ce que ça fume, ou 3 min au micro-ondes couvert en remuant à mi-parcours. Portion congelée : la sortir la veille au soir au frigo.",
-        "materiel": "1 grande cocotte ou faitout de 5 litres minimum, avec couvercle",
+        "rechauffage": "Casserole 8 min à feu doux à couvert avec 2 cuillères à soupe d'eau, ou 5 min au micro-ondes à couvert en remuant à mi-parcours, jusqu'à ce que le centre fume franchement. Relance 1 min si ce n'est pas le cas.",
+        "materiel": "1 grande cocotte ou faitout de 6 litres minimum, 7 litres confortable, avec couvercle",
         "tags": [
             "Batch cooking",
             "Meal prep",
             "Haute protéine",
-            "Perte de poids",
             "Économique",
             "Congelable",
             "Sans gluten"
@@ -1048,14 +1073,15 @@ const BATCH_RECIPES = [
         "variantes": [
             "Jour 3, version chili cheese : 30 g d'emmental râpé sur la portion chaude et 2 minutes sous le gril, le plat change complètement de registre.",
             "Jour 5, version tacos : 200 g de chili réchauffé, 2 tortillas de blé complet, de la salade verte et une cuillère de fromage blanc 0% à la place de la crème."
-        ]
+        ],
+        "conservationCourte": "4 j frigo, se congèle"
     },
     {
         "id": "pancakes-proteines-a-congeler",
         "name": "Pancakes protéinés à congeler",
         "subtitle": "24 pancakes soit 8 portions, sortis du congélateur au grille-pain",
         "emoji": "🥞",
-        "category": "dejeuner",
+        "category": "petit-dejeuner",
         "portions": 8,
         "activeTime": 28,
         "totalTime": 40,
@@ -1067,10 +1093,9 @@ const BATCH_RECIPES = [
             "Batch cooking",
             "Meal prep",
             "Haute protéine",
-            "Congelable",
-            "Prise de masse"
+            "Congelable"
         ],
-        "kcalParPortion": 434,
+        "kcalParPortion": 440,
         "proteinesParPortion": 35.1,
         "minutesParPortion": 3.5,
         "ingredients": [
@@ -1172,7 +1197,8 @@ const BATCH_RECIPES = [
         "variantes": [
             "Version myrtilles : dépose 4 ou 5 myrtilles sur chaque pancake juste après l'avoir versé dans la poêle, avant de le retourner.",
             "Version cacao cacahuète : ajoute 25 g de cacao en poudre dans la pâte et sers avec une cuillère de beurre de cacahuète par portion."
-        ]
+        ],
+        "conservationCourte": "3 j frigo, se congèle"
     },
     {
         "id": "poulet-tandoori-four-riz",
@@ -1182,11 +1208,11 @@ const BATCH_RECIPES = [
         "category": "dejeuner",
         "portions": 8,
         "activeTime": 30,
-        "totalTime": 70,
+        "totalTime": 80,
         "difficulty": "Facile",
-        "conservation": "3 jours au frigo pour les boîtes riz plus poulet, 4 jours si le riz est stocké à part. 3 mois au congélateur, poulet et riz congelés séparément le jour de la cuisson.",
+        "conservation": "3 jours au frigo maximum, que le riz soit dans la boîte ou stocké à part : c'est le riz cuit qui commande la durée, pas le poulet. Au-delà, congèle. 3 mois au congélateur, poulet et riz emballés séparément le jour de la cuisson.",
         "rechauffage": "4 min au micro-ondes à couvert avec une cuillère à soupe d'eau sur le riz, en remuant à mi-parcours, jusqu'à ce que ça fume. Une seule fois.",
-        "materiel": "2 grandes plaques de four, 1 grand saladier, 1 casserole pour le riz",
+        "materiel": "2 grandes plaques de four, 1 grand saladier, 1 plat large pour servir, 1 casserole pour le riz",
         "tags": [
             "Batch cooking",
             "Meal prep",
@@ -1195,12 +1221,12 @@ const BATCH_RECIPES = [
             "Sans gluten",
             "Congelable"
         ],
-        "kcalParPortion": 630,
-        "proteinesParPortion": 58.7,
+        "kcalParPortion": 547,
+        "proteinesParPortion": 46.7,
         "minutesParPortion": 3.8,
         "ingredients": [
             {
-                "id": "poulet_grille",
+                "id": "poulet_blanc_cru",
                 "name": "Blanc de poulet",
                 "detail": "en gros morceaux de 5 cm",
                 "emoji": "🍗",
@@ -1242,7 +1268,7 @@ const BATCH_RECIPES = [
             {
                 "id": "oignon",
                 "name": "Oignon",
-                "detail": "en quartiers, cuits avec le poulet",
+                "detail": "en lanières épaisses de 1,5 cm, cuits avec le poulet",
                 "emoji": "🧅",
                 "baseQty": 400,
                 "unit": "g",
@@ -1316,7 +1342,8 @@ const BATCH_RECIPES = [
             "Préchauffe le four à 210 degrés chaleur tournante.",
             "Étale les quartiers d'oignon et le poivron sur les deux plaques, arrose d'huile d'olive et sale.",
             "Dispose les morceaux de poulet par-dessus, bien espacés sur les deux plaques, en laissant la marinade qui colle à la viande.",
-            "Enfourne 20 à 22 minutes, sans toucher. Les bords doivent noircir légèrement, c'est le goût tandoori, mais le poulet ne doit pas aller plus loin sous peine d'être sec au jour 3.",
+            "Enfourne les deux plaques de légumes seules 10 minutes à 210 degrés : l'oignon et le poivron ont besoin de cette avance, sinon ils ressortent crus sous le poulet.",
+            "Sors les plaques, dispose les morceaux de poulet marinés par-dessus en les espaçant bien, et remets 20 à 22 minutes. Le poulet ne doit pas dépasser ce temps.",
             "Pendant la cuisson, fais cuire le riz basmati à l'eau salée, égoutte-le et étale-le tout de suite sur un plat large pour qu'il refroidisse en moins de 20 minutes.",
             "Répartis riz et poulet dans 8 boîtes, arrose du reste de jus de citron et mets au frigo dans l'heure."
         ],
@@ -1328,7 +1355,9 @@ const BATCH_RECIPES = [
         "variantes": [
             "Version bowl froid : sers le poulet sur du riz froid avec du concombre et du yaourt grec citronné, deux repas sur les huit changent complètement de registre.",
             "Version wrap : effiloche le poulet et glisse-le dans des tortillas complètes avec de la salade, parfait pour les repas à emporter en milieu de semaine."
-        ]
+        ],
+        "multipliable": false,
+        "conservationCourte": "3 j frigo, congèle riz et poulet à part"
     },
     {
         "id": "harira-proteinee-tofu-pois-chiches",
@@ -1337,12 +1366,12 @@ const BATCH_RECIPES = [
         "emoji": "🌿",
         "category": "diner",
         "portions": 8,
-        "activeTime": 30,
+        "activeTime": 38,
         "totalTime": 60,
         "difficulty": "Facile",
         "conservation": "4 jours au frigo, 3 mois au congélateur. Elle est encore meilleure le lendemain.",
         "rechauffage": "Casserole à feu moyen 6 min avec un fond d'eau jusqu'à ce que ça fume, ou micro-ondes 4 min à couvert. Ajoute le jus de citron et la coriandre frais à chaque bol.",
-        "materiel": "1 grande cocotte de 6 à 7 litres + 1 grande poêle de 28 cm",
+        "materiel": "1 grande cocotte de 7 litres + 1 grande poêle de 28 cm",
         "tags": [
             "Batch cooking",
             "Meal prep",
@@ -1351,11 +1380,12 @@ const BATCH_RECIPES = [
             "Sans gluten",
             "Haute protéine",
             "Économique",
-            "Congelable"
+            "Congelable",
+            "Perte de poids"
         ],
         "kcalParPortion": 438,
         "proteinesParPortion": 29.8,
-        "minutesParPortion": 3.8,
+        "minutesParPortion": 4.8,
         "ingredients": [
             {
                 "id": "pois_chiches_cuits",
@@ -1489,6 +1519,7 @@ const BATCH_RECIPES = [
             }
         ],
         "steps": [
+            "Émince les oignons, coupe les carottes en rondelles et le céleri en petits tronçons. Compte 8 minutes.",
             "Fais revenir oignons, carottes et céleri dans la moitié de l'huile d'olive 6 min à feu moyen.",
             "Ajoute l'ail, le gingembre, le concentré de tomate, 2 cuillères à café de cumin et 1 de paprika, remue 1 min.",
             "Verse la passata, les pois chiches, les lentilles et 1,8 litre d'eau ou de bouillon. Couvre et laisse mijoter 25 min à feu doux.",
@@ -1499,13 +1530,14 @@ const BATCH_RECIPES = [
         ],
         "tips": [
             "Dore toujours le tofu avant de l'ajouter, et en deux fournées. Jeté cru dans le bouillon il reste mou et sans goût, doré il tient la semaine et il passe par une vraie température de cuisson.",
-            "30 min de travail pour 8 repas, soit moins de 4 minutes par assiette, et c'est la recette la moins chère de la série.",
+            "38 min de travail pour 8 repas, soit moins de 5 minutes par assiette, et c'est une des recettes les moins chères de la série.",
             "Elle épaissit beaucoup au frigo car les lentilles continuent de boire. Garde une bouteille d'eau à côté pour la détendre au réchauffage."
         ],
         "variantes": [
             "Version enrichie aux oeufs : casse 2 oeufs battus dans la soupe frémissante en filet et remue tout de suite. Cette version se mange le jour même ou le lendemain, elle ne se garde pas 4 jours, ne se congèle pas et n'est plus vegan.",
             "Version fraîche pour la fin de semaine : ajoute 200 g d'épinards et une grosse cuillère de harissa dans les 3 dernières portions, le plat repart complètement."
-        ]
+        ],
+        "conservationCourte": "4 j frigo, se congèle"
     },
     {
         "id": "plaque-poulet-patate-douce-brocoli",
@@ -1519,21 +1551,21 @@ const BATCH_RECIPES = [
         "difficulty": "Facile",
         "conservation": "4 jours au frigo à 4 degrés, en boîtes individuelles fermées seulement une fois la portion froide. 3 mois au congélateur, et jamais de recongélation d'un poulet déjà décongelé.",
         "rechauffage": "3 à 4 min au micro-ondes à couvert avec une cuillère à soupe d'eau, en remuant à mi-parcours, jusqu'à ce que ça fume au centre. Une seule fois, jamais deux.",
-        "materiel": "3 grandes plaques de four et du papier cuisson",
+        "materiel": "3 grandes plaques de four, du papier cuisson et 1 grand saladier",
         "tags": [
             "Batch cooking",
             "Meal prep",
             "Haute protéine",
-            "Perte de poids",
             "Sans gluten",
-            "Congelable"
+            "Congelable",
+            "Perte de poids"
         ],
-        "kcalParPortion": 497,
-        "proteinesParPortion": 52.3,
+        "kcalParPortion": 414,
+        "proteinesParPortion": 40.3,
         "minutesParPortion": 4,
         "ingredients": [
             {
-                "id": "poulet_grille",
+                "id": "poulet_blanc_cru",
                 "name": "Blanc de poulet",
                 "detail": "coupé en gros cubes de 4 cm",
                 "emoji": "🍗",
@@ -1634,14 +1666,16 @@ const BATCH_RECIPES = [
             "Arrose de jus de citron, laisse tiédir puis répartis dans 8 boîtes et mets au frigo dans l'heure."
         ],
         "tips": [
-            "Une seule couche par plaque, c'est la règle numéro un. 3,7 kg de garniture ne tiennent pas sur une plaque : il en faut trois, sinon tout cuit à la vapeur.",
+            "Une seule couche par plaque, c'est la règle numéro un. Les 2,5 kg de légumes ne tiennent pas sur une plaque, il en faut deux, plus une troisième pour le poulet. Entassé, tout cuit à la vapeur.",
             "Coupe le poulet en gros cubes plutôt qu'en petits morceaux : il reste moelleux au réchauffage le jeudi comme le lundi.",
             "Le brocoli entre en même temps que le poulet, jamais au départ. Cuit 40 minutes, il devient gris et mou en boîte."
         ],
         "variantes": [
             "Version méditerranéenne : remplace le paprika et le cumin par des herbes de Provence, et ajoute 150 g de feta émiettée à la sortie du four.",
             "Version curry : remplace la moutarde par 60 g de pâte de curry mélangée à 200 g de yaourt grec, et sers avec du riz basmati au lieu de la patate douce."
-        ]
+        ],
+        "multipliable": false,
+        "conservationCourte": "4 j frigo, jamais de recongélation"
     },
     {
         "id": "curry-poulet-patate-douce-coco",
@@ -1654,22 +1688,22 @@ const BATCH_RECIPES = [
         "totalTime": 70,
         "difficulty": "Facile",
         "conservation": "4 jours au frigo, 3 mois au congélateur (congèle sans les épinards). Sauce congelée seule : 3 mois.",
-        "rechauffage": "Casserole à feu doux environ 8 min, jusqu'à ce que la sauce fume et frémisse sur les bords, sans ébullition franche. Micro-ondes 3 min à couvert. Ne fais jamais bouillir : le lait de coco tranche et le poulet devient sec.",
-        "materiel": "1 cocotte à fond épais de 5 litres",
+        "rechauffage": "Casserole à feu doux jusqu'au frémissement, sans jamais faire bouillir, le lait de coco tournerait. Ou 4 min au micro-ondes à couvert en remuant à mi-parcours, jusqu'à ce que ça fume au centre.",
+        "materiel": "1 cocotte à fond épais de 5 litres, 1 grand saladier",
         "tags": [
             "Batch cooking",
             "Meal prep",
             "Haute protéine",
             "Sans gluten",
-            "Prise de masse",
-            "Congelable"
+            "Congelable",
+            "Perte de poids"
         ],
-        "kcalParPortion": 498,
-        "proteinesParPortion": 51.2,
+        "kcalParPortion": 416,
+        "proteinesParPortion": 39.2,
         "minutesParPortion": 4.4,
         "ingredients": [
             {
-                "id": "poulet_grille",
+                "id": "poulet_blanc_cru",
                 "name": "Blanc de poulet",
                 "detail": "en gros cubes de 3 cm, pas plus petits sinon ils sèchent",
                 "emoji": "🍗",
@@ -1817,7 +1851,8 @@ const BATCH_RECIPES = [
         "variantes": [
             "Jour 3, version thaï : un trait de sauce soja et une poignée de cacahuètes concassées sur la portion réchauffée, ça ne coûte rien et le plat change de pays.",
             "Jour 5, version bowl froid : le curry tiède sur du riz basmati froid avec du concombre en rondelles, parfait quand il fait chaud."
-        ]
+        ],
+        "conservationCourte": "4 j frigo, congèle sans les épinards"
     },
     {
         "id": "navarin-agneau-legumes-cocotte",
@@ -1829,22 +1864,21 @@ const BATCH_RECIPES = [
         "activeTime": 35,
         "totalTime": 95,
         "difficulty": "Moyen",
-        "conservation": "4 jours au frigo, 3 mois au congélateur. La viande continue de s'attendrir pendant les 2 premiers jours.",
-        "rechauffage": "À la cocotte ou à la casserole, 12 à 15 min à feu doux à couvert avec 3 cuillères à soupe d'eau, jusqu'à ce que la sauce frémisse et que les morceaux soient chauds à coeur. Une seule fois. Évite le micro-ondes à pleine puissance, il durcit les fibres de l'agneau.",
+        "conservation": "4 jours au frigo dans des boîtes hermétiques. 3 mois au congélateur mais sans les pommes de terre, qui ressortent farineuses : congèle la viande et la sauce, et refais 15 min de pommes de terre le jour J.",
+        "rechauffage": "À la cocotte ou à la casserole, 12 à 15 min à feu doux à couvert avec 3 cuillères à soupe d'eau, jusqu'à ce que la sauce frémisse et que les morceaux soient chauds à cœur. Une seule fois. Évite le micro-ondes à pleine puissance, il durcit les fibres de l'agneau.",
         "materiel": "1 cocotte en fonte de 6 à 7 litres avec couvercle",
         "tags": [
             "Batch cooking",
             "Meal prep",
             "Haute protéine",
-            "Congelable",
-            "Prise de masse"
+            "Congelable"
         ],
         "kcalParPortion": 505,
-        "proteinesParPortion": 47,
+        "proteinesParPortion": 38.9,
         "minutesParPortion": 4.4,
         "ingredients": [
             {
-                "id": "agneau_gigot",
+                "id": "agneau_gigot_cru",
                 "name": "Gigot d'agneau",
                 "detail": "dégraissé, en cubes de 4 cm, demande au boucher",
                 "emoji": "🍖",
@@ -1950,7 +1984,7 @@ const BATCH_RECIPES = [
             "Remets toute la viande, saupoudre la farine et remue 2 minutes pour l'enrober. Ajoute le concentré de tomate et poursuis 1 minute.",
             "Ajoute l'oignon, l'ail, 1 litre d'eau chaude, 2 branches de thym, 1 feuille de laurier et du poivre. Racle le fond pour décoller les sucs.",
             "Couvre, baisse à feu très doux et laisse mijoter 30 minutes. Le gigot est un morceau maigre : au delà de 1h10 de cocotte au total il devient sec et filandreux.",
-            "Épluche et coupe les pommes de terre et les carottes pendant ce temps, puis ajoute-les. Poursuis 30 minutes à couvert.",
+            "Épluche et coupe les pommes de terre et les carottes pendant ce temps, puis ajoute-les. Poursuis 30 minutes à couvert. Si tu comptes congeler une partie du plat, n'ajoute que la moitié des pommes de terre : réserve les autres et cuis-les à l'eau le jour J, elles ressortent farineuses du congélateur.",
             "Ajoute les petits pois et les haricots verts encore surgelés, cuis 10 dernières minutes à découvert pour réduire la sauce.",
             "Sale, retire le thym et le laurier, laisse reposer 15 minutes puis répartis en 8 boîtes et mets au frigo dans les 2 heures."
         ],
@@ -1962,7 +1996,8 @@ const BATCH_RECIPES = [
         "variantes": [
             "Jour 2, en parmentier : écrase les pommes de terre du plat avec la viande effilochée, un peu d'emmental râpé dessus et 15 minutes au four.",
             "Jour 4, en version légère : sers la viande et la sauce sur des haricots verts supplémentaires plutôt que sur des féculents."
-        ]
+        ],
+        "conservationCourte": "4 j frigo, congèle sans les pommes de terre"
     },
     {
         "id": "minestrone-boeuf-haricots-rouges",
@@ -1971,7 +2006,7 @@ const BATCH_RECIPES = [
         "emoji": "🍅",
         "category": "diner",
         "portions": 8,
-        "activeTime": 35,
+        "activeTime": 45,
         "totalTime": 70,
         "difficulty": "Facile",
         "conservation": "4 jours au frigo, 3 mois au congélateur. Congèle la base sans les pâtes.",
@@ -1981,13 +2016,12 @@ const BATCH_RECIPES = [
             "Batch cooking",
             "Meal prep",
             "Haute protéine",
-            "Prise de masse",
             "Économique",
             "Congelable"
         ],
         "kcalParPortion": 506,
         "proteinesParPortion": 38.2,
-        "minutesParPortion": 4.4,
+        "minutesParPortion": 5.6,
         "ingredients": [
             {
                 "id": "boeuf_hache_5",
@@ -2111,6 +2145,7 @@ const BATCH_RECIPES = [
             }
         ],
         "steps": [
+            "Taille en petits dés les carottes, le céleri, les oignons et les courgettes. Compte 10 minutes, c'est la vraie découpe du plat.",
             "Chauffe l'huile d'olive fort dans la cocotte et fais colorer le boeuf haché 6 min sans y toucher au début, il doit accrocher légèrement.",
             "Ajoute oignons, carottes et céleri, remue 5 min à feu moyen.",
             "Ajoute l'ail et le concentré de tomate, remue 1 min.",
@@ -2121,13 +2156,14 @@ const BATCH_RECIPES = [
         ],
         "tips": [
             "Pâtes toujours à part. Dans la soupe elles gonflent au frigo, boivent tout le bouillon et tu retrouves une bouillie le lendemain.",
-            "35 min de travail pour 8 repas, soit 4 min 30 par assiette, et tu as un plat qui rassasie vraiment le soir.",
+            "45 min de travail pour 8 repas, soit moins de 6 minutes par assiette, et tu as un plat qui rassasie vraiment le soir.",
             "Si la soupe est trop épaisse après 2 jours, c'est normal. Rallonge avec un peu d'eau chaude au réchauffage."
         ],
         "variantes": [
             "Version chorizo : remplace 200 g de boeuf par 100 g de chorizo en dés, la soupe devient fumée et piquante sans effort.",
             "Version verte : jette 200 g d'épinards frais dans les 2 dernières portions au réchauffage, ça relance complètement le plat en fin de semaine."
-        ]
+        ],
+        "conservationCourte": "4 j frigo, congèle sans les pâtes"
     },
     {
         "id": "mijote-porc-lentilles-chorizo",
@@ -2136,11 +2172,11 @@ const BATCH_RECIPES = [
         "emoji": "🥘",
         "category": "dejeuner",
         "portions": 8,
-        "activeTime": 40,
-        "totalTime": 70,
+        "activeTime": 47,
+        "totalTime": 90,
         "difficulty": "Facile",
         "conservation": "4 jours au frigo, 3 mois au congélateur. Les lentilles absorbent la sauce en refroidissant, c'est normal.",
-        "rechauffage": "Casserole à feu doux 8 min avec 3 cuillères à soupe d'eau, jusqu'au frémissement. Micro-ondes 3 min à couvert. Une seule fois. Ajoute toujours un peu de liquide, le plat épaissit beaucoup au froid.",
+        "rechauffage": "Casserole 8 min à feu doux à couvert avec un peu d'eau, ou 4 min au micro-ondes à couvert en remuant à mi-parcours, jusqu'à ce que ça fume au centre.",
         "materiel": "1 cocotte ou 1 faitout de 5 litres",
         "tags": [
             "Batch cooking",
@@ -2150,12 +2186,12 @@ const BATCH_RECIPES = [
             "Congelable",
             "Sans gluten"
         ],
-        "kcalParPortion": 494,
-        "proteinesParPortion": 54.8,
-        "minutesParPortion": 5,
+        "kcalParPortion": 459,
+        "proteinesParPortion": 47.3,
+        "minutesParPortion": 5.9,
         "ingredients": [
             {
-                "id": "porc_filet",
+                "id": "porc_filet_cru",
                 "name": "Filet mignon de porc",
                 "detail": "en médaillons épais de 3 cm",
                 "emoji": "🥓",
@@ -2268,7 +2304,7 @@ const BATCH_RECIPES = [
         "steps": [
             "Couper les carottes, le poireau, le céleri et l'oignon. Trancher le chorizo en fines rondelles et le porc en médaillons épais. 15 minutes de découpe.",
             "Faire revenir le chorizo seul 2 minutes à feu moyen dans la cocotte, sans huile. Il rend sa graisse parfumée qui va servir de base à tout le plat, le réserver.",
-            "Ajouter l'huile et saisir les médaillons de porc en 3 fournées, 3 minutes par face, dans cette graisse. En une seule fois la viande bout. Les réserver avec le chorizo.",
+            "Ajouter l'huile et saisir les médaillons de porc en 2 fournées, 3 minutes par face, dans cette graisse. En une seule fois la viande bout. Les réserver avec le chorizo.",
             "Jeter l'oignon, la carotte, le poireau, le céleri et l'ail dans la cocotte, faire suer 6 minutes en raclant le fond.",
             "Ajouter le concentré de tomate, remuer 1 minute, puis verser 60 cl d'eau chaude avec 2 branches de thym et 1 feuille de laurier. Laisser mijoter 30 minutes à couvert, sans la viande.",
             "Remettre le porc et le chorizo avec les lentilles, poursuivre 10 minutes seulement : le filet mignon est un morceau à cuisson rapide, braisé 40 minutes il devient sec et granuleux.",
@@ -2283,7 +2319,8 @@ const BATCH_RECIPES = [
         "variantes": [
             "Jour 2, en version soupe repas : mixe 2 portions avec 40 cl d'eau, tu obtiens un velouté de lentilles très protéiné pour les soirs sans faim.",
             "Jour 4, en version salade tiède : sers les lentilles et le porc froid sur de la salade verte avec un trait de vinaigre balsamique."
-        ]
+        ],
+        "conservationCourte": "4 j frigo, se congèle"
     },
     {
         "id": "bol-thon-lentilles-quinoa",
@@ -2297,13 +2334,13 @@ const BATCH_RECIPES = [
         "difficulty": "Facile",
         "conservation": "3 jours au frigo, vinaigrette à part dans son bocal. Ne se congèle pas. Pour le bureau : sac isotherme avec un pack de froid, jamais plus de 4 heures hors du frigo.",
         "rechauffage": "Aucun. Ce bol est fait pour être mangé froid, sans micro-ondes et sans odeur dans l'open space.",
-        "materiel": "1 casserole + 1 saladier de 5 litres + 6 boîtes hermétiques + 1 petit bocal",
+        "materiel": "1 casserole + 1 plaque de four + 1 saladier de 5 litres + 6 boîtes hermétiques + 1 petit bocal",
         "tags": [
             "Batch cooking",
             "Meal prep",
             "Haute protéine",
-            "Perte de poids",
-            "Économique"
+            "Économique",
+            "Sans gluten"
         ],
         "kcalParPortion": 507,
         "proteinesParPortion": 45.2,
@@ -2441,7 +2478,7 @@ const BATCH_RECIPES = [
             }
         ],
         "steps": [
-            "Rince le quinoa, mets-le dans la casserole avec 1,5 fois son volume d'eau salée, couvre et laisse cuire 15 minutes à feu doux puis 5 minutes hors du feu, couvercle fermé.",
+            "Rince le quinoa, mets-le dans la casserole avec 2 fois son volume d'eau salée, soit 40 cl pour 200 g salée, couvre et laisse cuire 15 minutes à feu doux puis 5 minutes hors du feu, couvercle fermé.",
             "Pendant la cuisson, coupe le poivron, la carotte, le céleri et l'oignon. Objectif : des dés de la taille d'un pois chiche. Compte 16 minutes de couteau.",
             "Égoutte les lentilles et le maïs, rince-les à l'eau froide et sèche-les au torchon.",
             "Ouvre les boîtes de thon, égoutte-les et presse-les avec le dos d'une fourchette. Un thon mal égoutté, c'est une salade mouillée jeudi.",
@@ -2454,12 +2491,14 @@ const BATCH_RECIPES = [
         "tips": [
             "Refroidis toujours le quinoa avant de l'ajouter. Une céréale encore tiède continue de cuire les légumes dans la boîte et tu retrouves du mou dès le lendemain.",
             "Le céleri branche et la carotte sont les deux légumes qui tiennent le mieux. Quand tu improvises une salade de batch cooking, construis autour d'eux.",
-            "C'est la recette la moins chère du lot : thon en conserve et lentilles en bocal, environ 2 euros par portion pour 45 g de protéines."
+            "C'est la recette la moins chère du lot : thon en conserve et lentilles en bocal, environ 2 euros par portion."
         ],
         "variantes": [
-            "Remplace le thon par 6 oeufs durs écrasés et 200 g de fromage blanc pour une version plus douce, parfaite quand tu satures du poisson.",
+            "Remplace le thon par 6 œufs durs écrasés et 200 g de fromage blanc pour une version plus douce, parfaite quand tu satures du poisson.",
             "Passe le bol en version mexicaine : haricots rouges à la place des lentilles, une pointe de sriracha dans la vinaigrette et un demi avocat coupé le matin même."
-        ]
+        ],
+        "multipliable": false,
+        "conservationCourte": "3 j frigo, ne se congèle pas"
     },
     {
         "id": "veloute-chou-fleur-jambon-skyr",
@@ -2468,11 +2507,11 @@ const BATCH_RECIPES = [
         "emoji": "🥣",
         "category": "dejeuner",
         "portions": 6,
-        "activeTime": 30,
+        "activeTime": 52,
         "totalTime": 60,
         "difficulty": "Facile",
         "conservation": "4 jours au frigo à 4 degrés, 2 mois au congélateur. Congèle avant l'ajout de l'emmental ET du skyr, tu les incorpores au réchauffage.",
-        "rechauffage": "Feu doux jusqu'au frémissement, environ 5 min, ou micro-ondes 3 min. Le skyr peut légèrement grainer, un coup de mixeur plongeant et c'est réparé.",
+        "rechauffage": "Casserole à feu doux jusqu'au frémissement, sans jamais faire bouillir à cause du skyr. Ou 5 min au micro-ondes à couvert en remuant à mi-parcours, jusqu'à ce que ça fume au centre.",
         "materiel": "1 casserole ou faitout de 6 litres + 1 mixeur plongeant",
         "tags": [
             "Batch cooking",
@@ -2484,7 +2523,7 @@ const BATCH_RECIPES = [
         ],
         "kcalParPortion": 351,
         "proteinesParPortion": 32.7,
-        "minutesParPortion": 5,
+        "minutesParPortion": 8.7,
         "ingredients": [
             {
                 "id": "chou_fleur",
@@ -2588,6 +2627,7 @@ const BATCH_RECIPES = [
             }
         ],
         "steps": [
+            "Détaille le chou-fleur en fleurettes, lave et émince les poireaux, épluche et coupe les pommes de terre et l'oignon. Compte 22 minutes : c'est le plat qui demande le plus de couteau de la sélection.",
             "Fais revenir oignon et poireaux dans l'huile d'olive 5 min à feu moyen.",
             "Ajoute le chou-fleur, les pommes de terre, l'ail et 1 litre d'eau ou de bouillon. Couvre et laisse cuire 25 min, jusqu'à ce que la pointe du couteau entre sans résistance.",
             "Pendant la cuisson, coupe le jambon en dés. Mets-en la moitié de côté pour les morceaux.",
@@ -2604,7 +2644,8 @@ const BATCH_RECIPES = [
         "variantes": [
             "Version fumée : remplace le jambon blanc par des lardons dorés à sec et retire l'huile d'olive, le gras des lardons suffit.",
             "Version curry : ajoute 1 cuillère à café de curry et 1 de cumin dans 2 portions au moment de réchauffer, tu as l'impression de manger une autre soupe."
-        ]
+        ],
+        "conservationCourte": "4 j frigo, congèle avant emmental et skyr"
     },
     {
         "id": "soupe-thai-poulet-crevettes-coco",
@@ -2616,22 +2657,23 @@ const BATCH_RECIPES = [
         "activeTime": 32,
         "totalTime": 55,
         "difficulty": "Facile",
-        "conservation": "4 jours au frigo pour la base sans crevettes, 2 mois au congélateur. Les crevettes ne couvrent que les 2 premiers jours : complète les bols des jours 3 et 4 avec du poulet ou du tofu.",
-        "rechauffage": "Porte la base au frémissement à feu doux, puis ajoute les crevettes et laisse 2 à 3 min dans le liquide frémissant jusqu'à ce qu'elles soient chaudes à coeur. Si le lait de coco s'est séparé, fouette 10 secondes et tout revient.",
+        "conservation": "4 jours au frigo pour la base sans crevettes, en boîtes hermétiques. Les crevettes se gardent 2 jours au frigo : congèle les 4 autres portions le jour de la cuisson et sors-les la veille au soir. Base congelable 2 mois.",
+        "rechauffage": "Porte la base au frémissement à feu doux, puis ajoute les crevettes et laisse 2 à 3 min dans le liquide frémissant jusqu'à ce qu'elles soient chaudes à cœur. Si le lait de coco s'est séparé, fouette 10 secondes et tout revient.",
         "materiel": "1 cocotte de 5 litres + 6 petits contenants pour les crevettes et la coriandre",
         "tags": [
             "Batch cooking",
             "Meal prep",
             "Haute protéine",
             "Sans gluten",
-            "Congelable"
+            "Congelable",
+            "Perte de poids"
         ],
-        "kcalParPortion": 388,
-        "proteinesParPortion": 41,
+        "kcalParPortion": 342,
+        "proteinesParPortion": 34.4,
         "minutesParPortion": 5.3,
         "ingredients": [
             {
-                "id": "poulet_grille",
+                "id": "poulet_blanc_cru",
                 "name": "Blancs de poulet",
                 "detail": "coupés en lamelles fines, ils cuisent en 8 min",
                 "emoji": "🍗",
@@ -2779,7 +2821,7 @@ const BATCH_RECIPES = [
             "Ajoute les lamelles de poulet et laisse pocher 8 min à feu doux, elles doivent rester nacrées.",
             "Verse le lait de coco et le nuoc-mâm, chauffe 3 min sans jamais faire bouillir pour que le coco ne tranche pas.",
             "Coupe le feu, ajoute le jus de citron vert. Goûte et rectifie : le nuoc-mâm et les crevettes salent déjà beaucoup, sale-la donc légèrement en dessous.",
-            "Répartis la base en 6 boîtes et mets au frigo dans les 2 heures. Crevettes et coriandre dans les petits contenants séparés."
+            "Répartis la base en 6 boîtes et mets au frigo dans les 2 heures. Coriandre à part. Les crevettes vont dans 6 petits contenants : 2 au frigo pour les deux premiers jours, les 4 autres directement au congélateur le dimanche. Tu sors le contenant la veille au soir, jamais le jour même."
         ],
         "tips": [
             "Crevettes à part, toujours, et réchauffées dans le liquide frémissant 2 à 3 minutes. Jetées dans un bol tiède elles ne montent jamais en température, cuites deux fois elles deviennent caoutchouteuses.",
@@ -2789,7 +2831,8 @@ const BATCH_RECIPES = [
         "variantes": [
             "Version plus consistante : fais cuire des vermicelles de riz à part et ajoute une poignée dans le bol juste avant de verser la soupe chaude.",
             "Version végétarienne : remplace le poulet par 400 g de tofu ferme doré à la poêle et le nuoc-mâm par de la sauce soja. Attention, la sauce soja fait sauter le tag Sans gluten."
-        ]
+        ],
+        "conservationCourte": "4 j frigo, congèle la base, crevettes 2 j"
     },
     {
         "id": "bolognaise-allegee-boeuf-lentilles",
@@ -2809,7 +2852,8 @@ const BATCH_RECIPES = [
             "Meal prep",
             "Haute protéine",
             "Économique",
-            "Congelable"
+            "Congelable",
+            "Prise de masse"
         ],
         "kcalParPortion": 646,
         "proteinesParPortion": 49.6,
@@ -2953,7 +2997,8 @@ const BATCH_RECIPES = [
         "variantes": [
             "Version gratin : verse 2 portions dans un plat, couvre de mozzarella et passe 15 min au four à 200 degrés.",
             "Version chili italien : ajoute des haricots rouges et une pointe de harissa dans une portion réchauffée, sers avec du riz complet au lieu des pâtes."
-        ]
+        ],
+        "conservationCourte": "3 j frigo, congèle la sauce seule"
     },
     {
         "id": "hachis-parmentier-patate-douce-boeuf",
@@ -2962,8 +3007,8 @@ const BATCH_RECIPES = [
         "emoji": "🥧",
         "category": "diner",
         "portions": 8,
-        "activeTime": 45,
-        "totalTime": 90,
+        "activeTime": 70,
+        "totalTime": 115,
         "difficulty": "Facile",
         "conservation": "4 jours au frigo, 3 mois au congélateur, découpé en parts individuelles avant congélation.",
         "rechauffage": "25 min à 180 degrés au four pour retrouver le gratiné, ou 5 à 6 min au micro-ondes à couvert en tournant la part à mi-parcours. Depuis le congélateur : 45 min à 180 degrés couvert d'alu puis 10 min à découvert, ou une nuit de décongélation au frigo puis 25 min.",
@@ -2979,7 +3024,7 @@ const BATCH_RECIPES = [
         ],
         "kcalParPortion": 557,
         "proteinesParPortion": 44.8,
-        "minutesParPortion": 5.6,
+        "minutesParPortion": 8.8,
         "ingredients": [
             {
                 "id": "boeuf_hache_5",
@@ -3093,7 +3138,8 @@ const BATCH_RECIPES = [
             }
         ],
         "steps": [
-            "Mets les patates douces épluchées et coupées en gros morceaux dans la grande casserole d'eau salée et lance la cuisson : 20 minutes. C'est le poste le plus long, il tourne pendant tout le reste.",
+            "Épluche et coupe les patates douces en gros morceaux, émince l'oignon, taille la carotte en petits dés et les champignons en lamelles. Compte 25 minutes, l'épluchage des 1,8 kg de patates douces en prend la moitié.",
+            "Mets les patates douces dans la grande casserole d'eau salée et lance la cuisson : 20 minutes. C'est le poste le plus long, il tourne pendant tout le reste.",
             "Préchauffe le four à 190 degrés.",
             "Dans une sauteuse avec l'huile, fais revenir l'oignon et la carotte 5 minutes, ajoute les champignons et l'ail, laisse 5 minutes de plus.",
             "Ajoute le boeuf haché, écrase-le à la cuillère en bois et fais-le colorer 6 à 7 minutes.",
@@ -3110,7 +3156,9 @@ const BATCH_RECIPES = [
         "variantes": [
             "Moitié patate douce, moitié pomme de terre pour une version plus classique et moins sucrée, à faire une semaine sur deux.",
             "Version chili : ajoute 400 g de haricots rouges cuits et du cumin dans la farce, et remplace l'emmental par du cheddar."
-        ]
+        ],
+        "multipliable": false,
+        "conservationCourte": "4 j frigo, se congèle en parts"
     },
     {
         "id": "grande-salade-poulet-pois-chiches-boulgour",
@@ -3122,20 +3170,21 @@ const BATCH_RECIPES = [
         "activeTime": 35,
         "totalTime": 60,
         "difficulty": "Facile",
-        "conservation": "3 jours au frigo pour les portions avec poulet, 5 jours pour la base sans poulet (boulgour, pois chiches, légumes) à compléter au thon ou aux oeufs durs jeudi et vendredi. Sauce tahini 5 jours dans son bocal. Ne se congèle pas.",
+        "conservation": "3 jours au frigo pour les portions avec poulet, 4 jours pour la base sans poulet (boulgour, pois chiches, légumes) à compléter au thon ou aux œufs durs le jeudi. Sauce tahini 4 jours dans son bocal. Ne se congèle pas.",
         "rechauffage": "Aucun, ça se mange froid. Sors la boîte 10 minutes avant. Si tu veux chaud, 90 secondes au micro-ondes sans la sauce puis tu sauces ensuite.",
         "materiel": "1 plaque de four + 1 saladier de 6 litres + 6 boîtes hermétiques + 1 petit bocal pour la sauce",
         "tags": [
             "Batch cooking",
             "Meal prep",
-            "Haute protéine"
+            "Haute protéine",
+            "Prise de masse"
         ],
-        "kcalParPortion": 629,
-        "proteinesParPortion": 57.4,
+        "kcalParPortion": 556,
+        "proteinesParPortion": 46.7,
         "minutesParPortion": 5.8,
         "ingredients": [
             {
-                "id": "poulet_grille",
+                "id": "poulet_blanc_cru",
                 "name": "Blanc de poulet",
                 "detail": "rôti au four puis coupé en cubes de 2 cm",
                 "emoji": "🍗",
@@ -3269,12 +3318,14 @@ const BATCH_RECIPES = [
         "tips": [
             "La règle qui sauve toutes les salades de la semaine : base sèche d'un côté, sauce dans un bocal, fromage et herbes à part.",
             "Sèche vraiment les pois chiches et les légumes après lavage. C'est l'eau résiduelle, pas la sauce, qui transforme une salade en soupe au bout de 48 heures.",
-            "Monte 3 boîtes avec poulet pour les 3 premiers jours et 2 boîtes de base sans poulet pour la fin de semaine, que tu compléteras au thon en conserve ou aux oeufs durs. Du poulet rôti mangé froid au jour 5, c'est non."
+            "Monte 3 boîtes avec poulet pour les 3 premiers jours et 1 boîte de base sans poulet pour le jeudi, que tu compléteras au thon en conserve ou aux œufs durs. Du poulet rôti mangé froid au jour 5, c'est non."
         ],
         "variantes": [
             "Jour 3, passe ta portion 90 secondes au micro-ondes avant de saucer, puis jette une poignée d'épinards dessus : ils tombent à la chaleur et tu manges un plat chaud.",
             "Remplace la feta par du chèvre frais et ajoute une pointe de harissa dans la sauce : même base, l'assiette change complètement de pays."
-        ]
+        ],
+        "multipliable": false,
+        "conservationCourte": "3 j frigo, ne se congèle pas"
     },
     {
         "id": "tajine-poulet-pois-chiches",
@@ -3287,20 +3338,21 @@ const BATCH_RECIPES = [
         "totalTime": 75,
         "difficulty": "Facile",
         "conservation": "4 jours au frigo, 3 mois au congélateur (congèle le tajine sans la semoule).",
-        "rechauffage": "Casserole à couvert 8 min à feu doux jusqu'au frémissement, ou micro-ondes 3 min. Ajoute un filet de jus de citron juste avant de manger, ça relance tout le plat.",
-        "materiel": "1 cocotte en fonte ou 1 faitout à fond épais de 6 litres, 6 boîtes hermétiques",
+        "rechauffage": "Casserole à couvert 8 min à feu doux jusqu'au frémissement, ou 5 min au micro-ondes à couvert pour une portion de 550 g, en remuant à mi-parcours. Laisse 1 min de repos et vérifie que le centre fume franchement avant de manger, relance 1 min sinon.",
+        "materiel": "1 cocotte en fonte ou 1 faitout à fond épais de 6 litres, 1 grand saladier pour la marinade, 6 boîtes hermétiques",
         "tags": [
             "Batch cooking",
             "Meal prep",
             "Haute protéine",
-            "Congelable"
+            "Congelable",
+            "Prise de masse"
         ],
-        "kcalParPortion": 632,
-        "proteinesParPortion": 61,
+        "kcalParPortion": 549,
+        "proteinesParPortion": 49,
         "minutesParPortion": 5.8,
         "ingredients": [
             {
-                "id": "poulet_grille",
+                "id": "poulet_blanc_cru",
                 "name": "Blanc de poulet",
                 "detail": "en gros morceaux de 4 cm",
                 "emoji": "🍗",
@@ -3427,6 +3479,7 @@ const BATCH_RECIPES = [
         "variantes": [
             "Version soupe épaisse : mixe 2 portions avec 300 ml d'eau chaude, tu obtiens un velouté protéiné pour les soirs sans faim.",
             "Version wrap : égoutte une portion, écrase grossièrement et garnis 2 pains pita complets avec de la salade et du yaourt grec citronné."
-        ]
+        ],
+        "conservationCourte": "4 j frigo, congèle sans la semoule"
     }
 ];

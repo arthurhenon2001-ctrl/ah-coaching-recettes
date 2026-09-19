@@ -1248,5 +1248,18 @@ const NUTRITION_DB = {
     feuilles_lasagne: { label: "Feuilles de lasagne", cal: 355, protein: 12, fat: 1.5, carbs: 72, fiber: 3 },
     farine: { label: "Farine de blé T55", cal: 350, protein: 10, fat: 1, carbs: 73, fiber: 3 },
     levure: { label: "Levure boulangère", cal: 105, protein: 8, fat: 0.5, carbs: 19, fiber: 0 },
-    coriandre: { label: "Coriandre fraîche", cal: 23, protein: 2, fat: 0.5, carbs: 4, fiber: 3 }
+    coriandre: { label: "Coriandre fraîche", cal: 23, protein: 2, fat: 0.5, carbs: 4, fiber: 3 },
+
+    // ========================================================================
+    // VIANDES PESEES CRUES (section batch cooking)
+    // ========================================================================
+    // poulet_grille, porc_filet et agneau_gigot portent les valeurs de la viande
+    // DEJA CUITE (le blanc de poulet perd environ 28 % de son poids au four).
+    // Les recettes de batch cooking pesent la viande crue, celle qu'on achete et
+    // qu'on decoupe : compter un poids cru a la densite du cuit gonfle le plat
+    // d'un tiers. Ces trois entrees servent a ce cas-la, et a lui seul.
+    // Sources : CIQUAL (ANSES) et USDA FoodData Central.
+    poulet_blanc_cru: { name: "Blanc de poulet (cru)", cal: 110, protein: 23, fat: 1.6, carbs: 0, fiber: 0 },
+    porc_filet_cru: { name: "Filet mignon de porc (cru)", cal: 120, protein: 21, fat: 3.5, carbs: 0, fiber: 0 },
+    agneau_gigot_cru: { name: "Gigot d'agneau dégraissé (cru)", cal: 175, protein: 20, fat: 10.5, carbs: 0, fiber: 0 }
 };
