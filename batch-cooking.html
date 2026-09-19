@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batch Cooking | AH Coaching</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css?v=4">
+</head>
+<body>
+
+    <div class="bc-hero">
+        <a href="index.html" class="bc-back">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+            Toutes les recettes
+        </a>
+        <div class="brand">Arthur Hénon · AH Coaching</div>
+        <h1>Batch Cooking</h1>
+        <p>Tu cuisines une fois, tu manges toute la semaine. Chaque plat affiche le seul
+           chiffre qui compte : le temps de cuisine par repas produit.</p>
+    </div>
+
+    <div class="bc-controls">
+        <div class="bc-panel">
+            <div class="bc-row">
+
+                <div class="bc-field">
+                    <label for="bc-portions">Combien de repas ?</label>
+                    <div class="bc-pills" id="bc-portions" role="group" aria-label="Nombre de repas">
+                        <button type="button" class="bc-pill on" data-portions="0">Peu importe</button>
+                        <button type="button" class="bc-pill" data-portions="5">5 et +</button>
+                        <button type="button" class="bc-pill" data-portions="6">6 et +</button>
+                        <button type="button" class="bc-pill" data-portions="8">8</button>
+                    </div>
+                </div>
+
+                <div class="bc-field">
+                    <label for="bc-kcal">Calories par portion &mdash; <span class="bc-val" id="bc-kcal-val">jusqu'à 900</span></label>
+                    <input type="range" class="bc-slider" id="bc-kcal" min="350" max="900" step="25" value="900">
+                    <p class="bc-hint">Fais glisser pour ne garder que les plats plus légers.</p>
+                </div>
+
+                <div class="bc-field">
+                    <label for="bc-prot">Protéines minimum &mdash; <span class="bc-val" id="bc-prot-val">25 g</span></label>
+                    <input type="range" class="bc-slider" id="bc-prot" min="25" max="55" step="5" value="25">
+                    <p class="bc-hint">Par portion. Tous les plats sont déjà au-dessus de 25 g.</p>
+                </div>
+
+                <div class="bc-field">
+                    <label>Trier par</label>
+                    <div class="bc-pills" id="bc-sort" role="group" aria-label="Tri">
+                        <button type="button" class="bc-pill on" data-sort="ratio">Le plus rapide</button>
+                        <button type="button" class="bc-pill" data-sort="protein">Le plus protéiné</button>
+                        <button type="button" class="bc-pill" data-sort="light">Le plus léger</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bc-summary" id="bc-summary"></div>
+        </div>
+    </div>
+
+    <div class="bc-grid" id="bc-grid"></div>
+
+    <footer class="site-footer">
+        <div class="footer-brand">AH Coaching</div>
+        <div class="footer-credits">Réalisé par Arthur Hénon &amp; Mathilde Vion</div>
+        <div class="footer-subtitle">Coach sportif diplômé &amp; Ingénieure en nutrition</div>
+    </footer>
+
+    <script src="js/nutrition-db.js?v=3"></script>
+    <script src="js/batch-data.js?v=1"></script>
+    <script src="js/batch.js?v=2"></script>
+</body>
+</html>

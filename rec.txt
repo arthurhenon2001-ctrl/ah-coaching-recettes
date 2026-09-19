@@ -1,0 +1,60 @@
+plaque-poulet-patate-douce-brocoli|8|0
+poulet_grille 1200;patate_douce_crue 1200;brocoli 600;poivron_rouge 400;oignon 300;huile_olive 50;moutarde 40;ail 25;citron_jus 40
+hachis-parmentier-patate-douce-boeuf|8|0
+boeuf_hache_5 1200;patate_douce_cuite 1600;oignon 250;carotte 300;champignon 300;sauce_tomate 300;concentre_tomate 90;lait_demi 150;fromage_rape 150;huile_olive 30;ail 20
+tian-saumon-legumes-four|6|0
+saumon 1100;pomme_de_terre 700;tomate 700;courgette 600;poivron_rouge 400;fenouil 300;oignon 200;huile_olive 40;ail 20;citron_jus 50
+poulet-tandoori-four-riz|8|0
+poulet_grille 1200;yaourt_grec 500;pate_curry 80;concentre_tomate 60;oignon 400;poivron_rouge 400;riz_basmati_cuit 1400;ail 25;gingembre 25;citron_jus 40;huile_olive 30
+moussaka-lentilles-feta|6|0
+lentilles_cuites 1200;aubergine 900;courgette 500;oignon 250;ail 20;sauce_tomate 500;concentre_tomate 60;yaourt_grec 400;oeuf 150;feta 150;fromage_rape 60;huile_olive 30
+chili-con-carne-xxl-cocotte|8|250
+boeuf_hache_5 1200;haricots_rouges 800;haricots_noirs 400;sauce_tomate 700;concentre_tomate 70;oignon 300;poivron_rouge 300;carotte 200;mais_conserve 200;ail 20;huile_olive 20
+dahl-lentilles-tofu-lait-coco|8|300
+lentilles_cuites 1200;tofu 600;pois_chiches_cuits 400;lait_coco 400;sauce_tomate 400;epinards 300;oignon 250;carotte 200;concentre_tomate 50;pate_curry 60;ail 20;gingembre 20;huile_olive 20
+curry-poulet-patate-douce-coco|8|250
+poulet_grille 1200;patate_douce_crue 700;lait_coco 400;poivron_rouge 300;oignon 250;epinards 200;pate_curry 80;concentre_tomate 60;gingembre 25;ail 20;citron_vert 30;coriandre 20;huile_olive 20
+navarin-agneau-legumes-cocotte|8|1000
+agneau_gigot 1300;pomme_de_terre 800;carotte 500;oignon 300;petits_pois 300;haricots_verts 300;concentre_tomate 60;farine 30;ail 20;huile_olive 25
+mijote-porc-lentilles-chorizo|8|600
+porc_filet 1200;lentilles_cuites 900;chorizo 120;carotte 400;poireaux 300;oignon 250;celeri_branche 150;concentre_tomate 50;moutarde 30;ail 20;huile_olive 20
+grande-salade-poulet-pois-chiches-boulgour|6|0
+poulet_grille 700;boulgour_cuit 700;pois_chiches_cuits 480;poivron_rouge 300;carotte 250;oignon 120;sauce_tahini 90;citron_jus 60;huile_olive 45;ail 10;feta 180;coriandre 20
+bol-thon-lentilles-quinoa|6|0
+thon_conserve 700;lentilles_cuites 600;quinoa_cuit 600;poivron_rouge 250;carotte 250;celeri_branche 150;oignon 100;mais_conserve 150;huile_olive 45;moutarde 20;vinaigre_balsamique 30;citron_jus 40;coriandre 20
+coleslaw-proteine-dinde-edamame|6|0
+dinde 700;chou_rouge 600;carotte 400;edamame 250;pomme 300;yaourt_grec 350;moutarde 40;citron_jus 40;huile_olive 20;amandes 60
+bol-soba-tofu-edamame-cacahuete|6|0
+tofu 800;nouilles_soba_cuites 700;edamame 400;carotte 300;chou_rouge 300;poivron_rouge 250;beurre_cacahuete 80;sauce_soja 60;huile_sesame 20;gingembre 20;ail 10;citron_vert 30;sirop_erable 20;cacahuetes 60
+bol-saumon-grenailles-haricots-verts|5|0
+saumon 750;pomme_de_terre 800;haricots_verts 500;oeuf 250;radis 150;oignon 80;yaourt_grec 300;moutarde 30;citron_jus 40;huile_olive 30
+muffins-oeufs-jambon-emmental-semaine|8|0
+oeuf 900;blanc_oeuf 400;jambon_blanc 300;fromage_rape 150;epinards 200;poivron_rouge 200;oignon 100;creme_fraiche_legere 100;huile_olive 15
+porridge-proteine-au-four-semaine|8|0
+flocons_avoine 400;lait_demi 900;oeuf 200;whey_protein 120;fromage_blanc_0 500;banane 300;myrtilles 250;beurre_cacahuete 60;graines_chia 30;miel 40
+pancakes-proteines-a-congeler|8|0
+flocons_avoine 400;fromage_blanc_0 600;oeuf 400;whey_protein 150;lait_demi 300;banane 200;levure 12;huile_olive 20
+pots-skyr-proteines-semaine|6|0
+skyr_0 1200;whey_protein 60;flocons_avoine 200;graines_chia 60;lait_demi 400;beurre_cacahuete 50;fruits_rouges 480;miel 50
+bowl-cake-plaque-cacao-banane|8|0
+flocons_avoine 400;whey_protein 150;cacao_poudre 40;oeuf 300;fromage_blanc_0 500;lait_demi 350;banane 300;levure 12;chocolat_noir_70 60;beurre_cacahuete 60
+veloute-lentilles-poulet-effiloche|8|2000
+poulet_grille 600;lentilles_cuites 900;carotte 400;oignon 200;celeri_branche 150;concentre_tomate 60;ail 15;huile_olive 20;epinards 200;citron_jus 30
+soupe-thai-poulet-crevettes-coco|6|1500
+poulet_grille 500;crevettes 300;lait_coco 300;champignon 300;poivron_rouge 300;carotte 300;oignon 150;gingembre 25;ail 15;pate_curry 60;sauce_nuoc_mam 40;citron_vert 40;coriandre 20;huile_sesame 15
+veloute-chou-fleur-jambon-skyr|6|1500
+chou_fleur 1200;poireaux 400;pomme_de_terre 400;jambon_blanc 500;skyr_0 400;fromage_rape 80;oignon 150;ail 10;moutarde 20;huile_olive 15
+minestrone-boeuf-haricots-rouges|8|1500
+boeuf_hache_5 700;haricots_rouges 800;sauce_tomate 700;concentre_tomate 60;carotte 300;celeri_branche 200;oignon 200;courgette 300;pates_cuites 400;ail 15;huile_olive 20;parmesan 60
+harira-proteinee-tofu-pois-chiches|8|1800
+pois_chiches_cuits 600;lentilles_cuites 800;tofu 600;sauce_tomate 600;concentre_tomate 60;oignon 250;carotte 300;celeri_branche 200;ail 15;gingembre 20;huile_olive 25;coriandre 30;citron_jus 40
+chili-con-carne-geant-8-portions|8|200
+boeuf_hache_5 1200;haricots_rouges 800;sauce_tomate 800;concentre_tomate 120;oignon 300;poivron_rouge 400;mais_conserve 200;ail 20;huile_olive 30;harissa 30
+poulet-teriyaki-plaque-riz|8|0
+poulet_grille 1400;riz_basmati_cuit 1200;brocoli 600;carotte 300;edamame 300;sauce_soja 150;miel 80;gingembre 20;ail 20;huile_sesame 20
+tajine-poulet-pois-chiches|6|400
+poulet_grille 1100;pois_chiches_cuits 500;couscous_cuit 700;carotte 400;courgette 400;oignon 250;concentre_tomate 80;huile_olive 30;citron_jus 60;ail 15;coriandre 15
+bolognaise-allegee-boeuf-lentilles|8|200
+boeuf_hache_5 1000;lentilles_cuites 500;pates_cuites 1200;sauce_tomate 1000;concentre_tomate 100;champignon 400;carotte 300;oignon 250;celeri_branche 200;ail 20;huile_olive 30;parmesan 80
+bibimbap-boeuf-en-bac|6|0
+boeuf_hache_5 900;oeuf 300;riz_complet_cuit 1200;epinards 400;carotte 300;champignon 300;courgette 300;sauce_soja 80;sauce_sriracha 40;huile_sesame 20;ail 15;gingembre 10
